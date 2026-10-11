@@ -1,0 +1,15 @@
+{
+  "name": "hotprint-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Website HotPrint song ngữ: Trang chủ và Tổng quan sản phẩm.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build-products.mjs",
+    "check": "node --check dist/app.js && node --check dist/products.js && node --check dist/product-data.js && node --check build-products.mjs && node --check server.mjs",
+    "test:browser": "node qa-products.mjs",
+    "prepare:photos": "node prepare-catalog.mjs"
+  }
+}

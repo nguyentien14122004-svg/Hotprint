@@ -1,0 +1,14 @@
+node_modules/
+qa/
+.env
+.env.*
+!.env.example
+.openai/
+.wrangler/
+.codex/
+.DS_Store
+Thumbs.db
+*.log
+*.tar.gz
+*.zip
+original-photos/

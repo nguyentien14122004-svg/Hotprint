@@ -52,3 +52,9 @@ npm run verify:deployment
 `verify:deployment` kiểm tra cấu hình static, 48 trang, 36 mẫu, 246 tham chiếu cục bộ, hash hero và tên đường dẫn phân biệt hoa/thường để tránh lỗi khi chuyển Windows sang production. Thử dựng từ bản Git độc lập để bảo đảm không dựa vào tài nguyên ngoài repo.
 
 Sau deployment kiểm tra `/`, `/san-pham/`, `/en/`, `/chinh-sach-rieng-tu/`, `/dieu-kien-gui-yeu-cau/`, `/da-gui-yeu-cau/`, ảnh/logo/CSS/JS. Các đường này cần trả trang/tài nguyên phù hợp thay vì lỗi function. Nếu còn HTTP 500, đối chiếu commit đang chạy, preset/root và Logs trong Vercel. Chỉ xác nhận website đã hoạt động khi URL thực trả thành công; push thành công không tự là bằng chứng deploy thành công.
+
+## Kết quả sau cập nhật
+
+Bản sửa `fc827e3` đã được đẩy lên main. GitHub status của Vercel trả success / Deployment has completed. Kiểm tra trực tiếp `https://hotprint.vercel.app/` sau deploy trả HTTP 200 và tiêu đề HotPrint, không còn mã lỗi function. Toàn bộ 48 URL HTML trả 200; sáu lượt kiểm tra trình duyệt máy tính/điện thoại tải đủ ảnh, không tràn ngang hoặc lỗi JS/HTTP; footer mở đúng trang riêng tư. Báo cáo thử trực tiếp ở `qa/vercel-live-report.json` (không đưa lên Git).
+
+Cấu hình static giải quyết được lỗi triển khai quan sát. Chưa đọc log exception của function cũ; không gán một lỗi nội bộ cụ thể chưa được xác minh. Không có thay đổi tên miền hotprint.vn hoặc thiết kế đã duyệt.

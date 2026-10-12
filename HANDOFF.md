@@ -94,7 +94,7 @@ Build/check; kiểm tra responsive VI/EN, danh mục/gallery, tìm kiếm, danh 
 
 ## Triển khai Vercel
 
-Chủ website đang dùng `hotprint.vercel.app`. Repo có `vercel.json` cấu hình static Other, build `npm run build`, output `dist`; Root Directory ở gốc repo. Xem `docs/vercel-deployment.md`, chạy `npm run verify:deployment`. URL đã kiểm tra trả `FUNCTION_INVOCATION_FAILED` trước sửa; không coi việc push là xác nhận đã deploy. Không chạy `server.mjs` làm function production.
+Chủ website đang dùng `hotprint.vercel.app`. Repo có `vercel.json` cấu hình static Other, build `npm run build`, output `dist`; Root Directory ở gốc repo. Xem `docs/vercel-deployment.md`, chạy `npm run verify:deployment`. URL trả `FUNCTION_INVOCATION_FAILED` trước sửa; bản cấu hình sửa ở `fc827e3` đã deploy thành công, kiểm tra trực tiếp 48 URL trả 200 và sáu lượt browser không lỗi. Khi cập nhật lần sau vẫn cần xác minh URL thực; không coi push tự là xác nhận deploy. Không chạy `server.mjs` làm function production.
 
 ## Chuyển tài khoản
 

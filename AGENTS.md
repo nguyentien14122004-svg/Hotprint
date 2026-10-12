@@ -2,20 +2,26 @@
 
 ## Dự án và ưu tiên
 
-Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Chủ website trao đổi bằng tiếng Việt, ưu tiên lời giải thích đơn giản. Đọc HANDOFF.md, README.md, PRODUCTS.md và docs/ke-hoach-website.md trước khi sửa. HANDOFF.md là trạng thái bàn giao mới nhất tới P16 và nêu các phần chưa triển khai. Yêu cầu mới nhất của người dùng được ưu tiên hơn các lựa chọn cũ trong lịch sử.
+Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Chủ website trao đổi bằng tiếng Việt, ưu tiên lời giải thích đơn giản. Đọc HANDOFF.md, README.md, PRODUCTS.md và docs/ke-hoach-website.md trước khi sửa. HANDOFF.md là trạng thái bàn giao mới nhất tới P18 và nêu các phần chưa triển khai. Yêu cầu mới nhất của người dùng được ưu tiên hơn các lựa chọn cũ trong lịch sử.
 
 ## Yêu cầu đã chốt
 
 - Đối tượng chính: bộ phận mua hàng của doanh nghiệp. Mục tiêu: thể hiện thương hiệu, sản phẩm thật và năng lực nhà máy, tạo yêu cầu tư vấn/báo giá.
 - Giữ nguyên logo, biểu tượng và tên HotPrint. Ẩn dòng ISO 9001 bằng khung CSS như hiện tại, không vẽ lại biểu tượng.
 - Giữ VI/EN và giao diện đáp ứng máy tính, máy tính bảng, điện thoại.
-- Bộ màu mới nhất: Natural Green #5E7D5A, Warm Beige #E7DFD1, Earthy Brown #8A6A55. Đọc `docs/natural-colour-theme.md`; toàn bộ 44 đường dẫn dùng `dist/natural-theme.css` qua `apply-theme.mjs`. CTA nâu đất, logo hiển thị xanh tự nhiên; mô tả tím mận/xanh rừng trong tài liệu cũ là lịch sử. Sáu biểu tượng trong bản trải hộp ở Trang chủ phải được giữ theo yêu cầu đã chốt; không đổi bố cục đó nếu chưa được yêu cầu.
+- Bộ màu mới nhất: Natural Green #5E7D5A, Warm Beige #E7DFD1, Earthy Brown #8A6A55. Đọc `docs/natural-colour-theme.md`; toàn bộ 48 đường dẫn dùng `dist/natural-theme.css` qua `apply-theme.mjs`. CTA nâu đất, logo hiển thị xanh tự nhiên; mô tả tím mận/xanh rừng trong tài liệu cũ là lịch sử. Sáu biểu tượng trong bản trải hộp ở Trang chủ phải được giữ theo yêu cầu đã chốt; không đổi bố cục đó nếu chưa được yêu cầu.
 - Ảnh sản phẩm mới phải lấy từ tệp chủ website cung cấp hoặc website chính thức hotprint.vn. Không dựng sản phẩm, nhãn hiệu hoặc khách hàng giả. Có thể thiết kế khung/nền bên ngoài, không làm sai sản phẩm.
 - Hero Trang chủ hiện có là concept HotPrint được duyệt trước đó và phải giữ chú thích minh họa. Yêu cầu mới nhất: giữ nguyên ảnh `hero-hotprint-v3.webp` cùng bản nhỏ, tỷ lệ 3:2 và toàn bộ chi tiết nền/hoa văn/lá/bóng; chỉ đổi nền CSS ngoài ảnh. Không crop, kéo giãn, phủ màu, thay hoặc tạo lại ảnh nếu chưa được yêu cầu. Thư viện sản phẩm chỉ dùng ảnh thật.
 - Không có báo giá tự động, biểu mẫu báo giá theo bước, checkout hay tuyên bố chứng nhận/MOQ/thông số không có nguồn.
 - Liên hệ qua điện thoại, Zalo, email, yêu cầu mẫu và lịch tư vấn. Biểu mẫu hiện chỉ chuẩn bị email; không được hiển thị đã gửi khi chưa có hệ thống tiếp nhận thật.
 
 ## Làm việc
+
+- Hosting hiện dùng Vercel (`hotprint.vercel.app`); đọc `docs/vercel-deployment.md`. Giữ `vercel.json` framework null/Other, build `npm run build`, output `dist`, Root Directory gốc repo. `server.mjs` chỉ preview; không triển khai như backend function. Không thêm SPA catch-all rewrite vì site có nhiều HTML routes. Kiểm tra `npm run verify:deployment`; chỉ báo deploy thành công khi URL thực đã được xác minh.
+
+- P18 Xác nhận gửi yêu cầu có `/da-gui-yeu-cau/`, `/en/request-status/`: đọc `docs/request-confirmation.md`. Sửa `build-request-status.mjs`, `dist/request-status.css/js`. Ba phần hiện là hướng dẫn kiểm tra email/ngữ cảnh loại/liên hệ; không là trạng thái tiếp nhận. Chỉ cho hiện đã nhận/mã/tóm tắt khi máy chủ lưu thật và xác minh. Query type là ngữ cảnh; query success/id không là bằng chứng. Link trong vùng ready của quote/sample/consult mở thẻ mới giữ form; không chuyển PII/draft/file lên URL/storage. Mở trực tiếp hướng dẫn chọn form, luôn noindex. Build hiện 48 đường dẫn.
+
+- P17 Điều kiện gửi yêu cầu đã có `/dieu-kien-gui-yeu-cau/`, `/en/request-terms/`: đọc `docs/request-terms.md`. Sửa `build-terms.mjs`, `dist/terms.css`, layout chung `privacy.css`. Năm mục, links form/P16, footer nội bộ. Links từ form mở thẻ mới giữ dữ liệu; không thêm checkbox chấp nhận mới. Chỉ mô tả cơ chế chuẩn bị email và trao đổi riêng; không dựng giá/phí/cọc/MOQ/thời hạn/đơn hàng/lịch/xác nhận hay điều khoản hợp đồng chưa được công ty duyệt. Dùng lại nền giấy Imagegen/SVG, giữ ảnh cũ. Build chung 46 đường dẫn.
 
 - P16 Chính sách riêng tư đã có `/chinh-sach-rieng-tu/`, `/en/privacy/`: đọc `docs/privacy-policy.md`. Sửa `build-privacy.mjs`, `dist/privacy.css`, `dist/privacy.js`. Năm mục, scope phiên bản thực, footer nội bộ, link từ form mở thẻ mới để giữ dữ liệu. Chỉ xóa localStorage key mẫu; products.js/quote.js đồng bộ qua storage event. Chưa xác minh retention/phân quyền/bên xử lý email từ hotprint.vn (đã kiểm tra trang, sitemap và API); không tự điền số ngày, vai trò/DPO, đơn vị hosting/email, chứng nhận tuân thủ hoặc bảo mật tuyệt đối. Bản review cần công ty rà soát trước công bố. Không thêm cookie banner/tracking/luồng xóa hồ sơ trên máy chủ giả. Build 16 trang cố định × 2 + 6 bài × 2 = 44 đường dẫn.
 

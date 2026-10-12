@@ -1,10 +1,14 @@
 # Website HotPrint
 
-Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì** và **Chính sách riêng tư**, hỗ trợ tiếng Việt/tiếng Anh và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
+Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì**, **Chính sách riêng tư**, **Điều kiện gửi yêu cầu** và **Xác nhận gửi yêu cầu**, hỗ trợ tiếng Việt/tiếng Anh và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
+
+## Triển khai Vercel
+
+Dự án dùng website tĩnh trong `dist`. Cấu hình `vercel.json` đặt **Framework Other**, **Build Command `npm run build`**, **Output Directory `dist`**. Root Directory phải là gốc repo (để trống). Không dùng máy chủ preview `server.mjs` làm function production. Xem [hướng dẫn và kiểm tra lỗi triển khai](docs/vercel-deployment.md). Chạy `npm run verify:deployment` sau build để kiểm tra tài nguyên và đường dẫn production.
 
 ## Tiếp tục bằng tài khoản khác
 
-Đọc [HANDOFF.md](HANDOFF.md) trước: trạng thái tới P16, những yêu cầu phải giữ, cách mở preview và các phần tiếp theo. Mã nguồn/ảnh/font trong repo đủ để build và chạy, không cần quyền Sites của tài khoản cũ. Phiên bản hiện tại có 44 đường dẫn VI/EN.
+Đọc [HANDOFF.md](HANDOFF.md) trước: trạng thái tới P18, những yêu cầu phải giữ, cách mở preview và các phần tiếp theo. Mã nguồn/ảnh/font trong repo đủ để build và chạy, không cần quyền Sites của tài khoản cũ. Phiên bản hiện tại có 48 đường dẫn VI/EN.
 
 ## Chạy trên máy
 
@@ -34,8 +38,14 @@ Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+
 | Đặt lịch tư vấn | `/dat-lich-tu-van/` | `/en/request-a-consultation/` |
 | Kiến thức bao bì | `/kien-thuc/` | `/en/packaging-insights/` |
 | Chính sách riêng tư | `/chinh-sach-rieng-tu/` | `/en/privacy/` |
+| Điều kiện gửi yêu cầu | `/dieu-kien-gui-yeu-cau/` | `/en/request-terms/` |
+| Xác nhận gửi yêu cầu | `/da-gui-yeu-cau/` | `/en/request-status/` |
 
 ## Chỉnh sửa và tạo bản cập nhật
+
+**P18 Xác nhận gửi yêu cầu:** [phạm vi hiện tại và trạng thái thực](docs/request-confirmation.md). Ba phần, VI/EN, hướng dẫn kiểm tra gửi email, ngữ cảnh loại yêu cầu và liên hệ. Sửa `build-request-status.mjs`, `dist/request-status.css`, `dist/request-status.js`; kiểm tra `npm run test:request-status`. Link sau chuẩn bị email mở thẻ mới giữ form. Chưa có backend nên không hiển thị đã tiếp nhận/mã/success. Build chung hiện 48 đường dẫn.
+
+**P17 Điều kiện gửi yêu cầu:** [nội dung, thiết kế và kiểm tra](docs/request-terms.md). Năm mục, VI/EN, mục lục, links tới các form và P16. Sửa `build-terms.mjs`, `dist/terms.css`, layout chung `privacy.css`; kiểm tra `npm run test:terms`. Link từ form mở thẻ mới để giữ dữ liệu. Build chung hiện có 46 đường dẫn; điều kiện mô tả đúng cơ chế chuẩn bị email, cần công ty rà soát trước công bố.
 
 **P16 Chính sách riêng tư:** [thiết kế, phạm vi đã xác minh và thông tin cần rà soát](docs/privacy-policy.md). Năm phần, mục lục, VI/EN và xóa danh sách mẫu lưu trên trình duyệt. Sửa `build-privacy.mjs`, `dist/privacy.css`, `dist/privacy.js`; kiểm tra `npm run test:privacy`. Liên kết từ form mở thẻ mới, giữ nội dung nhập. Hiện 16 trang cố định × 2 + 6 bài × 2 = 44 đường dẫn. Chưa xác minh thời hạn lưu/phân quyền/bên xử lý email từ website cũ; bản preview ghi rõ giới hạn, không tự coi là chính sách chính thức đã được duyệt.
 
@@ -51,7 +61,7 @@ Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+
 
 **P10 Về HotPrint:** [nội dung, thiết kế và nguồn ảnh](docs/about-hotprint.md). Sáu phần, ảnh thật và câu chuyện đã đối chiếu; sửa `build-about.mjs`, `dist/about.css`. Kiểm tra `npm run test:about`. Build chung tạo 20 đường dẫn.
 
-**Bộ màu mới cho toàn website:** [Natural Green / Warm Beige / Earthy Brown](docs/natural-colour-theme.md). Sửa `dist/natural-theme.css`; build chung áp dụng cho cả 44 đường dẫn, menu và biểu mẫu. Kiểm tra `npm run test:theme`. Bộ màu này thay các mô tả tím mận/xanh rừng cũ.
+**Bộ màu mới cho toàn website:** [Natural Green / Warm Beige / Earthy Brown](docs/natural-colour-theme.md). Sửa `dist/natural-theme.css`; build chung áp dụng cho cả 48 đường dẫn, menu và biểu mẫu. Kiểm tra `npm run test:theme`. Bộ màu này thay các mô tả tím mận/xanh rừng cũ.
 
 **P09 Nhà máy:** [nội dung, ảnh thật và kiểm chứng](docs/factory.md). Bảy phần, 12 ảnh nhà máy thật, VI/EN, tab thiết bị và thư viện ảnh. Sửa `build-factory.mjs`, `dist/factory.css`, `dist/factory.js`; kiểm tra `npm run test:factory`. Build chung hiện tạo 18 đường dẫn.
 
@@ -131,7 +141,7 @@ Kiểm tra cú pháp: `npm run check`. Kiểm tra trình duyệt tùy chọn: c�
 
 - Biểu mẫu chuẩn bị email; khách kiểm tra và gửi trong ứng dụng email. Chưa có máy chủ lưu yêu cầu hoặc trang quản trị.
 - Báo giá riêng theo nhu cầu; không có tính giá tự động, thanh toán hay giỏ hàng.
-- Các trang nội dung khác chưa được xây mới; một số liên kết dẫn về website chính thức hotprint.vn.
+- Đã có P01–P18 VI/EN và sáu bài kiến thức VI/EN; phần tiếp nhận thật, trang chi tiết theo URL và 404 thiết kế còn ở giai đoạn sau.
 - Bản thử vẫn có `noindex,nofollow`; chỉ bỏ khi chủ website quyết định ra mắt chính thức.
 - Không tự thay đổi website hotprint.vn hoặc cấu hình tên miền hiện có.
 

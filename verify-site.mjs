@@ -11,5 +11,5 @@ for(const file of cssFiles){const css=await readFile(file,'utf8');for(const m of
 const products=JSON.parse((await readFile('dist/product-data.js','utf8')).replace(/^window\.HOTPRINT_PRODUCTS\s*=\s*/,'').trim().replace(/;$/,''));
 for(const p of products)for(const id of p.images)for(const suffix of ['.webp','-large.webp'])await checkURL('/assets/products/'+id+suffix,'product-data.js');
 for(const [name,expected]of [['hero-hotprint-v3.webp','CF37490E3863C4E2A9B0807C18F6D1DA1D112FDF4C4C791D567BC035AB44F85C'],['hero-hotprint-v3-small.webp','57CC6A6AA322B320812BCF7C8BCB012A7A73DB0CF52B924C7950802FAC7F6897']]){const actual=createHash('sha256').update(await readFile(path.join(root,'assets',name))).digest('hex').toUpperCase();if(actual!==expected)issues.push(`${name}: approved hero changed`)}
-if(htmlFiles.length!==44)issues.push(`Expected 44 current pages, found ${htmlFiles.length}; update the inventory when adding pages.`);
+if(htmlFiles.length!==48)issues.push(`Expected 48 current pages, found ${htmlFiles.length}; update the inventory when adding pages.`);
 if(issues.length){console.error(issues.join('\n'));process.exitCode=1}else console.log(JSON.stringify({passed:true,pages:htmlFiles.length,products:products.length,localReferences:checked.size,approvedHeroPreserved:true}));

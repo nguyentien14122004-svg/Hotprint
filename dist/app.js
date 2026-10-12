@@ -115,6 +115,10 @@ const isSampleRequestPage = document.body.dataset.page === 'sample-request';
 const sampleRequestPath = lang => lang === 'en' ? '/en/request-a-sample/' : '/yeu-cau-mau/';
 const isConsultationPage = document.body.dataset.page === 'consultation';
 const consultationPath = lang => lang === 'en' ? '/en/request-a-consultation/' : '/dat-lich-tu-van/';
+const isRequestStatusPage = document.body.dataset.page === 'request-status';
+const requestStatusPath = lang => lang === 'en' ? '/en/request-status/' : '/da-gui-yeu-cau/';
+const isTermsPage = document.body.dataset.page === 'terms';
+const termsPath = lang => lang === 'en' ? '/en/request-terms/' : '/dieu-kien-gui-yeu-cau/';
 const isPrivacyPage = document.body.dataset.page === 'privacy';
 const privacyPath = lang => lang === 'en' ? '/en/privacy/' : '/chinh-sach-rieng-tu/';
 const isKnowledgePage = document.body.dataset.page === 'knowledge';
@@ -152,7 +156,7 @@ function categoryLink(item, cls) {
 function applyLanguage(next, updateURL=false) {
   language=next;document.documentElement.lang=language;
   document.documentElement.classList.toggle('lang-en',language==='en');
-  document.title=isPrivacyPage?(language==='vi'?'Chính sách riêng tư | HotPrint':'Privacy | HotPrint'):isKnowledgeArticle?(document.body.dataset[language==='en'?'titleEn':'titleVi']+' | HotPrint'):isKnowledgePage?(language==='vi'?'Kiến thức bao bì | HotPrint':'Packaging insights | HotPrint'):isConsultationPage?(language==='vi'?'Đặt lịch tư vấn | HotPrint':'Request a consultation | HotPrint'):isSampleRequestPage?(language==='vi'?'Yêu cầu mẫu | HotPrint':'Request a sample | HotPrint'):isQuotePage?(language==='vi'?'Yêu cầu báo giá | HotPrint':'Request a quote | HotPrint'):isContactPage?(language==='vi'?'Liên hệ | HotPrint':'Contact | HotPrint'):isAboutPage?(language==='vi'?'Về HotPrint | HotPrint':'About HotPrint | HotPrint'):isFactoryPage?(language==='vi'?'Nhà máy | HotPrint':'Factory | HotPrint'):isCatalogPage?(language==='vi'?'Nhãn hàng & catalog | HotPrint':'Hang tags & catalogues | HotPrint'):isLabelPage?(language==='vi'?'Nhãn dán decal | HotPrint':'Adhesive labels | HotPrint'):isBagPage?(language==='vi'?'Túi giấy | HotPrint':'Paper bags | HotPrint'):isRigidPage?(language==='vi'?'Hộp cứng cao cấp | HotPrint':'Premium rigid boxes | HotPrint'):isCartonPage?(language==='vi'?'Hộp carton in màu | HotPrint':'Printed corrugated boxes | HotPrint'):isFoldingPage?(language==='vi'?'Hộp giấy mềm | HotPrint':'Folding cartons | HotPrint'):isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
+  document.title=isRequestStatusPage?(language==='vi'?'Xác nhận gửi yêu cầu | HotPrint':'Request confirmation | HotPrint'):isTermsPage?(language==='vi'?'Điều kiện gửi yêu cầu | HotPrint':'Request terms | HotPrint'):isPrivacyPage?(language==='vi'?'Chính sách riêng tư | HotPrint':'Privacy | HotPrint'):isKnowledgeArticle?(document.body.dataset[language==='en'?'titleEn':'titleVi']+' | HotPrint'):isKnowledgePage?(language==='vi'?'Kiến thức bao bì | HotPrint':'Packaging insights | HotPrint'):isConsultationPage?(language==='vi'?'Đặt lịch tư vấn | HotPrint':'Request a consultation | HotPrint'):isSampleRequestPage?(language==='vi'?'Yêu cầu mẫu | HotPrint':'Request a sample | HotPrint'):isQuotePage?(language==='vi'?'Yêu cầu báo giá | HotPrint':'Request a quote | HotPrint'):isContactPage?(language==='vi'?'Liên hệ | HotPrint':'Contact | HotPrint'):isAboutPage?(language==='vi'?'Về HotPrint | HotPrint':'About HotPrint | HotPrint'):isFactoryPage?(language==='vi'?'Nhà máy | HotPrint':'Factory | HotPrint'):isCatalogPage?(language==='vi'?'Nhãn hàng & catalog | HotPrint':'Hang tags & catalogues | HotPrint'):isLabelPage?(language==='vi'?'Nhãn dán decal | HotPrint':'Adhesive labels | HotPrint'):isBagPage?(language==='vi'?'Túi giấy | HotPrint':'Paper bags | HotPrint'):isRigidPage?(language==='vi'?'Hộp cứng cao cấp | HotPrint':'Premium rigid boxes | HotPrint'):isCartonPage?(language==='vi'?'Hộp carton in màu | HotPrint':'Printed corrugated boxes | HotPrint'):isFoldingPage?(language==='vi'?'Hộp giấy mềm | HotPrint':'Folding cartons | HotPrint'):isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
   document.querySelectorAll('[data-i18n]').forEach(el=>{const text=t(el.dataset.i18n);if(typeof text==='string')el.textContent=text;});
   document.querySelectorAll('[data-aria-key]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.ariaKey)));
   document.querySelectorAll('[data-alt-key]').forEach(el=>el.alt=t(el.dataset.altKey));
@@ -162,13 +166,14 @@ function applyLanguage(next, updateURL=false) {
   document.querySelectorAll('[data-products]').forEach(a=>a.href=productsPath(language));
   document.querySelectorAll('[data-factory]').forEach(a=>a.href=factoryPath(language));
   document.querySelectorAll('[data-about]').forEach(a=>a.href=aboutPath(language));
+  document.querySelectorAll('[data-terms-page]').forEach(a=>a.href=termsPath(language));
   document.querySelectorAll('[data-privacy-page]').forEach(a=>a.href=privacyPath(language));
   document.querySelectorAll('[data-knowledge]').forEach(a=>a.href=knowledgePath(language));
   document.querySelectorAll('[data-contact-page]').forEach(a=>a.href=contactPath(language));
   document.querySelectorAll('[data-quote-page]').forEach(a=>a.href=quotePath(language));
   document.querySelectorAll('[data-consult-page]').forEach(a=>a.href=consultationPath(language));
   document.querySelectorAll('[data-sample-page]').forEach(a=>a.href=sampleRequestPath(language));
-  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isPrivacyPage?privacyPath(a.dataset.lang):isKnowledgeArticle?articlePath(a.dataset.lang):isKnowledgePage?knowledgePath(a.dataset.lang):isConsultationPage?consultationPath(a.dataset.lang):isSampleRequestPage?sampleRequestPath(a.dataset.lang):isQuotePage?quotePath(a.dataset.lang):isContactPage?contactPath(a.dataset.lang):isAboutPage?aboutPath(a.dataset.lang):isFactoryPage?factoryPath(a.dataset.lang):isCatalogPage?catalogPath(a.dataset.lang):isLabelPage?labelPath(a.dataset.lang):isBagPage?bagPath(a.dataset.lang):isRigidPage?rigidPath(a.dataset.lang):isCartonPage?cartonPath(a.dataset.lang):isFoldingPage?foldingPath(a.dataset.lang):isProductsPage?productsPath(a.dataset.lang):(a.dataset.lang==='en'?'/en/':'/'))+location.search+location.hash);
+  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isRequestStatusPage?requestStatusPath(a.dataset.lang):isTermsPage?termsPath(a.dataset.lang):isPrivacyPage?privacyPath(a.dataset.lang):isKnowledgeArticle?articlePath(a.dataset.lang):isKnowledgePage?knowledgePath(a.dataset.lang):isConsultationPage?consultationPath(a.dataset.lang):isSampleRequestPage?sampleRequestPath(a.dataset.lang):isQuotePage?quotePath(a.dataset.lang):isContactPage?contactPath(a.dataset.lang):isAboutPage?aboutPath(a.dataset.lang):isFactoryPage?factoryPath(a.dataset.lang):isCatalogPage?catalogPath(a.dataset.lang):isLabelPage?labelPath(a.dataset.lang):isBagPage?bagPath(a.dataset.lang):isRigidPage?rigidPath(a.dataset.lang):isCartonPage?cartonPath(a.dataset.lang):isFoldingPage?foldingPath(a.dataset.lang):isProductsPage?productsPath(a.dataset.lang):(a.dataset.lang==='en'?'/en/':'/'))+location.search+location.hash);
   const selected=$('#form-category').value;
   $('#form-category').replaceChildren(new Option(t('unknown'),''),...categories.map(c=>new Option(c[language],c.slug)));
   $('#form-category').value=selected;
@@ -176,7 +181,7 @@ function applyLanguage(next, updateURL=false) {
   if($('#request-dialog').open)updateRequestLabels();
   document.dispatchEvent(new CustomEvent('hotprint:language'));
 }
-document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',event=>{if(isPrivacyPage||isKnowledgePage||isKnowledgeArticle||isContactPage||isAboutPage||isFactoryPage||isFoldingPage||isCartonPage||isRigidPage||isBagPage||isLabelPage||isCatalogPage)return;event.preventDefault();applyLanguage(el.dataset.lang,true);closeProductMenu();}));
+document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',event=>{if(isRequestStatusPage||isTermsPage||isPrivacyPage||isKnowledgePage||isKnowledgeArticle||isContactPage||isAboutPage||isFactoryPage||isFoldingPage||isCartonPage||isRigidPage||isBagPage||isLabelPage||isCatalogPage)return;event.preventDefault();applyLanguage(el.dataset.lang,true);closeProductMenu();}));
 window.addEventListener('popstate',()=>applyLanguage(location.pathname.startsWith('/en')?'en':'vi'));
 applyLanguage(language);
 $('#copyright-year').textContent=new Date().getFullYear();
@@ -271,6 +276,7 @@ async function copyText(text,fallback){try{await navigator.clipboard.writeText(t
 $('#copy-draft').addEventListener('click',async()=>{if(!await copyText(draftText,$('#draft-fallback')))$('#form-status').textContent=t('copyManual');});
 
 function showInfo(type,trigger){
+  if(type==='terms'){window.open(termsPath(language),'_blank','noopener');return;}
   if(type==='privacy'){window.open(privacyPath(language),'_blank','noopener');return;}
   $('#info-title').textContent=t(type);$('#info-content').replaceChildren(...t(type+'Text').map(text=>{const p=document.createElement('p');p.textContent=text;return p;}));
   $('#info-dialog').querySelector('.button').hidden=false;

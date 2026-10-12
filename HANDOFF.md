@@ -15,7 +15,7 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 
 ## Website hiện có
 
-**16 trang cố định VI/EN và 6 bài viết VI/EN = 44 đường dẫn HTML.**
+**18 trang cố định VI/EN và 6 bài viết VI/EN = 48 đường dẫn HTML.**
 
 | Mã | Trang | Trạng thái |
 | --- | --- | --- |
@@ -30,6 +30,8 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 | P14 | Đặt lịch tư vấn | Ngày/giờ/múi giờ/hình thức đề nghị, cần xác nhận riêng |
 | P15 | Kiến thức bao bì | Bốn phần, tìm kiếm/chủ đề và sáu bài có trang đọc |
 | P16 | Chính sách riêng tư | Năm mục; bản rà soát có phạm vi rõ, xóa mẫu lưu trên trình duyệt |
+| P17 | Điều kiện gửi yêu cầu | Năm mục; chuẩn bị email, mẫu/lịch/tệp và liên hệ; cần rà soát trước công bố |
+| P18 | Xác nhận gửi yêu cầu | Ba phần hướng dẫn kiểm tra email, loại yêu cầu/liên hệ; chưa xác nhận tiếp nhận backend |
 
 Danh sách URL VI/EN đầy đủ ở README. Các bài nằm dưới `/kien-thuc/` và `/en/packaging-insights/`.
 
@@ -80,15 +82,19 @@ Các bài QA dùng Playwright và Chrome. Nếu máy mới chưa có Playwright,
 
 Không tự bắt đầu những phần này nếu chủ website chỉ yêu cầu đồng bộ/bàn giao. Khi có yêu cầu tiếp tục, bám chương tương ứng:
 
-1. **P17 Điều kiện gửi yêu cầu**: chưa có trang riêng, hiện là nội dung ngắn trong modal. Kế hoạch năm mục: bản chất yêu cầu; trao đổi/báo giá; mẫu/lịch; tệp; liên hệ. Giữ đúng giới hạn form chuẩn bị email.
-2. **P18 Xác nhận**: chỉ triển khai trạng thái đã tiếp nhận khi đã có backend lưu thật; không làm trang gửi thành công giả.
-3. Trang chi tiết sản phẩm theo URL: hiện chi tiết mẫu dùng cửa sổ gallery, chưa có toàn bộ trang URL riêng theo mẫu mở rộng của kế hoạch.
-4. Giao diện 404: server đã trả HTTP 404, chưa có trang 404 được thiết kế hoàn chỉnh.
-5. Backend/CMS, quản trị, hosting/tên miền, rà soát bài/chính sách, chuyển hướng URL cũ và SEO khi ra mắt: còn là giai đoạn triển khai tiếp theo.
+**P17 đã có trang riêng**: xem `docs/request-terms.md`, builder/CSS và liên kết từ form. Nội dung cần công ty rà soát trước công bố.
+**P18 có giao diện và hướng dẫn kiểm tra email**: xem `docs/request-confirmation.md`. Trạng thái đã tiếp nhận/mã yêu cầu vẫn chờ backend lưu thật; không bật bằng query hoặc dữ liệu trình duyệt.
+2. Trang chi tiết sản phẩm theo URL: hiện chi tiết mẫu dùng cửa sổ gallery, chưa có toàn bộ trang URL riêng theo mẫu mở rộng của kế hoạch.
+3. Giao diện 404: server đã trả HTTP 404, chưa có trang 404 được thiết kế hoàn chỉnh.
+4. Backend/CMS, quản trị, hosting/tên miền, rà soát bài/chính sách, chuyển hướng URL cũ và SEO khi ra mắt: còn là giai đoạn triển khai tiếp theo.
 
 ## Kiểm tra đã có
 
-Build/check; kiểm tra responsive VI/EN, danh mục/gallery, tìm kiếm, danh sách mẫu, liên hệ, các form, múi giờ, trang bài và chính sách đã được thực hiện trong các lượt tương ứng. Script QA được lưu trong repo; screenshot/report chạy máy ở `qa/` được bỏ qua Git để tránh đưa dữ liệu thử vào nguồn. `verify:site` kiểm tra 44 trang, tài nguyên và hero được giữ nguyên; có thể chạy lại ngay trên bản lấy từ GitHub.
+Build/check; kiểm tra responsive VI/EN, danh mục/gallery, tìm kiếm, danh sách mẫu, liên hệ, các form, múi giờ, trang bài và chính sách đã được thực hiện trong các lượt tương ứng. Script QA được lưu trong repo; screenshot/report chạy máy ở `qa/` được bỏ qua Git để tránh đưa dữ liệu thử vào nguồn. `verify:site` kiểm tra 48 trang, tài nguyên và hero được giữ nguyên; có thể chạy lại ngay trên bản lấy từ GitHub.
+
+## Triển khai Vercel
+
+Chủ website đang dùng `hotprint.vercel.app`. Repo có `vercel.json` cấu hình static Other, build `npm run build`, output `dist`; Root Directory ở gốc repo. Xem `docs/vercel-deployment.md`, chạy `npm run verify:deployment`. URL đã kiểm tra trả `FUNCTION_INVOCATION_FAILED` trước sửa; không coi việc push là xác nhận đã deploy. Không chạy `server.mjs` làm function production.
 
 ## Chuyển tài khoản
 

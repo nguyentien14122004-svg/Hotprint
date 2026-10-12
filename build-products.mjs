@@ -22,5 +22,7 @@ await import('./build-sample-request.mjs');
 await import('./build-consultation.mjs');
 await import('./build-knowledge.mjs');
 await import('./build-privacy.mjs');
+await import('./build-terms.mjs');
+await import('./build-request-status.mjs');
 await import('./apply-theme.mjs');
 console.log('Product overview routes generated.');

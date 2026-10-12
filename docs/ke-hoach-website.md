@@ -497,9 +497,13 @@ Mỗi bài gồm: tiêu đề và ngày cập nhật; ảnh và đoạn mở đ�
 
 P16 gồm năm mục: thông tin thu thập; mục đích sử dụng; người có thể tiếp cận và dịch vụ xử lý; thời gian lưu cùng cách yêu cầu hỗ trợ; cách liên hệ về dữ liệu. Nội dung phải phù hợp hệ thống thực được triển khai và được người phụ trách của công ty rà soát. Checkbox gửi yêu cầu không gộp với đồng ý nhận quảng cáo.
 
+**Trạng thái P17 ngày 13/10/2026:** đã có bản VI/EN tại `/dieu-kien-gui-yeu-cau/` và `/en/request-terms/`. Xem `request-terms.md`. Năm mục, mục lục, liên kết các form/P16; đọc từ form mở thẻ mới để giữ dữ liệu. Nội dung mô tả chuẩn bị email, chưa đặt hàng/đặt lịch tự động, cần công ty rà soát trước công bố.
+
 P17 gồm năm mục: bản chất yêu cầu được gửi; quy trình trao đổi và báo giá; điều kiện mẫu và lịch tư vấn; cách xử lý tệp thiết kế; liên hệ và giải quyết vấn đề. Trang này làm rõ yêu cầu online chưa tạo đơn hàng hoặc cam kết giao hàng. Điều khoản hợp đồng thực tế của công ty được xử lý theo quy trình pháp lý và kinh doanh riêng.
 
 ## 10 5 P18 Xác nhận và giao diện 404
+
+**Trạng thái P18 ngày 13/10/2026:** đã có giao diện VI/EN tại `/da-gui-yeu-cau/`, `/en/request-status/`. Xem `request-confirmation.md`. Với cơ chế chuẩn bị email hiện tại, ba phần hướng dẫn kiểm tra việc gửi, loại yêu cầu và bước liên hệ; không hiển thị đã nhận/mã/tóm tắt giả. Link từ vùng ready mở thẻ mới giữ form, chỉ truyền type. Trạng thái tiếp nhận theo mục tiêu dưới đây chỉ triển khai sau backend lưu thật và kiểm tra quyền truy cập.
 
 P18 có ba phần: trạng thái đã tiếp nhận; mã và tóm tắt loại yêu cầu; bước tiếp theo và các nút Xem sản phẩm, Gọi hoặc Zalo. Trang chỉ được mở đúng ngữ cảnh sau khi máy chủ lưu thành công; không chứa dữ liệu khách trong URL. Nếu khách mở trực tiếp khi không có yêu cầu, hiển thị hướng dẫn chọn một biểu mẫu. Thiết lập không đưa vào kết quả tìm kiếm.
 

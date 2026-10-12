@@ -1,6 +1,6 @@
 # Bộ màu mới — Natural Green / Warm Beige / Earthy Brown
 
-Yêu cầu mới nhất của chủ website thay thế màu xanh rừng/mist/tím mận trước đây. Áp dụng cho toàn bộ website đã xây dựng, hiện gồm 16 trang cố định × VI/EN + 6 bài × VI/EN = 44 đường dẫn sau khi thêm P10 Về HotPrint, P11 Liên hệ, P12 Yêu cầu báo giá, P13 Yêu cầu mẫu, P14 Đặt lịch tư vấn , P15 Kiến thức bao bì và P16 Chính sách riêng tư. Kiểm tra 18 đường dẫn bên dưới ghi lại lần đổi màu trước; P10 và P11 có kiểm tra riêng trong `about-hotprint.md`, `contact-page.md`.
+Yêu cầu mới nhất của chủ website thay thế màu xanh rừng/mist/tím mận trước đây. Áp dụng cho toàn bộ website đã xây dựng, hiện gồm 18 trang cố định × VI/EN + 6 bài × VI/EN = 48 đường dẫn sau khi thêm P10 Về HotPrint, P11 Liên hệ, P12 Yêu cầu báo giá, P13 Yêu cầu mẫu, P14 Đặt lịch tư vấn, P15 Kiến thức bao bì, P16 Chính sách riêng tư , P17 Điều kiện gửi yêu cầu và P18 Xác nhận gửi yêu cầu. Kiểm tra 18 đường dẫn bên dưới ghi lại lần đổi màu trước; P10 và P11 có kiểm tra riêng trong `about-hotprint.md`, `contact-page.md`.
 
 ## Màu và vai trò
 

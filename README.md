@@ -1,6 +1,6 @@
 # Website HotPrint
 
-Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì**, **Chính sách riêng tư**, **Điều kiện gửi yêu cầu** và **Xác nhận gửi yêu cầu**, hỗ trợ tiếng Việt/tiếng Anh và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
+Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì**, **Chính sách riêng tư**, **Điều kiện gửi yêu cầu** và **Xác nhận gửi yêu cầu**, hỗ trợ tiếng Việt, tiếng Anh, tiếng Trung giản thể và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
 
 ## Triển khai Vercel
 
@@ -8,7 +8,7 @@ Dự án dùng website tĩnh trong `dist`. Cấu hình `vercel.json` đặt **Fr
 
 ## Tiếp tục bằng tài khoản khác
 
-Đọc [HANDOFF.md](HANDOFF.md) trước: trạng thái tới P18, những yêu cầu phải giữ, cách mở preview và các phần tiếp theo. Mã nguồn/ảnh/font trong repo đủ để build và chạy, không cần quyền Sites của tài khoản cũ. Phiên bản hiện tại có 48 đường dẫn VI/EN.
+Đọc [HANDOFF.md](HANDOFF.md) trước: trạng thái tới P18, những yêu cầu phải giữ, cách mở preview và các phần tiếp theo. Mã nguồn/ảnh/font trong repo đủ để build và chạy, không cần quyền Sites của tài khoản cũ. Phiên bản hiện tại có 72 đường dẫn VI/EN/中文. Xem [tiếng Trung giản thể](docs/chinese-language.md).
 
 ## Chạy trên máy
 
@@ -20,26 +20,26 @@ npm run dev
 
 Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+C để dừng. Website chạy không cần cài thư viện bổ sung.
 
-| Trang | Tiếng Việt | Tiếng Anh |
-| --- | --- | --- |
-| Trang chủ | `/` | `/en/` |
-| Tổng quan sản phẩm | `/san-pham/` | `/en/products/` |
-| Hộp giấy mềm | `/danh-muc/hop-giay-mem/` | `/en/folding-cartons/` |
-| Hộp carton in màu | `/danh-muc/hop-carton-in-mau/` | `/en/printed-corrugated-boxes/` |
-| Hộp cứng cao cấp | `/danh-muc/hop-cung-cao-cap/` | `/en/premium-rigid-boxes/` |
-| Túi giấy | `/danh-muc/tui-giay/` | `/en/paper-bags/` |
-| Nhãn dán decal | `/danh-muc/nhan-dan-decal/` | `/en/adhesive-labels/` |
-| Nhãn hàng & catalog | `/danh-muc/nhan-hang-catalog/` | `/en/hang-tags-catalogues/` |
-| Nhà máy | `/nha-may/` | `/en/factory/` |
-| Về HotPrint | `/ve-chung-toi/` | `/en/about/` |
-| Liên hệ | `/lien-he/` | `/en/contact/` |
-| Yêu cầu báo giá | `/yeu-cau-bao-gia/` | `/en/request-a-quote/` |
-| Yêu cầu mẫu | `/yeu-cau-mau/` | `/en/request-a-sample/` |
-| Đặt lịch tư vấn | `/dat-lich-tu-van/` | `/en/request-a-consultation/` |
-| Kiến thức bao bì | `/kien-thuc/` | `/en/packaging-insights/` |
-| Chính sách riêng tư | `/chinh-sach-rieng-tu/` | `/en/privacy/` |
-| Điều kiện gửi yêu cầu | `/dieu-kien-gui-yeu-cau/` | `/en/request-terms/` |
-| Xác nhận gửi yêu cầu | `/da-gui-yeu-cau/` | `/en/request-status/` |
+| Trang | Tiếng Việt | Tiếng Anh | Tiếng Trung giản thể |
+| --- | --- | --- | --- |
+| Trang chủ | `/` | `/en/` | `/zh/` |
+| Tổng quan sản phẩm | `/san-pham/` | `/en/products/` | `/zh/products/` |
+| Hộp giấy mềm | `/danh-muc/hop-giay-mem/` | `/en/folding-cartons/` | `/zh/folding-cartons/` |
+| Hộp carton in màu | `/danh-muc/hop-carton-in-mau/` | `/en/printed-corrugated-boxes/` | `/zh/printed-corrugated-boxes/` |
+| Hộp cứng cao cấp | `/danh-muc/hop-cung-cao-cap/` | `/en/premium-rigid-boxes/` | `/zh/premium-rigid-boxes/` |
+| Túi giấy | `/danh-muc/tui-giay/` | `/en/paper-bags/` | `/zh/paper-bags/` |
+| Nhãn dán decal | `/danh-muc/nhan-dan-decal/` | `/en/adhesive-labels/` | `/zh/adhesive-labels/` |
+| Nhãn hàng & catalog | `/danh-muc/nhan-hang-catalog/` | `/en/hang-tags-catalogues/` | `/zh/hang-tags-catalogues/` |
+| Nhà máy | `/nha-may/` | `/en/factory/` | `/zh/factory/` |
+| Về HotPrint | `/ve-chung-toi/` | `/en/about/` | `/zh/about/` |
+| Liên hệ | `/lien-he/` | `/en/contact/` | `/zh/contact/` |
+| Yêu cầu báo giá | `/yeu-cau-bao-gia/` | `/en/request-a-quote/` | `/zh/request-a-quote/` |
+| Yêu cầu mẫu | `/yeu-cau-mau/` | `/en/request-a-sample/` | `/zh/request-a-sample/` |
+| Đặt lịch tư vấn | `/dat-lich-tu-van/` | `/en/request-a-consultation/` | `/zh/request-a-consultation/` |
+| Kiến thức bao bì | `/kien-thuc/` | `/en/packaging-insights/` | `/zh/packaging-insights/` |
+| Chính sách riêng tư | `/chinh-sach-rieng-tu/` | `/en/privacy/` | `/zh/privacy/` |
+| Điều kiện gửi yêu cầu | `/dieu-kien-gui-yeu-cau/` | `/en/request-terms/` | `/zh/request-terms/` |
+| Xác nhận gửi yêu cầu | `/da-gui-yeu-cau/` | `/en/request-status/` | `/zh/request-status/` |
 
 ## Chỉnh sửa và tạo bản cập nhật
 
@@ -85,7 +85,8 @@ Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+
 
 - `dist/index.html`: nội dung Trang chủ, header, footer, các cửa sổ liên hệ dùng chung.
 - `dist/styles.css`, `dist/refinements.css`, `dist/contact-studio.css`: giao diện Trang chủ và phần dùng chung.
-- `dist/app.js`: VI/EN, điều hướng, cửa sổ liên hệ và biểu mẫu.
+- `locales/zh-Hans.json`, `build-chinese.mjs`, `dist/i18n.js`: bản dịch tiếng Trung giản thể, dựng trang và điều hướng ba ngôn ngữ.
+- `dist/app.js`: VI/EN/中文, điều hướng, cửa sổ liên hệ và biểu mẫu.
 - `products-template.html`: cấu trúc trang Tổng quan sản phẩm. `build-products.mjs` lấy template này và header/footer dùng chung từ Trang chủ.
 - `dist/products.css`, `dist/products.js`: thiết kế, bản dịch, tìm kiếm, bộ lọc, phân trang, thư viện ảnh sản phẩm.
 - `dist/products-atelier.css`: hướng Product Atelier mới; danh mục giấy gấp, hero trưng bày và danh sách mẫu quan tâm. Xem `docs/product-atelier-direction.md` cho quyết định thiết kế và prompt Imagegen.

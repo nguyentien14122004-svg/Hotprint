@@ -1,12 +1,12 @@
 (() => {
  const samples=window.HOTPRINT_PRODUCTS.filter(p=>p.group===(document.body.dataset.productGroup||'folding'));
- const en=document.documentElement.lang==='en';
- const tr=(vi,english)=>en?english:vi;
+ const en=document.documentElement.lang!=='vi';
+ const tr=(vi,english)=>en?(document.documentElement.lang.startsWith('zh')?HOTPRINT_I18N.translate(english):english):vi;
  const dialog=document.querySelector('#fold-detail');
  let selected=null,index=0;
  const photoURL=id=>`/assets/products/${id}-large.webp`;
  function renderPhoto(){
-  const im=document.querySelector('#fold-detail-image');im.hidden=false;im.src=photoURL(selected.images[index]);im.alt=selected[en?'en':'vi']+` — ${index+1}/${selected.images.length}`;
+  const im=document.querySelector('#fold-detail-image');im.hidden=false;im.src=photoURL(selected.images[index]);im.alt=selected[document.documentElement.lang.startsWith('zh')?'zh':en?'en':'vi']+` — ${index+1}/${selected.images.length}`;
   document.querySelector('#fold-photo-count').textContent=`${index+1} / ${selected.images.length}`;
   for(const id of ['fold-photo-prev','fold-photo-next'])document.getElementById(id).disabled=selected.images.length===1;
   document.querySelector('#fold-original-link').href=im.src;
@@ -16,7 +16,7 @@
  document.addEventListener('click',event=>{
   const trigger=event.target.closest('[data-fold-detail]');if(!trigger)return;
   selected=samples.find(p=>p.id===trigger.dataset.foldDetail);if(!selected)return;
-  index=0;document.querySelector('#fold-detail-title').textContent=selected[en?'en':'vi'];document.querySelector('#fold-detail-reference').textContent=tr('Mã ảnh tham khảo: ','Photo reference: ')+selected.id;
+  index=0;document.querySelector('#fold-detail-title').textContent=selected[document.documentElement.lang.startsWith('zh')?'zh':en?'en':'vi'];document.querySelector('#fold-detail-reference').textContent=tr('Mã ảnh tham khảo: ','Photo reference: ')+selected.id;
   for(const id of ['fold-detail-quote','fold-detail-sample'])document.getElementById(id).dataset.model=selected.id;
   renderPhoto();openDialog(dialog,trigger);
  });

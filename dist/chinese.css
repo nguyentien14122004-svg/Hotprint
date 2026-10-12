@@ -1,0 +1,10 @@
+/* Keep the approved imagery and palette; use readable native CJK typefaces. */
+.language-switch a { justify-content:center; min-width:24px; }
+.language-switch a[data-lang="zh"] { min-width:38px; }
+html:lang(zh) { font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif; }
+html:lang(zh) body, html:lang(zh) button, html:lang(zh) input, html:lang(zh) select, html:lang(zh) textarea { font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif; }
+html:lang(zh) h1, html:lang(zh) h2, html:lang(zh) h3 { font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif; letter-spacing:0; line-height:1.25; }
+html:lang(zh) .eyebrow, html:lang(zh) .kicker { letter-spacing:.08em; }
+html:lang(zh) .hero h1 { font-family:"Microsoft YaHei","PingFang SC",sans-serif; letter-spacing:-.02em; }
+@media(max-width:768px) { .header-actions { gap:10px; } .language-switch { gap:6px; } }
+@media(max-width:359px) { .language-switch { gap:4px; } .language-switch>span { display:none; } .language-switch a { min-width:24px; } .header-inner { gap:6px; } .header-actions { gap:5px; } }

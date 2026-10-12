@@ -1,3 +1,7 @@
+# Cập nhật ngôn ngữ — 13/10/2026
+
+Chủ website đã yêu cầu thêm tiếng Trung và chọn giản thể (简体中文). Phạm vi hiện tại là VI / EN / 中文 cho cả 18 trang chính và 6 bài viết; không chỉ thêm nút chưa có nội dung. Các yêu cầu ngôn ngữ VI/EN trong kế hoạch bên dưới được mở rộng theo cập nhật này. Đọc [triển khai tiếng Trung](chinese-language.md).
+
 # Kế hoạch xây dựng website HotPrint
 
 ## Bước 1 Đặc tả nội dung giao diện và chức năng

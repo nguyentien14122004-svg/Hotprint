@@ -98,47 +98,51 @@ const categories = [
   {vi:'Nhãn dán decal',en:'Self-adhesive labels',number:'05',detailVi:'Dấu ấn trên từng bề mặt',detailEn:'An identity on every surface',icon:'label',slug:'nhan-dan-decal'},
   {vi:'Nhãn hàng & catalog',en:'Tags & catalogs',number:'06',detailVi:'Kể câu chuyện thương hiệu',detailEn:'Tell your brand story',icon:'catalog',slug:'nhan-hang-catalog'}
 ];
-let language = location.pathname.startsWith('/en') ? 'en' : 'vi';
+const {translate:zhTranslate,deepTranslate:zhObject,path:localePath}=window.HOTPRINT_I18N;
+let language = HOTPRINT_I18N.language();
 const isProductsPage = document.body.dataset.page === 'products';
 const isFoldingPage = document.body.dataset.page === 'folding';
 const isFactoryPage = document.body.dataset.page === 'factory';
-const factoryPath = lang => lang === 'en' ? '/en/factory/' : '/nha-may/';
+const factoryPath = lang => localePath('/en/factory/','/nha-may/',lang);
 const isAboutPage = document.body.dataset.page === 'about';
-const aboutPath = lang => lang === 'en' ? '/en/about/' : '/ve-chung-toi/';
+const aboutPath = lang => localePath('/en/about/','/ve-chung-toi/',lang);
 if(isAboutPage){translations.vi.source='Nguồn: Về HotPrint';translations.en.source='Source: About HotPrint';}
 const isContactPage = document.body.dataset.page === 'contact';
-const contactPath = lang => lang === 'en' ? '/en/contact/' : '/lien-he/';
+const contactPath = lang => localePath('/en/contact/','/lien-he/',lang);
 if(isContactPage){translations.vi.source='Nguồn: Liên hệ HotPrint';translations.en.source='Source: HotPrint contact page';}
 const isQuotePage = document.body.dataset.page === 'quote';
-const quotePath = lang => lang === 'en' ? '/en/request-a-quote/' : '/yeu-cau-bao-gia/';
+const quotePath = lang => localePath('/en/request-a-quote/','/yeu-cau-bao-gia/',lang);
 const isSampleRequestPage = document.body.dataset.page === 'sample-request';
-const sampleRequestPath = lang => lang === 'en' ? '/en/request-a-sample/' : '/yeu-cau-mau/';
+const sampleRequestPath = lang => localePath('/en/request-a-sample/','/yeu-cau-mau/',lang);
 const isConsultationPage = document.body.dataset.page === 'consultation';
-const consultationPath = lang => lang === 'en' ? '/en/request-a-consultation/' : '/dat-lich-tu-van/';
+const consultationPath = lang => localePath('/en/request-a-consultation/','/dat-lich-tu-van/',lang);
 const isRequestStatusPage = document.body.dataset.page === 'request-status';
-const requestStatusPath = lang => lang === 'en' ? '/en/request-status/' : '/da-gui-yeu-cau/';
+const requestStatusPath = lang => localePath('/en/request-status/','/da-gui-yeu-cau/',lang);
 const isTermsPage = document.body.dataset.page === 'terms';
-const termsPath = lang => lang === 'en' ? '/en/request-terms/' : '/dieu-kien-gui-yeu-cau/';
+const termsPath = lang => localePath('/en/request-terms/','/dieu-kien-gui-yeu-cau/',lang);
 const isPrivacyPage = document.body.dataset.page === 'privacy';
-const privacyPath = lang => lang === 'en' ? '/en/privacy/' : '/chinh-sach-rieng-tu/';
+const privacyPath = lang => localePath('/en/privacy/','/chinh-sach-rieng-tu/',lang);
 const isKnowledgePage = document.body.dataset.page === 'knowledge';
 const isKnowledgeArticle = document.body.dataset.page === 'knowledge-article';
-const knowledgePath = lang => lang === 'en' ? '/en/packaging-insights/' : '/kien-thuc/';
-const articlePath = lang => document.body.dataset[lang === 'en' ? 'articleEn' : 'articleVi'];
+const knowledgePath = lang => localePath('/en/packaging-insights/','/kien-thuc/',lang);
+const articlePath = lang => localePath(document.body.dataset.articleEn,document.body.dataset.articleVi,lang);
 const isCatalogPage = document.body.dataset.page === 'catalog';
-const catalogPath = lang => lang === 'en' ? '/en/hang-tags-catalogues/' : '/danh-muc/nhan-hang-catalog/';
+const catalogPath = lang => localePath('/en/hang-tags-catalogues/','/danh-muc/nhan-hang-catalog/',lang);
 const isLabelPage = document.body.dataset.page === 'label';
-const labelPath = lang => lang === 'en' ? '/en/adhesive-labels/' : '/danh-muc/nhan-dan-decal/';
+const labelPath = lang => localePath('/en/adhesive-labels/','/danh-muc/nhan-dan-decal/',lang);
 const isBagPage = document.body.dataset.page === 'bag';
-const bagPath = lang => lang === 'en' ? '/en/paper-bags/' : '/danh-muc/tui-giay/';
+const bagPath = lang => localePath('/en/paper-bags/','/danh-muc/tui-giay/',lang);
 const isRigidPage = document.body.dataset.page === 'rigid';
-const rigidPath = lang => lang === 'en' ? '/en/premium-rigid-boxes/' : '/danh-muc/hop-cung-cao-cap/';
+const rigidPath = lang => localePath('/en/premium-rigid-boxes/','/danh-muc/hop-cung-cao-cap/',lang);
 const isCartonPage = document.body.dataset.page === 'carton';
-const cartonPath = lang => lang === 'en' ? '/en/printed-corrugated-boxes/' : '/danh-muc/hop-carton-in-mau/';
-const foldingPath = lang => lang === 'en' ? '/en/folding-cartons/' : '/danh-muc/hop-giay-mem/';
+const cartonPath = lang => localePath('/en/printed-corrugated-boxes/','/danh-muc/hop-carton-in-mau/',lang);
+const foldingPath = lang => localePath('/en/folding-cartons/','/danh-muc/hop-giay-mem/',lang);
 if(isProductsPage){translations.vi.privacyText.push('Danh sách mẫu bạn chọn được lưu cục bộ trong trình duyệt để bạn quay lại xem. Bạn có thể bỏ từng mẫu hoặc xóa dữ liệu website trong trình duyệt; danh sách không tự gửi tới HotPrint.');translations.en.privacyText.push('Selected sample references are stored locally in this browser so you can return to them. Remove individual samples or clear this website’s browser data to delete them. Your selection is not automatically sent to HotPrint.');}
-const productsPath = lang => lang === 'en' ? '/en/products/' : '/san-pham/';
+const productsPath = lang => localePath('/en/products/','/san-pham/',lang);
 const categoryPath = (item,lang=language) => item.slug==='hop-giay-mem' ? foldingPath(lang) : item.slug==='hop-carton' ? cartonPath(lang) : item.slug==='hop-cao-cap' ? rigidPath(lang) : item.slug==='tui-giay' ? bagPath(lang) : item.slug==='nhan-dan-decal' ? labelPath(lang) : item.slug==='nhan-hang-catalog' ? catalogPath(lang) : `${productsPath(lang)}?group=${item.slug}#thu-vien`;
+translations.zh=zhObject(translations.en);
+categories.forEach(c=>{c.zh=zhTranslate(c.en);c.detailZh=zhTranslate(c.detailEn)});
+window.HOTPRINT_PRODUCTS?.forEach(p=>p.zh=zhTranslate(p.en));
 let requestType = 'quote';
 let draftText = '';
 let dialogTrigger = null;
@@ -154,14 +158,15 @@ function categoryLink(item, cls) {
   return a;
 }
 function applyLanguage(next, updateURL=false) {
-  language=next;document.documentElement.lang=language;
-  document.documentElement.classList.toggle('lang-en',language==='en');
-  document.title=isRequestStatusPage?(language==='vi'?'Xác nhận gửi yêu cầu | HotPrint':'Request confirmation | HotPrint'):isTermsPage?(language==='vi'?'Điều kiện gửi yêu cầu | HotPrint':'Request terms | HotPrint'):isPrivacyPage?(language==='vi'?'Chính sách riêng tư | HotPrint':'Privacy | HotPrint'):isKnowledgeArticle?(document.body.dataset[language==='en'?'titleEn':'titleVi']+' | HotPrint'):isKnowledgePage?(language==='vi'?'Kiến thức bao bì | HotPrint':'Packaging insights | HotPrint'):isConsultationPage?(language==='vi'?'Đặt lịch tư vấn | HotPrint':'Request a consultation | HotPrint'):isSampleRequestPage?(language==='vi'?'Yêu cầu mẫu | HotPrint':'Request a sample | HotPrint'):isQuotePage?(language==='vi'?'Yêu cầu báo giá | HotPrint':'Request a quote | HotPrint'):isContactPage?(language==='vi'?'Liên hệ | HotPrint':'Contact | HotPrint'):isAboutPage?(language==='vi'?'Về HotPrint | HotPrint':'About HotPrint | HotPrint'):isFactoryPage?(language==='vi'?'Nhà máy | HotPrint':'Factory | HotPrint'):isCatalogPage?(language==='vi'?'Nhãn hàng & catalog | HotPrint':'Hang tags & catalogues | HotPrint'):isLabelPage?(language==='vi'?'Nhãn dán decal | HotPrint':'Adhesive labels | HotPrint'):isBagPage?(language==='vi'?'Túi giấy | HotPrint':'Paper bags | HotPrint'):isRigidPage?(language==='vi'?'Hộp cứng cao cấp | HotPrint':'Premium rigid boxes | HotPrint'):isCartonPage?(language==='vi'?'Hộp carton in màu | HotPrint':'Printed corrugated boxes | HotPrint'):isFoldingPage?(language==='vi'?'Hộp giấy mềm | HotPrint':'Folding cartons | HotPrint'):isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
+  language=next;document.documentElement.lang=language==='zh'?'zh-Hans':language;
+  document.documentElement.classList.toggle('lang-en',language!=='vi');
+  document.title=isRequestStatusPage?(language==='vi'?'Xác nhận gửi yêu cầu | HotPrint':'Request confirmation | HotPrint'):isTermsPage?(language==='vi'?'Điều kiện gửi yêu cầu | HotPrint':'Request terms | HotPrint'):isPrivacyPage?(language==='vi'?'Chính sách riêng tư | HotPrint':'Privacy | HotPrint'):isKnowledgeArticle?(document.body.dataset[language!=='vi'?'titleEn':'titleVi']+' | HotPrint'):isKnowledgePage?(language==='vi'?'Kiến thức bao bì | HotPrint':'Packaging insights | HotPrint'):isConsultationPage?(language==='vi'?'Đặt lịch tư vấn | HotPrint':'Request a consultation | HotPrint'):isSampleRequestPage?(language==='vi'?'Yêu cầu mẫu | HotPrint':'Request a sample | HotPrint'):isQuotePage?(language==='vi'?'Yêu cầu báo giá | HotPrint':'Request a quote | HotPrint'):isContactPage?(language==='vi'?'Liên hệ | HotPrint':'Contact | HotPrint'):isAboutPage?(language==='vi'?'Về HotPrint | HotPrint':'About HotPrint | HotPrint'):isFactoryPage?(language==='vi'?'Nhà máy | HotPrint':'Factory | HotPrint'):isCatalogPage?(language==='vi'?'Nhãn hàng & catalog | HotPrint':'Hang tags & catalogues | HotPrint'):isLabelPage?(language==='vi'?'Nhãn dán decal | HotPrint':'Adhesive labels | HotPrint'):isBagPage?(language==='vi'?'Túi giấy | HotPrint':'Paper bags | HotPrint'):isRigidPage?(language==='vi'?'Hộp cứng cao cấp | HotPrint':'Premium rigid boxes | HotPrint'):isCartonPage?(language==='vi'?'Hộp carton in màu | HotPrint':'Printed corrugated boxes | HotPrint'):isFoldingPage?(language==='vi'?'Hộp giấy mềm | HotPrint':'Folding cartons | HotPrint'):isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
+  if(language==='zh')document.title=zhTranslate(document.title);
   document.querySelectorAll('[data-i18n]').forEach(el=>{const text=t(el.dataset.i18n);if(typeof text==='string')el.textContent=text;});
   document.querySelectorAll('[data-aria-key]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.ariaKey)));
   document.querySelectorAll('[data-alt-key]').forEach(el=>el.alt=t(el.dataset.altKey));
   document.querySelectorAll('[data-lang]').forEach(el=>{if(el.dataset.lang===language)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
-  document.querySelectorAll('[data-home]').forEach(el=>{el.href=language==='vi'?'/':'/en/';el.setAttribute('aria-label',language==='vi'?'HotPrint — Trang chủ':'HotPrint — Home');});
+  document.querySelectorAll('[data-home]').forEach(el=>{el.href=localePath('/en/','/',language);el.setAttribute('aria-label',language==='vi'?'HotPrint — Trang chủ':language==='zh'?'HotPrint — 首页':'HotPrint — Home');});
   for(const [id,cls] of [['category-links','category-link'],['menu-categories','menu-category'],['mobile-categories','menu-category'],['footer-categories','footer-category']]) $('#'+id)?.replaceChildren(...categories.map(c=>categoryLink(c,cls)));
   document.querySelectorAll('[data-products]').forEach(a=>a.href=productsPath(language));
   document.querySelectorAll('[data-factory]').forEach(a=>a.href=factoryPath(language));
@@ -173,16 +178,16 @@ function applyLanguage(next, updateURL=false) {
   document.querySelectorAll('[data-quote-page]').forEach(a=>a.href=quotePath(language));
   document.querySelectorAll('[data-consult-page]').forEach(a=>a.href=consultationPath(language));
   document.querySelectorAll('[data-sample-page]').forEach(a=>a.href=sampleRequestPath(language));
-  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isRequestStatusPage?requestStatusPath(a.dataset.lang):isTermsPage?termsPath(a.dataset.lang):isPrivacyPage?privacyPath(a.dataset.lang):isKnowledgeArticle?articlePath(a.dataset.lang):isKnowledgePage?knowledgePath(a.dataset.lang):isConsultationPage?consultationPath(a.dataset.lang):isSampleRequestPage?sampleRequestPath(a.dataset.lang):isQuotePage?quotePath(a.dataset.lang):isContactPage?contactPath(a.dataset.lang):isAboutPage?aboutPath(a.dataset.lang):isFactoryPage?factoryPath(a.dataset.lang):isCatalogPage?catalogPath(a.dataset.lang):isLabelPage?labelPath(a.dataset.lang):isBagPage?bagPath(a.dataset.lang):isRigidPage?rigidPath(a.dataset.lang):isCartonPage?cartonPath(a.dataset.lang):isFoldingPage?foldingPath(a.dataset.lang):isProductsPage?productsPath(a.dataset.lang):(a.dataset.lang==='en'?'/en/':'/'))+location.search+location.hash);
+  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isRequestStatusPage?requestStatusPath(a.dataset.lang):isTermsPage?termsPath(a.dataset.lang):isPrivacyPage?privacyPath(a.dataset.lang):isKnowledgeArticle?articlePath(a.dataset.lang):isKnowledgePage?knowledgePath(a.dataset.lang):isConsultationPage?consultationPath(a.dataset.lang):isSampleRequestPage?sampleRequestPath(a.dataset.lang):isQuotePage?quotePath(a.dataset.lang):isContactPage?contactPath(a.dataset.lang):isAboutPage?aboutPath(a.dataset.lang):isFactoryPage?factoryPath(a.dataset.lang):isCatalogPage?catalogPath(a.dataset.lang):isLabelPage?labelPath(a.dataset.lang):isBagPage?bagPath(a.dataset.lang):isRigidPage?rigidPath(a.dataset.lang):isCartonPage?cartonPath(a.dataset.lang):isFoldingPage?foldingPath(a.dataset.lang):isProductsPage?productsPath(a.dataset.lang):localePath('/en/','/',a.dataset.lang))+location.search+location.hash);
   const selected=$('#form-category').value;
   $('#form-category').replaceChildren(new Option(t('unknown'),''),...categories.map(c=>new Option(c[language],c.slug)));
   $('#form-category').value=selected;
-  if(updateURL)history.pushState({language},'',(isConsultationPage?consultationPath(language):isSampleRequestPage?sampleRequestPath(language):isQuotePage?quotePath(language):isProductsPage?productsPath(language):(language==='vi'?'/':'/en/'))+location.search+location.hash);
+  if(updateURL)history.pushState({language},'',(isConsultationPage?consultationPath(language):isSampleRequestPage?sampleRequestPath(language):isQuotePage?quotePath(language):isProductsPage?productsPath(language):localePath('/en/','/',language))+location.search+location.hash);
   if($('#request-dialog').open)updateRequestLabels();
   document.dispatchEvent(new CustomEvent('hotprint:language'));
 }
 document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',event=>{if(isRequestStatusPage||isTermsPage||isPrivacyPage||isKnowledgePage||isKnowledgeArticle||isContactPage||isAboutPage||isFactoryPage||isFoldingPage||isCartonPage||isRigidPage||isBagPage||isLabelPage||isCatalogPage)return;event.preventDefault();applyLanguage(el.dataset.lang,true);closeProductMenu();}));
-window.addEventListener('popstate',()=>applyLanguage(location.pathname.startsWith('/en')?'en':'vi'));
+window.addEventListener('popstate',()=>applyLanguage(HOTPRINT_I18N.language()));
 applyLanguage(language);
 $('#copyright-year').textContent=new Date().getFullYear();
 

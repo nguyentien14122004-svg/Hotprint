@@ -15,7 +15,9 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 
 ## Website hiện có
 
-**18 trang cố định VI/EN và 6 bài viết VI/EN = 48 đường dẫn HTML.**
+**18 trang cố định và 6 bài viết × VI/EN/中文 = 72 đường dẫn HTML.**
+
+Cập nhật 13/10/2026: đã bổ sung tiếng Trung giản thể theo lựa chọn của chủ website. Nút VI / EN / 中文 có ở mọi trang. Đường dẫn Trung dùng `/zh/` với slug giống EN. Đọc `docs/chinese-language.md` về bản dịch, nơi chỉnh và kiểm tra. Giữ nguyên toàn bộ ảnh, logo, bố cục và màu đã duyệt. Ba form đổi ngôn ngữ tại chỗ, giữ nội dung/tệp/consent; không tạo tiếp nhận trên máy chủ.
 
 | Mã | Trang | Trạng thái |
 | --- | --- | --- |

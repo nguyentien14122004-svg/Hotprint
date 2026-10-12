@@ -1,0 +1,122 @@
+[
+  {
+    "vi": "/",
+    "en": "/en/",
+    "zh": "/zh/"
+  },
+  {
+    "vi": "/san-pham/",
+    "en": "/en/products/",
+    "zh": "/zh/products/"
+  },
+  {
+    "vi": "/danh-muc/hop-giay-mem/",
+    "en": "/en/folding-cartons/",
+    "zh": "/zh/folding-cartons/"
+  },
+  {
+    "vi": "/danh-muc/hop-carton-in-mau/",
+    "en": "/en/printed-corrugated-boxes/",
+    "zh": "/zh/printed-corrugated-boxes/"
+  },
+  {
+    "vi": "/danh-muc/hop-cung-cao-cap/",
+    "en": "/en/premium-rigid-boxes/",
+    "zh": "/zh/premium-rigid-boxes/"
+  },
+  {
+    "vi": "/danh-muc/tui-giay/",
+    "en": "/en/paper-bags/",
+    "zh": "/zh/paper-bags/"
+  },
+  {
+    "vi": "/danh-muc/nhan-dan-decal/",
+    "en": "/en/adhesive-labels/",
+    "zh": "/zh/adhesive-labels/"
+  },
+  {
+    "vi": "/danh-muc/nhan-hang-catalog/",
+    "en": "/en/hang-tags-catalogues/",
+    "zh": "/zh/hang-tags-catalogues/"
+  },
+  {
+    "vi": "/nha-may/",
+    "en": "/en/factory/",
+    "zh": "/zh/factory/"
+  },
+  {
+    "vi": "/ve-chung-toi/",
+    "en": "/en/about/",
+    "zh": "/zh/about/"
+  },
+  {
+    "vi": "/lien-he/",
+    "en": "/en/contact/",
+    "zh": "/zh/contact/"
+  },
+  {
+    "vi": "/yeu-cau-bao-gia/",
+    "en": "/en/request-a-quote/",
+    "zh": "/zh/request-a-quote/"
+  },
+  {
+    "vi": "/yeu-cau-mau/",
+    "en": "/en/request-a-sample/",
+    "zh": "/zh/request-a-sample/"
+  },
+  {
+    "vi": "/dat-lich-tu-van/",
+    "en": "/en/request-a-consultation/",
+    "zh": "/zh/request-a-consultation/"
+  },
+  {
+    "vi": "/kien-thuc/",
+    "en": "/en/packaging-insights/",
+    "zh": "/zh/packaging-insights/"
+  },
+  {
+    "vi": "/chinh-sach-rieng-tu/",
+    "en": "/en/privacy/",
+    "zh": "/zh/privacy/"
+  },
+  {
+    "vi": "/dieu-kien-gui-yeu-cau/",
+    "en": "/en/request-terms/",
+    "zh": "/zh/request-terms/"
+  },
+  {
+    "vi": "/da-gui-yeu-cau/",
+    "en": "/en/request-status/",
+    "zh": "/zh/request-status/"
+  },
+  {
+    "vi": "/kien-thuc/chon-cau-truc-bao-bi/",
+    "en": "/en/packaging-insights/choose-a-packaging-structure/",
+    "zh": "/zh/packaging-insights/choose-a-packaging-structure/"
+  },
+  {
+    "vi": "/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+    "en": "/en/packaging-insights/discuss-packaging-materials/",
+    "zh": "/zh/packaging-insights/discuss-packaging-materials/"
+  },
+  {
+    "vi": "/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+    "en": "/en/packaging-insights/prepare-a-packaging-brief/",
+    "zh": "/zh/packaging-insights/prepare-a-packaging-brief/"
+  },
+  {
+    "vi": "/kien-thuc/chuan-bi-tep-in-bao-bi/",
+    "en": "/en/packaging-insights/prepare-packaging-artwork/",
+    "zh": "/zh/packaging-insights/prepare-packaging-artwork/"
+  },
+  {
+    "vi": "/kien-thuc/danh-gia-mau-bao-bi/",
+    "en": "/en/packaging-insights/review-a-packaging-sample/",
+    "zh": "/zh/packaging-insights/review-a-packaging-sample/"
+  },
+  {
+    "vi": "/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+    "en": "/en/packaging-insights/working-together-on-a-packaging-project/",
+    "zh": "/zh/packaging-insights/working-together-on-a-packaging-project/"
+  }
+]

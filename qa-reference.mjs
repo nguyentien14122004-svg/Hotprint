@@ -1,0 +1,11 @@
+import {createRequire} from 'node:module';
+import {writeFile} from 'node:fs/promises';
+const require=createRequire(import.meta.url),{chromium}=require('playwright');
+const browser=await chromium.launch({headless:true,channel:'chrome'});
+const page=await browser.newPage({viewport:{width:1672,height:941},reducedMotion:'reduce'});
+await page.goto('http://127.0.0.1:4174/san-pham/',{waitUntil:'networkidle'});
+await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('.botanical-hero img')].map(i=>i.decode()));});
+await page.screenshot({path:'qa/reference-match-1672.png'});
+const metrics=await page.evaluate(()=>Object.fromEntries(['.site-header','.brand','.botanical-eyebrow','h1','.botanical-lead','.botanical-primary','.botanical-quote','.botanical-benefits'].map(s=>{let el=document.querySelector(s),r=el.getBoundingClientRect();return[s,{x:r.x,y:r.y,width:r.width,height:r.height,font:getComputedStyle(el).font}]})));
+await writeFile('qa/reference-metrics.json',JSON.stringify(metrics,null,2));console.log(metrics);
+await browser.close();

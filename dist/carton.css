@@ -1,0 +1,68 @@
+/* P04: original photographs framed on a quiet paper still-life. */
+body[data-page=carton]{background:var(--tone-paper);color:var(--tone-ink)}
+body[data-page=carton] .site-header,body[data-page=carton] .site-header.scrolled{position:sticky;top:0;height:96px;background:var(--tone-paper);border-bottom:1px solid var(--tone-beige);box-shadow:none}
+body[data-page=carton] .fold-hero{padding-top:24px;padding-bottom:45px}
+body[data-page=carton] .fold-hero-grid{grid-template-columns:46% 54%}
+body[data-page=carton] .fold-breadcrumb{margin-bottom:34px}
+body[data-page=carton] .fold-hero h1{white-space:normal;font-size:clamp(48px,5.15vw,80px);line-height:1.02;max-width:650px}
+body[data-page=carton] .fold-editorial{font-size:clamp(25px,2.35vw,36px);line-height:1.25}
+body[data-page=carton] .fold-hero-visual{height:650px;min-height:0;overflow:hidden;border-radius:5px 145px 5px 5px;background:var(--tone-beige) url('/assets/carton-paper-stage.webp') 65% 45%/auto 110%}
+body[data-page=carton] .fold-main-stage{inset:7% -3% 16%}
+body[data-page=carton] .fold-hero-product{--photo-width:143%;--photo-left:-23%;--photo-top:-1%}
+body[data-page=carton] .fold-photo-shadow{filter:drop-shadow(1px 3px 1px rgb(var(--tone-ink-rgb) / 0.333)) drop-shadow(9px 14px 9px rgb(var(--tone-ink-rgb) / 0.251))}
+.carton-hero-label{position:absolute;bottom:115px;right:25px;font-family:'Playfair Display',Georgia,serif;font-size:26px;line-height:1.2;color:var(--tone-ink)}
+body[data-page=carton] .fold-scene-index{right:auto;left:27px;top:26px;font-size:8px}
+body[data-page=carton] .fold-hero-visual figcaption{background:rgb(var(--tone-surface-rgb) / 0.733);padding:17px 18px;left:18px;right:18px;bottom:16px;border:1px solid rgb(var(--tone-sage-rgb) / 0.333);backdrop-filter:blur(8px);border-radius:3px}
+body[data-page=carton] .fold-section-heading>p{font-size:14px;line-height:1.85}
+body[data-page=carton] .fold-structure-photo,body[data-page=carton] .fold-sample-photo{background:var(--tone-line) url('/assets/carton-paper-stage.webp') center 65%/auto 140%;border:1px solid var(--tone-line)}
+body[data-page=carton] .fold-structure-photo{height:330px}
+body[data-page=carton] .fold-structure-photo .fold-photo{--photo-width:145%;--photo-left:-23%;--photo-top:-10%}
+body[data-page=carton] .fold-structure-photo .fold-photo[data-photo="032A5361"]{--photo-width:122%;--photo-left:-14%;--photo-top:-1%}
+body[data-page=carton] .fold-structure-photo .fold-photo[data-photo="032A5358"]{--photo-width:138%;--photo-left:-19%;--photo-top:-7%}
+body[data-page=carton] .fold-structure strong{font-size:14px}
+body[data-page=carton] .fold-structure p{font-size:13px}
+body[data-page=carton] .fold-materials{background:var(--tone-beige)}
+body[data-page=carton] .carton-detail-photo{background:#fff;border-radius:100px 4px 4px 4px;height:580px}
+body[data-page=carton] .carton-detail-photo>img{object-fit:cover;object-position:52% center;transform:scale(1.18)}
+body[data-page=carton] .fold-material-notes p{font-size:13px}
+body[data-page=carton] .fold-sample-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:44px 28px}
+body[data-page=carton] .fold-sample-photo{aspect-ratio:1.35;border-radius:4px 70px 4px 4px}
+body[data-page=carton] .fold-sample:nth-child(even) .fold-sample-photo{border-radius:70px 4px 4px 4px;background-position:80% 65%}
+body[data-page=carton] .fold-sample-photo .fold-photo{--photo-width:123%;--photo-left:-12%;--photo-top:-13%}
+body[data-page=carton] .fold-sample-photo .fold-photo[data-photo="032A5361"]{--photo-width:104%;--photo-left:-4%;--photo-top:-1%}
+body[data-page=carton] .fold-sample-photo .fold-photo[data-photo="032A5326"]{--photo-width:112%;--photo-left:-6%;--photo-top:-8%}
+body[data-page=carton] .fold-sample-copy h3{font-size:29px;min-height:0;margin-bottom:17px}
+body[data-page=carton] .fold-sample-copy>p{font-size:11px;margin-bottom:10px}
+body[data-page=carton] .fold-sample-copy .fold-text-link,body[data-page=carton] .fold-sample-request{font-size:13px}
+body[data-page=carton] .fold-sample-number{font-size:11px}
+body[data-page=carton] .fold-zoom{width:44px;height:44px}
+body[data-page=carton] .fold-filters button,body[data-page=carton] #fold-result-count{font-size:12px}
+@media(min-width:1700px){body[data-page=carton] .fold-hero-visual{height:700px}}
+@media(max-width:1200px){body[data-page=carton] .fold-hero h1{font-size:58px}body[data-page=carton] .fold-hero-visual{height:620px}body[data-page=carton] .fold-main-stage{inset:20% -3% 16%}.carton-hero-label{font-size:23px}body[data-page=carton] .fold-structure-photo{height:270px}}
+@media(max-width:900px){body[data-page=carton] .fold-hero h1{font-size:45px}body[data-page=carton] .fold-hero-visual{height:610px}body[data-page=carton] .fold-main-stage{inset:28% -6% 15%}body[data-page=carton] .fold-hero .fold-eyebrow{font-size:9px}body[data-page=carton] .fold-hero-visual figcaption{font-size:10px;left:12px;right:12px;padding:12px}.carton-hero-label{bottom:145px;font-size:23px}body[data-page=carton] .fold-structure-photo{height:215px}body[data-page=carton] .fold-structure-photo .fold-photo{--photo-top:0%}body[data-page=carton] .fold-section-heading>p{font-size:13px}body[data-page=carton] .fold-sample-copy h3{font-size:25px}body[data-page=carton] .fold-material-photo{height:640px}}
+@media(max-width:650px){
+ body[data-page=carton] .site-header,body[data-page=carton] .site-header.scrolled{height:80px}
+ body[data-page=carton] .fold-hero{padding-top:8px;padding-bottom:28px}body[data-page=carton] .fold-breadcrumb{margin-bottom:28px}
+ body[data-page=carton] .fold-hero h1{font-size:clamp(47px,12vw,65px)}body[data-page=carton] .fold-editorial{font-size:29px}
+ body[data-page=carton] .fold-hero-visual{height:460px;border-top-right-radius:90px;margin-top:28px}body[data-page=carton] .fold-main-stage{inset:14% -1% 16%}body[data-page=carton] .fold-hero-product{--photo-width:143%;--photo-left:-23%;--photo-top:0%}
+ .carton-hero-label{right:20px;bottom:100px;font-size:22px}body[data-page=carton] .fold-scene-index{font-size:7px;left:20px}
+ body[data-page=carton] .fold-structure-photo{height:330px}body[data-page=carton] .fold-structure-photo .fold-photo{--photo-top:-5%}
+ body[data-page=carton] .fold-structure-photo .fold-photo[data-photo="032A5361"]{--photo-top:3%}
+ body[data-page=carton] .carton-detail-photo{height:400px;border-top-left-radius:65px}
+ body[data-page=carton] .fold-sample-grid{grid-template-columns:1fr;gap:35px}body[data-page=carton] .fold-sample-photo{aspect-ratio:1.12}
+ body[data-page=carton] .fold-sample-photo .fold-photo{--photo-width:136%;--photo-left:-18%;--photo-top:-4%}body[data-page=carton] .fold-sample-photo .fold-photo[data-photo="032A5361"]{--photo-width:122%;--photo-left:-13%;--photo-top:0%}body[data-page=carton] .fold-sample-photo .fold-photo[data-photo="032A5326"]{--photo-width:124%;--photo-left:-12%;--photo-top:0%}
+ body[data-page=carton] .fold-sample-copy>p{min-height:0}body[data-page=carton] .fold-sample-copy h3{font-size:28px;min-height:0}body[data-page=carton] .fold-sample-copy>div{display:flex}body[data-page=carton] .fold-filters button{font-size:11px}
+}
+@media(max-width:359px){body[data-page=carton] .fold-hero h1{font-size:43px}body[data-page=carton] .fold-editorial{font-size:27px}body[data-page=carton] .fold-hero-visual{height:415px}.carton-hero-label{font-size:19px}body[data-page=carton] .fold-structure-photo{height:285px}}
+/* Fit the full photographed box above its caption at every viewport. */
+body[data-page=carton] .fold-main-stage{inset:10% 0 18%}
+body[data-page=carton] .fold-hero-product img{height:100%;width:auto;left:50%;top:0;transform:translateX(-50%)}
+@media(min-width:651px) and (max-width:1050px){body[data-page=carton] .fold-main-stage{inset:23% 0 24%}}
+
+.fold-photo[data-photo="032A5366"]{--photo-clip:polygon(27.000% 34.833%,60.944% 10.917%,72.667% 16.583%,73.000% 17.083%,66.778% 62.333%,43.500% 95.500%,34.611% 84.000%,29.667% 52.333%,29.500% 51.000%)}
+
+.fold-photo[data-photo="032A5358"]{--photo-clip:polygon(24.278% 38.333%,62.222% 13.333%,66.778% 14.083%,71.389% 15.833%,75.333% 18.083%,74.167% 56.750%,41.444% 93.167%,38.167% 90.250%,30.556% 78.833%)}
+
+.fold-photo[data-photo="032A5326"]{--photo-clip:polygon(67.722% 8.167%,79.889% 18.000%,75.778% 58.333%,30.667% 94.333%,21.278% 78.667%,19.444% 64.750%,18.889% 61.333%,20.222% 61.167%,19.444% 57.583%,18.667% 57.083%,18.611% 53.583%,19.056% 53.250%,16.778% 37.917%,17.389% 37.917%,17.889% 36.417%)}
+
+.fold-photo[data-photo="032A5361"]{--photo-clip:polygon(58.389% 8.417%,69.667% 16.000%,70.056% 17.750%,71.444% 18.750%,73.278% 18.417%,85.833% 26.583%,86.500% 28.250%,86.278% 34.500%,83.833% 56.417%,46.000% 93.417%,22.778% 62.417%,18.889% 37.917%,18.778% 36.417%)}

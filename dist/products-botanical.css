@@ -1,0 +1,107 @@
+/* Reference-led hero: live typography and controls, original product photograph. */
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/cormorant-garamond-500.ttf') format('truetype')}
+.botanical-hero{position:relative;isolation:isolate;background:var(--tone-surface);overflow:hidden;border-bottom:1px solid var(--tone-line)}
+.botanical-paper{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 30% 25%,rgb(var(--tone-paper-rgb) / 0.459),transparent 65%),url('/assets/atelier-paper.webp') left center/cover;opacity:.19}
+.botanical-layout{position:relative;display:grid;grid-template-columns:49% 51%;min-height:720px;align-items:center}
+.botanical-copy{position:relative;z-index:2;padding:32px 0 60px;max-width:680px}
+.botanical-breadcrumb{display:flex;gap:12px;align-items:center;font-size:11px;color:var(--tone-muted);margin-bottom:48px}
+.botanical-breadcrumb a{min-height:28px;display:inline-flex;align-items:center}.botanical-breadcrumb a:hover{text-decoration:underline}
+.botanical-eyebrow{display:flex;align-items:center;gap:22px;font-size:12px;letter-spacing:.13em;font-weight:500;margin-bottom:25px;color:var(--tone-muted)}
+.botanical-eyebrow:after{content:'';width:80px;height:1px;background:var(--tone-line)}
+.botanical-copy h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(50px,5.5vw,89px);font-weight:500;line-height:1.04;letter-spacing:-.035em;color:var(--tone-ink);margin:0;position:relative}
+.botanical-copy h1>span:last-child{display:block}.headline-leaf{display:inline-block;width:.52em;height:.62em;margin-left:.3em;vertical-align:.08em}
+.botanical-lead{font-size:clamp(15px,1.3vw,20px);line-height:1.75;max-width:580px;color:var(--tone-muted);margin:24px 0 32px}
+.botanical-actions{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.botanical-primary{background:var(--tone-earth);color:var(--tone-paper);min-height:60px;padding:17px 28px;font-size:16px;gap:22px;box-shadow:inset 0 1px 0 #ffffff1a}.botanical-primary:hover{background:var(--tone-earth-hover)}.botanical-primary .icon{width:25px;height:25px}
+.botanical-quote{background:transparent;color:var(--tone-ink);min-height:48px;font-size:15px;text-decoration:underline;text-underline-offset:7px;text-decoration-color:var(--tone-sage);text-decoration-thickness:1px}
+.botanical-benefits{list-style:none;display:grid;grid-template-columns:1fr 1.1fr 1.6fr;gap:20px;margin:56px 0 30px;padding:0}
+.botanical-benefits li{display:flex;gap:10px;align-items:center;font-size:12px;line-height:1.65;white-space:pre-line}
+.botanical-icon{display:grid;place-items:center;background:var(--tone-beige);border-radius:50%;width:42px;height:42px;flex:0 0 42px;color:var(--tone-ink)}.botanical-icon svg{width:27px;height:27px}
+.botanical-facts{display:grid;grid-template-columns:1fr 1fr 1.5fr;border-top:1px solid var(--tone-line);padding-top:26px;gap:25px;max-width:640px}
+.botanical-facts>div{display:flex;flex-direction:column;justify-content:center;position:relative;gap:2px;font-size:12px;line-height:1.6}
+.botanical-facts>div+div{border-left:1px solid var(--tone-line);padding-left:25px}.botanical-facts strong{font-weight:500;font-size:28px;line-height:1.2}.botanical-facts .botanical-advice{flex-direction:row;align-items:center;gap:12px}.botanical-advice>span:last-child{max-width:145px}
+.botanical-scene{position:absolute;z-index:0;top:0;bottom:0;left:48%;right:calc((min(100vw - var(--gutter)*2,1440px) - 100vw)/2);margin:0;isolation:isolate;overflow:hidden}
+.botanical-setting{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:58% center;z-index:-2}
+.botanical-scene:before{content:'';position:absolute;left:-170px;top:-25%;width:260px;height:155%;background:var(--tone-surface);border-radius:50%;transform:rotate(-17deg);z-index:-1;filter:drop-shadow(8px 4px 13px rgb(var(--tone-ink-rgb) / 0.047))}
+.botanical-product-shadow{position:absolute;inset:11% -20% 2% -17%;filter:drop-shadow(7px 21px 12px rgb(var(--tone-ink-rgb) / 0.271))}
+.botanical-product{position:absolute;top:50%;left:0;width:100%;height:auto;max-width:none;transform:translateY(-50%) rotate(-7deg);clip-path:polygon(18.89% 33.5%,19.11% 33.17%,40.61% 12.17%,41.11% 12.17%,84.83% 45.67%,85% 45.83%,84.39% 48.83%,81.94% 60%,81.72% 60.5%,64.22% 91.5%,63.61% 92.17%,63.33% 92%,21.67% 47.83%,21.28% 47%,21.17% 46.5%,19.5% 37.17%)}
+.botanical-inspect{position:absolute;bottom:46px;right:40px;display:flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border:1px solid rgb(var(--tone-muted-rgb) / 0.267);border-radius:30px;background:rgb(var(--tone-surface-rgb) / 0.91);backdrop-filter:blur(10px);font-size:12px;color:var(--tone-ink)}.botanical-inspect>span:first-child{font-size:22px;line-height:1}.botanical-inspect:hover{background:var(--tone-paper)}
+.botanical-scene figcaption{position:absolute;bottom:20px;right:42px;font-size:10px;color:var(--tone-ink);background:rgb(var(--tone-surface-rgb) / 0.863);padding:2px 8px;border-radius:3px}
+.botanical-branch{position:absolute;z-index:1;left:-50px;top:45px;width:150px;height:530px;color:var(--tone-sage);opacity:.52;pointer-events:none}
+.lang-en .botanical-copy h1{font-size:clamp(44px,4.5vw,72px)}
+@media(min-width:1700px){.botanical-layout{min-height:790px}.botanical-copy{padding-block:40px 70px}.botanical-benefits{margin-top:65px}.botanical-breadcrumb{margin-bottom:65px}}
+@media(max-width:1200px){.botanical-layout{grid-template-columns:52% 48%;min-height:650px}.botanical-scene{left:50%}.botanical-copy{padding-bottom:40px}.botanical-breadcrumb{margin-bottom:34px}.botanical-copy h1{font-size:clamp(48px,5.3vw,64px)}.botanical-benefits{gap:10px;margin-top:40px}.botanical-benefits li{font-size:10px;gap:7px}.botanical-icon{width:35px;height:35px;flex-basis:35px}.botanical-icon svg{width:24px;height:24px}.botanical-facts{gap:18px}.botanical-facts>div+div{padding-left:18px}.botanical-primary{font-size:13px;min-height:54px;padding:15px 21px;gap:15px}.botanical-actions{gap:20px}.botanical-quote{font-size:13px}.botanical-branch{left:-65px;opacity:.3}.botanical-product-shadow{inset:13% -26% 5% -25%}}
+@media(max-width:900px){.botanical-benefits{grid-template-columns:1fr 1fr;gap:14px}.botanical-benefits li:last-child{grid-column:1/-1}.botanical-facts{gap:12px}.botanical-facts>div{font-size:10px}.botanical-facts>div+div{padding-left:12px}.botanical-advice .botanical-icon{display:none}.botanical-copy h1{font-size:49px}.lang-en .botanical-copy h1{font-size:43px}.botanical-lead{font-size:15px;max-width:360px}.botanical-eyebrow{font-size:10px;gap:12px}.botanical-eyebrow:after{width:45px}.botanical-product-shadow{inset:22% -40% 8% -35%}.botanical-actions{gap:8px 17px}}
+@media(max-width:700px){.botanical-layout{display:flex;flex-direction:column;width:100%;min-height:0}.botanical-copy{width:100%;max-width:none;padding:20px var(--gutter) 25px}.botanical-breadcrumb{font-size:10px;margin-bottom:30px}.botanical-eyebrow{margin-bottom:20px;font-size:10px}.botanical-copy h1{font-size:clamp(40px,8.6vw,62px);letter-spacing:-.05em}.lang-en .botanical-copy h1{font-size:clamp(36px,8vw,55px)}.botanical-lead{font-size:15px;max-width:420px;margin:19px 0 22px}.botanical-actions{gap:7px 20px}.botanical-primary{min-height:52px;padding:14px 20px;font-size:12px}.botanical-primary .icon{width:22px}.botanical-quote{font-size:12px}.botanical-benefits{grid-template-columns:1fr 1fr 1.4fr;margin:30px 0 22px;gap:12px}.botanical-benefits li{flex-direction:column;align-items:flex-start;font-size:10px;gap:8px}.botanical-benefits li:last-child{grid-column:auto}.botanical-facts{padding-top:20px;grid-template-columns:.85fr .85fr 1.4fr}.botanical-facts strong{font-size:25px}.botanical-facts .botanical-advice{justify-content:flex-start}.botanical-scene{position:relative;left:auto;right:auto;top:auto;bottom:auto;width:100%;height:420px}.botanical-scene:before{display:none}.botanical-setting{object-position:center 53%}.botanical-product-shadow{inset:-8% -10% 0 -12%}.botanical-inspect{bottom:38px;right:20px;font-size:11px}.botanical-scene figcaption{bottom:13px;right:20px;font-size:9px}.botanical-branch{width:100px;height:360px;left:-66px;top:40px;opacity:.25}}
+@media(max-width:390px){.botanical-scene{height:330px}.botanical-copy h1{font-size:42px}.botanical-primary{padding-inline:17px;font-size:11px}.botanical-quote{font-size:11px}.botanical-actions{gap:8px 15px}.botanical-lead{font-size:14px}.botanical-benefits{gap:9px}.botanical-benefits li{font-size:9px}.botanical-facts>div{font-size:9px}.botanical-facts{gap:10px}.botanical-facts>div+div{padding-left:10px}}
+@media(prefers-reduced-motion:reduce){.botanical-primary:hover{transform:none}}
+
+/* Measured against the owner's 1672 × 941 reference, including its 96px header. */
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('/assets/playfair-display-600.ttf') format('truetype')}
+.botanical-copy h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.035em}
+.botanical-breadcrumb{display:none}
+.botanical-paper,.botanical-branch{display:none}
+.botanical-hero{background:var(--tone-surface)}
+.botanical-scene:before{display:none}
+.botanical-facts strong small{font-size:.68em;font-weight:400;margin-left:1px}
+.botanical-scene figcaption{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(min-width:1100px){
+ body[data-page=products]{--reference-unit:calc(100vw / 1672)}
+ body[data-page=products] .site-header,body[data-page=products] .site-header.scrolled{height:calc(96 * var(--reference-unit));background:var(--tone-paper);border-bottom:1px solid var(--tone-beige);box-shadow:none}
+ body[data-page=products] .header-inner{width:calc(1520 * var(--reference-unit));max-width:none;gap:calc(56 * var(--reference-unit))}
+ body[data-page=products] .brand .logo-window,body[data-page=products] .site-header.scrolled .logo-window{width:calc(212 * var(--reference-unit))}
+ body[data-page=products] .desktop-nav{gap:calc(45 * var(--reference-unit));margin-left:0}
+ body[data-page=products] .nav-link{font-size:calc(17 * var(--reference-unit));gap:calc(10 * var(--reference-unit));min-height:44px}
+ body[data-page=products] .header-actions{gap:calc(30 * var(--reference-unit))}
+ body[data-page=products] .language-switch{font-size:calc(17 * var(--reference-unit));gap:calc(13 * var(--reference-unit))}
+ body[data-page=products] .header-quote{width:calc(217 * var(--reference-unit));min-height:calc(54 * var(--reference-unit));padding:0;font-size:calc(16 * var(--reference-unit));gap:calc(22 * var(--reference-unit));background:var(--tone-earth)}
+ body[data-page=products] .header-quote .icon{width:calc(22 * var(--reference-unit))}
+ .botanical-hero{height:calc(845 * var(--reference-unit));min-height:0;border:0;background:var(--tone-surface) url('/assets/botanical-reference-background.webp') center calc(-96 * var(--reference-unit))/100% auto no-repeat}
+ .botanical-layout{display:block;width:100%;height:100%;min-height:0;margin:0}
+ .botanical-copy{position:absolute;inset:0;width:100%;max-width:none;padding:0;pointer-events:none}
+ .botanical-copy a,.botanical-copy button{pointer-events:auto}
+ .botanical-eyebrow{position:absolute;left:calc(152 * var(--reference-unit));top:calc(121 * var(--reference-unit));margin:0;gap:calc(22 * var(--reference-unit));font-size:calc(14 * var(--reference-unit));line-height:24px;letter-spacing:.1em}
+ .botanical-eyebrow:after{width:calc(102 * var(--reference-unit));background:var(--tone-line)}
+ .botanical-copy h1{position:absolute;left:calc(151 * var(--reference-unit));top:calc(157 * var(--reference-unit));font-size:calc(80 * var(--reference-unit));line-height:1.075;letter-spacing:-.035em;width:calc(650 * var(--reference-unit));font-weight:600;color:var(--tone-ink)}
+ .headline-leaf{width:calc(46 * var(--reference-unit));height:calc(53 * var(--reference-unit));margin-left:calc(26 * var(--reference-unit));vertical-align:calc(7 * var(--reference-unit))}
+ .botanical-lead{position:absolute;left:calc(152 * var(--reference-unit));top:calc(350 * var(--reference-unit));font-size:calc(22 * var(--reference-unit));line-height:1.5;margin:0;max-width:none;letter-spacing:-.035em;color:var(--tone-muted)}
+ .botanical-actions{position:absolute;left:calc(152 * var(--reference-unit));top:calc(422 * var(--reference-unit));gap:calc(35 * var(--reference-unit));flex-wrap:nowrap}
+ .botanical-primary{width:calc(320 * var(--reference-unit));height:calc(74 * var(--reference-unit));min-height:44px;padding:0;font-size:calc(20 * var(--reference-unit));gap:calc(22 * var(--reference-unit));background:var(--tone-earth);font-weight:500;letter-spacing:-.025em}
+ .botanical-primary .icon{width:calc(27 * var(--reference-unit));height:calc(27 * var(--reference-unit))}
+ .botanical-quote{font-size:calc(19 * var(--reference-unit));font-weight:400;letter-spacing:-.035em;text-underline-offset:7px}
+ .botanical-benefits{position:absolute;left:calc(115 * var(--reference-unit));top:calc(567 * var(--reference-unit));grid-template-columns:calc(161 * var(--reference-unit)) calc(184 * var(--reference-unit)) calc(285 * var(--reference-unit));gap:calc(12 * var(--reference-unit));margin:0}
+ .botanical-benefits li{font-size:calc(15 * var(--reference-unit));line-height:1.5;gap:calc(13 * var(--reference-unit));letter-spacing:-.02em}
+ .botanical-icon{width:calc(49 * var(--reference-unit));height:calc(49 * var(--reference-unit));flex-basis:calc(49 * var(--reference-unit));background:var(--tone-beige)}
+ .botanical-benefits li:first-child .botanical-icon{background:var(--tone-line)}
+ .botanical-icon svg{width:calc(31 * var(--reference-unit));height:calc(31 * var(--reference-unit))}
+ .botanical-facts{position:absolute;left:calc(115 * var(--reference-unit));top:calc(654 * var(--reference-unit));width:calc(640 * var(--reference-unit));max-width:none;padding-top:calc(36 * var(--reference-unit));grid-template-columns:calc(164 * var(--reference-unit)) calc(180 * var(--reference-unit)) 1fr;gap:0;border-color:var(--tone-line)}
+ .botanical-facts>div{font-size:calc(15 * var(--reference-unit));line-height:1.45;gap:2px}
+ .botanical-facts>div+div{padding-left:calc(42 * var(--reference-unit));border-color:var(--tone-sage)}
+ .botanical-facts strong{font-size:calc(32 * var(--reference-unit));font-weight:500;line-height:1}
+ .botanical-facts .botanical-advice{gap:calc(12 * var(--reference-unit));justify-content:flex-start;padding-left:calc(37 * var(--reference-unit))}
+ .botanical-advice>span:last-child{max-width:calc(176 * var(--reference-unit));font-size:calc(15 * var(--reference-unit));line-height:1.55}
+ .botanical-scene{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+ .botanical-setting{display:none}
+ .botanical-product-shadow{inset:0;filter:drop-shadow(5px 13px 8px rgb(var(--tone-ink-rgb) / 0.271))}
+ .botanical-product{top:calc(46.7 * var(--reference-unit));left:calc(662.2 * var(--reference-unit));width:calc(1800 * var(--reference-unit));height:auto;transform-origin:0 0;transform:matrix(.583715,.030092,.025609,.588465,0,0)}
+ .botanical-inspect{pointer-events:auto;left:calc(980 * var(--reference-unit));top:calc(265 * var(--reference-unit));width:calc(485 * var(--reference-unit));height:calc(390 * var(--reference-unit));right:auto;bottom:auto;background:none;border:0;border-radius:0;backdrop-filter:none;color:transparent;display:block;padding:0;transform:rotate(27deg)}
+ .botanical-inspect span{opacity:0}.botanical-inspect:hover{background:none}.botanical-inspect:focus-visible{outline:2px solid var(--tone-earth);outline-offset:6px}
+ .lang-en .botanical-copy h1{font-size:calc(64 * var(--reference-unit));line-height:1.2;width:calc(670 * var(--reference-unit))}
+ .lang-en .botanical-lead{max-width:calc(580 * var(--reference-unit));font-size:calc(20 * var(--reference-unit))}
+}
+@media(max-width:1099px){.botanical-hero{background:var(--tone-surface) url('/assets/botanical-reference-background.webp') left top/auto 130% no-repeat}.botanical-copy{padding-top:55px}.botanical-copy h1{font-size:47px;line-height:1.1}.botanical-setting{content:url('/assets/botanical-reference-background.webp');object-position:right center;object-fit:cover}.botanical-scene{background:var(--tone-surface)}.botanical-inspect{background:rgb(var(--tone-surface-rgb) / 0.91)}.botanical-advice .botanical-icon{display:none}}
+@media(max-width:700px){.botanical-hero{background-size:auto 95%;background-position:15% top}.botanical-copy{padding-top:35px}.botanical-copy h1{font-size:clamp(37px,8.8vw,57px);line-height:1.1}.botanical-scene{background-image:url('/assets/botanical-reference-background.webp');background-size:200% auto;background-position:right bottom}.botanical-setting{display:none}.botanical-lead{font-size:15px}.botanical-benefits li{font-size:11px}.botanical-facts>div{font-size:11px}}
+@media(min-width:1100px){
+ body[data-page=products] .desktop-nav{gap:calc(38 * var(--reference-unit))}
+ body[data-page=products] .header-actions{transform:translateX(calc(-4 * var(--reference-unit)))}
+ .botanical-copy h1{top:calc(158 * var(--reference-unit))}
+ .botanical-copy h1>span{transform:scaleX(1.075);transform-origin:left;display:inline-block}
+ .botanical-copy h1>span:last-child{display:block}
+ .headline-leaf{margin-left:calc(49 * var(--reference-unit))}
+ .botanical-lead{letter-spacing:0}
+ .botanical-quote{padding-inline:0}
+ .botanical-facts .botanical-advice{padding-left:calc(40 * var(--reference-unit))}
+ .botanical-advice>span:last-child{white-space:pre-line}
+ .lang-en .botanical-copy h1>span{transform:none}
+ .lang-en .headline-leaf{margin-left:calc(20 * var(--reference-unit))}
+}

@@ -2,6 +2,8 @@
 
 ## Bước 1 Đặc tả nội dung giao diện và chức năng
 
+**Cập nhật thiết kế mới nhất:** chủ website chọn bộ màu Natural Green #5E7D5A, Warm Beige #E7DFD1, Earthy Brown #8A6A55 cho toàn website. Xem `natural-colour-theme.md` để biết vai trò màu, sắc độ chữ và cách áp dụng. Các mô tả màu cũ trong tài liệu này là cơ sở giai đoạn trước; nội dung, cấu trúc và chức năng vẫn theo kế hoạch.
+
 Tài liệu dành cho chủ website và đội triển khai. Cơ sở thiết kế là mẫu đã được chốt ngày 11 tháng 10 năm 2026: tiêu đề lớn “Ý tưởng phẳng. Ấn tượng đa chiều.”, hình bao bì chuyển từ bản trải phẳng sang hộp hoàn chỉnh, danh mục dạng khuôn hộp, ảnh nhà máy và các nút liên hệ.
 
 Mục tiêu là nâng cấp thương hiệu HotPrint, giới thiệu năng lực sản xuất và tiếp nhận cơ hội bán hàng từ bộ phận mua hàng của doanh nghiệp. Website phục vụ tiếng Việt và tiếng Anh, ưu tiên trải nghiệm trên máy tính và có bố cục riêng phù hợp cho điện thoại.
@@ -380,6 +382,8 @@ Không hiển thị trạng thái “Còn hàng”, số lượng tồn hay th�
 
 ## 8 2 P10 Về HotPrint có sáu phần
 
+**Trạng thái 13/10/2026:** đã có bản VI/EN tại `/ve-chung-toi/` và `/en/about/`. Xem `about-hotprint.md` về nội dung, thiết kế, ảnh thật và kiểm tra. Bộ màu hiện tại là xanh tự nhiên/be/nâu đất theo yêu cầu mới nhất.
+
 **Phần 1 Giới thiệu thương hiệu.** H1 “Về HotPrint”, logo, tên Công Ty TNHH Tập Đoàn Hoàng Thị và đoạn giới thiệu ngắn. Ảnh chọn từ đội ngũ hoặc hoạt động công ty, có cùng sắc độ với các trang khác.
 
 **Phần 2 Câu chuyện phát triển.** Mốc thành lập năm 2004 được website hiện tại công bố. Các mốc tiếp theo lấy từ hồ sơ được công ty duyệt; không cần tạo một timeline dài nếu chỉ có hai hoặc ba mốc quan trọng. Trình bày một câu chuyện liên tục, hình thật xen kẽ.
@@ -408,6 +412,8 @@ Màn hình máy tính chia hai cột: giới thiệu và hotline bên trái chi�
 
 ## 9 2 P12 Yêu cầu báo giá
 
+**Trạng thái 13/10/2026:** đã có bản VI/EN tại `/yeu-cau-bao-gia/` và `/en/request-a-quote/`; xem `quote-request.md`. Biểu mẫu trên một trang, không tính giá, giữ dữ liệu khi đổi ngôn ngữ và điền đúng mẫu từ danh mục. Bản thử chuẩn bị email để khách tự gửi; chỉ ghi tên tệp để khách đính kèm trong email. Chưa có backend tiếp nhận, upload hoặc mã yêu cầu.
+
 **Phần giới thiệu:** H1 “Chia sẻ nhu cầu bao bì của bạn”, một câu giải thích đội ngũ sẽ trao đổi để xây dựng báo giá phù hợp. Không hiển thị lời hứa phản hồi trong 30 phút hoặc 24 giờ nếu HotPrint chưa có chính sách đó. Hotline và Zalo được đặt cạnh lời giới thiệu, không lấn át nút gửi.
 
 **Phần biểu mẫu:** ưu tiên năm mục bắt buộc gồm người liên hệ, công ty, ít nhất một kênh liên hệ hợp lệ, nhóm sản phẩm và mô tả nhu cầu. Nếu khách chọn Chưa rõ loại sản phẩm, hệ thống vẫn nhận yêu cầu. Các thông số chi tiết là tùy chọn để khách không phải biết hết kỹ thuật trước khi liên hệ.
@@ -433,6 +439,8 @@ Nút chính là **Gửi yêu cầu báo giá**. Sau khi gửi thành công, hi�
 
 ## 9 3 P13 Yêu cầu mẫu
 
+**Trạng thái 13/10/2026:** đã có bản VI/EN `/yeu-cau-mau/` và `/en/request-a-sample/`; xem `sample-request.md`. Biểu mẫu một trang, loại mẫu, preview ảnh thật và cách nhận/địa chỉ tùy chọn. Các nút mẫu từ website đã nối vào P13. Bản thử chuẩn bị email, chưa tiếp nhận/upload trên máy chủ hoặc xác nhận mẫu đang giao.
+
 **Phần giới thiệu:** H1 “Cùng xem và cảm nhận mẫu bao bì”. Nêu hai loại nhu cầu: mẫu tham khảo có sẵn hoặc tư vấn làm mẫu theo dự án. Khách chưa biết chọn loại nào được chọn Cần tư vấn. Không dùng chữ “Miễn phí” cho mẫu, vận chuyển hoặc thiết kế nếu chưa có chính sách đã duyệt.
 
 **Biểu mẫu:** dùng họ tên, công ty và ít nhất một kênh liên hệ; thêm nhóm sản phẩm, mẫu quan tâm, loại mẫu muốn trao đổi và mục đích sử dụng. Số lượng mẫu, tệp tham khảo và nhu cầu giao mẫu là tùy chọn. Địa chỉ nhận hàng chưa bắt buộc ở lần liên hệ đầu; nếu khách chọn Mong muốn nhận mẫu qua giao hàng, cho phép nhập địa chỉ nhưng có thể để lại sau khi được tư vấn.
@@ -442,6 +450,8 @@ Nút chính là **Gửi yêu cầu báo giá**. Sau khi gửi thành công, hi�
 **Phần hướng dẫn:** mô tả khác nhau giữa mẫu tham khảo, mẫu cấu trúc và mẫu in nếu HotPrint áp dụng. Có liên kết xem sản phẩm, gọi điện và Zalo. Tất cả mẫu đã chọn được hiển thị bằng tên hoặc mã để khách kiểm tra.
 
 ## 9 4 P14 Đặt lịch tư vấn
+
+**Trạng thái 13/10/2026:** đã có bản VI/EN tại `/dat-lich-tu-van/` và `/en/request-a-consultation/`. Xem `consultation-request.md`. Bản thử chuẩn bị email, chưa có backend nhận đề nghị lịch hoặc upload; không hiện trạng thái P18 đã nhận hay gửi thư mời. Khách tự đề nghị ngày/khoảng giờ, chọn múi giờ và hình thức; HotPrint cần trao đổi xác nhận. Quy tắc tiếp nhận dưới đây là mục tiêu cho giai đoạn tích hợp hệ thống thật.
 
 **Phần giới thiệu:** H1 “Đề nghị lịch tư vấn cùng HotPrint”. Nội dung nói rõ đây là lịch mong muốn cần nhân sự xác nhận. Khách có thể chọn tư vấn trực tuyến, qua điện thoại hoặc đề nghị gặp trực tiếp trong phạm vi công ty cho phép.
 
@@ -461,6 +471,8 @@ Tệp chỉ nhận loại và dung lượng đã nêu; kiểm tra ở cả trìn
 
 ## 10 1 P11 Liên hệ có bốn phần
 
+**Trạng thái 13/10/2026:** đã có bản VI/EN tại `/lien-he/` và `/en/contact/`. Xem `contact-page.md` về thiết kế, kênh liên hệ đã đối chiếu, địa chỉ đang công bố và kiểm tra. Chủ website đã xác nhận giữ địa chỉ đang công bố. Bản thử dùng nút tìm theo địa chỉ, chưa khẳng định ghim vị trí đã được kiểm chứng.
+
 **Phần 1 Mở đầu:** H1 “Kết nối với HotPrint”, câu hướng dẫn chọn cách trao đổi. **Phần 2 Kênh liên hệ:** số điện thoại, email, Zalo đã xác minh và giờ tiếp nhận nếu được duyệt; mỗi kênh có một nút rõ. **Phần 3 Địa điểm:** trụ sở và nhà máy, liên kết bản đồ tới đúng địa điểm; ảnh bên ngoài nếu có. **Phần 4 Chọn nhu cầu:** ba nút Báo giá, Yêu cầu mẫu, Đặt lịch tư vấn cùng mô tả ngắn.
 
 Trang Liên hệ không cần một biểu mẫu tổng quát thứ tư trùng với ba biểu mẫu chuyên biệt. Nếu thêm ô gửi câu hỏi chung, nó phải dùng cùng hệ thống tiếp nhận và được xác định riêng ở phạm vi mở rộng.
@@ -468,6 +480,8 @@ Trang Liên hệ không cần một biểu mẫu tổng quát thứ tư trùng v
 Các địa chỉ website cũ hiện ghi ở Đồng Nai cần được chủ website đối chiếu tên phường và địa chỉ hiện hành trước khi công bố lại. Liên kết bản đồ cần kiểm tra vị trí thực, không chỉ tìm theo một chuỗi địa chỉ.
 
 ## 10 2 P15 Kiến thức bao bì có bốn phần
+
+**Trạng thái 13/10/2026:** đã có bản VI/EN tại `/kien-thuc/` và `/en/packaging-insights/`, sáu bài hướng dẫn có trang đọc và mục lục. Xem `packaging-insights.md` về nội dung, ảnh thật, tìm kiếm/chủ đề và kiểm tra. Sáu bài là bản biên tập mới cần HotPrint rà soát kỹ thuật trước công bố. Preview giữ liên kết Tin tức cũ; chưa di chuyển bài hiện hữu hoặc thiết lập 301 trên website thật.
 
 **Phần 1 Giới thiệu:** H1, mô tả giúp người mua chuẩn bị dự án. **Phần 2 Tìm và chọn chủ đề:** ô từ khóa, nhóm Cấu trúc, Vật liệu, Chuẩn bị thiết kế và Quy trình. **Phần 3 Danh sách bài:** ảnh, tiêu đề, ngày cập nhật và đoạn giới thiệu; 9 hoặc 12 bài một trang. **Phần 4 Liên hệ:** mời trao đổi về dự án cụ thể.
 
@@ -478,6 +492,8 @@ Các địa chỉ website cũ hiện ghi ở Đồng Nai cần được chủ we
 Mỗi bài gồm: tiêu đề và ngày cập nhật; ảnh và đoạn mở đầu; nội dung có mục nhỏ và hình minh họa; bài liên quan; CTA tư vấn phù hợp. Nếu bài dài, có mục lục nhấn được, trên điện thoại có thể thu gọn. Văn bản đọc trong cột khoảng 680–760 px; không kéo rộng toàn màn hình. Không thêm mục bình luận nếu công ty chưa có người kiểm duyệt.
 
 ## 10 4 P16 và P17 Các trang chính sách
+
+**Trạng thái P16 ngày 13/10/2026:** đã có bản VI/EN tại `/chinh-sach-rieng-tu/` và `/en/privacy/`, năm mục, mục lục và xóa mã mẫu lưu trên trình duyệt. Xem `privacy-policy.md`. Theo yêu cầu chủ website, đã đối chiếu các trang công ty, sitemap/API; chưa xác minh thời hạn lưu và danh sách bên xử lý email. Bản xem trước mô tả hành vi website mới đã kiểm tra, đánh dấu giới hạn cần công ty rà soát; chưa là chính sách chính thức đã duyệt. Link từ form mở thẻ mới để giữ dữ liệu nhập.
 
 P16 gồm năm mục: thông tin thu thập; mục đích sử dụng; người có thể tiếp cận và dịch vụ xử lý; thời gian lưu cùng cách yêu cầu hỗ trợ; cách liên hệ về dữ liệu. Nội dung phải phù hợp hệ thống thực được triển khai và được người phụ trách của công ty rà soát. Checkbox gửi yêu cầu không gộp với đồng ý nhận quảng cáo.
 

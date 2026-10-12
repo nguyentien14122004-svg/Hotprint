@@ -1,0 +1,76 @@
+/* P06: original bags on a tactile paper backdrop. Masks only reveal source pixels. */
+body[data-page=bag]{background:var(--tone-paper);color:var(--tone-ink)}
+body[data-page=bag] .site-header,body[data-page=bag] .site-header.scrolled{position:sticky;top:0;height:96px;background:var(--tone-paper);border-bottom:1px solid var(--tone-beige);box-shadow:none}
+body[data-page=bag] .fold-hero{padding:25px 0 45px;background:linear-gradient(90deg,rgb(var(--tone-paper-rgb) / 0.961),rgb(var(--tone-paper-rgb) / 0.91)),url('/assets/atelier-paper.webp') center/cover}
+body[data-page=bag] .fold-hero-grid{grid-template-columns:45% 55%}
+body[data-page=bag] .fold-breadcrumb{margin-bottom:46px}
+body[data-page=bag] .fold-hero h1{font-size:clamp(58px,6.4vw,95px);line-height:1.05;white-space:normal;margin-bottom:24px}
+body[data-page=bag] .fold-editorial{font-size:clamp(29px,2.65vw,40px);line-height:1.22}
+body[data-page=bag] .fold-hero-visual{height:680px;min-height:0;overflow:hidden;border-radius:130px 5px 5px 5px;background:var(--tone-beige) url('/assets/bag-paper-stage.webp') center 65%/auto 150%}
+body[data-page=bag] .fold-main-stage{inset:9% 0 20%}
+body[data-page=bag] .fold-photo img{width:138%;height:auto;left:50%;top:50%;transform:translate(-50%,-50%);clip-path:none;mask-image:var(--bag-mask);mask-size:100% 100%;mask-repeat:no-repeat;mask-mode:alpha}
+body[data-page=bag] .fold-hero-product img{height:100%;width:auto;left:47%;top:0;transform:translateX(-50%)}
+body[data-page=bag] .fold-photo-shadow{filter:drop-shadow(1px 3px 1px rgb(var(--tone-ink-rgb) / 0.259)) drop-shadow(7px 13px 8px rgb(var(--tone-ink-rgb) / 0.208))}
+.bag-hero-label{position:absolute;right:30px;bottom:135px;font-family:'Playfair Display',Georgia,serif;font-size:28px;line-height:1.2;color:var(--tone-muted)}
+body[data-page=bag] .fold-scene-index{left:0;right:0;top:34px;text-align:center;font-size:8px;letter-spacing:.16em}
+body[data-page=bag] .fold-hero-visual figcaption{left:25px;right:25px;bottom:23px;padding:16px 18px;border:1px solid rgb(var(--tone-sage-rgb) / 0.333);background:rgb(var(--tone-surface-rgb) / 0.851);border-radius:3px;backdrop-filter:blur(7px)}
+body[data-page=bag] .fold-hero-note{margin-top:29px}
+body[data-page=bag] .fold-section-heading>p{font-size:14px;line-height:1.85}
+body[data-page=bag] .fold-structure-photo,body[data-page=bag] .fold-sample-photo{background:var(--tone-beige) url('/assets/bag-paper-stage.webp') center 70%/auto 160%;border:1px solid var(--tone-line)}
+body[data-page=bag] .fold-structure-photo{height:360px;border-radius:4px 85px 4px 4px}
+body[data-page=bag] .fold-structure:nth-child(2) .fold-structure-photo{border-radius:4px;background-position:60% 70%}
+body[data-page=bag] .fold-structure:nth-child(3) .fold-structure-photo{border-radius:85px 4px 4px 4px}
+body[data-page=bag] .fold-structure h3{font-size:28px;line-height:1.25}
+body[data-page=bag] .fold-structure p{font-size:13px}
+body[data-page=bag] .fold-structure strong{font-size:14px}
+body[data-page=bag] .fold-materials{background:var(--tone-surface)}
+body[data-page=bag] .bag-detail-photo{height:650px;border-radius:100px 4px 4px 4px;background:var(--tone-surface)}
+body[data-page=bag] .bag-detail-photo>img{object-position:49% center;transform:scale(1.16)}
+body[data-page=bag] .fold-material-notes p{font-size:13px}
+body[data-page=bag] .fold-sample-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:39px 22px}
+body[data-page=bag] .fold-sample-photo{aspect-ratio:1/1.4;border-radius:4px}
+body[data-page=bag] .fold-sample:nth-child(4n+1) .fold-sample-photo{border-top-left-radius:65px}
+body[data-page=bag] .fold-sample:nth-child(4n) .fold-sample-photo{border-top-right-radius:65px;background-position:75% 70%}
+body[data-page=bag] .fold-photo[data-photo="032A5355"] img{width:138%}
+body[data-page=bag] .fold-photo[data-photo="032A5311"] img{width:119%}
+body[data-page=bag] .fold-photo[data-photo="032A5336"] img{width:145%}
+body[data-page=bag] .fold-photo[data-photo="032A5332"] img{width:156%}
+body[data-page=bag] .fold-photo[data-photo="032A5357"] img{width:140%}
+body[data-page=bag] .fold-sample-copy h3{font-size:24px;min-height:65px}
+body[data-page=bag] .fold-sample-copy>p{font-size:10px}
+body[data-page=bag] .fold-sample-copy .fold-text-link,body[data-page=bag] .fold-sample-request{font-size:12px}
+body[data-page=bag] .fold-sample-copy .fold-text-link .icon{width:16px}
+body[data-page=bag] .fold-zoom{width:44px;height:44px}
+body[data-page=bag] .fold-filters button,body[data-page=bag] #fold-result-count{font-size:12px}
+body[data-page=bag] .fold-final-art svg{transform:rotate(-5deg)}
+@media(min-width:1700px){body[data-page=bag] .fold-hero-visual{height:710px}}
+@media(max-width:1200px){body[data-page=bag] .fold-hero h1{font-size:75px}body[data-page=bag] .fold-hero-visual{height:640px}body[data-page=bag] .fold-main-stage{inset:15% 0 25%}body[data-page=bag] .fold-sample-grid{grid-template-columns:repeat(3,minmax(0,1fr))}body[data-page=bag] .fold-structure-photo{height:290px}body[data-page=bag] .fold-structure h3{font-size:25px}.bag-hero-label{font-size:25px}}
+@media(max-width:900px){body[data-page=bag] .fold-hero h1{font-size:61px}body[data-page=bag] .fold-hero-visual{height:600px}body[data-page=bag] .fold-main-stage{inset:23% 0 27%}body[data-page=bag] .fold-hero-visual figcaption{left:12px;right:12px;padding:13px 11px;font-size:10px}.bag-hero-label{font-size:23px;bottom:137px}body[data-page=bag] .fold-structure-photo{height:240px}body[data-page=bag] .fold-structure h3{font-size:23px}body[data-page=bag] .fold-section-heading>p{font-size:13px}body[data-page=bag] .fold-sample-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body[data-page=bag] .fold-library-toolbar{display:block}body[data-page=bag] #fold-result-count{margin-top:18px}body[data-page=bag] .bag-detail-photo{height:670px}}
+@media(max-width:650px){
+ body[data-page=bag] .site-header,body[data-page=bag] .site-header.scrolled{height:80px}
+ body[data-page=bag] .fold-hero{padding-top:8px;padding-bottom:28px}body[data-page=bag] .fold-breadcrumb{margin-bottom:28px}
+ body[data-page=bag] .fold-hero h1{font-size:clamp(59px,15vw,78px)}body[data-page=bag] .fold-editorial{font-size:30px}
+ body[data-page=bag] .fold-hero-visual{height:465px;margin-top:27px;border-top-left-radius:100px}body[data-page=bag] .fold-main-stage{inset:13% 0 25%}.bag-hero-label{font-size:21px;right:20px;bottom:115px}
+ body[data-page=bag] .fold-structure-photo{height:340px}body[data-page=bag] .fold-structure h3{font-size:29px}
+ body[data-page=bag] .bag-detail-photo{height:415px;border-top-left-radius:70px}
+ body[data-page=bag] .fold-sample-grid{grid-template-columns:1fr;gap:33px}body[data-page=bag] .fold-sample-photo{aspect-ratio:1/1.13}
+ body[data-page=bag] .fold-photo img{width:128%}body[data-page=bag] .fold-hero-product img{width:auto}
+ body[data-page=bag] .fold-sample-copy h3{font-size:28px;min-height:0}body[data-page=bag] .fold-sample-copy>p{min-height:0;font-size:10px}body[data-page=bag] .fold-sample-copy>div{display:flex}body[data-page=bag] .fold-sample-copy .fold-text-link,body[data-page=bag] .fold-sample-request{font-size:13px}body[data-page=bag] .fold-filters button{font-size:11px}
+}
+@media(max-width:359px){body[data-page=bag] .fold-hero h1{font-size:58px}body[data-page=bag] .fold-hero-visual{height:415px}body[data-page=bag] .fold-structure-photo{height:290px}}
+
+.fold-photo[data-photo="032A5331"]{--bag-mask:url('/assets/bag-masks/032A5331.svg')}
+
+.fold-photo[data-photo="032A5355"]{--bag-mask:url('/assets/bag-masks/032A5355.svg')}
+
+.fold-photo[data-photo="032A5311"]{--bag-mask:url('/assets/bag-masks/032A5311.svg')}
+
+.fold-photo[data-photo="032A5336"]{--bag-mask:url('/assets/bag-masks/032A5336.svg')}
+
+.fold-photo[data-photo="032A5332"]{--bag-mask:url('/assets/bag-masks/032A5332.svg')}
+
+.fold-photo[data-photo="032A5329"]{--bag-mask:url('/assets/bag-masks/032A5329.svg')}
+
+.fold-photo[data-photo="032A5357"]{--bag-mask:url('/assets/bag-masks/032A5357.svg')}
+
+.fold-photo[data-photo="032A5321"]{--bag-mask:url('/assets/bag-masks/032A5321.svg')}

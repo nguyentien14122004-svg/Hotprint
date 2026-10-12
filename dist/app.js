@@ -36,7 +36,7 @@ const translations = {
 
     skip:'Đến nội dung chính', mainNav:'Điều hướng chính', products:'Sản phẩm', allProducts:'Khám phá sản phẩm', factory:'Nhà máy', about:'Về HotPrint', quote:'Yêu cầu báo giá', menuNote:'Chọn cấu trúc. Tạo dấu ấn riêng.', openMenu:'Mở menu',closeMenu:'Đóng menu', close:'Đóng',
     headline1:'Ý tưởng phẳng.',headline2:'Ấn tượng đa chiều.',intro1:'Từ cấu trúc đến thành phẩm,',intro2:'tạo nên bao bì mang dấu ấn riêng.',stage1:'Bản thiết kế',stage2:'Nếp gấp',stage3:'Thành phẩm',process:'Từ ý tưởng đến thành phẩm',heroAlt:'Mẫu thiết kế minh họa HotPrint: bản trải phẳng, nếp gấp và hộp hoàn thiện',
-    choose1:'Chọn hình thái',choose2:'của bạn.',sixCategories:'Sáu nhóm sản phẩm',factoryAlt:'Toàn cảnh nhà máy HotPrint với dây chuyền và đội ngũ đang làm việc',factoryTitle1:'Được hiện thực hóa',factoryTitle2:'tại nhà máy HotPrint.',exploreFactory:'Khám phá nhà máy',contact1:'Biến ý tưởng',contact2:'thành bao bì.',call:'Gọi điện',consult:'Đặt lịch tư vấn',sample:'Yêu cầu mẫu',contact:'Liên hệ',knowledge:'Kiến thức',privacy:'Chính sách riêng tư',terms:'Điều kiện gửi yêu cầu',footerNav:'Liên kết bổ sung',quickContact:'Liên hệ nhanh',callShort:'Gọi',quoteShort:'Báo giá',
+    choose1:'Chọn hình thái',choose2:'của bạn.',sixCategories:'Sáu nhóm sản phẩm',factoryAlt:'Toàn cảnh nhà máy HotPrint với dây chuyền và đội ngũ đang làm việc',factoryTitle1:'Được hiện thực hóa',factoryTitle2:'tại nhà máy HotPrint.',exploreFactory:'Khám phá nhà máy',contact1:'Biến ý tưởng',contact2:'thành bao bì.',call:'Gọi điện',consult:'Đặt lịch tư vấn',sample:'Yêu cầu mẫu',contact:'Liên hệ',knowledge:'Kiến thức bao bì',privacy:'Chính sách riêng tư',terms:'Điều kiện gửi yêu cầu',footerNav:'Liên kết bổ sung',quickContact:'Liên hệ nhanh',callShort:'Gọi',quoteShort:'Báo giá',
     chatZalo:'Trao đổi qua Zalo', emailMethod:'Biểu mẫu chuẩn bị email gửi HotPrint. Bạn kiểm tra và gửi trong ứng dụng email của mình.',name:'Họ và tên',company:'Công ty',phone:'Số điện thoại',contactHint:'Vui lòng điền ít nhất email hoặc số điện thoại.',productGroup:'Nhóm sản phẩm',preferredDate:'Ngày mong muốn',message:'Mô tả nhu cầu',attachmentHint:'Bạn có thể đính kèm bản thiết kế hoặc hình tham khảo trong email.',emailSend:'Tiếp tục qua email',copyRequest:'Sao chép nội dung yêu cầu',emailContact:'Liên hệ qua email',unknown:'Chưa rõ — cần tư vấn',
     quoteTitle:'Chia sẻ nhu cầu\nbao bì của bạn.',quoteDescription:'Cùng trao đổi về cấu trúc, vật liệu và số lượng để có báo giá phù hợp với dự án.',sampleTitle:'Cùng xem và cảm nhận\nmẫu bao bì.',sampleDescription:'Cho HotPrint biết mẫu bạn quan tâm. Điều kiện, chi phí và cách nhận mẫu được trao đổi trực tiếp.',consultTitle:'Hẹn một cuộc trao đổi\ncùng HotPrint.',consultDescription:'Chia sẻ chủ đề và ngày bạn mong muốn. HotPrint sẽ liên hệ để thống nhất lịch tư vấn.',
     nameError:'Vui lòng điền họ tên (ít nhất 2 ký tự).',companyError:'Vui lòng điền tên công ty.',contactError:'Điền email hoặc số điện thoại để liên hệ.',emailError:'Vui lòng kiểm tra lại địa chỉ email.',phoneError:'Vui lòng kiểm tra lại số điện thoại.',messageError:'Vui lòng mô tả nhu cầu (ít nhất 10 ký tự).',dateError:'Vui lòng chọn hôm nay hoặc một ngày sắp tới.',draftReady:'Yêu cầu đã được điền vào email. Vui lòng hoàn tất gửi trong ứng dụng email. Nếu ứng dụng không mở, bạn có thể sao chép nội dung và gửi qua Zalo.',copied:'Đã sao chép nội dung.',copyManual:'Chọn và sao chép nội dung trong ô bên dưới.',copyPhone:'Sao chép số điện thoại',callTitle:'Trao đổi với HotPrint',callDescription:'Gọi trực tiếp hoặc sao chép số để liên hệ từ điện thoại của bạn.',callNow:'Mở ứng dụng gọi điện',
@@ -81,7 +81,7 @@ const translations = {
 
     skip:'Skip to main content',mainNav:'Main navigation',products:'Products',allProducts:'Explore our products',factory:'Our factory',about:'About HotPrint',quote:'Request a quote',menuNote:'Choose a structure. Make your mark.',openMenu:'Open menu',closeMenu:'Close menu',close:'Close',
     headline1:'From flat ideas.',headline2:'To lasting impressions.',intro1:'From structure to finished packaging,',intro2:'made to carry your own identity.',stage1:'The design',stage2:'The fold',stage3:'The result',process:'From idea to finished packaging',heroAlt:'Illustrative HotPrint brand packaging: a flat dieline, a folding carton and the finished box',
-    choose1:'Find your',choose2:'perfect form.',sixCategories:'Six product categories',factoryAlt:'The actual HotPrint factory, with equipment and team members at work',factoryTitle1:'Brought to life',factoryTitle2:'at the HotPrint factory.',exploreFactory:'Explore our factory',contact1:'Turn your ideas',contact2:'into packaging.',call:'Call us',consult:'Request a consultation',sample:'Request a sample',contact:'Contact',knowledge:'Insights',privacy:'Privacy',terms:'Request terms',footerNav:'Additional links',quickContact:'Quick contact',callShort:'Call',quoteShort:'Get a quote',
+    choose1:'Find your',choose2:'perfect form.',sixCategories:'Six product categories',factoryAlt:'The actual HotPrint factory, with equipment and team members at work',factoryTitle1:'Brought to life',factoryTitle2:'at the HotPrint factory.',exploreFactory:'Explore our factory',contact1:'Turn your ideas',contact2:'into packaging.',call:'Call us',consult:'Request a consultation',sample:'Request a sample',contact:'Contact',knowledge:'Packaging insights',privacy:'Privacy',terms:'Request terms',footerNav:'Additional links',quickContact:'Quick contact',callShort:'Call',quoteShort:'Get a quote',
     chatZalo:'Chat on Zalo',emailMethod:'This form prepares an email to HotPrint. Review and send it from your email application.',name:'Full name',company:'Company',phone:'Phone number',contactHint:'Please provide an email address or phone number.',productGroup:'Product category',preferredDate:'Preferred date',message:'Tell us what you need',attachmentHint:'You can attach your design or reference images to the email.',emailSend:'Continue by email',copyRequest:'Copy request details',emailContact:'Contact by email',unknown:'Not sure — I need advice',
     quoteTitle:'Tell us about your\npackaging project.',quoteDescription:'Let’s discuss structure, materials and quantity to prepare a quote for your project.',sampleTitle:'See and feel\nyour packaging.',sampleDescription:'Tell us which samples interest you. Availability, costs and delivery are discussed directly.',consultTitle:'Let’s make time\nfor your ideas.',consultDescription:'Share your topic and preferred date. HotPrint will contact you to confirm a suitable time.',
     nameError:'Enter your full name (at least 2 characters).',companyError:'Enter your company name.',contactError:'Provide an email address or phone number.',emailError:'Please check your email address.',phoneError:'Please check your phone number.',messageError:'Describe your needs (at least 10 characters).',dateError:'Please choose today or a future date.',draftReady:'Your request is ready in an email. Complete sending it in your email application. If it did not open, copy the details and send them via Zalo.',copied:'Copied to clipboard.',copyManual:'Select and copy the text in the box below.',copyPhone:'Copy phone number',callTitle:'Talk to HotPrint',callDescription:'Call directly or copy the number to contact us from your phone.',callNow:'Open calling application',
@@ -100,7 +100,41 @@ const categories = [
 ];
 let language = location.pathname.startsWith('/en') ? 'en' : 'vi';
 const isProductsPage = document.body.dataset.page === 'products';
+const isFoldingPage = document.body.dataset.page === 'folding';
+const isFactoryPage = document.body.dataset.page === 'factory';
+const factoryPath = lang => lang === 'en' ? '/en/factory/' : '/nha-may/';
+const isAboutPage = document.body.dataset.page === 'about';
+const aboutPath = lang => lang === 'en' ? '/en/about/' : '/ve-chung-toi/';
+if(isAboutPage){translations.vi.source='Nguồn: Về HotPrint';translations.en.source='Source: About HotPrint';}
+const isContactPage = document.body.dataset.page === 'contact';
+const contactPath = lang => lang === 'en' ? '/en/contact/' : '/lien-he/';
+if(isContactPage){translations.vi.source='Nguồn: Liên hệ HotPrint';translations.en.source='Source: HotPrint contact page';}
+const isQuotePage = document.body.dataset.page === 'quote';
+const quotePath = lang => lang === 'en' ? '/en/request-a-quote/' : '/yeu-cau-bao-gia/';
+const isSampleRequestPage = document.body.dataset.page === 'sample-request';
+const sampleRequestPath = lang => lang === 'en' ? '/en/request-a-sample/' : '/yeu-cau-mau/';
+const isConsultationPage = document.body.dataset.page === 'consultation';
+const consultationPath = lang => lang === 'en' ? '/en/request-a-consultation/' : '/dat-lich-tu-van/';
+const isPrivacyPage = document.body.dataset.page === 'privacy';
+const privacyPath = lang => lang === 'en' ? '/en/privacy/' : '/chinh-sach-rieng-tu/';
+const isKnowledgePage = document.body.dataset.page === 'knowledge';
+const isKnowledgeArticle = document.body.dataset.page === 'knowledge-article';
+const knowledgePath = lang => lang === 'en' ? '/en/packaging-insights/' : '/kien-thuc/';
+const articlePath = lang => document.body.dataset[lang === 'en' ? 'articleEn' : 'articleVi'];
+const isCatalogPage = document.body.dataset.page === 'catalog';
+const catalogPath = lang => lang === 'en' ? '/en/hang-tags-catalogues/' : '/danh-muc/nhan-hang-catalog/';
+const isLabelPage = document.body.dataset.page === 'label';
+const labelPath = lang => lang === 'en' ? '/en/adhesive-labels/' : '/danh-muc/nhan-dan-decal/';
+const isBagPage = document.body.dataset.page === 'bag';
+const bagPath = lang => lang === 'en' ? '/en/paper-bags/' : '/danh-muc/tui-giay/';
+const isRigidPage = document.body.dataset.page === 'rigid';
+const rigidPath = lang => lang === 'en' ? '/en/premium-rigid-boxes/' : '/danh-muc/hop-cung-cao-cap/';
+const isCartonPage = document.body.dataset.page === 'carton';
+const cartonPath = lang => lang === 'en' ? '/en/printed-corrugated-boxes/' : '/danh-muc/hop-carton-in-mau/';
+const foldingPath = lang => lang === 'en' ? '/en/folding-cartons/' : '/danh-muc/hop-giay-mem/';
+if(isProductsPage){translations.vi.privacyText.push('Danh sách mẫu bạn chọn được lưu cục bộ trong trình duyệt để bạn quay lại xem. Bạn có thể bỏ từng mẫu hoặc xóa dữ liệu website trong trình duyệt; danh sách không tự gửi tới HotPrint.');translations.en.privacyText.push('Selected sample references are stored locally in this browser so you can return to them. Remove individual samples or clear this website’s browser data to delete them. Your selection is not automatically sent to HotPrint.');}
 const productsPath = lang => lang === 'en' ? '/en/products/' : '/san-pham/';
+const categoryPath = (item,lang=language) => item.slug==='hop-giay-mem' ? foldingPath(lang) : item.slug==='hop-carton' ? cartonPath(lang) : item.slug==='hop-cao-cap' ? rigidPath(lang) : item.slug==='tui-giay' ? bagPath(lang) : item.slug==='nhan-dan-decal' ? labelPath(lang) : item.slug==='nhan-hang-catalog' ? catalogPath(lang) : `${productsPath(lang)}?group=${item.slug}#thu-vien`;
 let requestType = 'quote';
 let draftText = '';
 let dialogTrigger = null;
@@ -109,7 +143,7 @@ const t = key => translations[language][key];
 const icon = (name, cls='icon') => `<svg class="${cls}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 function categoryLink(item, cls) {
   const a=document.createElement('a');
-  a.href=`${productsPath(language)}?group=${item.slug}#thu-vien`;
+  a.href=categoryPath(item);
   a.className=cls;
   if(cls==='footer-category') a.textContent=item[language];
   else a.innerHTML=icon(item.icon,cls==='category-link'?'category-icon':'')+`<span class="${cls==='category-link'?'category-name':''}">${item[language]}</span>`+(cls==='category-link'?icon('arrow'):'');
@@ -118,7 +152,7 @@ function categoryLink(item, cls) {
 function applyLanguage(next, updateURL=false) {
   language=next;document.documentElement.lang=language;
   document.documentElement.classList.toggle('lang-en',language==='en');
-  document.title=isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
+  document.title=isPrivacyPage?(language==='vi'?'Chính sách riêng tư | HotPrint':'Privacy | HotPrint'):isKnowledgeArticle?(document.body.dataset[language==='en'?'titleEn':'titleVi']+' | HotPrint'):isKnowledgePage?(language==='vi'?'Kiến thức bao bì | HotPrint':'Packaging insights | HotPrint'):isConsultationPage?(language==='vi'?'Đặt lịch tư vấn | HotPrint':'Request a consultation | HotPrint'):isSampleRequestPage?(language==='vi'?'Yêu cầu mẫu | HotPrint':'Request a sample | HotPrint'):isQuotePage?(language==='vi'?'Yêu cầu báo giá | HotPrint':'Request a quote | HotPrint'):isContactPage?(language==='vi'?'Liên hệ | HotPrint':'Contact | HotPrint'):isAboutPage?(language==='vi'?'Về HotPrint | HotPrint':'About HotPrint | HotPrint'):isFactoryPage?(language==='vi'?'Nhà máy | HotPrint':'Factory | HotPrint'):isCatalogPage?(language==='vi'?'Nhãn hàng & catalog | HotPrint':'Hang tags & catalogues | HotPrint'):isLabelPage?(language==='vi'?'Nhãn dán decal | HotPrint':'Adhesive labels | HotPrint'):isBagPage?(language==='vi'?'Túi giấy | HotPrint':'Paper bags | HotPrint'):isRigidPage?(language==='vi'?'Hộp cứng cao cấp | HotPrint':'Premium rigid boxes | HotPrint'):isCartonPage?(language==='vi'?'Hộp carton in màu | HotPrint':'Printed corrugated boxes | HotPrint'):isFoldingPage?(language==='vi'?'Hộp giấy mềm | HotPrint':'Folding cartons | HotPrint'):isProductsPage?(language==='vi'?'Tổng quan sản phẩm | HotPrint':'Product overview | HotPrint'):t('title');
   document.querySelectorAll('[data-i18n]').forEach(el=>{const text=t(el.dataset.i18n);if(typeof text==='string')el.textContent=text;});
   document.querySelectorAll('[data-aria-key]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.ariaKey)));
   document.querySelectorAll('[data-alt-key]').forEach(el=>el.alt=t(el.dataset.altKey));
@@ -126,16 +160,23 @@ function applyLanguage(next, updateURL=false) {
   document.querySelectorAll('[data-home]').forEach(el=>{el.href=language==='vi'?'/':'/en/';el.setAttribute('aria-label',language==='vi'?'HotPrint — Trang chủ':'HotPrint — Home');});
   for(const [id,cls] of [['category-links','category-link'],['menu-categories','menu-category'],['mobile-categories','menu-category'],['footer-categories','footer-category']]) $('#'+id)?.replaceChildren(...categories.map(c=>categoryLink(c,cls)));
   document.querySelectorAll('[data-products]').forEach(a=>a.href=productsPath(language));
-  document.querySelectorAll('[data-factory]').forEach(a=>a.href=(language==='en'?'/en/':'/')+'#nha-may');
-  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isProductsPage?productsPath(a.dataset.lang):(a.dataset.lang==='en'?'/en/':'/'))+location.search+location.hash);
+  document.querySelectorAll('[data-factory]').forEach(a=>a.href=factoryPath(language));
+  document.querySelectorAll('[data-about]').forEach(a=>a.href=aboutPath(language));
+  document.querySelectorAll('[data-privacy-page]').forEach(a=>a.href=privacyPath(language));
+  document.querySelectorAll('[data-knowledge]').forEach(a=>a.href=knowledgePath(language));
+  document.querySelectorAll('[data-contact-page]').forEach(a=>a.href=contactPath(language));
+  document.querySelectorAll('[data-quote-page]').forEach(a=>a.href=quotePath(language));
+  document.querySelectorAll('[data-consult-page]').forEach(a=>a.href=consultationPath(language));
+  document.querySelectorAll('[data-sample-page]').forEach(a=>a.href=sampleRequestPath(language));
+  document.querySelectorAll('[data-lang]').forEach(a=>a.href=(isPrivacyPage?privacyPath(a.dataset.lang):isKnowledgeArticle?articlePath(a.dataset.lang):isKnowledgePage?knowledgePath(a.dataset.lang):isConsultationPage?consultationPath(a.dataset.lang):isSampleRequestPage?sampleRequestPath(a.dataset.lang):isQuotePage?quotePath(a.dataset.lang):isContactPage?contactPath(a.dataset.lang):isAboutPage?aboutPath(a.dataset.lang):isFactoryPage?factoryPath(a.dataset.lang):isCatalogPage?catalogPath(a.dataset.lang):isLabelPage?labelPath(a.dataset.lang):isBagPage?bagPath(a.dataset.lang):isRigidPage?rigidPath(a.dataset.lang):isCartonPage?cartonPath(a.dataset.lang):isFoldingPage?foldingPath(a.dataset.lang):isProductsPage?productsPath(a.dataset.lang):(a.dataset.lang==='en'?'/en/':'/'))+location.search+location.hash);
   const selected=$('#form-category').value;
   $('#form-category').replaceChildren(new Option(t('unknown'),''),...categories.map(c=>new Option(c[language],c.slug)));
   $('#form-category').value=selected;
-  if(updateURL)history.pushState({language},'',(isProductsPage?productsPath(language):(language==='vi'?'/':'/en/'))+location.search+location.hash);
+  if(updateURL)history.pushState({language},'',(isConsultationPage?consultationPath(language):isSampleRequestPage?sampleRequestPath(language):isQuotePage?quotePath(language):isProductsPage?productsPath(language):(language==='vi'?'/':'/en/'))+location.search+location.hash);
   if($('#request-dialog').open)updateRequestLabels();
   document.dispatchEvent(new CustomEvent('hotprint:language'));
 }
-document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',event=>{event.preventDefault();applyLanguage(el.dataset.lang,true);closeProductMenu();}));
+document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',event=>{if(isPrivacyPage||isKnowledgePage||isKnowledgeArticle||isContactPage||isAboutPage||isFactoryPage||isFoldingPage||isCartonPage||isRigidPage||isBagPage||isLabelPage||isCatalogPage)return;event.preventDefault();applyLanguage(el.dataset.lang,true);closeProductMenu();}));
 window.addEventListener('popstate',()=>applyLanguage(location.pathname.startsWith('/en')?'en':'vi'));
 applyLanguage(language);
 $('#copyright-year').textContent=new Date().getFullYear();
@@ -165,6 +206,14 @@ function updateRequestLabels(){
 }
 document.addEventListener('click',e=>{
   const button=e.target.closest('[data-request]');if(!button)return;
+  if(['quote','sample','consult'].includes(button.dataset.request)){
+    e.preventDefault();
+    const isSampleRequest=button.dataset.request==='sample',isConsultRequest=button.dataset.request==='consult';
+    if((isQuotePage&&button.dataset.request==='quote')||(isSampleRequestPage&&isSampleRequest)||(isConsultationPage&&isConsultRequest)){document.querySelectorAll('dialog[open]').forEach(d=>d.close());$('#quote-form').scrollIntoView({block:'start'});requestAnimationFrame(()=>$('#quote-form').elements.name.focus());return;}
+    const model=window.HOTPRINT_PRODUCTS?.find(p=>p.id===button.dataset.model);
+    const category=button.dataset.category||(model?categories.find(c=>c.icon===model.group)?.slug:'')||(isCatalogPage?'nhan-hang-catalog':isLabelPage?'nhan-dan-decal':isBagPage?'tui-giay':isRigidPage?'hop-cao-cap':isCartonPage?'hop-carton':isFoldingPage?'hop-giay-mem':'');
+    const target=new URL(isConsultRequest?consultationPath(language):isSampleRequest?sampleRequestPath(language):quotePath(language),location.origin);if(category)target.searchParams.set('category',category);if(model)target.searchParams.set('model',model.id);if(isConsultRequest){const topic=button.dataset.factoryTopic==='quality'?'quality':button.dataset.factoryTopic==='technical'?'structure':button.dataset.aboutTopic==='documents'?'documents':button.dataset.contactTopic==='visit'?'visit':['structure','materials','artwork','project'].includes(button.dataset.knowledgeTopic)?button.dataset.knowledgeTopic:'';if(topic)target.searchParams.set('topic',topic);if(topic==='visit')target.searchParams.set('format','inperson');if(button.id==='shortlist-request'){let ids=[];try{ids=JSON.parse(localStorage.getItem('hotprint-sample-selection')||'[]')}catch{}if(Array.isArray(ids)){ids=ids.filter(id=>window.HOTPRINT_PRODUCTS?.some(p=>p.id===id)).slice(0,6);if(ids.length)target.searchParams.set('models',ids.join(','));}}}location.href=target.pathname+target.search;return;
+  }
   requestType=button.dataset.request;updateRequestLabels();
   $('#form-status').textContent='';$('#copy-draft').hidden=true;$('#draft-fallback').hidden=true;
   document.querySelectorAll('.field-error').forEach(el=>el.textContent='');
@@ -173,6 +222,23 @@ document.addEventListener('click',e=>{
     const model=window.HOTPRINT_PRODUCTS?.find(p=>p.id===button.dataset.model);
     if(model){$('#form-category').value=categories.find(c=>c.icon===model.group)?.slug||'';
       $('#request-form').elements.message.value=(language==='vi'?'Tôi quan tâm đến mẫu: ':'I am interested in: ')+model[language]+' ('+model.id+').\n';}
+  }
+  else if(isContactPage){
+    $('#form-category').value='';
+    $('#request-form').elements.message.value=button.dataset.contactTopic==='visit'?(language==='vi'?'Tôi muốn đề nghị lịch gặp HotPrint: \nĐịa điểm muốn gặp (trụ sở / nhà máy): \nNội dung cần trao đổi: ':'I would like to request an appointment with HotPrint: \nPreferred location (office / factory): \nDiscussion topics: '):requestType==='sample'?(language==='vi'?'Tôi muốn yêu cầu mẫu tham khảo: \nNhóm bao bì / mẫu quan tâm: \nSản phẩm cần đóng gói: ':'I would like to request reference samples: \nPackaging group / samples of interest: \nProduct to be packaged: '):requestType==='quote'?(language==='vi'?'Tôi muốn báo giá bao bì theo yêu cầu: \nSản phẩm / nhóm bao bì: \nKích thước: \nSố lượng dự kiến: ':'I would like a custom packaging quote: \nProduct / packaging group: \nDimensions: \nEstimated quantity: '):(language==='vi'?'Tôi muốn đặt lịch tư vấn với HotPrint: \nSản phẩm cần đóng gói: \nNội dung cần trao đổi: ':'I would like a consultation with HotPrint: \nProduct to be packaged: \nDiscussion topics: ');
+  }
+  else if(isAboutPage){
+    $('#form-category').value='';
+    $('#request-form').elements.message.value=button.dataset.aboutTopic==='documents'?(language==='vi'?'Tôi muốn trao đổi hồ sơ năng lực để đánh giá nhà cung cấp: \nDự án / nhóm sản phẩm: \nTài liệu cần trao đổi: ':'I would like to discuss company documentation for supplier assessment: \nProject / product group: \nDocuments required: '):requestType==='quote'?(language==='vi'?'Tôi muốn yêu cầu báo giá bao bì: \nSản phẩm / nhóm bao bì: \nSố lượng dự kiến: ':'I would like a packaging quote: \nProduct / packaging group: \nEstimated quantity: '):(language==='vi'?'Tôi muốn trao đổi với HotPrint về dự án bao bì: \nSản phẩm cần đóng gói: \nNội dung muốn trao đổi: ':'I would like to discuss a packaging project with HotPrint: \nProduct to be packaged: \nDiscussion topics: ');
+  }
+  else if(isFactoryPage){
+    $('#form-category').value='';
+    const topic=button.dataset.factoryTopic;
+    $('#request-form').elements.message.value=topic==='quality'?(language==='vi'?'Tôi muốn trao đổi hồ sơ chất lượng và tiêu chí nghiệm thu cho đơn hàng: \nNhóm sản phẩm: \nYêu cầu hồ sơ / tiêu chí: ':'I would like to discuss quality documentation and acceptance criteria: \nProduct group: \nDocuments / criteria required: '):topic==='technical'?(language==='vi'?'Tôi muốn trao đổi yêu cầu kỹ thuật với HotPrint: \nSản phẩm / cấu trúc: \nVật liệu / hoàn thiện mong muốn: ':'I would like to discuss technical requirements with HotPrint: \nProduct / structure: \nMaterials / finishing: '):requestType==='quote'?(language==='vi'?'Tôi muốn báo giá bao bì theo yêu cầu: \nNhóm sản phẩm: \nKích thước: \nSố lượng dự kiến: ':'I would like a custom packaging quote: \nProduct group: \nDimensions: \nEstimated quantity: '):(language==='vi'?'Tôi muốn đặt lịch trao đổi về năng lực nhà máy và dự án bao bì: \nSản phẩm cần đóng gói: \nNội dung muốn trao đổi: ':'I would like to discuss factory capabilities and a packaging project: \nProduct to be packaged: \nDiscussion topics: ');
+  }
+  else if(button.dataset.category||isFoldingPage||isCartonPage||isRigidPage||isBagPage||isLabelPage||isCatalogPage){
+    $('#form-category').value=button.dataset.category||(isCatalogPage?'nhan-hang-catalog':isLabelPage?'nhan-dan-decal':isBagPage?'tui-giay':isRigidPage?'hop-cao-cap':isCartonPage?'hop-carton':'hop-giay-mem');
+    $('#request-form').elements.message.value=isCatalogPage?(language==='vi'?'Tôi muốn trao đổi về nhãn hàng / catalog: \nLoại thẻ hoặc ấn phẩm: \nKích thước / khổ thành phẩm: \nSố mặt hoặc số trang gồm bìa: \nYêu cầu lỗ / khe / cách đóng cuốn: \nSố lượng dự kiến: ':'I would like to discuss tags / catalogues: \nTag or publication type: \nDimensions / finished format: \nSides or pages including covers: \nHoles / slots / binding requirements: \nEstimated quantity: '):isLabelPage?(language==='vi'?'Tôi muốn trao đổi về nhãn dán decal cho sản phẩm: \nKích thước / hình dạng nhãn: \nVật liệu và bề mặt cần dán: \nMôi trường sử dụng: \nDán thủ công hay bằng máy: \nSố lượng dự kiến: ':'I would like to discuss adhesive labels for: \nLabel size / shape: \nMaterial and application surface: \nConditions of use: \nHand or machine application: \nEstimated quantity: '):isBagPage?(language==='vi'?'Tôi muốn trao đổi về túi giấy cho sản phẩm: \nKích thước ngang × hông × cao: \nTổng trọng lượng đồ bên trong: \nKiểu quai / mục đích sử dụng: \nSố lượng dự kiến: ':'I would like to discuss paper bags for: \nWidth × gusset × height: \nTotal contents weight: \nHandle style / intended use: \nEstimated quantity: '):isRigidPage?(language==='vi'?'Tôi muốn trao đổi về hộp cứng cao cấp cho sản phẩm: \nKích thước / số món bên trong: \nKiểu nắp và khay mong muốn: \nSố lượng dự kiến: ':'I would like to discuss premium rigid boxes for: \nDimensions / contents: \nPreferred lid and insert: \nEstimated quantity: '):isCartonPage?(language==='vi'?'Tôi muốn trao đổi về hộp carton in màu cho sản phẩm: \nKích thước sản phẩm: \nTrọng lượng: \nCách đóng gói / vận chuyển: \nSố lượng dự kiến: ':'I would like to discuss printed corrugated boxes for: \nProduct dimensions: \nWeight: \nPacking / delivery method: \nEstimated quantity: '):language==='vi'?'Tôi muốn trao đổi về hộp giấy mềm cho sản phẩm: \nKích thước sản phẩm: \nSố lượng dự kiến: ':'I would like to discuss folding cartons for: \nProduct dimensions: \nEstimated quantity: ';
   }
   openDialog($('#request-dialog'),button);
 });
@@ -193,7 +259,7 @@ $('#request-form').addEventListener('submit',e=>{
   if(requestType==='consult'&&data.date&&data.date<localDate)errors.date=t('dateError');
   if(Object.keys(errors).length){for(const [key,message]of Object.entries(errors)){form.elements[key].setAttribute('aria-invalid','true');document.querySelector(`[data-error-for="${key}"]`).textContent=message;}form.elements[Object.keys(errors)[0]].focus();return;}
   const group=categories.find(c=>c.slug===data.category)?.[language]||t('unknown');
-  draftText=[`${t('name')}: ${data.name}`,`${t('company')}: ${data.company}`,`Email: ${data.email||t('unspecified')}`,`${t('phone')}: ${data.phone||t('unspecified')}`,`${t('productGroup')}: ${group}`,...(requestType==='consult'?[`${t('preferredDate')}: ${data.date||t('unspecified')}`]:[]),'',`${t('message')}:`,data.message,'',isProductsPage?(language==='vi'?'Nguồn: Tổng quan sản phẩm HotPrint':'Source: HotPrint product overview'):t('source')].join('\n');
+  draftText=[`${t('name')}: ${data.name}`,`${t('company')}: ${data.company}`,`Email: ${data.email||t('unspecified')}`,`${t('phone')}: ${data.phone||t('unspecified')}`,`${t('productGroup')}: ${group}`,...(requestType==='consult'?[`${t('preferredDate')}: ${data.date||t('unspecified')}`]:[]),'',`${t('message')}:`,data.message,'',isFactoryPage?(language==='vi'?'Nguồn: Nhà máy HotPrint':'Source: HotPrint factory'):isCatalogPage?(language==='vi'?'Nguồn: Nhãn hàng & catalog HotPrint':'Source: HotPrint hang tags and catalogues'):isLabelPage?(language==='vi'?'Nguồn: Nhãn dán decal HotPrint':'Source: HotPrint adhesive labels'):isBagPage?(language==='vi'?'Nguồn: Túi giấy HotPrint':'Source: HotPrint paper bags'):isRigidPage?(language==='vi'?'Nguồn: Hộp cứng cao cấp HotPrint':'Source: HotPrint premium rigid boxes'):isCartonPage?(language==='vi'?'Nguồn: Hộp carton in màu HotPrint':'Source: HotPrint printed corrugated boxes'):isFoldingPage?(language==='vi'?'Nguồn: Hộp giấy mềm HotPrint':'Source: HotPrint folding cartons'):isProductsPage?(language==='vi'?'Nguồn: Tổng quan sản phẩm HotPrint':'Source: HotPrint product overview'):t('source')].join('\n');
   const subject=t('emailSubject')+t(requestType==='quote'?'quote':requestType==='sample'?'sample':'consult');
   const url=`mailto:info@hotprint.vn?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(draftText)}`;
   window.location.href=url;
@@ -205,6 +271,7 @@ async function copyText(text,fallback){try{await navigator.clipboard.writeText(t
 $('#copy-draft').addEventListener('click',async()=>{if(!await copyText(draftText,$('#draft-fallback')))$('#form-status').textContent=t('copyManual');});
 
 function showInfo(type,trigger){
+  if(type==='privacy'){window.open(privacyPath(language),'_blank','noopener');return;}
   $('#info-title').textContent=t(type);$('#info-content').replaceChildren(...t(type+'Text').map(text=>{const p=document.createElement('p');p.textContent=text;return p;}));
   $('#info-dialog').querySelector('.button').hidden=false;
   openDialog($('#info-dialog'),trigger);

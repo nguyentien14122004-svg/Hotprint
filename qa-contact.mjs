@@ -1,3 +1,5 @@
+import {assertConsult} from './qa-quote-link.mjs';
+import {assertQuote,assertSample} from './qa-quote-link.mjs';
 import {createRequire} from 'node:module';
 import {mkdir,writeFile} from 'node:fs/promises';
 const require=createRequire(import.meta.url);
@@ -10,7 +12,7 @@ for(const lang of ['vi','en'])for(const width of [1920,1440,1024,768,390,320]){
  const r=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,lang:document.documentElement.lang,categories:document.querySelectorAll('.category-link').length,brokenImages:[...document.images].filter(im=>!im.naturalWidth).length,contactHeight:document.querySelector('#lien-he').offsetHeight,box:document.querySelector('.connection-desk').getBoundingClientRect().toJSON()}));
  if(r.width!==r.scrollWidth||r.categories!==6||r.brokenImages)throw Error(JSON.stringify(r));results.push(r);
  if([1440,390,1024].includes(width))await page.locator('#lien-he').screenshot({path:`qa/contact-${lang}-${width}.png`});
- for(const type of ['quote','consult','sample']){await page.locator(`#lien-he [data-request=${type}]`).click();if(!await page.locator('#request-dialog').isVisible())throw Error('Dialog '+type);if(type==='consult'&&!await page.locator('.consult-field').isVisible())throw Error('Consult date missing');await page.keyboard.press('Escape');}
+ for(const type of ['quote','consult','sample']){if(type==='quote'){await assertQuote(page,'#lien-he [data-request=quote]');continue;}if(type==='sample'){await assertSample(page,'#lien-he [data-request=sample]');continue;}await assertConsult(page,'#lien-he [data-request=consult]');}
 }
 await page.setViewportSize({width:1440,height:1000});await page.goto('http://127.0.0.1:4174/');await page.locator('.studio-phone').click();if(!await page.locator('#info-dialog').isVisible())throw Error('Phone dialog');await page.keyboard.press('Escape');
 await page.locator('[data-lang=en]').click();if(!await page.locator('.sample-note-bottom').innerText().then(s=>s.includes('Request a sample')))throw Error('Translation');

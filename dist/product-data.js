@@ -135,8 +135,8 @@ window.HOTPRINT_PRODUCTS = [
   {
     "id": "032A5337",
     "group": "label",
-    "vi": "Nhãn khuyến mại dạng cuộn",
-    "en": "Promotional label roll",
+    "vi": "Nhãn tròn ký hiệu 2 dạng cuộn",
+    "en": "Round 2 symbol label roll",
     "images": [
       "032A5337"
     ]
@@ -238,8 +238,8 @@ window.HOTPRINT_PRODUCTS = [
   {
     "id": "032A5332",
     "group": "bag",
-    "vi": "Túi giấy XXS",
-    "en": "XXS paper bag",
+    "vi": "Túi giấy XXiS",
+    "en": "XXiS paper bag",
     "images": [
       "032A5332"
     ]
@@ -256,8 +256,8 @@ window.HOTPRINT_PRODUCTS = [
   {
     "id": "032A5318",
     "group": "folding",
-    "vi": "Hộp giấy cửa sổ MP",
-    "en": "MP window carton",
+    "vi": "Hộp giấy cửa sổ Wesser",
+    "en": "Wesser window carton",
     "images": [
       "032A5318"
     ]
@@ -320,8 +320,8 @@ window.HOTPRINT_PRODUCTS = [
   {
     "id": "032A5321",
     "group": "bag",
-    "vi": "Túi giấy Kim Hỷ",
-    "en": "Kim Hỷ paper bag",
+    "vi": "Túi giấy Sanestco Khánh Hòa",
+    "en": "Sanestco Khánh Hòa paper bag",
     "images": [
       "032A5321"
     ]

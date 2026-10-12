@@ -1,0 +1,99 @@
+/* HotPrint's shared natural palette. Loaded last on every VI/EN route. */
+:root{
+ --tone-green:#5e7d5a;--tone-green-rgb:94 125 90;
+ --tone-beige:#e7dfd1;--tone-beige-rgb:231 223 209;
+ --tone-earth:#8a6a55;--tone-earth-rgb:138 106 85;
+ --tone-ink:#344d36;--tone-ink-rgb:52 77 54;
+ --tone-muted:#53624e;--tone-muted-rgb:83 98 78;
+ --tone-earth-hover:#70513e;--tone-earth-hover-rgb:112 81 62;
+ --tone-earth-muted:#76543e;--tone-earth-muted-rgb:118 84 62;
+ --tone-paper:#f7f2e8;--tone-paper-rgb:247 242 232;
+ --tone-surface:#efe8dc;--tone-surface-rgb:239 232 220;
+ --tone-line:#c3bcac;--tone-line-rgb:195 188 172;
+ --tone-sage:#a7b49b;--tone-sage-rgb:167 180 155;
+ --tone-green-deep:#496344;--tone-green-deep-rgb:73 99 68;--tone-on-green:#fff;
+ --forest:var(--tone-ink);--ink:var(--tone-ink);--accent:var(--tone-earth);
+ --mist:var(--tone-beige);--paper:var(--tone-paper);--cream:var(--tone-beige);
+ --line:rgb(var(--tone-ink-rgb) / .2);
+}
+body{background:var(--tone-beige);color:var(--tone-ink)}
+body[data-page]{background:var(--tone-beige);color:var(--tone-ink)}
+body .site-header,body .site-header.scrolled,body[data-page] .site-header,body[data-page] .site-header.scrolled{background:rgb(var(--tone-beige-rgb) / .97);border-bottom-color:rgb(var(--tone-ink-rgb) / .13)}
+body:not([data-page]) .site-header:not(.scrolled){background:transparent;border-bottom:0}
+.brand img{filter:url('#brand-natural-color')}
+.nav-link,.language-switch a,.footer-grid h3,.footer-identity .company-name{color:var(--tone-ink)}
+.nav-link:hover,.language-switch a[aria-current=page]{color:var(--tone-earth-muted)}
+.language-switch a[aria-current=page]:after{background:var(--tone-green)}
+.site-header .header-quote,.button-accent,.button-forest,.fold-button,.botanical-primary,.fp-button,.sample-arrow,.mobile-contact-bar button{background:var(--tone-earth);color:#fff}
+.site-header .header-quote:hover,.button-accent:hover,.button-forest:hover,.fold-button:hover,.botanical-primary:hover,.fp-button:hover,.mobile-contact-bar button:hover{background:var(--tone-earth-hover);color:#fff}
+.fold-button-outline{background:transparent;color:var(--tone-ink);border-color:var(--tone-line)}
+.fold-button-outline:hover{background:var(--tone-surface);color:var(--tone-earth-muted)}
+.fp-secondary{background:transparent;color:var(--tone-earth-muted)}.fp-secondary:hover{background:transparent;color:var(--tone-earth-hover)}
+.fold-text-link,.botanical-quote,.catalog-text-link,.family-link{color:var(--tone-earth-muted);text-decoration-color:var(--tone-earth)}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:var(--tone-earth-hover)}
+.accent-line{background:var(--tone-green);height:1px}
+.hero{background:var(--tone-beige)}
+/* Keep the approved photograph intact. Beige belongs outside the image,
+   never in a tint, crop, stretch or replacement of its original details. */
+.hero-art:after{content:none}
+.hero-art picture{height:auto;aspect-ratio:3/2;overflow:visible}
+.hero-photo{display:block;position:static;width:100%;height:auto;object-fit:contain;filter:none;opacity:1}
+.hero+.products-section{margin-top:0}
+@media(min-width:769px){
+ .hero-art{inset:auto auto 0 50%;width:min(100%,1792px);height:auto;aspect-ratio:3/2;transform:translateX(-50%)}
+ /* Keep the process markers registered to the original 1536 x 1024 canvas. */
+ .process-labels li:nth-child(1){left:25.8%;top:47.7%}
+ .process-labels li:nth-child(2){left:55.9%;top:35.6%}
+}
+@media(min-width:769px) and (max-width:1200px){
+ /* On narrow screens, give the copy its own space instead of stretching
+    the artwork or placing a background seam through the heading. */
+ .hero{height:auto;min-height:0;max-height:none;display:flex;flex-direction:column;padding-top:120px}
+ .hero-content{order:0;padding-top:12px;padding-bottom:24px}
+ .hero-art{position:relative;inset:auto;transform:none;order:1;width:100%;aspect-ratio:3/2}
+}
+.hero h1{color:var(--tone-green-deep);font-weight:700}.hero-eyebrow,.hero-intro p{color:var(--tone-ink)}
+.hero-path,.journey-line{stroke:var(--tone-green)}.journey-dots{fill:var(--tone-paper)}
+.hero-caption{background:rgb(var(--tone-paper-rgb) / .87);color:var(--tone-muted)}
+.products-section{background:var(--tone-beige);border-radius:0}.products-section h2{color:var(--tone-green-deep)}
+.paper-base{fill:var(--tone-paper);stroke:var(--tone-green)}.fold-line{stroke:var(--tone-line)}.category-icon{color:var(--tone-green-deep)}.category-arrow{color:var(--tone-earth)}
+.products-section:after{content:'';position:absolute;inset:auto 0 0;height:70px;pointer-events:none;background:linear-gradient(173deg,transparent 48%,rgb(var(--tone-earth-rgb) / .035) 49%)}
+.factory-shade{background:linear-gradient(90deg,rgb(var(--tone-green-deep-rgb) / .91),rgb(var(--tone-green-rgb) / .38) 48%,transparent 78%)}
+.factory-content,.factory-content h2,.factory-content a{color:#fff}.factory-content .accent-line{background:var(--tone-paper)}
+.connection-studio,.site-footer{background:var(--tone-beige)}.connection-studio:before{opacity:.32}
+.connection-studio h2{color:var(--tone-green-deep)}.connection-studio h2 em{color:var(--tone-earth)}
+.direct-note{background:var(--tone-green);color:#fff}.direct-note-top,.direct-note>p,.studio-email,.note-signature{color:#fff}.note-signature>span{color:var(--tone-paper)}
+.studio-routes{background:rgb(var(--tone-paper-rgb) / .4);border:1px solid var(--tone-line);border-left:0}.studio-route{border-color:var(--tone-line)}.route-copy strong{color:var(--tone-ink)}.route-copy small,.route-footnote{color:var(--tone-muted)}
+.sample-note{background:var(--tone-paper);border-color:var(--tone-line);box-shadow:0 8px 20px rgb(var(--tone-earth-rgb) / .07)}.sample-note-bottom{background:var(--tone-paper)}
+.connection-details,.footer-grid p,.footer-grid address,.footer-grid a:not(.brand),.footer-bottom{color:var(--tone-muted)}.connection-details>div>span:before{background:var(--tone-green);border-color:var(--tone-green);border-radius:50%;transform:none}
+.mega-menu,.mobile-menu,.request-dialog,.info-dialog,.product-detail,.fold-detail,.fp-dialog,.catalog-filter-dialog{background:var(--tone-paper);color:var(--tone-ink);border-color:var(--tone-line)}
+.form-aside{background:var(--tone-green-deep);color:#fff}.form-aside p,.form-aside a{color:#fff}.form-grid input,.form-grid textarea,.form-grid select{background:var(--tone-paper);border-color:var(--tone-line);color:var(--tone-ink)}
+.mobile-contact-bar{background:rgb(var(--tone-paper-rgb) / .98);border-color:var(--tone-line)}
+body[data-page=products]{--atelier-green:var(--tone-ink);--atelier-sage:var(--tone-surface);--atelier-paper:var(--tone-beige);--atelier-plum:var(--tone-earth)}
+.botanical-hero,.family-gallery,.catalog-families,.catalog-intro,.catalog-library,.catalog-start,.fold-hero,.fold-materials,.fold-library,.fp-hero,.fp-quality{background-color:var(--tone-beige)}
+.botanical-copy h1,.family-copy h3,.fold-page h1,.fold-page h2,.fold-page h3,.fp-page h1,.fp-page h2,.fp-page h3{color:var(--tone-green-deep)}
+.botanical-scene:before{background:var(--tone-beige)}.botanical-copy{background:transparent}.botanical-paper{opacity:.16}
+.botanical-icon,.family-icon{background:var(--tone-surface);color:var(--tone-green-deep)}
+.family-card{border-color:var(--tone-paper);box-shadow:0 6px 18px rgb(var(--tone-earth-rgb) / .045)}
+.family-card .family-link,.family-card [class*=link]{color:var(--tone-earth-muted)}
+.catalog-filters button[aria-pressed=true],.fold-filters button[aria-pressed=true],.catalog-pagination button[aria-current=page]{background:var(--tone-green-deep);color:#fff}
+.product-card-actions button[data-request]{color:var(--tone-earth-muted)}.fold-breadcrumb>span,.botanical-breadcrumb>span,.catalog-breadcrumb>span{color:var(--tone-muted)}
+.catalog-consult-actions>div>span{color:var(--tone-muted)}
+input[type=checkbox],input[type=radio]{accent-color:var(--tone-earth)}.fold-page .fold-title-dot{color:var(--tone-green)}
+.fold-page{--fold-ink:var(--tone-green-deep);--fold-muted:var(--tone-muted);--fold-plum:var(--tone-earth);--fold-line:var(--tone-line);background:var(--tone-beige)}
+.fold-hero{background-image:linear-gradient(90deg,rgb(var(--tone-beige-rgb) / .92),rgb(var(--tone-beige-rgb) / .72)),url('/assets/atelier-paper.webp')}
+.fold-group-nav{background:var(--tone-surface)}.fold-group-nav a[aria-current=page]{color:var(--tone-earth-muted);border-color:var(--tone-earth)}
+.fold-structure-copy,.fold-material-copy,.fold-sample-copy{color:var(--tone-ink)}
+.fold-sample,.fold-faq details{border-color:var(--tone-line)}
+.fold-final,.catalog-contact,.fp-final{background:var(--tone-green);color:#fff}
+.fold-final h2,.fold-final p,.fold-final .fold-eyebrow,.fold-final .fold-factory-link,.fold-final .fold-final-art,.fp-final h2,.fp-final p,.fp-final .fp-kicker,.fp-final small,.fp-final address,.fp-final a,.fp-final aside,.catalog-contact h2,.catalog-contact p{color:#fff}
+.fold-final p:not(.fold-eyebrow),.fp-final p:not(.fp-kicker){color:#fff}
+.fold-final .fold-button:not(.fold-button-outline),.fp-final .fp-button:not(.fp-secondary){background:var(--tone-earth-hover);color:#fff}.fold-final .fold-button:not(.fold-button-outline):hover,.fp-final .fp-button:not(.fp-secondary):hover{background:var(--tone-earth-muted)}
+.fold-final .fold-button-outline,.fp-final .fp-secondary{background:transparent;border-color:rgb(255 255 255 / .65);color:#fff}
+.fp-page{--fp-ink:var(--tone-green-deep);--fp-muted:var(--tone-muted);--fp-line:var(--tone-line);--fp-plum:var(--tone-earth);background:var(--tone-beige)}
+.fp-process{background:var(--tone-green-deep);color:#fff}.fp-process h2,.fp-process h3,.fp-process .fp-kicker,.fp-process .fp-heading>p,.fp-steps p,.fp-step-top>span,.fp-check{color:#fff}.fp-step-top svg{stroke:var(--tone-paper)}.fp-steps,.fp-steps li,.fp-check{border-color:rgb(255 255 255 / .25)}
+.fp-check span{color:var(--tone-paper)}
+.fp-equipment-panel{background:var(--tone-surface)}.fp-tabs button[aria-selected=true]{color:var(--tone-earth-muted);border-color:var(--tone-earth)}.fp-tabs button:hover{background:var(--tone-surface)}
+.fp-inset{border-color:var(--tone-beige)}.fp-gallery-item{background:var(--tone-surface)}.fp-quality-grid{color:var(--tone-ink)}
+.fp-dialog-caption button,.fp-thumbs button[aria-current=true]{border-color:var(--tone-earth)}.fp-dialog-caption button{background:var(--tone-surface)}
+@media(max-width:768px){body:not([data-page]) .site-header:not(.scrolled){background:rgb(var(--tone-beige-rgb) / .96)}.studio-routes{border-left:1px solid var(--tone-line)}}

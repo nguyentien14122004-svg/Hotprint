@@ -1,0 +1,101 @@
+# Bàn giao website HotPrint — 13/10/2026
+
+## Đọc đầu tiên khi tiếp tục bằng tài khoản khác
+
+Mã nguồn và toàn bộ tài nguyên để chạy website nằm trong repo **https://github.com/nguyentien14122004-svg/Hotprint**, nhánh `main`. Dùng bản mới nhất của nhánh này. Repo là nguồn tiếp tục công việc; không cần đăng nhập vào dự án Sites hoặc dùng quyền truy cập tài khoản Codex trước.
+
+Thứ tự đọc:
+
+1. `HANDOFF.md` — trạng thái hiện tại và phần tiếp theo.
+2. `AGENTS.md` — yêu cầu thiết kế đã chốt và quy tắc bắt buộc khi sửa.
+3. `README.md` — chạy website, danh sách đường dẫn và nơi chỉnh từng trang.
+4. `docs/ke-hoach-website.md` — kế hoạch tổng thể; tài liệu mới nhất từng trang được liên kết từ README.
+
+Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trước đây là lịch sử. Bộ màu hiện tại và trạng thái trong tệp này được ưu tiên. Không dựng lại website hoặc thay thiết kế đã duyệt chỉ vì đổi tài khoản.
+
+## Website hiện có
+
+**16 trang cố định VI/EN và 6 bài viết VI/EN = 44 đường dẫn HTML.**
+
+| Mã | Trang | Trạng thái |
+| --- | --- | --- |
+| P01 | Trang chủ | Đã dựng; giữ nguyên hero và sáu biểu tượng đã chốt |
+| P02 | Tổng quan sản phẩm | Đã dựng; hero/sáu nhóm theo mẫu, thư viện 36 mẫu thật |
+| P03–P08 | Sáu danh mục sản phẩm | Đã dựng đủ, VI/EN, gallery và yêu cầu theo mẫu |
+| P09 | Nhà máy | Bảy phần, 12 ảnh thật, tab thiết bị/thư viện ảnh |
+| P10 | Về HotPrint | Sáu phần, thông tin và hoạt động công ty |
+| P11 | Liên hệ | Bốn phần, điện thoại/Zalo/email/hai địa chỉ |
+| P12 | Yêu cầu báo giá | Form một trang, chuẩn bị email, không tính giá |
+| P13 | Yêu cầu mẫu | Mẫu thật, danh sách quan tâm, cách nhận tùy chọn |
+| P14 | Đặt lịch tư vấn | Ngày/giờ/múi giờ/hình thức đề nghị, cần xác nhận riêng |
+| P15 | Kiến thức bao bì | Bốn phần, tìm kiếm/chủ đề và sáu bài có trang đọc |
+| P16 | Chính sách riêng tư | Năm mục; bản rà soát có phạm vi rõ, xóa mẫu lưu trên trình duyệt |
+
+Danh sách URL VI/EN đầy đủ ở README. Các bài nằm dưới `/kien-thuc/` và `/en/packaging-insights/`.
+
+## Những yêu cầu phải giữ
+
+- Khách chính là bộ phận mua hàng doanh nghiệp. Thiết kế chuyên nghiệp, mang tinh thần thiên nhiên/giấy, có chi tiết sáng tạo và hỗ trợ máy tính/điện thoại.
+- Giữ logo và biểu tượng gốc, ẩn dòng ISO 9001 bằng CSS như hiện tại. Không vẽ lại logo.
+- Màu: Natural Green `#5E7D5A`, Warm Beige `#E7DFD1`, Earthy Brown `#8A6A55`; CTA nâu đất. Font: Playfair Display 600 và Be Vietnam Pro. `natural-theme.css` được build áp dụng cuối cùng cho mọi trang.
+- **Hero Trang chủ tuyệt đối không crop, đổi ảnh, đổi tỷ lệ, phủ màu hay lược bỏ chi tiết.** Chỉ đổi nền CSS bên ngoài khi được yêu cầu. Hai ảnh cần giữ hash:
+  - `hero-hotprint-v3.webp`: `CF37490E3863C4E2A9B0807C18F6D1DA1D112FDF4C4C791D567BC035AB44F85C`.
+  - `hero-hotprint-v3-small.webp`: `57CC6A6AA322B320812BCF7C8BCB012A7A73DB0CF52B924C7950802FAC7F6897`.
+- Hero Trang chủ là concept HotPrint đã được duyệt và có chú thích minh họa. Thư viện/danh mục dùng ảnh sản phẩm thực, không tạo thương hiệu/khách hàng/sản phẩm giả.
+- Ảnh thật đã tối ưu nằm trong `dist/assets/products/` và `dist/assets/factory/`; nguồn ở hai tệp `*-image-sources.json`. Không cần ảnh JPG gốc để build hoặc chạy bản hiện có. Không tự sinh lại sản phẩm, nhãn hiệu, người hoặc nhà máy bằng AI.
+- Không có calculator, checkout, biểu mẫu báo giá nhiều bước, giá công khai, chứng nhận, MOQ hoặc cam kết thời gian không có nguồn.
+- Chủ website đã xác nhận **giữ địa chỉ đang công bố**: trụ sở 9B Đường 1A, KCN Biên Hòa 2, Đồng Nai; nhà máy 999 Nguyễn Thiện Thuật, KP1, Phường An Hoà, Biên Hoà, Đồng Nai. Hotline 0903.032.686; email info@hotprint.vn; Zalo `https://zalo.me/0903032686`. Maps hiện là tìm theo địa chỉ, chưa có ghim chính thức.
+
+## Chạy và sửa
+
+Cần Node.js 20 trở lên. Website và build không cần cài thư viện hoặc API key.
+
+```sh
+npm run build
+npm run check
+npm run verify:site
+npm run dev
+```
+
+Preview mặc định: `http://127.0.0.1:4174/`. Đây là preview trên máy đang chạy server, không phải link công khai. Nếu server đang chạy ở cổng 4174 thì dùng lại; đừng tạo thêm server hoặc tự chuyển cổng làm các thẻ preview bị lệch.
+
+- Trang chủ chỉnh trong `dist/index.html`; phần dùng chung trong `dist/app.js`.
+- Các trang khác chỉnh ở `build-*.mjs`/template và CSS/JS tương ứng, sau đó build chung. **Không sửa trực tiếp HTML đã sinh rồi bỏ qua builder**, vì lần build sau sẽ ghi đè.
+- P15 chỉnh bài trong `knowledge-content.mjs`. Tài liệu trang nào sẽ chỉ rõ tệp nguồn trang đó.
+- `dist/` là bản static có sẵn đầy đủ ảnh/font để hosting. Giữ cả mã nguồn builder và bản dist để tài khoản khác tiếp tục hoặc xem ngay.
+- `prepare-catalog.mjs` là công cụ tạo lại ảnh từ kho gốc khi có `original-photos/`; không chạy nó khi chỉ muốn build website từ repo.
+
+Các bài QA dùng Playwright và Chrome. Nếu máy mới chưa có Playwright, cài cho mục đích kiểm tra bằng `npm install --no-save --package-lock=false playwright` và cài Chrome. Thư viện này không cần cho người xem website hoặc để chạy build/dev. Không ghi đường dẫn runtime Codex riêng của một máy vào mã dự án. Xem các script `test:*` trong package.json.
+
+## Trạng thái gửi và dữ liệu thực
+
+- Form **chuẩn bị email**, khách kiểm tra/đính kèm/gửi trong ứng dụng email. Chưa có backend tiếp nhận, CRM, upload hoặc khu vực quản trị yêu cầu.
+- Chọn tệp chỉ kiểm tra/ghi tên; không upload, không tự đính kèm mailto. Không hiển thị đã gửi/đã nhận, mã yêu cầu hoặc lịch đã xác nhận giả.
+- Thông tin form nằm trên trang; không lưu thông tin cá nhân vào localStorage. Mã mẫu quan tâm được lưu trong `hotprint-sample-selection`; P16 chỉ xóa key này và đồng bộ các thẻ khác. Việc đọc chính sách từ form mở thẻ mới để giữ nội dung nhập.
+- Bài kiến thức là nội dung biên tập mới, cần HotPrint duyệt kỹ thuật trước khi xuất bản chính thức.
+- Chính sách riêng tư là bản rà soát. Đã tìm trên trang công ty, sitemap/API; chưa xác minh thời hạn lưu email/hồ sơ, phân quyền và bên xử lý email/hosting. Không tự đặt các thông tin đó khi tiếp tục.
+- Preview có `noindex,nofollow`. Chưa được coi là bản vận hành thay thế hotprint.vn. Đẩy mã lên GitHub không đồng nghĩa deploy website.
+
+## Phần tiếp theo trong kế hoạch
+
+Không tự bắt đầu những phần này nếu chủ website chỉ yêu cầu đồng bộ/bàn giao. Khi có yêu cầu tiếp tục, bám chương tương ứng:
+
+1. **P17 Điều kiện gửi yêu cầu**: chưa có trang riêng, hiện là nội dung ngắn trong modal. Kế hoạch năm mục: bản chất yêu cầu; trao đổi/báo giá; mẫu/lịch; tệp; liên hệ. Giữ đúng giới hạn form chuẩn bị email.
+2. **P18 Xác nhận**: chỉ triển khai trạng thái đã tiếp nhận khi đã có backend lưu thật; không làm trang gửi thành công giả.
+3. Trang chi tiết sản phẩm theo URL: hiện chi tiết mẫu dùng cửa sổ gallery, chưa có toàn bộ trang URL riêng theo mẫu mở rộng của kế hoạch.
+4. Giao diện 404: server đã trả HTTP 404, chưa có trang 404 được thiết kế hoàn chỉnh.
+5. Backend/CMS, quản trị, hosting/tên miền, rà soát bài/chính sách, chuyển hướng URL cũ và SEO khi ra mắt: còn là giai đoạn triển khai tiếp theo.
+
+## Kiểm tra đã có
+
+Build/check; kiểm tra responsive VI/EN, danh mục/gallery, tìm kiếm, danh sách mẫu, liên hệ, các form, múi giờ, trang bài và chính sách đã được thực hiện trong các lượt tương ứng. Script QA được lưu trong repo; screenshot/report chạy máy ở `qa/` được bỏ qua Git để tránh đưa dữ liệu thử vào nguồn. `verify:site` kiểm tra 44 trang, tài nguyên và hero được giữ nguyên; có thể chạy lại ngay trên bản lấy từ GitHub.
+
+## Chuyển tài khoản
+
+- Cùng máy: mở lại thư mục repo hiện có trong tài khoản mới, đọc các tệp bàn giao ở đầu tài liệu rồi tiếp tục. Trạng thái mã nguồn không phụ thuộc lịch sử cuộc trò chuyện.
+- Máy/thư mục khác: lấy bản mới nhất nhánh main của repo, rồi chạy các lệnh ở trên. Quyền đọc/đẩy repo do quyền GitHub thực tế quyết định; không chép token/credential hoặc thư mục `.openai`/`.codex` của tài khoản cũ sang.
+- Nếu dùng Sites để hosting về sau, cần quyền của tài khoản đang đăng nhập hoặc dự án mới được chủ website yêu cầu. Không dùng lại ID/danh tính Sites cũ chỉ để tiếp tục sửa mã.
+
+Đoạn yêu cầu có thể dùng ở cuộc trò chuyện mới:
+
+> Tiếp tục website HotPrint từ repo https://github.com/nguyentien14122004-svg/Hotprint, nhánh main mới nhất. Đọc HANDOFF.md, AGENTS.md, README.md và docs/ke-hoach-website.md trước khi sửa. Giữ nguyên các thiết kế đã chốt, hero Trang chủ và ảnh sản phẩm thật. Kiểm tra trạng thái hiện tại, mở preview cổng 4174, rồi thực hiện phần tiếp theo tôi chỉ định. Không tự dựng lại hoặc deploy khi tôi chưa yêu cầu.

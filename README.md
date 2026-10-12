@@ -1,6 +1,10 @@
 # Website HotPrint
 
-Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ** và **Tổng quan sản phẩm**, hỗ trợ tiếng Việt/tiếng Anh và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
+Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì** và **Chính sách riêng tư**, hỗ trợ tiếng Việt/tiếng Anh và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
+
+## Tiếp tục bằng tài khoản khác
+
+Đọc [HANDOFF.md](HANDOFF.md) trước: trạng thái tới P16, những yêu cầu phải giữ, cách mở preview và các phần tiếp theo. Mã nguồn/ảnh/font trong repo đủ để build và chạy, không cần quyền Sites của tài khoản cũ. Phiên bản hiện tại có 44 đường dẫn VI/EN.
 
 ## Chạy trên máy
 
@@ -16,14 +20,65 @@ Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+
 | --- | --- | --- |
 | Trang chủ | `/` | `/en/` |
 | Tổng quan sản phẩm | `/san-pham/` | `/en/products/` |
+| Hộp giấy mềm | `/danh-muc/hop-giay-mem/` | `/en/folding-cartons/` |
+| Hộp carton in màu | `/danh-muc/hop-carton-in-mau/` | `/en/printed-corrugated-boxes/` |
+| Hộp cứng cao cấp | `/danh-muc/hop-cung-cao-cap/` | `/en/premium-rigid-boxes/` |
+| Túi giấy | `/danh-muc/tui-giay/` | `/en/paper-bags/` |
+| Nhãn dán decal | `/danh-muc/nhan-dan-decal/` | `/en/adhesive-labels/` |
+| Nhãn hàng & catalog | `/danh-muc/nhan-hang-catalog/` | `/en/hang-tags-catalogues/` |
+| Nhà máy | `/nha-may/` | `/en/factory/` |
+| Về HotPrint | `/ve-chung-toi/` | `/en/about/` |
+| Liên hệ | `/lien-he/` | `/en/contact/` |
+| Yêu cầu báo giá | `/yeu-cau-bao-gia/` | `/en/request-a-quote/` |
+| Yêu cầu mẫu | `/yeu-cau-mau/` | `/en/request-a-sample/` |
+| Đặt lịch tư vấn | `/dat-lich-tu-van/` | `/en/request-a-consultation/` |
+| Kiến thức bao bì | `/kien-thuc/` | `/en/packaging-insights/` |
+| Chính sách riêng tư | `/chinh-sach-rieng-tu/` | `/en/privacy/` |
 
 ## Chỉnh sửa và tạo bản cập nhật
+
+**P16 Chính sách riêng tư:** [thiết kế, phạm vi đã xác minh và thông tin cần rà soát](docs/privacy-policy.md). Năm phần, mục lục, VI/EN và xóa danh sách mẫu lưu trên trình duyệt. Sửa `build-privacy.mjs`, `dist/privacy.css`, `dist/privacy.js`; kiểm tra `npm run test:privacy`. Liên kết từ form mở thẻ mới, giữ nội dung nhập. Hiện 16 trang cố định × 2 + 6 bài × 2 = 44 đường dẫn. Chưa xác minh thời hạn lưu/phân quyền/bên xử lý email từ website cũ; bản preview ghi rõ giới hạn, không tự coi là chính sách chính thức đã được duyệt.
+
+**P15 Kiến thức bao bì:** [thiết kế, nội dung và nguồn](docs/packaging-insights.md). Bốn phần, tìm kiếm VI/EN không dấu, bốn chủ đề và sáu bài có trang đọc/mục lục/bài liên quan. Sửa `knowledge-content.mjs`, `build-knowledge.mjs`, `dist/knowledge.css`, `dist/knowledge.js`; kiểm tra `npm run test:knowledge`. Hiện có 30 đường dẫn trang cố định + 12 đường dẫn bài = 42. Bài mới là nội dung bản xem trước cần HotPrint rà soát kỹ thuật trước công bố; liên kết Tin tức cũ vẫn được giữ.
+
+**P14 Đặt lịch tư vấn:** [thiết kế, ngày giờ và múi giờ](docs/consultation-request.md). Ba phần, chủ đề, lịch mong muốn và hình thức trao đổi. Sửa `build-consultation.mjs`, `dist/consultation.css` và bộ xử lý chung `dist/quote.js`; kiểm tra `npm run test:consultation`. Build chung hiện tạo 28 đường dẫn; tất cả nút tư vấn dẫn vào trang mới, mang theo chủ đề/mẫu thật. Khách chuẩn bị email; HotPrint cần xác nhận lịch riêng.
+
+**P13 Yêu cầu mẫu:** [thiết kế, mẫu thật và cách nhận](docs/sample-request.md). Ba phần, loại mẫu/ảnh mẫu thật/danh sách quan tâm, địa chỉ nhận tùy chọn và chuẩn bị email. Sửa `build-sample-request.mjs`, `dist/sample-request.css`, bộ xử lý chung `dist/quote.js`; kiểm tra `npm run test:sample-request`. Build chung tạo 26 đường dẫn; nút Yêu cầu mẫu dẫn vào trang mới.
+
+**P12 Yêu cầu báo giá:** [thiết kế, biểu mẫu và khả năng gửi](docs/quote-request.md). Ba phần, biểu mẫu trên một trang, điền sẵn nhóm/mẫu thật và đổi ngôn ngữ giữ dữ liệu. Sửa `build-quote.mjs`, `dist/quote.css`, `dist/quote.js`; kiểm tra `npm run test:quote`. Build chung tạo 24 đường dẫn. Các nút báo giá chuyển sang trang riêng; hiện chuẩn bị email và ghi tên tệp, chưa tiếp nhận/upload trên máy chủ.
+
+**P11 Liên hệ:** [thiết kế, nội dung và kiểm chứng](docs/contact-page.md). Bốn phần, ba kênh trao đổi, hai địa chỉ và ba nhu cầu. Sửa `build-contact.mjs`, `dist/contact-page.css`, `dist/contact-page.js`; kiểm tra `npm run test:contact-page`. Build chung hiện tạo 22 đường dẫn.
+
+**P10 Về HotPrint:** [nội dung, thiết kế và nguồn ảnh](docs/about-hotprint.md). Sáu phần, ảnh thật và câu chuyện đã đối chiếu; sửa `build-about.mjs`, `dist/about.css`. Kiểm tra `npm run test:about`. Build chung tạo 20 đường dẫn.
+
+**Bộ màu mới cho toàn website:** [Natural Green / Warm Beige / Earthy Brown](docs/natural-colour-theme.md). Sửa `dist/natural-theme.css`; build chung áp dụng cho cả 44 đường dẫn, menu và biểu mẫu. Kiểm tra `npm run test:theme`. Bộ màu này thay các mô tả tím mận/xanh rừng cũ.
+
+**P09 Nhà máy:** [nội dung, ảnh thật và kiểm chứng](docs/factory.md). Bảy phần, 12 ảnh nhà máy thật, VI/EN, tab thiết bị và thư viện ảnh. Sửa `build-factory.mjs`, `dist/factory.css`, `dist/factory.js`; kiểm tra `npm run test:factory`. Build chung hiện tạo 18 đường dẫn.
+
+**P08 Nhãn hàng & catalog:** [nội dung, ảnh thật và kiểm chứng](docs/hang-tags-catalogues.md). Sáu phần, bốn mẫu thật, VI/EN. Sửa `build-tags-catalogues.mjs`, `dist/tags-catalogues.css`; kiểm tra `npm run test:tags`. Thư viện hiện gồm ba thẻ và một lịch; chưa có ảnh catalog thật.
+
+**P07 Nhãn dán decal:** [nội dung, ảnh thật và kiểm chứng](docs/adhesive-labels.md). Sáu phần, ba mẫu thật, VI/EN. Sửa `build-labels.mjs`, `dist/labels.css`; kiểm tra `npm run test:labels`.
+
+**P06 Túi giấy:** [nội dung, nguồn ảnh và kiểm chứng](docs/paper-bags.md). Sáu phần, tám mẫu thật, VI/EN. Sửa `build-bags.mjs`, `dist/bags.css`; kiểm tra `npm run test:bags`.
+
+**P05 Hộp cứng cao cấp:** [nội dung, nguồn ảnh và kiểm chứng](docs/premium-rigid-boxes.md). Sáu phần, chín mẫu thật, VI/EN. Sửa `build-rigid.mjs`, `dist/rigid.css`; kiểm tra `npm run test:rigid`.
+
+**P04 Hộp carton in màu:** [nội dung, ảnh và kiểm chứng](docs/printed-corrugated-boxes.md). Sáu phần, bốn mẫu thật, VI/EN; sửa `build-carton.mjs` và `dist/carton.css`; dùng chung `dist/folding.js`. Kiểm tra bằng `npm run test:carton`.
+
+**P03 Hộp giấy mềm:** [nội dung, ảnh thật và tính năng](docs/folding-cartons.md). Sáu phần, tám mẫu thật, VI/EN; nguồn `build-folding.mjs`, CSS/JS ở `dist/folding.*`. Chạy `npm run test:folding` để kiểm tra riêng trang này.
+
+**Chỉnh ảnh mới nhất:** [nền ánh sáng mềm và bóng tiếp xúc](docs/product-photo-integration.md), CSS cuối `dist/products-lighting.css`; hero đã bỏ hàng 06+/36+/tư vấn theo yêu cầu.
+
+**Phần sáu nhóm mới:** [chi tiết bám mẫu](docs/families-reference-match.md); sửa trong `dist/products-families.css`, `dist/family-photo-windows.css` và `products-template.html`.
+
+**Bản mới nhất 12/10/2026:** hero sản phẩm theo mẫu thiên nhiên/serif của chủ website, CSS ở `dist/products-botanical.css`. Xem [nội dung cập nhật và trạng thái preview](docs/cap-nhat-2026-10-12.md).
 
 - `dist/index.html`: nội dung Trang chủ, header, footer, các cửa sổ liên hệ dùng chung.
 - `dist/styles.css`, `dist/refinements.css`, `dist/contact-studio.css`: giao diện Trang chủ và phần dùng chung.
 - `dist/app.js`: VI/EN, điều hướng, cửa sổ liên hệ và biểu mẫu.
-- `build-products.mjs`: cấu trúc trang Tổng quan sản phẩm; lấy header/footer dùng chung từ Trang chủ.
+- `products-template.html`: cấu trúc trang Tổng quan sản phẩm. `build-products.mjs` lấy template này và header/footer dùng chung từ Trang chủ.
 - `dist/products.css`, `dist/products.js`: thiết kế, bản dịch, tìm kiếm, bộ lọc, phân trang, thư viện ảnh sản phẩm.
+- `dist/products-atelier.css`: hướng Product Atelier mới; danh mục giấy gấp, hero trưng bày và danh sách mẫu quan tâm. Xem `docs/product-atelier-direction.md` cho quyết định thiết kế và prompt Imagegen.
 - `dist/product-data.js`: 36 mẫu tham khảo; tên, nhóm và các góc ảnh.
 - `dist/assets/`: toàn bộ hình ảnh, logo và phông chữ cần để chạy website.
 
@@ -41,6 +96,8 @@ Các tệp trong `dist/` được lưu trong repo và là bản dùng để xu�
 Trang Tổng quan sản phẩm dùng **36 mẫu từ 48 ảnh gốc do chủ website cung cấp**, giữ nguyên sản phẩm và nhãn hiệu. Ảnh chỉ được xoay đúng hướng, thu nhỏ và nén WebP; khung/nền giao diện ở bên ngoài ảnh. Nguồn được ghi trong `product-image-sources.json`. Mã 032A… là mã ảnh tham khảo, không phải mã hàng chính thức.
 
 Ảnh hero Trang chủ là thiết kế minh họa HotPrint đã được duyệt ở giai đoạn trước, có chú thích minh họa trên giao diện. Không dùng ảnh này làm bằng chứng sản phẩm đã sản xuất.
+
+Bản Product Atelier trên trang sản phẩm sử dụng một nền giấy trống tạo bởi Imagegen. Sản phẩm ghép trên giao diện là tệp ảnh gốc qua khung cắt CSS; cửa sổ chi tiết luôn cung cấp ảnh đầy đủ. Không dùng ảnh sản phẩm được vẽ lại bằng AI. Danh sách tối đa 6 mẫu quan tâm chỉ lưu cục bộ trong trình duyệt để chuẩn bị nội dung tư vấn chung.
 
 Ảnh WebP đã có đủ trong repo; không cần ảnh JPG gốc để chạy website. Nếu cần tạo lại ảnh, cài công cụ tùy chọn `npm install --no-save sharp`, rồi chạy:
 

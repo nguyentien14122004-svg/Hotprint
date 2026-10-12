@@ -1,0 +1,3 @@
+import{readdir,readFile,writeFile}from'node:fs/promises';
+async function apply(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+entry.name;if(entry.isDirectory())await apply(file);else if(entry.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/[ \t]*<link rel="stylesheet" href="\/natural-theme\.css">\s*/g,'').replace('</head>','  <link rel="stylesheet" href="/natural-theme.css">\n</head>').replace(/<meta name="theme-color"[^>]*>/,'<meta name="theme-color" content="#5E7D5A">');await writeFile(file,html.replace(/^[ \t]+(?=\r?$)/gm,''));}}}
+await apply('dist');console.log('Natural Green / Warm Beige / Earthy Brown applied to all routes.');

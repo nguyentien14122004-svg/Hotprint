@@ -3,13 +3,32 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Website HotPrint song ngữ: Trang chủ và Tổng quan sản phẩm.",
-  "engines": { "node": ">=20" },
+  "description": "Website HotPrint song ngữ: 16 trang nội dung và 6 bài kiến thức, ảnh thật và bản preview độc lập tài khoản.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "node server.mjs",
     "build": "node build-products.mjs",
-    "check": "node --check dist/app.js && node --check dist/products.js && node --check dist/product-data.js && node --check build-products.mjs && node --check server.mjs",
+    "check": "node --check dist/app.js && node --check dist/products.js && node --check dist/product-data.js && node --check build-products.mjs && node --check server.mjs && node --check build-folding.mjs && node --check dist/folding.js && node --check build-carton.mjs && node --check build-rigid.mjs && node --check build-bags.mjs && node --check build-labels.mjs && node --check build-tags-catalogues.mjs && node --check build-factory.mjs && node --check dist/factory.js && node --check apply-theme.mjs && node --check build-about.mjs && node --check build-contact.mjs && node --check dist/contact-page.js && node --check build-quote.mjs && node --check dist/quote.js && node --check build-sample-request.mjs && node --check build-consultation.mjs && node --check knowledge-content.mjs && node --check build-knowledge.mjs && node --check dist/knowledge.js && node --check build-privacy.mjs && node --check dist/privacy.js && node --check verify-site.mjs",
     "test:browser": "node qa-products.mjs",
-    "prepare:photos": "node prepare-catalog.mjs"
+    "test:folding": "node qa-folding.mjs",
+    "test:atelier": "node qa-atelier.mjs",
+    "prepare:photos": "node prepare-catalog.mjs",
+    "test:carton": "node qa-carton.mjs",
+    "test:rigid": "node qa-rigid.mjs",
+    "test:bags": "node qa-bags.mjs",
+    "test:labels": "node qa-labels.mjs",
+    "test:tags": "node qa-tags.mjs",
+    "test:factory": "node qa-factory.mjs",
+    "test:theme": "node qa-natural-theme.mjs",
+    "test:about": "node qa-about.mjs",
+    "test:contact-page": "node qa-contact-page.mjs",
+    "test:quote": "node qa-quote.mjs",
+    "test:sample-request": "node qa-sample-request.mjs",
+    "test:consultation": "node qa-consultation.mjs",
+    "test:knowledge": "node qa-knowledge.mjs",
+    "test:privacy": "node qa-privacy.mjs",
+    "verify:site": "node verify-site.mjs"
   }
 }

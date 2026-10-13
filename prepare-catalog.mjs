@@ -1,4 +1,4 @@
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 const sourceDirectory=process.argv[2];
@@ -11,7 +11,7 @@ const entries=[
  ['5339','label','Nhãn mã vạch dạng cuộn','Barcode label roll',['5339']],
  ['5353','catalog','Thẻ treo họa tiết rừng','Woodland hang tags',['5353','5283','5284']],
  ['5308','rigid','Hộp nắp rời Eton / Tretorn','Eton / Tretorn lift-off box',['5308','5286']],
- ['5316','folding','Hộp giấy Maison Marou','Maison Marou carton',['5316']],
+ ['5316','rigid','Hộp cứng Maison Marou','Maison Marou rigid box',['5316']],
  ['5355','bag','Túi giấy Socola','Socola paper bag',['5355']],
  ['5358','carton','Hộp carton USPA Sport','USPA Sport corrugated box',['5358']],
  ['5328','label','Nhãn in đỏ dạng cuộn','Red printed label roll',['5328']],
@@ -44,6 +44,7 @@ const entries=[
 const data=entries.map(([id,group,vi,en,images])=>({id:'032A'+id,group,vi,en,images:images.map(i=>'032A'+i)}));
 await mkdir('dist/assets/products',{recursive:true});
 for(const id of new Set(data.flatMap(p=>p.images))){const src=path.join(sourceDirectory,`${id}.JPG`);await sharp(src).rotate().resize({width:720,withoutEnlargement:true}).webp({quality:85}).toFile(`dist/assets/products/${id}.webp`);await sharp(src).rotate().resize({width:1800,withoutEnlargement:true}).webp({quality:91}).toFile(`dist/assets/products/${id}-large.webp`);}
-await writeFile('dist/product-data.js','window.HOTPRINT_PRODUCTS = '+JSON.stringify(data,null,2)+';\n');
-await writeFile('product-image-sources.json',JSON.stringify(data.map(p=>({...p,sourceFiles:p.images.map(id=>`HÌnh sản phẩm/${id}.JPG`),processing:'EXIF orientation, resize and WebP encoding only. No retouching, recoloring, background removal or generative edits.'})),null,2));
+const imported=JSON.parse(await readFile('official-products.json','utf8'));
+await writeFile('dist/product-data.js','window.HOTPRINT_PRODUCTS = '+JSON.stringify([...data,...imported],null,2)+';\n');
+await writeFile('product-image-sources.json',JSON.stringify([...data.map(p=>({...p,sourceFiles:p.images.map(id=>`HÌnh sản phẩm/${id}.JPG`),processing:'EXIF orientation, resize and WebP encoding only. No retouching, recoloring, background removal or generative edits.'})),...imported.map(p=>({...p,processing:'Source image from official HotPrint website; WebP encoding only.'}))],null,2));
 console.log(JSON.stringify({models:data.length,originalPhotos:new Set(data.flatMap(p=>p.images)).size}));

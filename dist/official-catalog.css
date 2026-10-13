@@ -1,0 +1,40 @@
+/* Shared studio treatment; original product pixels are not recoloured or regenerated. */
+.official-stage{display:block;position:absolute;inset:0;overflow:hidden;background:#e8e0d0 url('/assets/library-studio-paper.webp') center/cover no-repeat}
+.official-stage .official-placement{display:block;position:absolute;inset:0;filter:none}
+.official-stage .official-product,.official-stage .official-ground{position:absolute;max-width:none;width:var(--official-width);height:auto;aspect-ratio:1;left:var(--official-left);top:var(--official-top);object-fit:contain;transform:none;filter:none}
+.official-stage .official-product{mask:var(--official-mask) center/100% 100% no-repeat;clip-path:none}
+#thu-vien .product-card[data-official] .primary-photo,#thu-vien .product-card[data-official] .library-ground-shadow{width:var(--official-width);left:var(--official-left);top:var(--official-top);aspect-ratio:1;filter:none;transform:none}
+#thu-vien .product-card[data-official] .primary-photo{mask:var(--official-mask) center/100% 100% no-repeat;clip-path:none}
+#thu-vien .product-card[data-official] .product-photo{background:#e8e0d0 url('/assets/library-studio-paper.webp') center/cover no-repeat}
+.fold-sample-photo:has(.official-stage){background:#e8e0d0;aspect-ratio:1.32}
+[data-official="HP7119"]{--official-mask:url('/assets/official-masks/HP7119.svg');--official-width:94.091%;--official-left:2.301%;--official-top:-11.290%;}
+[data-official="HP7117"]{--official-mask:url('/assets/official-masks/HP7117.svg');--official-width:85.537%;--official-left:7.231%;--official-top:-4.327%;}
+[data-official="HP7107"]{--official-mask:url('/assets/official-masks/HP7107.svg');--official-width:92.246%;--official-left:4.005%;--official-top:-10.735%;}
+[data-official="HP7106"]{--official-mask:url('/assets/official-masks/HP7106.svg');--official-width:92.246%;--official-left:4.774%;--official-top:-10.397%;}
+[data-official="HP7094"]{--official-mask:url('/assets/official-masks/HP7094.svg');--official-width:79.655%;--official-left:10.172%;--official-top:5.097%;}
+[data-official="HP7093"]{--official-mask:url('/assets/official-masks/HP7093.svg');--official-width:92.246%;--official-left:3.236%;--official-top:-12.765%;}
+[data-official="HP7076"]{--official-mask:url('/assets/official-masks/HP7076.svg');--official-width:69.697%;--official-left:14.377%;--official-top:7.033%;}
+[data-official="HP7075"]{--official-mask:url('/assets/official-masks/HP7075.svg');--official-width:56.511%;--official-left:21.587%;--official-top:14.721%;}
+[data-official="HP7073"]{--official-mask:url('/assets/official-masks/HP7073.svg');--official-width:99.043%;--official-left:-0.347%;--official-top:-16.774%;}
+[data-official="HP6435"]{--official-mask:url('/assets/official-masks/HP6435.svg');--official-width:87.526%;--official-left:6.358%;--official-top:-6.749%;}
+[data-official="HP6433"]{--official-mask:url('/assets/official-masks/HP6433.svg');--official-width:81.818%;--official-left:8.864%;--official-top:-2.200%;}
+[data-official="HP6431"]{--official-mask:url('/assets/official-masks/HP6431.svg');--official-width:79.738%;--official-left:10.574%;--official-top:-1.127%;}
+[data-official="HP6429"]{--official-mask:url('/assets/official-masks/HP6429.svg');--official-width:101.720%;--official-left:-0.860%;--official-top:-15.449%;}
+[data-official="HP6427"]{--official-mask:url('/assets/official-masks/HP6427.svg');--official-width:81.113%;--official-left:10.683%;--official-top:-2.332%;}
+[data-official="HP6425"]{--official-mask:url('/assets/official-masks/HP6425.svg');--official-width:114.074%;--official-left:-6.879%;--official-top:-24.842%;}
+[data-official="HP6423"]{--official-mask:url('/assets/official-masks/HP6423.svg');--official-width:78.084%;--official-left:11.934%;--official-top:-0.178%;}
+[data-official="HP6420"]{--official-mask:url('/assets/official-masks/HP6420.svg');--official-width:110.438%;--official-left:-4.759%;--official-top:-16.855%;}
+[data-official="HP6418"]{--official-mask:url('/assets/official-masks/HP6418.svg');--official-width:84.010%;--official-left:12.079%;--official-top:-5.487%;}
+[data-official="HP6416"]{--official-mask:url('/assets/official-masks/HP6416.svg');--official-width:70.745%;--official-left:14.726%;--official-top:4.808%;}
+[data-official="HP6414"]{--official-mask:url('/assets/official-masks/HP6414.svg');--official-width:87.935%;--official-left:6.277%;--official-top:-8.794%;}
+[data-official="HP6412"]{--official-mask:url('/assets/official-masks/HP6412.svg');--official-width:92.700%;--official-left:4.036%;--official-top:-13.931%;}
+[data-official="HP6410"]{--official-mask:url('/assets/official-masks/HP6410.svg');--official-width:110.048%;--official-left:-4.871%;--official-top:-23.754%;}
+[data-official="HP6408"]{--official-mask:url('/assets/official-masks/HP6408.svg');--official-width:92.700%;--official-left:4.422%;--official-top:-10.532%;}
+[data-official="HP6406"]{--official-mask:url('/assets/official-masks/HP6406.svg');--official-width:97.001%;--official-left:2.443%;--official-top:-11.454%;}
+[data-official="HP6404"]{--official-mask:url('/assets/official-masks/HP6404.svg');--official-width:75.880%;--official-left:12.271%;--official-top:0.863%;}
+[data-official="HP6400"]{--official-mask:url('/assets/official-masks/HP6400.svg');--official-width:107.027%;--official-left:-3.959%;--official-top:-14.070%;}
+[data-official="HP6398"]{--official-mask:url('/assets/official-masks/HP6398.svg');--official-width:99.043%;--official-left:1.166%;--official-top:-14.958%;}
+[data-official="HP6394"]{--official-mask:url('/assets/official-masks/HP6394.svg');--official-width:83.636%;--official-left:6.556%;--official-top:-4.160%;}
+[data-official="HP6392"]{--official-mask:url('/assets/official-masks/HP6392.svg');--official-width:90.472%;--official-left:4.513%;--official-top:-8.875%;}
+[data-official="HP6390"]{--official-mask:url('/assets/official-masks/HP6390.svg');--official-width:85.150%;--official-left:7.425%;--official-top:-7.353%;}
+[data-official="HP6388"]{--official-mask:url('/assets/official-masks/HP6388.svg');--official-width:108.706%;--official-left:-3.598%;--official-top:-20.024%;}

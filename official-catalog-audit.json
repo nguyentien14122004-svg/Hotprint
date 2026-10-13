@@ -1,0 +1,483 @@
+{
+  "checked": "2026-10-14",
+  "endpoint": "https://hotprint.vn/wp-json/wc/store/v1/products?per_page=100",
+  "records": [
+    {
+      "officialId": 7120,
+      "name": "Hộp giấy mềm – 005",
+      "source": "https://hotprint.vn/san-pham/hop-giay-mem-005/",
+      "status": "already-present",
+      "modelId": "032A5320"
+    },
+    {
+      "officialId": 7119,
+      "name": "Hộp giấy mềm – 004",
+      "source": "https://hotprint.vn/san-pham/hop-giay-mem-004/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/q4.png",
+      "status": "added",
+      "modelId": "HP7119",
+      "group": "folding",
+      "use": "food"
+    },
+    {
+      "officialId": 7117,
+      "name": "Hộp giấy mềm – 003",
+      "source": "https://hotprint.vn/san-pham/hop-giay-mem-003/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/q3.png",
+      "status": "added",
+      "modelId": "HP7117",
+      "group": "folding",
+      "use": "food"
+    },
+    {
+      "officialId": 7116,
+      "name": "Hộp giấy mềm – 002",
+      "source": "https://hotprint.vn/san-pham/hop-giay-mem-002/",
+      "status": "already-present",
+      "modelId": "032A5312"
+    },
+    {
+      "officialId": 7109,
+      "name": "Hộp giấy mềm – 001",
+      "source": "https://hotprint.vn/san-pham/hop-giay-mem-001/",
+      "status": "already-present",
+      "modelId": "032A5268"
+    },
+    {
+      "officialId": 7108,
+      "name": "Hộp carton – 007",
+      "source": "https://hotprint.vn/san-pham/hop-carton-007/",
+      "status": "already-present",
+      "modelId": "032A5255"
+    },
+    {
+      "officialId": 7107,
+      "name": "Hộp carton – 006",
+      "source": "https://hotprint.vn/san-pham/hop-carton-006/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t5.png",
+      "status": "added",
+      "modelId": "HP7107",
+      "group": "carton",
+      "use": "kitchen"
+    },
+    {
+      "officialId": 7106,
+      "name": "Hộp carton – 005",
+      "source": "https://hotprint.vn/san-pham/hop-carton-005/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t4.png",
+      "status": "added",
+      "modelId": "HP7106",
+      "group": "carton",
+      "use": "other"
+    },
+    {
+      "officialId": 7104,
+      "name": "Hộp carton – 004",
+      "source": "https://hotprint.vn/san-pham/hop-carton-004/",
+      "status": "already-present",
+      "modelId": "032A5366"
+    },
+    {
+      "officialId": 7103,
+      "name": "Hộp carton – 003",
+      "source": "https://hotprint.vn/san-pham/hop-carton-003/",
+      "status": "already-present",
+      "modelId": "032A5326"
+    },
+    {
+      "officialId": 7102,
+      "name": "Hộp carton – 002",
+      "source": "https://hotprint.vn/san-pham/hop-carton-002/",
+      "status": "already-present",
+      "modelId": "032A5308"
+    },
+    {
+      "officialId": 7094,
+      "name": "Hộp carton – 001",
+      "source": "https://hotprint.vn/san-pham/hop-carton-001/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t0.png",
+      "status": "added",
+      "modelId": "HP7094",
+      "group": "carton",
+      "use": "food"
+    },
+    {
+      "officialId": 7093,
+      "name": "Hộp cao cấp – 008",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-008/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/r9.png",
+      "status": "added",
+      "modelId": "HP7093",
+      "group": "rigid",
+      "use": "gift"
+    },
+    {
+      "officialId": 7092,
+      "name": "Hộp cao cấp – 007",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-007/",
+      "status": "already-present",
+      "modelId": "032A5363"
+    },
+    {
+      "officialId": 7091,
+      "name": "Hộp cao cấp – 006",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-006/",
+      "status": "already-present",
+      "modelId": "032A5356"
+    },
+    {
+      "officialId": 7090,
+      "name": "Hộp cao cấp – 005",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-005/",
+      "status": "already-present",
+      "modelId": "032A5316"
+    },
+    {
+      "officialId": 7089,
+      "name": "Hộp cao cấp – 004",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-004/",
+      "status": "already-present",
+      "modelId": "032A5309"
+    },
+    {
+      "officialId": 7088,
+      "name": "Hộp cao cấp – 003",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-003/",
+      "status": "already-present",
+      "modelId": "032A5293"
+    },
+    {
+      "officialId": 7087,
+      "name": "Hộp cao cấp – 002",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-002/",
+      "status": "already-present",
+      "modelId": "032A5257"
+    },
+    {
+      "officialId": 7078,
+      "name": "Hộp cao cấp – 001",
+      "source": "https://hotprint.vn/san-pham/hop-cao-cap-001/",
+      "status": "already-present",
+      "modelId": "032A5246"
+    },
+    {
+      "officialId": 7077,
+      "name": "Túi giấy – 006",
+      "source": "https://hotprint.vn/san-pham/tui-giay-006/",
+      "status": "already-present",
+      "modelId": "032A5311"
+    },
+    {
+      "officialId": 7076,
+      "name": "Túi giấy – 005",
+      "source": "https://hotprint.vn/san-pham/tui-giay-005/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/r0.png",
+      "status": "added",
+      "modelId": "HP7076",
+      "group": "bag",
+      "use": "retail"
+    },
+    {
+      "officialId": 7075,
+      "name": "Túi giấy – 004",
+      "source": "https://hotprint.vn/san-pham/tui-giay-004/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/e0.png",
+      "status": "added",
+      "modelId": "HP7075",
+      "group": "bag",
+      "use": "gift"
+    },
+    {
+      "officialId": 7073,
+      "name": "Túi giấy – 003",
+      "source": "https://hotprint.vn/san-pham/tui-giay-003/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/e9.png",
+      "status": "added",
+      "modelId": "HP7073",
+      "group": "bag",
+      "use": "gift"
+    },
+    {
+      "officialId": 7072,
+      "name": "Túi giấy – 002",
+      "source": "https://hotprint.vn/san-pham/tui-giay-002/",
+      "status": "already-present",
+      "modelId": "032A5357"
+    },
+    {
+      "officialId": 7065,
+      "name": "Túi giấy – 001",
+      "source": "https://hotprint.vn/san-pham/tui-giay-001/",
+      "status": "already-present",
+      "modelId": "032A5355"
+    },
+    {
+      "officialId": 7062,
+      "name": "Nhãn dán (Decal) – 002",
+      "source": "https://hotprint.vn/san-pham/nhan-dan-decal-002/",
+      "status": "already-present",
+      "modelId": "032A5328"
+    },
+    {
+      "officialId": 7060,
+      "name": "Nhãn dán (Decal) – 001",
+      "source": "https://hotprint.vn/san-pham/nhan-dan-decal-001/",
+      "status": "already-present",
+      "modelId": "032A5337"
+    },
+    {
+      "officialId": 7058,
+      "name": "Nhãn hàng, Catalog – 004",
+      "source": "https://hotprint.vn/san-pham/nhan-hang-catalog-004/",
+      "status": "already-present",
+      "modelId": "032A5364"
+    },
+    {
+      "officialId": 7056,
+      "name": "Nhãn hàng, Catalog – 003",
+      "source": "https://hotprint.vn/san-pham/nhan-hang-catalog-003/",
+      "status": "already-present",
+      "modelId": "032A5323"
+    },
+    {
+      "officialId": 7054,
+      "name": "Nhãn hàng, Catalog – 002",
+      "source": "https://hotprint.vn/san-pham/nhan-hang-catalog-002/",
+      "status": "already-present",
+      "modelId": "032A5325"
+    },
+    {
+      "officialId": 7052,
+      "name": "Nhãn hàng, Catalog – 001",
+      "source": "https://hotprint.vn/san-pham/nhan-hang-catalog-001/",
+      "status": "already-present",
+      "modelId": "032A5353"
+    },
+    {
+      "officialId": 6981,
+      "name": "Hộp yến sào",
+      "source": "https://hotprint.vn/san-pham/hop-yen-sao/",
+      "status": "held-no-image-per-owner"
+    },
+    {
+      "officialId": 6435,
+      "name": "Catalog bìa cứng",
+      "source": "https://hotprint.vn/san-pham/catalog-bia-cung/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/24.png",
+      "status": "added",
+      "modelId": "HP6435",
+      "group": "catalog",
+      "use": "print"
+    },
+    {
+      "officialId": 6433,
+      "name": "Thẻ treo / thẻ bài",
+      "source": "https://hotprint.vn/san-pham/the-treo-the-bai/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/23.png",
+      "status": "added",
+      "modelId": "HP6433",
+      "group": "catalog",
+      "use": "tags"
+    },
+    {
+      "officialId": 6431,
+      "name": "Nhãn hàng",
+      "source": "https://hotprint.vn/san-pham/nhan-hang/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/22.png",
+      "status": "added",
+      "modelId": "HP6431",
+      "group": "catalog",
+      "use": "tags"
+    },
+    {
+      "officialId": 6429,
+      "name": "Catalog / Brochuse / Tạp chí",
+      "source": "https://hotprint.vn/san-pham/catalog-brochuse-tap-chi/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/21.png",
+      "status": "added",
+      "modelId": "HP6429",
+      "group": "catalog",
+      "use": "print"
+    },
+    {
+      "officialId": 6427,
+      "name": "Tem nhãn in nhiệt",
+      "source": "https://hotprint.vn/san-pham/tem-nhan-in-nhiet/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/20.png",
+      "status": "added",
+      "modelId": "HP6427",
+      "group": "label",
+      "use": "barcode"
+    },
+    {
+      "officialId": 6425,
+      "name": "Nhãn satin / rubang",
+      "source": "https://hotprint.vn/san-pham/nhan-satin-rubang/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/19.png",
+      "status": "added",
+      "modelId": "HP6425",
+      "group": "label",
+      "use": "information"
+    },
+    {
+      "officialId": 6423,
+      "name": "Nhãn dán decal liên tục",
+      "source": "https://hotprint.vn/san-pham/nhan-dan-decal-lien-tuc/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/18.png",
+      "status": "added",
+      "modelId": "HP6423",
+      "group": "label",
+      "use": "symbol"
+    },
+    {
+      "officialId": 6420,
+      "name": "Nhãn dán decal",
+      "source": "https://hotprint.vn/san-pham/nhan-dan-decal/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/17.png",
+      "status": "added",
+      "modelId": "HP6420",
+      "group": "label",
+      "use": "barcode"
+    },
+    {
+      "officialId": 6418,
+      "name": "Túi giấy quai xách – nắp gập",
+      "source": "https://hotprint.vn/san-pham/tui-giay-quai-xach-nap-gap/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/16.png",
+      "status": "added",
+      "modelId": "HP6418",
+      "group": "bag",
+      "use": "gift"
+    },
+    {
+      "officialId": 6416,
+      "name": "Túi giấy đựng rượu vang",
+      "source": "https://hotprint.vn/san-pham/tui-giay-dung-ruou-vang/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/15.png",
+      "status": "added",
+      "modelId": "HP6416",
+      "group": "bag",
+      "use": "gift"
+    },
+    {
+      "officialId": 6414,
+      "name": "Túi giấy đựng quà tặng",
+      "source": "https://hotprint.vn/san-pham/tui-giay-dung-qua-tang/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/14.png",
+      "status": "added",
+      "modelId": "HP6414",
+      "group": "bag",
+      "use": "gift"
+    },
+    {
+      "officialId": 6412,
+      "name": "Túi xách LNKK",
+      "source": "https://hotprint.vn/san-pham/tui-xach-lnkk/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/13.png",
+      "status": "added",
+      "modelId": "HP6412",
+      "group": "bag",
+      "use": "retail"
+    },
+    {
+      "officialId": 6410,
+      "name": "Hộp bánh trung thu",
+      "source": "https://hotprint.vn/san-pham/hop-banh-trung-thu/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/12.png",
+      "status": "added",
+      "modelId": "HP6410",
+      "group": "carton",
+      "use": "food"
+    },
+    {
+      "officialId": 6408,
+      "name": "Hộp bánh sinh nhật",
+      "source": "https://hotprint.vn/san-pham/hop-banh-sinh-nhat/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/11.png",
+      "status": "added",
+      "modelId": "HP6408",
+      "group": "carton",
+      "use": "food"
+    },
+    {
+      "officialId": 6406,
+      "name": "Hộp carton đựng pizza",
+      "source": "https://hotprint.vn/san-pham/hop-carton-dung-pizza/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/10.png",
+      "status": "added",
+      "modelId": "HP6406",
+      "group": "carton",
+      "use": "food"
+    },
+    {
+      "officialId": 6404,
+      "name": "Hộp carton đựng giày",
+      "source": "https://hotprint.vn/san-pham/hop-carton-dung-giay/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/9.png",
+      "status": "added",
+      "modelId": "HP6404",
+      "group": "carton",
+      "use": "footwear"
+    },
+    {
+      "officialId": 6400,
+      "name": "Hộp giấy / Hộp giày Pierre Cardin",
+      "source": "https://hotprint.vn/san-pham/hop-giay-hop-giay-pierre-cardin/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/7.png",
+      "status": "added",
+      "modelId": "HP6400",
+      "group": "rigid",
+      "use": "brand"
+    },
+    {
+      "officialId": 6398,
+      "name": "Hộp giấy / Hộp giày MARC O’POLO",
+      "source": "https://hotprint.vn/san-pham/hop-giay-hop-giay-marc-opolo/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/6.png",
+      "status": "added",
+      "modelId": "HP6398",
+      "group": "rigid",
+      "use": "brand"
+    },
+    {
+      "officialId": 6394,
+      "name": "Hộp giấy / Hộp mỹ phẩm L’evinia",
+      "source": "https://hotprint.vn/san-pham/hop-giay-hop-my-pham-levinia/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/4.png",
+      "status": "added",
+      "modelId": "HP6394",
+      "group": "folding",
+      "use": "fragrance"
+    },
+    {
+      "officialId": 6392,
+      "name": "Hộp giấy / Hộp dược phẩm",
+      "source": "https://hotprint.vn/san-pham/hop-giay-hop-duoc-pham/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/3.png",
+      "status": "added",
+      "modelId": "HP6392",
+      "group": "folding",
+      "use": "health"
+    },
+    {
+      "officialId": 6390,
+      "name": "Hộp dược phẩm Varogel",
+      "source": "https://hotprint.vn/san-pham/hop-duoc-pham-varogel/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/2.png",
+      "status": "added",
+      "modelId": "HP6390",
+      "group": "folding",
+      "use": "health"
+    },
+    {
+      "officialId": 6388,
+      "name": "Hộp dược phẩm Ampha 3B",
+      "source": "https://hotprint.vn/san-pham/hop-duoc-pham-ampha-3b/",
+      "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/1.png",
+      "status": "added",
+      "modelId": "HP6388",
+      "group": "folding",
+      "use": "health"
+    }
+  ]
+}

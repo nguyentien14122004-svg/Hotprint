@@ -15,6 +15,8 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 
 ## Website hiện có
 
+Cập nhật 14/10/2026: thư viện có **67 mẫu** sau khi bổ sung 31 mục có ảnh từ hotprint.vn và đối chiếu 23 mục đã có. Đọc `docs/catalog-completion-2026-10-14.md` và `official-catalog-audit.json`. Số lượng sáu nhóm: **13 / 11 / 13 / 15 / 7 / 8**. Maison Marou `032A5316` thuộc **hộp cứng**, đã gỡ khỏi trang hộp giấy mềm theo xác nhận chủ website. Mục Hộp yến sào không ảnh chưa thêm theo yêu cầu. Cửa sổ thông tin chi tiết đã theo mẫu mới với serif, nền ngà, bóng lá và khối camera. Các số 36 trong ghi chú cũ bên dưới là lịch sử.
+
 Cập nhật 14/10/2026: P02.4 và P02.5 đã dựng theo hai mẫu botanical mới, xem `docs/products-collaboration-reference.md`. CSS riêng `products-collaboration-reference.css`, nội dung HTML và nút thật, VI/EN/中文. Ảnh hộp HotPrint ở khối tư vấn là minh họa theo mẫu được chủ website cung cấp, không phải sản phẩm mới trong thư viện. Giữ nguyên các phần khác.
 
 Hiệu chỉnh mới nhất P02.3: đọc phần đầu `docs/library-reference-2026-10-13.md`. Thư viện dùng nền giấy studio liền mạch, 36 bóng đáy riêng trong `library-grounding.mjs`, căn lại vùng ảnh và đổi microcopy sang sans-serif. Giữ nguyên ảnh gốc, mask, thứ tự và nền `#e7dfd1`. Không khôi phục drop-shadow ôm viền hoặc bệ đá cũ trong thư viện.

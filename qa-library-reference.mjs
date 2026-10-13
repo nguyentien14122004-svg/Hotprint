@@ -1,5 +1,5 @@
 import {createRequire} from 'node:module';
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url),{chromium}=require('playwright');
 await mkdir('qa',{recursive:true});
@@ -26,17 +26,19 @@ try{
  }
  await page.setViewportSize({width:1440,height:1000});await page.goto(origin+'/san-pham/#thu-vien');
  await page.evaluate(()=>localStorage.removeItem('hotprint-sample-selection'));await page.reload();
- const allIds=new Set();for(let number=1;number<=3;number++){
+ const data=JSON.parse((await readFile('dist/product-data.js','utf8')).replace(/^window.HOTPRINT_PRODUCTS = /,'').replace(/;\s*$/,''));
+ const allIds=new Set();for(let number=1;number<=Math.ceil(data.length/12);number++){
   if(number>1)await page.locator(`#catalog-pagination [data-page="${number}"]`).first().click();
   await page.locator('.primary-photo').evaluateAll(images=>Promise.all(images.map(im=>{im.loading='eager';return im.decode()})));
   await page.locator('.library-ground-shadow').evaluateAll(images=>Promise.all(images.map(im=>{im.loading='eager';return im.decode()})));
   assert.equal(await page.locator('.product-photo').evaluateAll(cards=>cards.every(card=>{
    const photo=card.querySelector('.primary-photo'),shadow=card.querySelector('.library-ground-shadow'),a=photo.getBoundingClientRect(),b=shadow.getBoundingClientRect(),style=getComputedStyle(photo);
-   return photo.naturalWidth===1800&&style.filter==='none'&&style.opacity==='1'&&style.mixBlendMode==='normal'&&shadow.naturalWidth>0&&Math.abs(a.width/a.height-1.5)<.01&&Math.abs(a.left-b.left)<1&&Math.abs(a.top-b.top)<1&&Math.abs(a.width-b.width)<1&&Math.abs(a.height-b.height)<1;
-  })),true,'All 36 original photos and their separate floor shadows stay registered');
+   const official=!!card.closest('[data-official]');
+   return (official?photo.naturalWidth>=400:photo.naturalWidth===1800)&&style.filter==='none'&&style.opacity==='1'&&style.mixBlendMode==='normal'&&shadow.naturalWidth>0&&Math.abs(a.width/a.height-(official?1:1.5))<.01&&Math.abs(a.left-b.left)<1&&Math.abs(a.top-b.top)<1&&Math.abs(a.width-b.width)<1&&Math.abs(a.height-b.height)<1;
+  })),true,'All catalog photos and their separate floor shadows stay registered');
   for(const id of await page.locator('.product-card').evaluateAll(cards=>cards.map(c=>c.dataset.product)))allIds.add(id);
  }
- assert.equal(allIds.size,36);
+ assert.equal(allIds.size,data.length);
  await page.locator('#catalog-query').fill('hoa tiet thuc vat');await page.locator('#catalog-search').evaluate(el=>el.requestSubmit());assert.equal(await page.locator('.product-card').count(),1);
  await page.locator('.sample-save').click();assert.equal(await page.locator('.product-card [aria-pressed=true]').count(),2);
  await page.locator('.product-photo').click();assert(await page.locator('#product-detail').isVisible());assert.match(await page.locator('#detail-original').getAttribute('href'),/032A5293-large.webp/);await page.keyboard.press('Escape');
@@ -44,13 +46,13 @@ try{
  let titles=await page.locator('.product-caption h3').allTextContents();assert.deepEqual(titles,[...titles].sort((a,b)=>a.localeCompare(b,'vi')));
  await page.reload();assert.equal(await page.locator('#catalog-sort').inputValue(),'name');
  await page.locator('#catalog-sort').selectOption('selected');assert.equal(await page.locator('.product-card').first().getAttribute('data-product'),'032A5293');
- await page.locator('#catalog-group').selectOption('tui-giay');assert.equal(await page.locator('.product-card').count(),8);
- await page.locator('[data-lang=zh]').first().click();assert.match(page.url(),/zh\/products/);assert.equal(await page.locator('#catalog-sort').inputValue(),'selected');assert.equal(await page.locator('.product-card').count(),8);
+ await page.locator('#catalog-group').selectOption('tui-giay');assert.equal(await page.locator('.product-card').count(),12);
+ await page.locator('[data-lang=zh]').first().click();assert.match(page.url(),/zh\/products/);assert.equal(await page.locator('#catalog-sort').inputValue(),'selected');assert.equal(await page.locator('.product-card').count(),12);
  await page.locator('#open-shortlist').click();assert.equal(await page.locator('.shortlist-item').count(),1);await page.keyboard.press('Escape');
  await page.goto(origin+'/san-pham/#thu-vien');await page.locator('.sample-save').first().click();
  for(let i=0;i<7;i++)await page.locator('.sample-save').nth(i).click();
  assert.equal(await page.locator('.sample-save[aria-pressed=true]').count(),6);
- await page.setViewportSize({width:390,height:850});await page.locator('#mobile-filter').click();await page.locator('#filter-options input[value=nhan-dan-decal]').check();await page.locator('#filter-form [type=submit]').click();assert.equal(await page.locator('.product-card').count(),3);
+ await page.setViewportSize({width:390,height:850});await page.locator('#mobile-filter').click();await page.locator('#filter-options input[value=nhan-dan-decal]').check();await page.locator('#filter-form [type=submit]').click();assert.equal(await page.locator('.product-card').count(),7);
  await page.locator('#catalog-query').fill('no-such-sample-092341');await page.locator('#catalog-search').evaluate(el=>el.requestSubmit());assert(await page.locator('#catalog-empty').isVisible());
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
  await writeFile('qa/library-reference-report.json',JSON.stringify({passed:true,checks,products:allIds.size,errors,failed,features:'search, sort, pagination, original gallery, dual sample buttons, six-sample limit, persistence, Chinese switch, mobile filters, empty state'},null,2));

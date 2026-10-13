@@ -33,17 +33,20 @@ body:not([data-page]) .site-header:not(.scrolled){background:transparent;border-
 button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:var(--tone-earth-hover)}
 .accent-line{background:var(--tone-green);height:1px}
 .hero{background:var(--tone-beige)}
-/* Keep the approved photograph intact. Beige belongs outside the image,
-   never in a tint, crop, stretch or replacement of its original details. */
+/* Keep the approved photograph intact. Fill the viewport at its original
+   3:2 ratio so wide screens never expose contrasting side gutters. */
 .hero-art:after{content:none}
 .hero-art picture{height:auto;aspect-ratio:3/2;overflow:visible}
 .hero-photo{display:block;position:static;width:100%;height:auto;object-fit:contain;filter:none;opacity:1}
 .hero+.products-section{margin-top:0}
 @media(min-width:769px){
- .hero-art{inset:auto auto 0 50%;width:min(100%,1792px);height:auto;aspect-ratio:3/2;transform:translateX(-50%)}
+ .hero-art{inset:auto auto 0 50%;width:100%;height:auto;aspect-ratio:3/2;transform:translateX(-50%)}
  /* Keep the process markers registered to the original 1536 x 1024 canvas. */
  .process-labels li:nth-child(1){left:25.8%;top:47.7%}
  .process-labels li:nth-child(2){left:55.9%;top:35.6%}
+}
+@media(min-width:1201px){
+ .hero{height:auto;min-height:0;max-height:none;aspect-ratio:3/2}
 }
 @media(min-width:769px) and (max-width:1200px){
  /* On narrow screens, give the copy its own space instead of stretching

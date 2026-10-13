@@ -120,3 +120,7 @@ Chủ website đang dùng `hotprint.vercel.app`. Repo có `vercel.json` cấu h�
 ## Kiểm tra trước đồng bộ GitHub — 13/10/2026
 
 Hai phần mới đã hoàn thiện: khối liên hệ Trang chủ và sáu nhóm Khám phá sản phẩm. Build/check và verify:deployment đạt (72 trang, 36 sản phẩm, hero gốc giữ nguyên). QA danh mục: 18 màn hình/ngôn ngữ, bộ lọc/lịch sử/đổi ngôn ngữ đạt. QA liên hệ: 18 màn hình/ngôn ngữ, 12 CTA đạt. QA thư viện cũ: 10 màn hình, tìm kiếm/gallery/chọn mẫu và ảnh đạt. Không thay tệp ảnh sản phẩm gốc. Đẩy nhánh main kích hoạt Vercel; phải kiểm tra deployment và URL trước khi báo đã lên trực tuyến.
+
+## Trang chủ: sửa nền hero — 13/10/2026
+
+Xem docs/home-hero-seam-fix.md. Ảnh đầu trang phủ chiều ngang ở đúng tỷ lệ 3:2, bỏ giới hạn 1792px gây lệch nền hai bên. Chỉ xóa đường SVG journey-tail ở dưới; giữ ba mốc và ảnh gốc. Build/check/verify và 24 tổ hợp trình duyệt đạt.

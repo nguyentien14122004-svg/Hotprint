@@ -15,6 +15,8 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 
 ## Website hiện có
 
+Cập nhật 14/10/2026: P02.4 và P02.5 đã dựng theo hai mẫu botanical mới, xem `docs/products-collaboration-reference.md`. CSS riêng `products-collaboration-reference.css`, nội dung HTML và nút thật, VI/EN/中文. Ảnh hộp HotPrint ở khối tư vấn là minh họa theo mẫu được chủ website cung cấp, không phải sản phẩm mới trong thư viện. Giữ nguyên các phần khác.
+
 Hiệu chỉnh mới nhất P02.3: đọc phần đầu `docs/library-reference-2026-10-13.md`. Thư viện dùng nền giấy studio liền mạch, 36 bóng đáy riêng trong `library-grounding.mjs`, căn lại vùng ảnh và đổi microcopy sang sans-serif. Giữ nguyên ảnh gốc, mask, thứ tự và nền `#e7dfd1`. Không khôi phục drop-shadow ôm viền hoặc bệ đá cũ trong thư viện.
 
 **18 trang cố định và 6 bài viết × VI/EN/中文 = 72 đường dẫn HTML.**

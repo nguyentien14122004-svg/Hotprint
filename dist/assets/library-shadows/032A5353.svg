@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><defs><mask id="paper" maskUnits="userSpaceOnUse" x="0" y="0" width="1800" height="1200">
+  <!-- Windows in the real die-cut tags: reveal the scene, never redraw the print. -->
+  <path fill="white" d="M490 731 783 174Q797 161 817 172L929 192 910 220 951 198 1054 216Q1070 220 1085 242L1106 274Q1133 276 1145 278L1200 308Q1215 317 1223 341L1257 367Q1260 377 1240 378L1192 390 1273 389 1352 452Q1374 470 1370 497L1370 542 1367 573 1423 647Q1432 663 1424 688L1402 760Q1396 785 1378 800L800 1074Q776 1090 742 1080L624 1043Q612 1041 595 1019L565 923Q560 912 576 897L612 861 617 871Q617 891 627 891L641 874 628 855 635 833 630 821 615 821 565 879Q553 899 545 878L495 762Q488 750 490 731Z"/>
+  <path fill="black" d="M931 195 950 193 953 202 916 239Q914 246 903 256L846 300Q829 307 835 295L882 261Q892 251 879 249L859 252Z"/>
+  <ellipse cx="674" cy="432" rx="11" ry="7" transform="rotate(-21 674 432)" fill="black"/>
+  <path fill="black" d="M552 889 625 816 630 833 623 849 645 866 630 888Q616 902 611 891L610 886 621 871Q622 860 608 856L571 895Z"/>
+</mask><filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter></defs><g transform="scale(.05555556 .08333333)"><g transform="translate(13 14)" filter="url(#soft)"><path d="M0 0H1800V1200H0Z" mask="url(#paper)" fill="#483c2d" opacity=".22"/></g></g></svg>

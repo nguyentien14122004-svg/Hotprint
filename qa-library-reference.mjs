@@ -15,6 +15,8 @@ try{
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${route} ${width}`);
   assert.equal(await page.locator('#product-grid .product-card').count(),12);
   assert.equal(await page.locator('#thu-vien .primary-photo').evaluateAll(images=>images.filter(im=>im.naturalWidth&&getComputedStyle(im).objectFit==='contain').length),12);
+  assert.equal(await page.locator('#thu-vien').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(231, 223, 209)');
+  assert.equal(await page.locator('#thu-vien .library-stage-shadow').evaluateAll(nodes=>nodes.every(el=>getComputedStyle(el).filter==='none')),true,'No silhouette halo on original photographs');
   const columns=await page.locator('#product-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length);
   assert.equal(columns,width<=540?1:width<=800?2:3);
   const copy=await page.locator('.library-reference-head').innerText();assert(!copy.includes('undefined'));
@@ -27,6 +29,11 @@ try{
  const allIds=new Set();for(let number=1;number<=3;number++){
   if(number>1)await page.locator(`#catalog-pagination [data-page="${number}"]`).first().click();
   await page.locator('.primary-photo').evaluateAll(images=>Promise.all(images.map(im=>{im.loading='eager';return im.decode()})));
+  await page.locator('.library-ground-shadow').evaluateAll(images=>Promise.all(images.map(im=>{im.loading='eager';return im.decode()})));
+  assert.equal(await page.locator('.product-photo').evaluateAll(cards=>cards.every(card=>{
+   const photo=card.querySelector('.primary-photo'),shadow=card.querySelector('.library-ground-shadow'),a=photo.getBoundingClientRect(),b=shadow.getBoundingClientRect(),style=getComputedStyle(photo);
+   return photo.naturalWidth===1800&&style.filter==='none'&&style.opacity==='1'&&style.mixBlendMode==='normal'&&shadow.naturalWidth>0&&Math.abs(a.width/a.height-1.5)<.01&&Math.abs(a.left-b.left)<1&&Math.abs(a.top-b.top)<1&&Math.abs(a.width-b.width)<1&&Math.abs(a.height-b.height)<1;
+  })),true,'All 36 original photos and their separate floor shadows stay registered');
   for(const id of await page.locator('.product-card').evaluateAll(cards=>cards.map(c=>c.dataset.product)))allIds.add(id);
  }
  assert.equal(allIds.size,36);

@@ -124,3 +124,7 @@ Hai phần mới đã hoàn thiện: khối liên hệ Trang chủ và sáu nhó
 ## Trang chủ: sửa nền hero — 13/10/2026
 
 Xem docs/home-hero-seam-fix.md. Ảnh đầu trang phủ chiều ngang ở đúng tỷ lệ 3:2, bỏ giới hạn 1792px gây lệch nền hai bên. Chỉ xóa đường SVG journey-tail ở dưới; giữ ba mốc và ảnh gốc. Build/check/verify và 24 tổ hợp trình duyệt đạt.
+
+## Thư viện sản phẩm theo mẫu mới — 13/10/2026
+
+Xem docs/library-reference-2026-10-13.md. P02.3 có tiêu đề serif, thanh tìm kiếm liền khối, sắp xếp, ba cột thẻ nền đá/lá, ảnh thật và bóng mềm. Giữ 36 mẫu/12 mỗi trang, gallery ảnh gốc và danh sách tối đa sáu mẫu; không có checkout. Nguồn products-template.html, products.js, products-library-reference.css, library-photo-windows.css. Chạy npm run test:library-reference. Build/check/verify, 18 tổ hợp QA mới và 10 tổ hợp QA sản phẩm cũ đã đạt.

@@ -155,3 +155,7 @@ Hình ảnh và nhãn hiệu trong repo không được cấp giấy phép tái 
 - [Khối liên hệ Trang chủ](docs/home-contact-reference.md): ba thẻ theo ảnh chủ website cung cấp.
 - [Sáu nhóm sản phẩm](docs/families-reference-2026-10-13.md): bố cục, thanh lọc và bóng đổ theo mẫu mới, giữ ảnh gốc.
 - Kiểm tra: `npm run test:home-contact` và `npm run test:families-reference`.
+
+## Thư viện sản phẩm: thiết kế theo mẫu mới
+
+Thư viện dùng ảnh thật trên nền đá/lá, có tìm kiếm, lọc, sắp xếp, gallery và danh sách mẫu tham khảo. Xem [tài liệu thiết kế và nguồn ảnh](docs/library-reference-2026-10-13.md). Kiểm tra: `npm run test:library-reference`.

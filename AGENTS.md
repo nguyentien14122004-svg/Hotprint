@@ -67,3 +67,5 @@ Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Ch�
 - Bảo toàn nội dung đang có; không force-push. Không thêm token, mật khẩu, hồ sơ Codex, .env hoặc đường dẫn người dùng cục bộ vào repo.
 
 - Cập nhật 13/10/2026: danh mục P02 theo mẫu mới, xem `docs/families-reference-2026-10-13.md`. Đây là hướng mới nhất cho riêng sáu thẻ, thay ghi chú P02.2 cũ: lưới ba cột thẳng hàng, thanh lọc `family`, nền mới và bóng riêng, ảnh thật giữ nguyên. Trang chủ khối liên hệ xem `docs/home-contact-reference.md`; chỉ scope `#lien-he.connection-reference`.
+
+- Cập nhật thư viện P02.3 ngày 13/10/2026: đọc docs/library-reference-2026-10-13.md. CSS chỉ scope #thu-vien, giữ 36 ảnh thật và 12 mẫu/trang. Các nút lưu mẫu là danh sách tham khảo, không phải giỏ thanh toán. Query sort giữ qua chuyển ngữ. Không khôi phục ảnh nền trắng/ảnh đổi khi hover trong thẻ; ảnh gốc và góc ảnh phụ xem tại gallery.

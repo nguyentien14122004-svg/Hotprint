@@ -35,6 +35,7 @@
     "verify:deployment": "node verify-deployment.mjs",
     "test:chinese": "node qa-chinese.mjs",
     "test:home-contact": "node qa-home-contact.mjs",
-    "test:families-reference": "node qa-families-reference.mjs"
+    "test:families-reference": "node qa-families-reference.mjs",
+    "test:library-reference": "node qa-library-reference.mjs"
   }
 }

@@ -107,3 +107,16 @@ Chủ website đang dùng `hotprint.vercel.app`. Repo có `vercel.json` cấu h�
 Đoạn yêu cầu có thể dùng ở cuộc trò chuyện mới:
 
 > Tiếp tục website HotPrint từ repo https://github.com/nguyentien14122004-svg/Hotprint, nhánh main mới nhất. Đọc HANDOFF.md, AGENTS.md, README.md và docs/ke-hoach-website.md trước khi sửa. Giữ nguyên các thiết kế đã chốt, hero Trang chủ và ảnh sản phẩm thật. Kiểm tra trạng thái hiện tại, mở preview cổng 4174, rồi thực hiện phần tiếp theo tôi chỉ định. Không tự dựng lại hoặc deploy khi tôi chưa yêu cầu.
+
+## Trang chủ: khối liên hệ theo mẫu mới — 13/10/2026
+
+Đã thiết kế lại riêng khối “Biến ý tưởng thành bao bì” theo ảnh tham chiếu mới: ba thẻ, ảnh giấy HotPrint nền xanh, nền be/lá, ảnh bộ bao bì concept, đủ Zalo / tư vấn / báo giá chi tiết. Xem `docs/home-contact-reference.md`. Giữ nguyên hero đầu trang, danh mục và các trang khác. CSS phải giới hạn bằng `#lien-he.connection-reference`, vì Tổng quan sản phẩm cũng có ID `lien-he`. Bản mới đã hoàn thiện ở preview local; yêu cầu đồng bộ GitHub của chủ website được ghi ở mục cập nhật bên dưới.
+
+## Tổng quan sản phẩm: danh mục theo mẫu mới — 13/10/2026
+
+Đọc `docs/families-reference-2026-10-13.md`: khối sáu danh mục đã đổi theo mẫu mới, thêm thanh lọc hoạt động thật, nền đá/lá và bóng tiếp xúc/bóng đổ riêng cho từng sản phẩm. Giữ nguyên ảnh sản phẩm thật, hero, thư viện 36 mẫu và VI/EN/中文. Nguồn: products-template.html, products.js và products-families-reference.css; chạy `npm run test:families-reference`. Chủ website yêu cầu đồng bộ cả bản này và khối liên hệ Trang chủ lên GitHub.
+
+
+## Kiểm tra trước đồng bộ GitHub — 13/10/2026
+
+Hai phần mới đã hoàn thiện: khối liên hệ Trang chủ và sáu nhóm Khám phá sản phẩm. Build/check và verify:deployment đạt (72 trang, 36 sản phẩm, hero gốc giữ nguyên). QA danh mục: 18 màn hình/ngôn ngữ, bộ lọc/lịch sử/đổi ngôn ngữ đạt. QA liên hệ: 18 màn hình/ngôn ngữ, 12 CTA đạt. QA thư viện cũ: 10 màn hình, tìm kiếm/gallery/chọn mẫu và ảnh đạt. Không thay tệp ảnh sản phẩm gốc. Đẩy nhánh main kích hoạt Vercel; phải kiểm tra deployment và URL trước khi báo đã lên trực tuyến.

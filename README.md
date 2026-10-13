@@ -149,3 +149,9 @@ Kiểm tra cú pháp: `npm run check`. Kiểm tra trình duyệt tùy chọn: c�
 Xem thêm [chi tiết trang sản phẩm](PRODUCTS.md), [kế hoạch website](docs/ke-hoach-website.md) và [lịch sử quyết định thiết kế](docs/lich-su-thiet-ke.md).
 
 Hình ảnh và nhãn hiệu trong repo không được cấp giấy phép tái sử dụng chung. Phông Be Vietnam Pro có giấy phép riêng tại `dist/assets/OFL-BeVietnamPro.txt`.
+
+## Thiết kế tham chiếu mới nhất — 13/10/2026
+
+- [Khối liên hệ Trang chủ](docs/home-contact-reference.md): ba thẻ theo ảnh chủ website cung cấp.
+- [Sáu nhóm sản phẩm](docs/families-reference-2026-10-13.md): bố cục, thanh lọc và bóng đổ theo mẫu mới, giữ ảnh gốc.
+- Kiểm tra: `npm run test:home-contact` và `npm run test:families-reference`.

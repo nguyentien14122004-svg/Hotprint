@@ -1,0 +1,115 @@
+/* Owner's 13 Oct catalogue reference. Only this section; original product pixels retained. */
+#nhom-san-pham.families-reference{--fu:calc(100vw / 1672);position:relative;isolation:isolate;overflow:hidden;background:#e8dfce;padding:calc(18 * var(--fu)) 0 calc(38 * var(--fu));scroll-margin-top:96px}
+#nhom-san-pham.families-reference:before{content:'';position:absolute;inset:0;z-index:-1;background:url('/assets/families-reference-outer.webp') center/100% 100% no-repeat;mask-image:linear-gradient(#000 0 26%,transparent 26% 90%,#000 90%),linear-gradient(90deg,#000 0 5.5%,transparent 5.5% 94.3%,#000 94.3%);pointer-events:none}
+#nhom-san-pham>.page-width{width:88.64%;max-width:none}
+#nhom-san-pham .families-reference-head{position:relative;min-height:calc(203 * var(--fu));padding-left:calc(24 * var(--fu));display:grid;grid-template-columns:44% 56%;align-items:start}
+#nhom-san-pham .catalog-eyebrow{font-size:calc(13 * var(--fu));color:#78836a;letter-spacing:.15em;line-height:1.5;margin:0 0 calc(8 * var(--fu));gap:12px;font-weight:500}
+#nhom-san-pham .catalog-eyebrow:after{width:40px;background:#aab19a}
+#nhom-san-pham h2{font-family:'Playfair Display',Georgia,serif;font-size:calc(51 * var(--fu));letter-spacing:-.035em;line-height:1.04;white-space:normal;color:#35573a;margin:0}
+#nhom-san-pham h2 span,#nhom-san-pham h2 em{display:block}
+#nhom-san-pham h2 em{font-family:'Times New Roman',serif;font-size:1.1em;font-weight:400;line-height:1.02;color:#8a6a55;white-space:nowrap}
+#nhom-san-pham .families-intro{max-width:calc(450 * var(--fu));font-size:calc(14 * var(--fu));line-height:1.5;margin-top:calc(15 * var(--fu));color:#53624e}
+#nhom-san-pham .families-filters{display:flex;gap:calc(14 * var(--fu));flex-wrap:wrap;justify-content:flex-end;align-items:center;padding:calc(31 * var(--fu)) calc(63 * var(--fu)) 0 0}
+#nhom-san-pham .families-filters button{background:transparent;border:1px solid #cdbc9f;border-radius:999px;min-height:34px;padding:6px calc(18 * var(--fu));font-size:calc(12 * var(--fu));line-height:1.4;color:#344d36;white-space:nowrap;transition:background .18s,border-color .18s}
+#nhom-san-pham .families-filters button[aria-pressed=true]{background:#496344;color:#fff;border-color:#496344}
+#nhom-san-pham .families-filters button:hover{background:#d5d6be}
+#nhom-san-pham .families-filters button[aria-pressed=true]:hover{background:#344d36}
+#nhom-san-pham .family-grid{display:grid;grid-template-columns:545fr 442fr 464fr;grid-template-rows:calc(269 * var(--fu)) calc(252 * var(--fu));gap:calc(17 * var(--fu)) calc(16 * var(--fu));margin:0;padding:0}
+#nhom-san-pham .family-card:nth-child(n){grid-column:auto;grid-row:auto;border:0;border-radius:calc(10 * var(--fu));min-height:0;max-height:none;aspect-ratio:auto;background:#f5eedf;box-shadow:none}
+#nhom-san-pham .family-card[hidden]{display:none!important}
+#nhom-san-pham .family-card:before{background-image:var(--scene);background-size:100% 100%;background-position:center;background-color:#f5eedf}
+#nhom-san-pham .family-card:nth-child(1){--scene:url('/assets/families-reference-1.webp');--object-width:72%;--object-left:33%;--object-top:1%;--object-transform:none}
+#nhom-san-pham .family-card:nth-child(2){--scene:url('/assets/families-reference-2.webp');--object-width:85%;--object-left:30%;--object-top:0%;--object-transform:none}
+#nhom-san-pham .family-card:nth-child(3){--scene:url('/assets/families-reference-3.webp');--object-width:95%;--object-left:21%;--object-top:0%;--object-transform:none}
+#nhom-san-pham .family-card:nth-child(4){--scene:url('/assets/families-reference-4.webp');--object-width:80%;--object-left:32%;--object-top:-7%;--object-transform:none}
+#nhom-san-pham .family-card:nth-child(5){--scene:url('/assets/families-reference-5.webp');--object-width:97%;--object-left:27%;--object-top:-8%;--object-transform:none}
+#nhom-san-pham .family-card:nth-child(6){--scene:url('/assets/families-reference-6.webp');--object-width:83%;--object-left:30%;--object-top:0%;--object-transform:rotate(-5deg)}
+#nhom-san-pham .family-card:nth-child(n) img,#nhom-san-pham .family-ground{width:var(--object-width);left:var(--object-left);top:var(--object-top);transform:var(--object-transform);aspect-ratio:3/2;height:auto}
+#nhom-san-pham .family-copy{left:calc(24 * var(--fu));top:calc(19 * var(--fu));width:calc(215 * var(--fu))}
+#nhom-san-pham .family-copy:before{display:none}
+#nhom-san-pham .family-symbol{width:calc(49 * var(--fu));height:calc(49 * var(--fu));background:#dbdcc6e6;margin-bottom:calc(12 * var(--fu))}
+#nhom-san-pham .family-symbol .icon{width:calc(32 * var(--fu));height:calc(32 * var(--fu));color:#496344;stroke-width:1.3}
+#nhom-san-pham .family-card:nth-child(n) h3{font-size:calc(28 * var(--fu));font-family:'Playfair Display',Georgia,serif;line-height:1.05;font-weight:600;letter-spacing:-.045em;max-width:calc(220 * var(--fu));margin:0 0 calc(11 * var(--fu));color:#35573a}
+#nhom-san-pham .family-card:nth-child(n) p{font-size:calc(13 * var(--fu));line-height:1.65;max-width:calc(198 * var(--fu));letter-spacing:-.02em;color:#475d46;margin:0}
+#nhom-san-pham .family-card:nth-child(1) p,#nhom-san-pham .family-card:nth-child(4) p{max-width:calc(172 * var(--fu))}
+#nhom-san-pham .family-bottom{left:calc(24 * var(--fu));bottom:calc(15 * var(--fu));gap:calc(10 * var(--fu));text-shadow:none}
+#nhom-san-pham .family-link-label{font-size:calc(14 * var(--fu));line-height:1.5;min-height:30px;gap:10px;color:#344d36}
+#nhom-san-pham .family-link-label>span{text-decoration-color:#bbb6a2;text-underline-offset:7px}
+#nhom-san-pham .family-link-label .icon{width:18px;height:18px}
+#nhom-san-pham .family-total{font-size:calc(14 * var(--fu));color:#344d36;gap:10px}
+#nhom-san-pham .family-total:after{width:35px;background:#d8cdb7}
+/* Separate contact occlusion and directional cast shadows. Avoid outlining the full product. */
+#nhom-san-pham .family-object-shadow{filter:drop-shadow(0 1px .65px #312a212b)}
+#nhom-san-pham .family-contact-shadow{filter:blur(1.5px);opacity:.52;transform:translate(0,1px);mix-blend-mode:multiply}
+#nhom-san-pham .family-cast-shadow{position:absolute;inset:0;filter:blur(6px);opacity:.23;transform:translate(6px,8px);mix-blend-mode:multiply}
+#nhom-san-pham .family-ground{background:#423627}
+#nhom-san-pham .family-card:nth-child(2) .family-cast-shadow,#nhom-san-pham .family-card:nth-child(4) .family-cast-shadow{filter:blur(7px);transform:translate(9px,9px);opacity:.24}
+#nhom-san-pham .family-card:nth-child(5) .family-contact-shadow{filter:blur(1px);opacity:.35}
+#nhom-san-pham .family-card:nth-child(5) .family-cast-shadow{filter:blur(3px);opacity:.16;transform:translate(3px,3px)}
+#nhom-san-pham .family-card:nth-child(6) .family-object-shadow{filter:drop-shadow(0 1px .5px #42362740)}
+#nhom-san-pham .family-card:nth-child(6) .family-contact-shadow{filter:blur(.65px);opacity:.25;transform:translate(0,1px)}
+#nhom-san-pham .family-card:nth-child(6) .family-cast-shadow{filter:blur(1.2px);opacity:.12;transform:translate(1px,2px)}
+#nhom-san-pham .families-reference-foot{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:calc(28 * var(--fu));font-size:calc(11 * var(--fu));line-height:1.6;color:#53624e}
+#nhom-san-pham .families-reference-foot>p{display:flex;align-items:center;gap:10px;margin:0}
+#nhom-san-pham .families-reference-foot>p:before{content:'';width:27px;height:1px;background:#8d9a7c}
+#nhom-san-pham .families-reference-foot ul{display:flex;gap:26px;list-style:none;padding:0;margin:0}
+#nhom-san-pham .families-reference-foot li{display:flex;gap:6px;align-items:center}
+#nhom-san-pham .families-reference-foot svg{width:15px;height:17px;fill:#809575;color:#536d4c}
+#nhom-san-pham.is-filtered .family-grid{grid-template-rows:none;grid-auto-rows:calc(269 * var(--fu))}
+html:lang(en) #nhom-san-pham h2{font-size:calc(45 * var(--fu))}
+html:lang(en) #nhom-san-pham .family-card:nth-child(n) h3{font-size:calc(24 * var(--fu))}
+html:lang(zh) #nhom-san-pham h2,html:lang(zh) #nhom-san-pham h3,html:lang(zh) #nhom-san-pham h2 em{font-family:'Songti SC','Noto Serif CJK SC',SimSun,serif}
+@media(max-width:1100px){
+#nhom-san-pham.families-reference{--fu:1px;padding:34px 0}
+#nhom-san-pham>.page-width{width:calc(100% - 48px)}
+#nhom-san-pham .families-reference-head{display:block;padding:0;min-height:0;margin-bottom:26px}
+#nhom-san-pham h2,html:lang(en) #nhom-san-pham h2{font-size:44px}
+#nhom-san-pham .families-intro{max-width:570px;font-size:15px}
+#nhom-san-pham .families-filters{justify-content:flex-start;gap:9px;padding:22px 0 0}
+#nhom-san-pham .families-filters button{font-size:13px;min-height:44px;padding:8px 16px}
+#nhom-san-pham .family-grid,#nhom-san-pham.is-filtered .family-grid{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:290px;gap:16px}
+#nhom-san-pham .family-card:nth-child(n) h3{font-size:27px;max-width:185px}
+#nhom-san-pham .family-card:nth-child(n) p{font-size:13px;max-width:162px}
+#nhom-san-pham .family-card:nth-child(n){--object-width:110%;--object-left:15%;--object-top:17%}
+#nhom-san-pham .family-card:nth-child(5){--object-left:25%}
+#nhom-san-pham .family-copy{width:190px;left:20px}
+#nhom-san-pham .family-bottom{left:20px;gap:8px}
+#nhom-san-pham .family-link-label{min-height:40px}
+#nhom-san-pham .families-reference-foot{flex-direction:column;align-items:flex-start;font-size:12px;gap:12px}
+#nhom-san-pham .families-reference-foot ul{gap:12px 22px;flex-wrap:wrap}
+}
+@media(max-width:700px){
+#nhom-san-pham>.page-width{width:calc(100% - 32px)}
+#nhom-san-pham .families-reference-head{padding:0 4px}
+#nhom-san-pham h2,html:lang(en) #nhom-san-pham h2{font-size:36px}
+#nhom-san-pham h2 em{white-space:normal;font-size:1.05em}
+#nhom-san-pham .catalog-eyebrow{font-size:11px}
+#nhom-san-pham .families-filters{gap:8px}
+#nhom-san-pham .families-filters button{font-size:12px;padding-inline:14px}
+#nhom-san-pham .family-grid,#nhom-san-pham.is-filtered .family-grid{grid-template-columns:1fr;grid-auto-rows:305px;gap:16px}
+#nhom-san-pham .family-copy{width:190px}
+#nhom-san-pham .family-card:nth-child(n){--object-width:110%;--object-left:17%;--object-top:17%}
+#nhom-san-pham .family-card:nth-child(5){--object-left:25%}
+#nhom-san-pham .family-copy:before{display:block;content:'';position:absolute;inset:-8px -4px -8px -8px;z-index:-1;background:linear-gradient(90deg,#f7f2e8ed,#f7f2e8c9 65%,transparent);border-radius:5px}
+#nhom-san-pham .family-bottom{text-shadow:0 1px 5px #f7f2e8,0 0 10px #f7f2e8}
+#nhom-san-pham.families-reference:before{opacity:.5;background-size:auto 800px;background-position:right top;mask-image:linear-gradient(#000,transparent 400px)}
+}
+@media(max-width:359px){#nhom-san-pham h2,html:lang(en) #nhom-san-pham h2{font-size:32px}#nhom-san-pham .family-card:nth-child(n) h3{font-size:25px}#nhom-san-pham .family-copy{width:175px}}
+@media(prefers-reduced-motion:reduce){#nhom-san-pham .families-filters button{transition:none}}
+/* Reset legacy decorative box dimensions and display before applying the new plate. */
+#nhom-san-pham.families-reference:before{display:block;width:auto;height:auto;transform:none;box-shadow:none;border:0;opacity:1}
+#nhom-san-pham .family-symbol .icon{width:42px;height:42px}
+#nhom-san-pham .family-card:nth-child(4){--object-width:78%;--object-left:33%}
+@media(max-width:1100px){
+#nhom-san-pham .family-card:nth-child(1){--object-width:96%;--object-left:16%;--object-top:27%}
+#nhom-san-pham .family-card:nth-child(2){--object-width:104%;--object-left:17%;--object-top:17%}
+#nhom-san-pham .family-card:nth-child(3){--object-width:103%;--object-left:8%;--object-top:24%}
+#nhom-san-pham .family-card:nth-child(4){--object-width:99%;--object-left:24%;--object-top:23%}
+#nhom-san-pham .family-card:nth-child(5){--object-width:98%;--object-left:22%;--object-top:25%}
+#nhom-san-pham .family-card:nth-child(6){--object-width:100%;--object-left:14%;--object-top:25%}
+#nhom-san-pham .family-symbol .icon{width:40px;height:40px}
+}
+@media(max-width:700px){#nhom-san-pham.families-reference:before{opacity:.5;mask-image:linear-gradient(#000,transparent 220px)}}
+#nhom-san-pham .family-card:nth-child(3){--object-width:92%}
+@media(max-width:1100px){#nhom-san-pham .family-card:nth-child(3){--object-width:103%}}
+#nhom-san-pham .family-link-label .icon{color:#425943}

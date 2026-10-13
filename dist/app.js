@@ -1,5 +1,6 @@
 const translations = {
   vi: {
+    detailedQuote:"Nhận báo giá chi tiết",quoteRouteDetail:"Tư vấn giải pháp phù hợp nhất cho bạn",contactImageLabel:"THIẾT KẾ ẤN TƯỢNG",contactSampleAlt:"Bộ bao bì concept HotPrint gồm hộp, túi giấy và ấn phẩm họa tiết lá",
     "connectionIntro":"Một ý tưởng, một bản phác thảo hay một mẫu bạn yêu thích. Hãy kể cho HotPrint — chúng tôi cùng bạn tìm cách hiện thực hóa.",
     "directNote":"Cùng làm rõ nhu cầu, chất liệu và số lượng cho dự án của bạn.",
     "routeNote":"Chọn cách kết nối thuận tiện nhất cho bạn.",
@@ -45,6 +46,7 @@ const translations = {
     emailSubject:'HotPrint — ',source:'Nguồn: Trang chủ HotPrint', unspecified:'Chưa xác định',title:'HotPrint — Ý tưởng phẳng. Ấn tượng đa chiều.'
   },
   en: {
+    detailedQuote:"Get a detailed quote",quoteRouteDetail:"Find the right solution for your project",contactImageLabel:"DISTINCTIVE DESIGN",contactSampleAlt:"HotPrint concept packaging with botanical boxes, paper bag and stationery",
     "connectionIntro":"An idea, a sketch or a sample you love. Share it with HotPrint — together, we’ll find a way to bring it to life.",
     "directNote":"Let’s discuss the needs, materials and quantities for your project.",
     "routeNote":"Choose the way to connect that works for you.",

@@ -72,4 +72,3 @@ Danh sách quan tâm dùng key hotprint-sample-selection đã có, tối đa sá
 Build, kiểm tra cú pháp và verify:deployment đạt: 72 đường dẫn, 67 sản phẩm, 438 tham chiếu nội bộ, 504 tệp static; hash hero Trang chủ đã duyệt giữ nguyên. QA carton đạt 18 tổ hợp VI/EN/中文 × 1920/1440/1024/768/390/320px: đủ 11 mẫu, ảnh/bóng tải được, hai nguồn ảnh rõ hơn, tìm kiếm không dấu, ứng dụng, sắp xếp, chọn mẫu liên danh mục, tối đa sáu, đồng bộ giữa thẻ trình duyệt, trạng thái trống, URL/history/chuyển ngữ, gallery và ngữ cảnh báo giá/mẫu. Không có lỗi script hoặc tải tài nguyên.
 
 Kiểm kê chung đạt 18 đường dẫn danh mục với đủ 67 mẫu và 12 cửa sổ chi tiết trên các màn hình/ngôn ngữ. Đã xem trực quan hero, thư viện và điện thoại để căn chân hộp trên mặt đá, hướng bóng, khoảng trống và chữ; độ chân thật của ảnh được đánh giá trực quan, không coi bài kiểm tra tự động là phép đo tính chân thật.
-

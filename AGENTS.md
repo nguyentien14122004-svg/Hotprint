@@ -71,3 +71,5 @@ Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Ch�
 - Cập nhật thư viện P02.3 ngày 13/10/2026: đọc docs/library-reference-2026-10-13.md. CSS chỉ scope #thu-vien, giữ 36 ảnh thật và 12 mẫu/trang. Các nút lưu mẫu là danh sách tham khảo, không phải giỏ thanh toán. Query sort giữ qua chuyển ngữ. Không khôi phục ảnh nền trắng/ảnh đổi khi hover trong thẻ; ảnh gốc và góc ảnh phụ xem tại gallery.
 
 - Cập nhật P04 mới nhất 14/10/2026: đọc docs/carton-reference-2026-10-14.md. Hero rộng Cookever/USPA, bốn thông tin, thư viện ba cột đủ 11 carton, footer gọn. CSS/JS riêng carton.css và carton-reference.js; gallery chung folding.js. Giữ ảnh thật và hai bản ảnh gốc rõ hơn riêng P04; bóng sàn riêng, không drop-shadow toàn đường bao sản phẩm. Theo hướng mới này thay ghi chú P04 bốn mẫu/sáu phần cũ.
+
+- P04 sửa sau phản hồi chủ website: ưu tiên docs/carton-photo-repair-2026-10-14.md. Hero một hộp SAMONO thật; 11 ảnh studio 4:3 xuất sẵn cùng bóng, carton-repair.css. Khôi phục footer chung đầy đủ, breadcrumb, sáu nhóm và liên hệ/báo giá/mẫu/tư vấn; không quay lại footer rút gọn.

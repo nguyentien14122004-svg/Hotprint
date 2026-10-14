@@ -163,3 +163,5 @@ Hình ảnh và nhãn hiệu trong repo không được cấp giấy phép tái 
 ## Thư viện sản phẩm: thiết kế theo mẫu mới
 
 Thư viện dùng ảnh thật trên nền đá/lá, có tìm kiếm, lọc, sắp xếp, gallery và danh sách mẫu tham khảo. Xem [tài liệu thiết kế và nguồn ảnh](docs/library-reference-2026-10-13.md). Kiểm tra: `npm run test:library-reference`.
+
+P04 sau rà soát của chủ website: [sửa ảnh, bóng tiếp xúc và khôi phục đầy đủ chân trang](docs/carton-photo-repair-2026-10-14.md).

@@ -143,3 +143,6 @@ Xem docs/library-reference-2026-10-13.md. P02.3 có tiêu đề serif, thanh tì
 ## Hộp carton in màu — mẫu mới 14/10/2026
 
 Xem docs/carton-reference-2026-10-14.md: P04 hiện có hero rộng Cookever + USPA, bốn thông tin, thư viện ba cột đủ 11 mẫu đúng carton, CTA và footer gọn. Sửa build-carton.mjs / dist/carton.css / dist/carton-reference.js. Hai nền ImageGen trống; sản phẩm và nhãn giữ ảnh thật, bóng sàn SVG căn riêng. HP7107/HP7106 dùng ảnh gốc rõ hơn riêng trang này. Tìm kiếm, ứng dụng, mẫu đã chọn, sắp xếp, history và VI/EN/中文 hoạt động; key chọn mẫu dùng chung tối đa 6. Các chú thích dài đã xóa trước đó không khôi phục. Thay hướng P04 sáu phần/bốn mẫu cũ. Kiểm tra npm run test:carton và node qa-catalog-completeness.mjs; ảnh hero Trang chủ giữ nguyên.
+
+## P04 sửa ảnh và khôi phục chân trang — 14/10/2026
+Xem docs/carton-photo-repair-2026-10-14.md: hero SAMONO thật, 11 ảnh xuất cùng bóng, CTA đủ năm lựa chọn liên hệ, chân trang chung đầy đủ, breadcrumb và sáu nhóm. Hướng mới này thay hero hai hộp/footer gọn trong ghi chú trước. Nguồn build-carton.mjs, carton-repair.css, prepare-carton-studio.cjs; kiểm tra qa-carton.mjs.

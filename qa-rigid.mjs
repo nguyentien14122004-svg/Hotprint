@@ -1,34 +1,35 @@
-import {assertQuote} from './qa-quote-link.mjs';
+import {assertQuote,assertSample,assertConsult} from './qa-quote-link.mjs';
 import {createRequire} from 'node:module';
 import assert from 'node:assert/strict';
 import {writeFile} from 'node:fs/promises';
 const require=createRequire(import.meta.url),{chromium}=require('playwright');
-const browser=await chromium.launch({headless:true,channel:'chrome'});
-const page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
-page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push(r.url());});
-const origin='http://127.0.0.1:4174';
-for(const lang of ['vi','en'])for(const width of [1672,1440,1024,768,390,320]){
- await page.setViewportSize({width,height:1050});
- await page.goto(origin+(lang==='vi'?'/danh-muc/hop-cung-cao-cap/':'/en/premium-rigid-boxes/'),{waitUntil:'networkidle'});
- await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('.fold-page img')].map(im=>{im.loading='eager';return im.decode();}));});
- assert.equal(await page.locator('main>section').count(),6);assert.equal(await page.locator('.fold-sample').count(),9);assert.equal(await page.locator('h1').count(),1);
+const browser=await chromium.launch({headless:true,channel:'chrome'}),page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push(r.url())});
+const origin=process.env.QA_ORIGIN||'http://127.0.0.1:4174',path={vi:'/danh-muc/hop-cung-cao-cap/',en:'/en/premium-rigid-boxes/',zh:'/zh/premium-rigid-boxes/'};
+for(const lang of ['vi','en','zh'])for(const width of [1920,1440,1024,768,390,320]){
+ await page.setViewportSize({width,height:1000});await page.goto(origin+path[lang],{waitUntil:'networkidle'});
+ await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('main img')].map(im=>{im.loading='eager';return im.decode()}))});
+ assert.equal(await page.locator('h1').count(),1);assert.equal(await page.locator('.rigid-card').count(),13);assert.equal(await page.locator('.rigid-benefits article').count(),5);assert.equal(await page.locator('.rigid-finish-list article').count(),4);assert.equal(await page.locator('.rigid-faq details').count(),5);
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${lang} ${width} overflow`);
- checks.push({lang,width});
- if(width===1440)await page.screenshot({path:`qa/rigid-${lang}-desktop.png`,fullPage:true});
- if(width===390)await page.screenshot({path:`qa/rigid-${lang}-mobile.png`,fullPage:true});
+ const columns=await page.locator('.rigid-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length);assert.equal(columns,width>900?4:width>650?3:width>360?2:1);
+ assert.equal(await page.locator('#footer-categories a').count(),6);
+ if(width===1440||width===390){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`qa/rigid-v2-${lang}-${width}.png`,fullPage:true})}
+ checks.push({lang,width,columns});console.log(`Rigid ${lang} ${width} passed`);
 }
-await page.setViewportSize({width:1440,height:1000});await page.goto(origin+'/danh-muc/hop-cung-cao-cap/');
-for(const [use,count] of [['brand',2],['gift',3],['occasion',4],['all',9]]){await page.locator(`[data-fold-filter=${use}]`).click();assert.equal(await page.locator('.fold-sample:visible').count(),count);}
-await page.locator('[data-fold-filter=brand]').click();await page.reload();assert.equal(await page.locator('.fold-sample:visible').count(),2);
-await page.locator('[data-lang=en]').click();await page.waitForURL('**/en/premium-rigid-boxes/**');assert.equal(await page.locator('.fold-sample:visible').count(),2);assert.match(await page.title(),/Premium rigid boxes/);
-await page.locator('[data-lang=vi]').click();await page.waitForURL('**/danh-muc/hop-cung-cao-cap/**');
-await page.locator('.fold-sample:visible [data-fold-detail="032A5308"]').first().click();assert.ok(await page.locator('#fold-detail').isVisible());assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/032A5308/);
-await page.locator('#fold-photo-next').click();assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/032A5286/);
-await assertQuote(page,'#fold-detail-quote','hop-cao-cap','032A5308');
-await assertQuote(page,'.fold-hero [data-request=quote]','hop-cao-cap');
-await page.locator('.fold-faq summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.fold-faq details[open]').count(),1);
-await page.goto(origin+'/san-pham/');await page.locator('.family-card').nth(2).click();await page.waitForURL('**/danh-muc/hop-cung-cao-cap/');assert.ok(await page.locator('.fold-hero').isVisible());
-await page.goto(origin+'/');await page.locator('#category-links a').nth(2).click();await page.waitForURL('**/danh-muc/hop-cung-cao-cap/');
-assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
-await writeFile('qa/rigid-report.json',JSON.stringify({checks,errors,failed,filters:true,gallery:true,prefill:true,faqKeyboard:true,navigation:true},null,2));
-console.log('Premium rigid page: 12 responsive views, real images, filters, gallery, VI/EN, quote context, keyboard FAQ and navigation passed.');await browser.close();
+await page.setViewportSize({width:1440,height:1000});await page.goto(origin+path.vi,{waitUntil:'networkidle'});
+for(const [use,n] of [['brand',4],['gift',5],['occasion',4],['all',13]]){await page.selectOption('#rigid-use',use);assert.equal(await page.locator('.rigid-card:visible').count(),n)}
+await page.fill('#rigid-query','MAROU');await page.locator('.rigid-search-submit').click();assert.equal(await page.locator('.rigid-card:visible').count(),1);assert.equal(await page.locator('.rigid-card:visible').getAttribute('data-model'),'032A5316');
+await page.fill('#rigid-query','mau cam');await page.locator('.rigid-search-submit').click();assert.equal(await page.locator('.rigid-card:visible').getAttribute('data-model'),'032A5363');
+await page.reload();assert.equal(await page.locator('.rigid-card:visible').count(),1);await page.locator('[data-lang=en]').click();await page.waitForURL('**/en/premium-rigid-boxes/**');assert.equal(await page.locator('.rigid-card:visible').getAttribute('data-model'),'032A5363');
+await page.fill('#rigid-query','NO_MATCH_12345');await page.locator('.rigid-search-submit').click();assert.ok(await page.locator('#rigid-empty').isVisible());await page.locator('[data-rigid-reset]').click();assert.equal(await page.locator('.rigid-card:visible').count(),13);
+await page.goto(origin+path.vi+'?use=brand#máu',{waitUntil:'networkidle'});await page.selectOption('#rigid-use','gift');await page.goBack();assert.equal(await page.locator('.rigid-card:visible').count(),4);
+await page.goto(origin+path.vi,{waitUntil:'networkidle'});const ids=await page.locator('.rigid-card').evaluateAll(els=>els.map(e=>e.dataset.model));
+for(const id of ids){await page.locator(`.rigid-card[data-model="${id}"] .rigid-card-photo`).click();assert.ok(await page.locator('#fold-detail').isVisible());assert.match(await page.locator('#fold-detail-image').getAttribute('src'),new RegExp(id));await page.locator('#fold-detail-image').evaluate(im=>im.decode());await page.keyboard.press('Escape');assert.ok(!await page.locator('#fold-detail').isVisible());}
+await page.locator('.rigid-hero [data-fold-detail]').click();await page.locator('#fold-photo-next').click();assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/032A5254/);await assertQuote(page,'#fold-detail-quote','hop-cao-cap','032A5309');
+await page.locator('.rigid-hero [data-fold-detail]').click();await assertSample(page,'#fold-detail-sample','hop-cao-cap','032A5309');await assertQuote(page,'.rigid-cta [data-request=quote]','hop-cao-cap');await assertConsult(page,'.rigid-finishing [data-request=consult]');
+await page.locator('.rigid-faq summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.rigid-faq details[open]').count(),1);
+await page.locator('#product-trigger').click();assert.equal(await page.locator('#menu-categories a').count(),6);await page.locator('#product-trigger').click();
+for(const href of await page.locator('.site-footer a[href^="/"]').evaluateAll(els=>[...new Set(els.map(e=>e.getAttribute('href')))])){const r=await page.request.get(origin+href);assert.equal(r.status(),200,href)}
+await page.goto(origin+'/san-pham/');await page.locator('.family-card').nth(2).click();await page.waitForURL('**/danh-muc/hop-cung-cao-cap/');assert.ok(await page.locator('.rigid-hero').isVisible());
+assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);await writeFile('qa/rigid-report.json',JSON.stringify({origin,checks,errors,failed,productCount:13,filters:true,search:true,history:true,galleries:true,requestContext:true,faqKeyboard:true,navigation:true},null,2));
+await browser.close();console.log('Rigid reference passed: 18 responsive VI/EN/ZH views, 13 genuine galleries, search/filter/history, quotation/sample/consultation context, FAQ and navigation.');

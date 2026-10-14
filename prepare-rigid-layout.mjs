@@ -1,0 +1,9 @@
+// Layout metadata only. Original photograph bytes remain unchanged.
+import fs from 'node:fs';
+const all=JSON.parse(fs.readFileSync('dist/product-data.js','utf8').replace(/^window.HOTPRINT_PRODUCTS = /,'').replace(/;\s*$/,''));const css=fs.readFileSync('dist/rigid.css','utf8')+fs.readFileSync('dist/folding.css','utf8');let styles=[];let specs={};
+for(const p of all.filter(p=>p.group==='rigid')){let xs=[],ys=[],mask='',ratio=1.5;if(p.officialId){const m=fs.readFileSync(`dist/assets/official-masks/${p.id}.svg`,'utf8');const size=m.match(/viewBox="0 0 (\d+) (\d+)"/);const xy=m.match(/ d="([^"]+)"/)[1].match(/-?[\d.]+/g).map(Number);for(let i=0;i<xy.length;i+=2){xs.push(xy[i]/+size[1]*100);ys.push(xy[i+1]/+size[2]*100)}ratio=+size[1]/+size[2];mask=`mask:url('/assets/official-masks/${p.id}.svg') 0 0/100% 100% no-repeat;`;}else{const re=new RegExp('data-photo="'+p.id+'"[^}]*--photo-clip:polygon\\(([^)]+)\\)','g');let matches=[...css.matchAll(re)],poly=matches.at(-1)[1];for(const pair of poly.split(',')){const v=pair.trim().split(/\s+/).map(parseFloat);xs.push(v[0]);ys.push(v[1]);}mask=`clip-path:polygon(${poly});`;}
+const x=Math.min(...xs),y=Math.min(...ys),w=Math.max(...xs)-x,h=Math.max(...ys)-y;
+// Frame 1000 x 750. Source and its ground shadow share one coordinate system.
+const scale=Math.min(760/(w/100*1500),570/(h/100*1500/ratio));const iw=1500*scale,ih=iw/ratio,left=500-(x+w/2)/100*iw,top=663-(y+h)/100*ih;
+specs[p.id]={x,y,w,h,ratio};styles.push(`.rigid-photo[data-photo="${p.id}"] .rigid-object{width:${iw/10}%;height:${ih/7.5}%;left:${left/10}%;top:${top/7.5}%}.rigid-photo[data-photo="${p.id}"] .rigid-source{${mask}}`);}
+fs.writeFileSync('dist/rigid-photo-placement.css',styles.join('\n')+'\n');fs.writeFileSync('rigid-photo-layout.json',JSON.stringify(specs,null,2)+'\n');

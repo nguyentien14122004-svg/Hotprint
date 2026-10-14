@@ -150,3 +150,7 @@ Xem docs/carton-photo-repair-2026-10-14.md: hero SAMONO thật, 11 ảnh xuất 
 ## P04 làm lại theo mẫu mới — bản v4, thay hướng ngay trên
 
 Chủ website bác ff42f82 và yêu cầu bám ảnh mẫu mới. Đã xác nhận giữ bố cục nhưng chỉ hiển thị carton, nên có đủ 11 mẫu thật. Xem `docs/carton-reference-v4.md`: hero Cookever tràn nền, bốn lợi ích, lưới 3 cột ảnh 16:9 và CTA/footer gọn; toàn bộ liên kết/chức năng footer cũ vẫn có trong mục mở rộng. Nguồn `build-carton.mjs`, `dist/carton-reference-v4.css`, `prepare-carton-reference.cjs`, `carton-source-contours.json`. Sửa tận gốc lỗi mất alpha làm lộ nền xám trong các ảnh v3; bản v4 dùng RGBA tường minh, ảnh sản phẩm gốc và bóng nằm trong cùng tệp. Ảnh không được khẳng định là ảnh chụp nguyên cảnh hoặc bản sao pixel 100% của tham chiếu.
+
+## P05 rigid-box reference redesign — 14 October 2026
+
+Latest work: `docs/rigid-reference-v2.md`. Rebuilt Hộp cứng cao cấp to the user's botanical reference with all 13 authentic products. Hero uses real brown/gold box 032A5309; ImageGen creates empty backgrounds only. Full footer and request flows remain. Read the document before changing image positioning; original photo and floor-shadow coordinates must stay together. Run `npm run test:rigid` with the available Playwright runtime for browser QA; `QA_ORIGIN` can target the deployed site.

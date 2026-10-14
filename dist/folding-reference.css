@@ -55,7 +55,7 @@ body[data-page=folding]:has(.fold-reference) .site-header .brand img{width:170px
 .fold-reference .fold-structure-photo .fold-photo{--scene-width:138%;--scene-left:-19%;--scene-top:48%}
 .fold-reference .fold-structure-photo .fold-zoom{width:33px;height:33px;font-size:20px;right:7px;bottom:7px;z-index:2}
 .fold-reference .fold-structure-caption{font-size:11px;line-height:1.7;margin:16px 0 26px;padding:0;border:0;color:var(--tone-muted)}
-.fold-reference .fold-detail-strip{display:grid;grid-template-columns:53% 1fr 64px;align-items:center;gap:36px;background:var(--tone-surface);border-radius:8px;overflow:hidden;min-height:230px}
+.fold-reference .fold-detail-strip{display:grid;grid-template-columns:53% 1fr 64px;align-items:center;gap:36px;background:var(--tone-surface);border-radius:8px;overflow:hidden;min-height:230px;margin-top:30px}
 .fold-reference .fold-detail-crop{display:block;height:240px;width:100%;overflow:hidden;background:#e9d3cb}
 .fold-reference .fold-detail-crop img{display:block;width:100%;height:100%;object-fit:cover;object-position:49% 44%;transform:scale(1.68)}
 .fold-reference .fold-detail-strip h3{font-size:26px;line-height:1.15;margin:0 0 14px}

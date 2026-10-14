@@ -15,6 +15,8 @@ Các tài liệu cũ về màu tím mận/xanh rừng và liên kết Sites trư
 
 ## Website hiện có
 
+Yêu cầu mới nhất 14/10/2026: đã bỏ các đoạn chú thích thừa về nguồn ảnh, mẫu tham khảo, xác nhận quy cách riêng ở cuối khối cấu trúc/thư viện của sáu danh mục, trang tổng quan sản phẩm và Về HotPrint, đồng bộ VI/EN/中文. Không khôi phục các đoạn `fold-caption`, `catalog-disclaimer` hoặc `ap-reference-note` này khi dựng trang lại. Ảnh, tên mẫu, nút chức năng và nội dung biểu mẫu giữ nguyên.
+
 Cập nhật P03 ngày 14/10/2026: trang **Hộp giấy mềm** đã dựng lại theo mẫu editorial mới, xem `docs/folding-reference-2026-10-14.md`. Giữ 13 mẫu đúng nhóm, hero Bitter Melon Artichoke, ba thẻ cấu trúc đúng sản phẩm, dải Lévinia thật, ba cột vật liệu, thư viện bốn cột, FAQ và carousel thủ công cuối trang. Chỉnh riêng `build-folding.mjs`, `dist/folding-reference.css/js`; không sửa CSS chung để thay năm nhóm khác. Ảnh gốc giữ nguyên; nền trống mới và bóng đáy riêng nằm trong repo. VI/EN/中文 đồng bộ.
 
 Cập nhật 14/10/2026: thư viện có **67 mẫu** sau khi bổ sung 31 mục có ảnh từ hotprint.vn và đối chiếu 23 mục đã có. Đọc `docs/catalog-completion-2026-10-14.md` và `official-catalog-audit.json`. Số lượng sáu nhóm: **13 / 11 / 13 / 15 / 7 / 8**. Maison Marou `032A5316` thuộc **hộp cứng**, đã gỡ khỏi trang hộp giấy mềm theo xác nhận chủ website. Mục Hộp yến sào không ảnh chưa thêm theo yêu cầu. Cửa sổ thông tin chi tiết đã theo mẫu mới với serif, nền ngà, bóng lá và khối camera. Các số 36 trong ghi chú cũ bên dưới là lịch sử.

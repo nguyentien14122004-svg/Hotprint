@@ -1,0 +1,212 @@
+[
+  {
+    "id": "032A5331",
+    "mask": "dist/assets/bag-masks/032A5331.svg",
+    "source": "dist/assets/products/032A5331-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 502,
+      "miny": 113,
+      "maxx": 1272,
+      "maxy": 1131
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5355",
+    "mask": "dist/assets/bag-masks/032A5355.svg",
+    "source": "dist/assets/products/032A5355-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 490,
+      "miny": 149,
+      "maxx": 1244,
+      "maxy": 1100
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5311",
+    "mask": "dist/assets/bag-masks/032A5311.svg",
+    "source": "dist/assets/products/032A5311-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 361,
+      "miny": 123,
+      "maxx": 1436,
+      "maxy": 1133
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5336",
+    "mask": "dist/assets/bag-masks/032A5336.svg",
+    "source": "dist/assets/products/032A5336-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 520,
+      "miny": 147,
+      "maxx": 1234,
+      "maxy": 1125
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5332",
+    "mask": "dist/assets/bag-masks/032A5332.svg",
+    "source": "dist/assets/products/032A5332-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 562,
+      "miny": 102,
+      "maxx": 1214,
+      "maxy": 1147
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5329",
+    "mask": "dist/assets/bag-masks/032A5329.svg",
+    "source": "dist/assets/products/032A5329-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 503,
+      "miny": 126,
+      "maxx": 1255,
+      "maxy": 1138
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5357",
+    "mask": "dist/assets/bag-masks/032A5357.svg",
+    "source": "dist/assets/products/032A5357-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 531,
+      "miny": 93,
+      "maxx": 1257,
+      "maxy": 1154
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5321",
+    "mask": "dist/assets/bag-masks/032A5321.svg",
+    "source": "dist/assets/products/032A5321-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 500,
+      "miny": 127,
+      "maxx": 1275,
+      "maxy": 1134
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP7076",
+    "mask": "dist/assets/official-masks/HP7076.svg",
+    "source": "dist/assets/products/HP7076-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 31,
+      "miny": 39,
+      "maxx": 336,
+      "maxy": 308
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP7075",
+    "mask": "dist/assets/official-masks/HP7075.svg",
+    "source": "dist/assets/products/HP7075-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 7,
+      "miny": 15,
+      "maxx": 354,
+      "maxy": 343
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP7073",
+    "mask": "dist/assets/official-masks/HP7073.svg",
+    "source": "dist/assets/products/HP7073-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 47,
+      "miny": 93,
+      "maxx": 318,
+      "maxy": 282
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6418",
+    "mask": "dist/assets/official-masks/HP6418.svg",
+    "source": "dist/assets/products/HP6418-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 76,
+      "miny": 73,
+      "maxx": 248,
+      "maxy": 296
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6416",
+    "mask": "dist/assets/official-masks/HP6416.svg",
+    "source": "dist/assets/products/HP6416-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 137,
+      "miny": 47,
+      "maxx": 221,
+      "maxy": 312
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6414",
+    "mask": "dist/assets/official-masks/HP6414.svg",
+    "source": "dist/assets/products/HP6414-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 64,
+      "miny": 80,
+      "maxx": 293,
+      "maxy": 293
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6412",
+    "mask": "dist/assets/official-masks/HP6412.svg",
+    "source": "dist/assets/products/HP6412-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 69,
+      "miny": 91,
+      "maxx": 287,
+      "maxy": 293
+    },
+    "productRetouch": false
+  }
+]

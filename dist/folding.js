@@ -22,7 +22,7 @@
  });
  document.querySelector('#fold-photo-prev').onclick=()=>{index=(index-1+selected.images.length)%selected.images.length;renderPhoto();};
  document.querySelector('#fold-photo-next').onclick=()=>{index=(index+1)%selected.images.length;renderPhoto();};
- if(!document.querySelector('[data-carton-library], [data-rigid-library]')){
+ if(!document.querySelector('[data-carton-library], [data-rigid-library], [data-bag-library]')){
  const filters=[...document.querySelectorAll('[data-fold-filter]')];
  function applyFilter(use){
   if(!filters.some(b=>b.dataset.foldFilter===use))use='all';

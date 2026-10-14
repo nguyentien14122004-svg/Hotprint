@@ -154,3 +154,5 @@ Chủ website bác ff42f82 và yêu cầu bám ảnh mẫu mới. Đã xác nh�
 ## P05 rigid-box reference redesign — 14 October 2026
 
 Latest work: `docs/rigid-reference-v2.md`. Rebuilt Hộp cứng cao cấp to the user's botanical reference with all 13 authentic products. Hero uses real brown/gold box 032A5309; ImageGen creates empty backgrounds only. Full footer and request flows remain. Read the document before changing image positioning; original photo and floor-shadow coordinates must stay together. Run `npm run test:rigid` with the available Playwright runtime for browser QA; `QA_ORIGIN` can target the deployed site.
+
+Cập nhật P06 ngày 15/10/2026: Túi giấy đã được dựng lại theo mẫu chủ website, giữ logo gốc, nội dung ngắn gọn, đủ 15 mẫu thật. Hero Karl Lagerfeld, nền trống cửa sổ/mặt đá v3, ảnh gốc không sửa và bóng tiếp xúc riêng. Tìm kiếm, bộ lọc, ảnh gốc, carousel, liên kết mẫu/báo giá/tư vấn hoạt động; xem docs/bags-reference-v2.md.

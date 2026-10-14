@@ -167,3 +167,5 @@ Hình ảnh và nhãn hiệu trong repo không được cấp giấy phép tái 
 Thư viện dùng ảnh thật trên nền đá/lá, có tìm kiếm, lọc, sắp xếp, gallery và danh sách mẫu tham khảo. Xem [tài liệu thiết kế và nguồn ảnh](docs/library-reference-2026-10-13.md). Kiểm tra: `npm run test:library-reference`.
 
 P04 sau rà soát của chủ website: [sửa ảnh, bóng tiếp xúc và khôi phục đầy đủ chân trang](docs/carton-photo-repair-2026-10-14.md).
+
+**P06 Túi giấy mới nhất (15/10/2026):** xem [thiết kế và bàn giao](docs/bags-reference-v2.md). Giữ logo gốc, 15 mẫu thật, ba ngôn ngữ; kiểm tra bằng npm run test:bags.

@@ -34,7 +34,7 @@ for(const file of files){
  const protectedBlocks=[];
  html=html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/g,block=>'@@PROTECTED'+(protectedBlocks.push(block)-1)+'@@');
  html=html.replace(/(?<=>)([^<]+)(?=<)/g,translate);
- html=html.replace(/\b(alt|aria-label|placeholder|title)="([^"]*)"/g,(m,key,value)=>key+'="'+translate(value)+'"');
+ html=html.replace(/\b(alt|aria-label|aria-roledescription|placeholder|title)="([^"]*)"/g,(m,key,value)=>key+'="'+translate(value)+'"');
  html=html.replace(/<meta name="description"[^>]*>/,m=>m.replace(/content="([^"]*)"/,(_,v)=>'content="'+translate(v)+'"'));
  html=html.replace(/href="(\/[^\"]*)"/g,(whole,value)=>{
   const [pathname]=value.split(/[?#]/),pair=pairs.find(p=>p.includes(pathname));

@@ -69,3 +69,5 @@ Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Ch�
 - Cập nhật 13/10/2026: danh mục P02 theo mẫu mới, xem `docs/families-reference-2026-10-13.md`. Đây là hướng mới nhất cho riêng sáu thẻ, thay ghi chú P02.2 cũ: lưới ba cột thẳng hàng, thanh lọc `family`, nền mới và bóng riêng, ảnh thật giữ nguyên. Trang chủ khối liên hệ xem `docs/home-contact-reference.md`; chỉ scope `#lien-he.connection-reference`.
 
 - Cập nhật thư viện P02.3 ngày 13/10/2026: đọc docs/library-reference-2026-10-13.md. CSS chỉ scope #thu-vien, giữ 36 ảnh thật và 12 mẫu/trang. Các nút lưu mẫu là danh sách tham khảo, không phải giỏ thanh toán. Query sort giữ qua chuyển ngữ. Không khôi phục ảnh nền trắng/ảnh đổi khi hover trong thẻ; ảnh gốc và góc ảnh phụ xem tại gallery.
+
+- Cập nhật P04 mới nhất 14/10/2026: đọc docs/carton-reference-2026-10-14.md. Hero rộng Cookever/USPA, bốn thông tin, thư viện ba cột đủ 11 carton, footer gọn. CSS/JS riêng carton.css và carton-reference.js; gallery chung folding.js. Giữ ảnh thật và hai bản ảnh gốc rõ hơn riêng P04; bóng sàn riêng, không drop-shadow toàn đường bao sản phẩm. Theo hướng mới này thay ghi chú P04 bốn mẫu/sáu phần cũ.

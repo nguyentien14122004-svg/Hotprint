@@ -44,7 +44,7 @@ for(const file of files){
  // Split editorial headlines need idiomatic Chinese, rather than English word order.
  const headings={
   '/zh/adhesive-labels/':'不干胶<br>标签<span class="fold-title-dot">。</span>',
-  '/zh/printed-corrugated-boxes/':'彩印<br>瓦楞纸盒<span class="fold-title-dot">。</span>',
+  '/zh/printed-corrugated-boxes/':'彩印<br><em>瓦楞纸盒</em>',
   '/zh/packaging-insights/':'了解包装。<br><em>明确需求，<br>用心选择。</em>',
   '/zh/request-terms/':'提交申请前，<br><em>请先了解。</em>',
   '/zh/contact/':'联系<br><em>HotPrint。</em>'

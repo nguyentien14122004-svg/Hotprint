@@ -24,7 +24,14 @@ try{
    const use=await button.getAttribute('data-fold-filter');console.log('filter',use);await button.click();
    const wanted=use==='all'?await cards.count():await p.locator('.fold-sample[data-use="'+use+'"]').count();assert.equal(await p.locator('.fold-sample:not([hidden])').count(),wanted);assert(wanted>0,route+' empty filter '+use);
   }
-  await p.locator('[data-fold-filter=all]').click();
+  if(group==='carton'){
+   for(const use of await p.locator('#carton-use option').evaluateAll(options=>options.map(o=>o.value))){
+    await p.locator('#carton-use').selectOption(use);
+    const wanted=use==='all'?expected.length:await p.locator('.fold-sample[data-use="'+use+'"]').count();
+    assert.equal(await p.locator('.fold-sample:not([hidden])').count(),wanted);assert(wanted>0);
+   }
+   await p.locator('#carton-use').selectOption('all');
+  }else await p.locator('[data-fold-filter=all]').click();
   if(group==='folding')assert.equal(await p.locator('[data-fold-detail="032A5316"]').count(),0);
   if(group==='rigid')assert(await p.locator('[data-fold-detail="032A5316"]').count()>0);
   const newItem=expected.find(x=>x.officialId);await p.locator('.fold-sample-photo[data-fold-detail="'+newItem.id+'"]').click();assert(await p.locator('#fold-detail').isVisible());await p.locator('#fold-detail-image').evaluate(im=>im.decode());await p.keyboard.press('Escape');

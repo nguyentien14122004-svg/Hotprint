@@ -4,7 +4,7 @@
  const tr=(vi,english)=>en?(document.documentElement.lang.startsWith('zh')?HOTPRINT_I18N.translate(english):english):vi;
  const dialog=document.querySelector('#fold-detail');
  let selected=null,index=0;
- const photoURL=id=>`/assets/products/${id}-large.webp`;
+ const photoURL=id=>document.body.dataset.productGroup==='carton'&&['HP7107','HP7106'].includes(id)?`/assets/carton-photo-sources/${id}.webp`:`/assets/products/${id}-large.webp`;
  function renderPhoto(){
   const im=document.querySelector('#fold-detail-image');im.hidden=false;im.src=photoURL(selected.images[index]);im.alt=selected[document.documentElement.lang.startsWith('zh')?'zh':en?'en':'vi']+` — ${index+1}/${selected.images.length}`;
   document.querySelector('#fold-photo-count').textContent=`${index+1} / ${selected.images.length}`;
@@ -22,6 +22,7 @@
  });
  document.querySelector('#fold-photo-prev').onclick=()=>{index=(index-1+selected.images.length)%selected.images.length;renderPhoto();};
  document.querySelector('#fold-photo-next').onclick=()=>{index=(index+1)%selected.images.length;renderPhoto();};
+ if(!document.querySelector('[data-carton-library]')){
  const filters=[...document.querySelectorAll('[data-fold-filter]')];
  function applyFilter(use){
   if(!filters.some(b=>b.dataset.foldFilter===use))use='all';
@@ -32,5 +33,6 @@
  filters.forEach(button=>button.onclick=()=>{const url=new URL(location.href);const value=button.dataset.foldFilter;if(value==='all')url.searchParams.delete('use');else url.searchParams.set('use',value);history.pushState(null,'',url);applyFilter(value);document.querySelectorAll('[data-lang]').forEach(a=>{const target=new URL(a.href);target.search=url.search;a.href=target;});});
  window.addEventListener('popstate',()=>applyFilter(new URL(location.href).searchParams.get('use')||'all'));
  applyFilter(new URL(location.href).searchParams.get('use')||'all');
+ }
  document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG'||!im.closest('.fold-page,.fold-detail'))return;im.hidden=true;const parent=im.parentElement;if(!parent.querySelector('.fold-image-error')){const message=document.createElement('p');message.className='fold-image-error';message.textContent=tr('Ảnh chưa tải được. Vui lòng thử lại hoặc liên hệ HotPrint.','This photo could not load. Please retry or contact HotPrint.');parent.append(message);}},true);
 })();

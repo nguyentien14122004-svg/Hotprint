@@ -138,3 +138,8 @@ Xem docs/home-hero-seam-fix.md. Ảnh đầu trang phủ chiều ngang ở đún
 ## Thư viện sản phẩm theo mẫu mới — 13/10/2026
 
 Xem docs/library-reference-2026-10-13.md. P02.3 có tiêu đề serif, thanh tìm kiếm liền khối, sắp xếp, ba cột thẻ nền đá/lá, ảnh thật và bóng mềm. Giữ 36 mẫu/12 mỗi trang, gallery ảnh gốc và danh sách tối đa sáu mẫu; không có checkout. Nguồn products-template.html, products.js, products-library-reference.css, library-photo-windows.css. Chạy npm run test:library-reference. Build/check/verify, 18 tổ hợp QA mới và 10 tổ hợp QA sản phẩm cũ đã đạt.
+
+
+## Hộp carton in màu — mẫu mới 14/10/2026
+
+Xem docs/carton-reference-2026-10-14.md: P04 hiện có hero rộng Cookever + USPA, bốn thông tin, thư viện ba cột đủ 11 mẫu đúng carton, CTA và footer gọn. Sửa build-carton.mjs / dist/carton.css / dist/carton-reference.js. Hai nền ImageGen trống; sản phẩm và nhãn giữ ảnh thật, bóng sàn SVG căn riêng. HP7107/HP7106 dùng ảnh gốc rõ hơn riêng trang này. Tìm kiếm, ứng dụng, mẫu đã chọn, sắp xếp, history và VI/EN/中文 hoạt động; key chọn mẫu dùng chung tối đa 6. Các chú thích dài đã xóa trước đó không khôi phục. Thay hướng P04 sáu phần/bốn mẫu cũ. Kiểm tra npm run test:carton và node qa-catalog-completeness.mjs; ảnh hero Trang chủ giữ nguyên.

@@ -43,6 +43,8 @@ Mở http://127.0.0.1:4174/ hoặc http://127.0.0.1:4174/san-pham/. Nhấn Ctrl+
 
 ## Chỉnh sửa và tạo bản cập nhật
 
+**P04 thiết kế mới 14/10/2026:** [trang carton theo mẫu, 11 ảnh thật, nguồn nền/bóng và công cụ](docs/carton-reference-2026-10-14.md). Kiểm tra `npm run test:carton`.
+
 **Danh mục 14/10/2026:** [kiểm kê 67 mẫu và thiết kế cửa sổ chi tiết](docs/catalog-completion-2026-10-14.md). Dữ liệu chung `dist/product-data.js`; bổ sung từ website chính thức trong `official-products.json`; đối chiếu đủ sản phẩm trong `official-catalog-audit.json`. Maison Marou đã chuyển sang hộp cứng. Kiểm tra bằng `node qa-catalog-completeness.mjs` và `npm run test:library-reference`.
 
 **P18 Xác nhận gửi yêu cầu:** [phạm vi hiện tại và trạng thái thực](docs/request-confirmation.md). Ba phần, VI/EN, hướng dẫn kiểm tra gửi email, ngữ cảnh loại yêu cầu và liên hệ. Sửa `build-request-status.mjs`, `dist/request-status.css`, `dist/request-status.js`; kiểm tra `npm run test:request-status`. Link sau chuẩn bị email mở thẻ mới giữ form. Chưa có backend nên không hiển thị đã tiếp nhận/mã/success. Build chung hiện 48 đường dẫn.

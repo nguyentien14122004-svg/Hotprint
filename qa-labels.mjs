@@ -1,53 +1,24 @@
-import {assertQuote,assertSample} from './qa-quote-link.mjs';
-import {createRequire} from 'node:module';
-import assert from 'node:assert/strict';
-import {writeFile} from 'node:fs/promises';
-const require=createRequire(import.meta.url),{chromium}=require('playwright');
-const browser=await chromium.launch({headless:true,channel:'chrome'});
-const page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
-page.on('pageerror',e=>errors.push(e.message));
-page.on('response',r=>{if(r.status()>=400)failed.push(r.url());});
-const origin='http://127.0.0.1:4174';
-for(const lang of ['vi','en'])for(const width of [1672,1440,1024,768,390,320]){
- await page.setViewportSize({width,height:1050});
- await page.goto(origin+(lang==='vi'?'/danh-muc/nhan-dan-decal/':'/en/adhesive-labels/'),{waitUntil:'networkidle'});
- await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('.fold-page img')].map(im=>{im.loading='eager';return im.decode();}));});
- assert.equal(await page.locator('main>section').count(),6);
- assert.equal(await page.locator('.fold-sample').count(),3);
- assert.equal(await page.locator('h1').count(),1);
- assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${lang} ${width} overflow`);
- assert.equal(await page.locator('[data-fold-filter]').count(),0,'Three samples do not require a filter');
- checks.push({lang,width});
- if(width===1440)await page.screenshot({path:`qa/labels-${lang}-desktop.png`,fullPage:true});
- if(width===390)await page.screenshot({path:`qa/labels-${lang}-mobile.png`,fullPage:true});
+import {assertQuote,assertSample,assertConsult} from './qa-quote-link.mjs';
+import {createRequire} from 'node:module';import assert from 'node:assert/strict';import {writeFile} from 'node:fs/promises';
+const require=createRequire(import.meta.url),{chromium}=require('playwright'),browser=await chromium.launch({headless:true,channel:'chrome'}),page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push(r.url())});
+const origin=process.env.QA_ORIGIN||'http://127.0.0.1:4174',paths={vi:'/danh-muc/nhan-dan-decal/',en:'/en/adhesive-labels/',zh:'/zh/adhesive-labels/'};
+for(const lang of ['vi','en','zh'])for(const width of [1920,1440,1024,768,390,320]){
+ await page.setViewportSize({width,height:1000});await page.goto(origin+paths[lang],{waitUntil:'networkidle'});await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('main img')].map(i=>{i.loading='eager';return i.decode()}))});
+ assert.equal(await page.locator('h1').count(),1);assert.equal(await page.locator('.label-card').count(),7);assert.equal(await page.locator('.label-style-card').count(),3);assert.equal(await page.locator('.label-material-grid article').count(),3);assert.equal(await page.locator('.label-faq details').count(),6);assert.equal(await page.locator('.label-categories a').count(),6);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${lang} ${width} overflow`);const columns=await page.locator('.label-grid').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length);assert.equal(columns,width>900?4:width>650?3:width>360?2:1);
+ const ratios=await page.locator('.label-source').evaluateAll(els=>els.filter(e=>e.getBoundingClientRect().width>0).map(e=>{const r=e.getBoundingClientRect();return Math.abs((r.width/r.height)/(e.naturalWidth/e.naturalHeight)-1)}));assert.ok(Math.max(...ratios)<.01,'Distorted source '+lang+' '+width);
+ assert.equal(await page.locator('#footer-categories a').count(),6);assert.match(await page.locator('.site-header .brand img').getAttribute('src'),/logo-original/);
+ if(width===1440||width===390){await page.screenshot({path:`qa/labels-v2-${lang}-${width}.png`,fullPage:true});await page.screenshot({path:`qa/labels-hero-${lang}-${width}.png`});}
+ checks.push({lang,width,columns,ratioError:Math.max(...ratios)});console.log(`Labels ${lang} ${width} passed`);
 }
-await page.setViewportSize({width:1440,height:1000});
-await page.goto(origin+'/danh-muc/nhan-dan-decal/#mau-tham-khao');
-await page.locator('[data-lang=en]').click();await page.waitForURL('**/en/adhesive-labels/**');
-assert.match(await page.title(),/Adhesive labels/);assert.equal(new URL(page.url()).hash,'#mau-tham-khao');
-await page.locator('[data-lang=vi]').click();await page.waitForURL('**/danh-muc/nhan-dan-decal/**');
-for(const id of ['032A5339','032A5328','032A5337']){
- const trigger=page.locator(`.fold-sample-photo[data-fold-detail="${id}"]`);
- await trigger.click();assert.ok(await page.locator('#fold-detail').isVisible());
- assert.match(await page.locator('#fold-detail-image').getAttribute('src'),new RegExp(id));
- assert.ok(await page.locator('#fold-photo-next').isDisabled());
- assert.ok(await page.locator('#fold-photo-prev').isDisabled());
- assert.match(await page.locator('#fold-original-link').getAttribute('href'),new RegExp(id));
- await page.keyboard.press('Escape');assert.ok(await trigger.evaluate(el=>el===document.activeElement));
-}
-await page.locator('.fold-sample-photo[data-fold-detail="032A5328"]').click();
-await assertQuote(page,'#fold-detail-quote','nhan-dan-decal','032A5328');
-await assertQuote(page,'.fold-hero [data-request=quote]','nhan-dan-decal');
-await assertSample(page,'.fold-sample [data-request=sample] >> nth=0','nhan-dan-decal','032A5339');
-await page.locator('.fold-faq summary').first().focus();await page.keyboard.press('Enter');
-assert.equal(await page.locator('.fold-faq details[open]').count(),1);
-for(const route of ['/san-pham/','/']){
- await page.goto(origin+route);await page.locator(route==='/'?'#category-links a':'.family-card').nth(4).click();
- await page.waitForURL('**/danh-muc/nhan-dan-decal/');
-}
-await page.goto(origin+'/en/paper-bags/');await page.locator('.fold-group-nav a').nth(4).click();
-await page.waitForURL('**/en/adhesive-labels/');
-assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
-await writeFile('qa/labels-report.json',JSON.stringify({checks,errors,failed,gallery:true,prefill:true,sampleRequest:true,faqKeyboard:true,navigation:true},null,2));
-console.log('Adhesive labels: 12 responsive views, original gallery, VI/EN, requests, keyboard and category navigation passed.');
-await browser.close();
+await page.setViewportSize({width:1440,height:1000});await page.goto(origin+paths.vi,{waitUntil:'networkidle'});
+for(const[use,n]of[['barcode',3],['information',2],['symbol',2],['all',7]]){await page.locator(`[data-label-filter=${use}]`).click();assert.equal(await page.locator('.label-card:visible').count(),n)}
+await page.locator('[data-label-filter=barcode]').click();await page.reload();assert.equal(await page.locator('.label-card:visible').count(),3);await page.locator('[data-lang=en]').click();await page.waitForURL('**/en/adhesive-labels/**');assert.equal(await page.locator('.label-card:visible').count(),3);await page.locator('[data-lang=zh]').click();await page.waitForURL('**/zh/adhesive-labels/**');assert.equal(await page.locator('.label-card:visible').count(),3);await page.locator('[data-label-filter=symbol]').click();await page.goBack();assert.equal(await page.locator('.label-card:visible').count(),3);
+await page.goto(origin+paths.vi,{waitUntil:'networkidle'});const ids=await page.locator('.label-card').evaluateAll(els=>els.map(e=>e.dataset.model));for(const id of ids){const button=page.locator(`.label-card[data-model="${id}"] .label-card-photo`);await button.click();assert.ok(await page.locator('#fold-detail').isVisible());assert.match(await page.locator('#fold-detail-image').getAttribute('src'),new RegExp(id));await page.locator('#fold-detail-image').evaluate(i=>i.decode());assert.ok(await page.locator('#fold-photo-next').isDisabled());await page.keyboard.press('Escape');assert.ok(await button.evaluate(e=>e===document.activeElement))}
+await page.locator('.label-hero [data-fold-detail]').click();await assertQuote(page,'#fold-detail-quote','nhan-dan-decal','032A5328');await page.locator('.label-hero [data-fold-detail]').click();await assertSample(page,'#fold-detail-sample','nhan-dan-decal','032A5328');await assertConsult(page,'.label-hero [data-request=consult]');await assertConsult(page,'.label-materials [data-request=consult]');await assertQuote(page,'.label-final [data-request=quote]','nhan-dan-decal');await assertSample(page,'.label-card[data-model=HP6425] [data-request=sample]','nhan-dan-decal','HP6425');
+for(const id of ['032A5339','032A5337','032A5328']){await page.locator('#label-slide-next').click();assert.equal(await page.locator('#label-slide-open').getAttribute('data-fold-detail'),id);assert.equal(await page.locator('.label-real [data-request=sample]').getAttribute('data-model'),id);assert.equal(await page.locator('[data-label-panel]:visible').count(),1)}await page.locator('[data-label-slide="1"]').click();await assertSample(page,'.label-real [data-request=sample]','nhan-dan-decal','032A5339');await page.locator('#label-slide-prev').click();assert.equal(await page.locator('#label-slide-open').getAttribute('data-fold-detail'),'032A5337');
+await page.locator('.label-faq summary').nth(1).focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.label-faq details[open]').count(),2);
+for(const href of await page.locator('.site-footer a[href^="/"],.label-categories a[href^="/"]').evaluateAll(els=>[...new Set(els.map(e=>e.getAttribute('href')))]))assert.equal((await page.request.get(origin+href)).status(),200,href);
+await page.goto(origin+'/san-pham/');await page.locator('.family-card').nth(4).click();await page.waitForURL('**/danh-muc/nhan-dan-decal/');assert.ok(await page.locator('.label-hero').isVisible());assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+await writeFile('qa/labels-report.json',JSON.stringify({origin,checks,errors,failed,count:7,filters:true,history:true,languages:true,galleries:true,requests:true,carousel:true,footer:true,originalLogo:true},null,2));await browser.close();console.log('Labels passed: 18 responsive views, seven original galleries, filters/history/languages, request context, carousel, keyboard and navigation.');

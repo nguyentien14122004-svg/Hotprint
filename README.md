@@ -169,3 +169,5 @@ Thư viện dùng ảnh thật trên nền đá/lá, có tìm kiếm, lọc, s�
 P04 sau rà soát của chủ website: [sửa ảnh, bóng tiếp xúc và khôi phục đầy đủ chân trang](docs/carton-photo-repair-2026-10-14.md).
 
 **P06 Túi giấy mới nhất (15/10/2026):** xem [thiết kế và bàn giao](docs/bags-reference-v2.md). Giữ logo gốc, 15 mẫu thật, ba ngôn ngữ; kiểm tra bằng npm run test:bags.
+
+**P07 Nhãn dán decal mới nhất (15/10/2026):** xem [thiết kế và bàn giao](docs/labels-reference-v2.md); 7 mẫu thật, VI/EN/中文, kiểm tra bằng npm run test:labels.

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "032A5339",
+    "mask": "dist/assets/label-masks/032A5339.svg",
+    "source": "dist/assets/products/032A5339-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 311,
+      "miny": 170,
+      "maxx": 1290,
+      "maxy": 1063
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5328",
+    "mask": "dist/assets/label-masks/032A5328.svg",
+    "source": "dist/assets/products/032A5328-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 246,
+      "miny": 189,
+      "maxx": 1287,
+      "maxy": 1137
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5337",
+    "mask": "dist/assets/label-masks/032A5337.svg",
+    "source": "dist/assets/products/032A5337-large.webp",
+    "sourceWidth": 1800,
+    "sourceHeight": 1200,
+    "bounds": {
+      "minx": 126,
+      "miny": 176,
+      "maxx": 1471,
+      "maxy": 1032
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6427",
+    "mask": "dist/assets/official-masks/HP6427.svg",
+    "source": "dist/assets/products/HP6427-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 74,
+      "miny": 71,
+      "maxx": 278,
+      "maxy": 296
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6425",
+    "mask": "dist/assets/official-masks/HP6425.svg",
+    "source": "dist/assets/products/HP6425-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 58,
+      "miny": 110,
+      "maxx": 300,
+      "maxy": 253
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6423",
+    "mask": "dist/assets/official-masks/HP6423.svg",
+    "source": "dist/assets/products/HP6423-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 72,
+      "miny": 64,
+      "maxx": 272,
+      "maxy": 300
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6420",
+    "mask": "dist/assets/official-masks/HP6420.svg",
+    "source": "dist/assets/products/HP6420-large.webp",
+    "sourceWidth": 360,
+    "sourceHeight": 360,
+    "bounds": {
+      "minx": 54,
+      "miny": 94,
+      "maxx": 301,
+      "maxy": 253
+    },
+    "productRetouch": false
+  }
+]

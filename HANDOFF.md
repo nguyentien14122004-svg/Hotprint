@@ -146,3 +146,7 @@ Xem docs/carton-reference-2026-10-14.md: P04 hiện có hero rộng Cookever + U
 
 ## P04 sửa ảnh và khôi phục chân trang — 14/10/2026
 Xem docs/carton-photo-repair-2026-10-14.md: hero SAMONO thật, 11 ảnh xuất cùng bóng, CTA đủ năm lựa chọn liên hệ, chân trang chung đầy đủ, breadcrumb và sáu nhóm. Hướng mới này thay hero hai hộp/footer gọn trong ghi chú trước. Nguồn build-carton.mjs, carton-repair.css, prepare-carton-studio.cjs; kiểm tra qa-carton.mjs.
+
+## P04 làm lại theo mẫu mới — bản v4, thay hướng ngay trên
+
+Chủ website bác ff42f82 và yêu cầu bám ảnh mẫu mới. Đã xác nhận giữ bố cục nhưng chỉ hiển thị carton, nên có đủ 11 mẫu thật. Xem `docs/carton-reference-v4.md`: hero Cookever tràn nền, bốn lợi ích, lưới 3 cột ảnh 16:9 và CTA/footer gọn; toàn bộ liên kết/chức năng footer cũ vẫn có trong mục mở rộng. Nguồn `build-carton.mjs`, `dist/carton-reference-v4.css`, `prepare-carton-reference.cjs`, `carton-source-contours.json`. Sửa tận gốc lỗi mất alpha làm lộ nền xám trong các ảnh v3; bản v4 dùng RGBA tường minh, ảnh sản phẩm gốc và bóng nằm trong cùng tệp. Ảnh không được khẳng định là ảnh chụp nguyên cảnh hoặc bản sao pixel 100% của tham chiếu.

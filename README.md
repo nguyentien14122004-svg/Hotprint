@@ -1,5 +1,7 @@
 # Website HotPrint
 
+**Cập nhật P04 mới nhất:** xem [bản làm lại carton v4](docs/carton-reference-v4.md). Bố cục theo mẫu mới, 11 mẫu carton thật, nền tràn, ảnh giữ nguyên sản phẩm và sửa lỗi alpha của v3. Mọi điều hướng/footer vẫn có trong mục mở rộng; không dùng lại bố cục SAMONO của ff42f82.
+
 Bản thiết kế website HotPrint đang phát triển, gồm **Trang chủ**, **Tổng quan sản phẩm**, **Hộp giấy mềm**, **Hộp carton in màu**, **Hộp cứng cao cấp**, **Túi giấy**, **Nhãn dán decal**, **Nhãn hàng & catalog**, **Nhà máy**, **Về HotPrint**, **Liên hệ**, **Yêu cầu báo giá**, **Yêu cầu mẫu**, **Đặt lịch tư vấn**, **Kiến thức bao bì**, **Chính sách riêng tư**, **Điều kiện gửi yêu cầu** và **Xác nhận gửi yêu cầu**, hỗ trợ tiếng Việt, tiếng Anh, tiếng Trung giản thể và điện thoại. Mã nguồn HTML/CSS/JavaScript thuần, có thể triển khai trên dịch vụ hosting tĩnh, không phụ thuộc tài khoản ChatGPT để chạy.
 
 ## Triển khai Vercel

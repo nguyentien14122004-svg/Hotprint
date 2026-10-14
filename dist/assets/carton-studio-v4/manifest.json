@@ -1,0 +1,156 @@
+[
+  {
+    "id": "032A5366",
+    "source": "dist/assets/products/032A5366-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 475.2917725784141,
+      "top": 100.44109336391472,
+      "width": 489.4600569854462,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "032A5358",
+    "source": "dist/assets/products/032A5358-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 432.6954179923341,
+      "top": 100.20542625948845,
+      "width": 575.5630433148783,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "032A5326",
+    "source": "dist/assets/products/032A5326-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 390.24545644453724,
+      "top": 99.8692987953485,
+      "width": 659.1915604762899,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "032A5361",
+    "source": "dist/assets/products/032A5361-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 361.8258823529412,
+      "top": 100.41411764705883,
+      "width": 717.0564705882354,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP7107",
+    "source": "dist/assets/carton-photo-sources/HP7107.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 501.25291828793775,
+      "top": 99.70038910505838,
+      "width": 438.32684824902725,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP7106",
+    "source": "dist/assets/carton-photo-sources/HP7106.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 403.61202715809895,
+      "top": 99.94180407371485,
+      "width": 632.5897187196896,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP7094",
+    "source": "dist/assets/products/HP7094-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 234.72413793103448,
+      "top": 117.60344827586209,
+      "width": 970.0000000000001,
+      "height": 582.5574712643679
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP6410",
+    "source": "dist/assets/products/HP6410-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 307.5438596491228,
+      "top": 100.38596491228066,
+      "width": 824.5614035087718,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP6408",
+    "source": "dist/assets/products/HP6408-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 368.16299559471366,
+      "top": 100.24229074889868,
+      "width": 703.0837004405287,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP6406",
+    "source": "dist/assets/products/HP6406-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 379.4834437086093,
+      "top": 100.43708609271525,
+      "width": 680.7947019867551,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  },
+  {
+    "id": "HP6404",
+    "source": "dist/assets/products/HP6404-large.webp",
+    "width": 1440,
+    "height": 810,
+    "productBounds": {
+      "left": 423.623869801085,
+      "top": 99.87884267631102,
+      "width": 592.4050632911392,
+      "height": 600
+    },
+    "shadow": "source-coordinate floor polygon, narrow contact, near occlusion, soft directional cast",
+    "productRetouch": false
+  }
+]

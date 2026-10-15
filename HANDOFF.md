@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Cập nhật P03 hero v3 — 16/10/2026:** Đầu trang Hộp giấy mềm theo mẫu mới: ảnh tràn cụm hộp LUBI và hộp khăn giấy từ ảnh chủ website gửi, bệ đá, ánh sáng cửa sổ và bóng tiếp xúc. Giữ logo và sáu nhóm. Đọc `docs/folding-hero-v3.md`; sửa `folding-hero-v3.mjs`, `dist/folding-hero-v3.css`. Không khôi phục hero Bitter Melon ghép cũ. Ảnh hero là bản dựng cảnh AI từ ảnh được cung cấp; không gắn nhãn ảnh gốc. Thư viện 13 mẫu giữ nguyên. Chạy `npm run test:folding-hero` và `npm run test:folding`.
+
 **Cập nhật P15 chi tiết v3 — 16/10/2026:** Bài nổi bật, sáu thẻ và trang đọc được hoàn thiện với ảnh nền đá ngà, bóng tiếp xúc và điểm nhấn lá; mục lục theo vị trí đọc, checklist và sao chép ghi chú. Đọc `docs/knowledge-details-v3.md`. Sửa `knowledge-details.mjs`, `dist/knowledge-details-v3.css`, `dist/knowledge-reading.js`. Ảnh sản phẩm trình bày đã chỉnh bằng Imagegen, ảnh gốc vẫn có qua liên kết trong từng bài; không mô tả bản chỉnh là ảnh gốc chưa xử lý. Chạy `npm run test:knowledge-details`.
 
 **Cập nhật P15 — 16/10/2026:** Kiến thức bao bì thiết kế lại theo phong cách sổ tay botanical: hero bàn giấy, ba lối đọc, bài nổi bật, tìm kiếm/chủ đề, sáu bài và trang đọc đồng bộ. Đọc `docs/knowledge-editorial-v2.md`; sửa `knowledge-editorial.mjs`, `dist/knowledge-editorial-v2.css`. Giữ ảnh sản phẩm thật và chức năng tìm kiếm. Chạy `npm run test:knowledge` và `npm run test:knowledge-editorial`.

@@ -6,7 +6,7 @@ const require=createRequire(import.meta.url),{chromium}=require('playwright');
 const browser=await chromium.launch({headless:true,channel:'chrome'});
 const page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
 page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push(r.url());});
-const origin='http://127.0.0.1:4174';
+const origin=process.env.QA_ORIGIN||'http://127.0.0.1:4174';
 for(const lang of ['vi','en','zh'])for(const width of [1672,1440,1024,768,390,320]){
  await page.setViewportSize({width,height:1050});
  await page.goto(origin+(lang==='vi'?'/danh-muc/hop-giay-mem/':`/${lang}/folding-cartons/`),{waitUntil:'networkidle'});
@@ -32,7 +32,9 @@ await page.locator('[data-lang=vi]').click();await page.waitForURL('**/danh-muc/
 await page.locator('.fold-sample:visible [data-fold-detail="032A5268"]').first().click();assert.ok(await page.locator('#fold-detail').isVisible());assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/032A5268/);
 await page.locator('#fold-photo-next').click();assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/032A5298/);
 await assertQuote(page,'#fold-detail-quote','hop-giay-mem','032A5268');
+await page.setViewportSize({width:390,height:900});
 await assertQuote(page,'.fold-hero [data-request=quote]','hop-giay-mem');
+await page.setViewportSize({width:1440,height:1000});
 await page.locator('.fold-faq summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.fold-faq details[open]').count(),1);
 const next=page.locator('[data-showcase-step="1"]');await next.click();assert.equal(await page.locator('[data-showcase-slide]:visible').getAttribute('data-showcase-slide'),'032A5315');assert.equal(await page.locator('[data-showcase-quote]').getAttribute('data-model'),'032A5315');
 await next.focus();await page.keyboard.press('ArrowRight');assert.equal(await page.locator('[data-showcase-slide]:visible').getAttribute('data-showcase-slide'),'032A5268');

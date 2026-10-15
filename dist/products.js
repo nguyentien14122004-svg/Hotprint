@@ -16,6 +16,8 @@
   Object.assign(copy.en,{processLead:'Let’s start with',processAccent:'an idea.',consultArtwork:'HotPrint packaging design illustration'});
   Object.assign(copy.vi,{officialImage:'Hình ảnh từ website HotPrint',officialProof:'Ảnh gốc được công bố; giữ nguyên thiết kế sản phẩm và nhận diện thương hiệu.'});
   Object.assign(copy.en,{officialImage:'Image from the HotPrint website',officialProof:'Original published image; product design and branding preserved.'});
+  copy.vi.heroSceneAlt='Hộp Rượu Sâm Ngọc Linh trên mặt đá trong ảnh mẫu được cung cấp';
+  copy.en.heroSceneAlt='Sâm Ngọc Linh gift box on stone in the supplied reference image';
   copy.zh=HOTPRINT_I18N.deepTranslate(copy.en);groupNotes.zh=HOTPRINT_I18N.deepTranslate(groupNotes.en);
   const $c = s=>document.querySelector(s), txt=k=>copy[language][k];
   const products=window.HOTPRINT_PRODUCTS;

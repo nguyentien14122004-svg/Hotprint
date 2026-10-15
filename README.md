@@ -1,5 +1,7 @@
 # Website HotPrint
 
+**Cập nhật P02 — 16/10/2026:** Hero Khám phá sản phẩm theo mẫu mới, giữ nguyên ảnh hộp và bóng đổ từ ảnh được cung cấp; chữ/nút thật, ba ngôn ngữ, responsive. Đọc `docs/products-hero-reference-v3.md`; sửa `dist/products-hero-reference-v3.css`, không khôi phục lớp sản phẩm ghép cũ. Kiểm tra `node qa-products-hero-v3.mjs`.
+
 **Cập nhật P12 — Yêu cầu báo giá:** [bố cục theo mẫu mới](docs/quote-reference-v2.md), nền giấy/lá, ảnh nhân sự thật và biểu mẫu gọn. `npm run test:quote` kiểm tra ba ngôn ngữ, nhập liệu và email dự thảo.
 
 **Cập nhật P10 — Về HotPrint:** [bố cục botanical mới](docs/about-reference-v2.md), ảnh nhà máy/đội ngũ thật, tám phần và carousel sáu nhóm sản phẩm. Chạy `npm run test:about` để kiểm tra cả ba ngôn ngữ và màn hình nhỏ.

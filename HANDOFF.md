@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Cập nhật P02 — 16/10/2026:** Hero Khám phá sản phẩm theo mẫu mới, giữ nguyên ảnh hộp và bóng đổ từ ảnh được cung cấp; chữ/nút thật, ba ngôn ngữ, responsive. Đọc `docs/products-hero-reference-v3.md`; sửa `dist/products-hero-reference-v3.css`, không khôi phục lớp sản phẩm ghép cũ. Kiểm tra `node qa-products-hero-v3.mjs`.
+
 **Cập nhật P12 — 15/10/2026:** Yêu cầu báo giá đã thiết kế lại theo mẫu botanical, logo và ảnh nhân sự thật, nội dung gọn, biểu mẫu đầy đủ cùng ba ngôn ngữ. Xem `docs/quote-reference-v2.md`. Giữ nguyên cơ chế chuẩn bị email; không có backend tiếp nhận. Các trang Yêu cầu mẫu và Đặt lịch tư vấn tiếp tục dùng template nền cũ, không kế thừa bố cục mới này.
 
 **Cập nhật P10 — 15/10/2026:** Về HotPrint đã thiết kế lại theo mẫu mới, giữ logo gốc và ảnh công ty thật. Tám phần, lịch sử mở rộng, carousel sáu nhóm, đầy đủ điều hướng/footer và ba ngôn ngữ. Xem `docs/about-reference-v2.md` để tiếp tục; tài liệu này thay phần About sáu khối bên dưới. Phông tiêu đề tải cục bộ để hiển thị đúng dấu tiếng Việt. Bộ kiểm tra hiện tại là `qa-about-reference.mjs`.

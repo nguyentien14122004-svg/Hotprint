@@ -47,7 +47,7 @@ for(const file of files){
   '/zh/premium-rigid-boxes/':'高档<br><em>精品硬盒</em>',
   '/zh/adhesive-labels/':'不干胶<br>标签<span class="fold-title-dot">。</span>',
   '/zh/printed-corrugated-boxes/':'彩印<br><em>瓦楞纸盒</em>',
-  '/zh/packaging-insights/':'了解包装。<br><em>明确需求，<br>用心选择。</em>',
+  '/zh/packaging-insights/':'读懂每个细节。<br><em>选对产品包装。</em>',
   '/zh/request-terms/':'提交申请前，<br><em>请先了解。</em>',
   '/zh/contact/':'联系<br><em>HotPrint。</em>'
  };

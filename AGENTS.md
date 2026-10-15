@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Cập nhật P15 — 16/10/2026:** Kiến thức bao bì thiết kế lại theo phong cách sổ tay botanical: hero bàn giấy, ba lối đọc, bài nổi bật, tìm kiếm/chủ đề, sáu bài và trang đọc đồng bộ. Đọc `docs/knowledge-editorial-v2.md`; sửa `knowledge-editorial.mjs`, `dist/knowledge-editorial-v2.css`. Giữ ảnh sản phẩm thật và chức năng tìm kiếm. Chạy `npm run test:knowledge` và `npm run test:knowledge-editorial`.
+
 **Cập nhật P02 — 16/10/2026:** Hero Khám phá sản phẩm theo mẫu mới, giữ nguyên ảnh hộp và bóng đổ từ ảnh được cung cấp; chữ/nút thật, ba ngôn ngữ, responsive. Đọc `docs/products-hero-reference-v3.md`; sửa `dist/products-hero-reference-v3.css`, không khôi phục lớp sản phẩm ghép cũ. Kiểm tra `node qa-products-hero-v3.mjs`.
 
 - P12 mới nhất 15/10/2026: đọc `docs/quote-reference-v2.md`. Báo giá theo mẫu nền giấy/lá, liên hệ nhanh, hỗ trợ với ảnh nhân sự thật, biểu mẫu hai cột và trạng thái email có điều kiện. Sửa `quote-reference-layout.mjs` và `dist/quote-reference-v2.css`. `build-quote.mjs` xuất `quoteBasePages` cho trang mẫu để không thay bố cục P13/P14. Giữ email/điện thoại là lựa chọn thay thế nhau, không báo đã tiếp nhận. Chạy `npm run test:quote`.

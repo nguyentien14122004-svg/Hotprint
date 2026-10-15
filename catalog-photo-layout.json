@@ -1,0 +1,114 @@
+[
+  {
+    "id": "032A5353",
+    "source": "dist/assets/products/032A5353-large.webp",
+    "mask": "dist/assets/tag-masks/032A5353.svg",
+    "width": 1800,
+    "height": 1200,
+    "bounds": {
+      "minx": 489,
+      "miny": 167,
+      "maxx": 1427,
+      "maxy": 1083
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5364",
+    "source": "dist/assets/products/032A5364-large.webp",
+    "mask": "dist/assets/tag-masks/032A5364.svg",
+    "width": 1800,
+    "height": 1200,
+    "bounds": {
+      "minx": 498,
+      "miny": 141,
+      "maxx": 1384,
+      "maxy": 1156
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5323",
+    "source": "dist/assets/products/032A5323-large.webp",
+    "mask": "dist/assets/tag-masks/032A5323.svg",
+    "width": 1800,
+    "height": 1200,
+    "bounds": {
+      "minx": 315,
+      "miny": 160,
+      "maxx": 1504,
+      "maxy": 1068
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "032A5325",
+    "source": "dist/assets/products/032A5325-large.webp",
+    "mask": "dist/assets/tag-masks/032A5325.svg",
+    "width": 1800,
+    "height": 1200,
+    "bounds": {
+      "minx": 364,
+      "miny": 155,
+      "maxx": 1613,
+      "maxy": 1063
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6435",
+    "source": "dist/assets/products/HP6435-large.webp",
+    "mask": "dist/assets/official-masks/HP6435.svg",
+    "width": 360,
+    "height": 360,
+    "bounds": {
+      "minx": 50,
+      "miny": 74,
+      "maxx": 308,
+      "maxy": 284
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6433",
+    "source": "dist/assets/products/HP6433-large.webp",
+    "mask": "dist/assets/official-masks/HP6433.svg",
+    "width": 360,
+    "height": 360,
+    "bounds": {
+      "minx": 55,
+      "miny": 68,
+      "maxx": 302,
+      "maxy": 289
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6431",
+    "source": "dist/assets/products/HP6431-large.webp",
+    "mask": "dist/assets/official-masks/HP6431.svg",
+    "width": 360,
+    "height": 360,
+    "bounds": {
+      "minx": 54,
+      "miny": 62,
+      "maxx": 301,
+      "maxy": 297
+    },
+    "productRetouch": false
+  },
+  {
+    "id": "HP6429",
+    "source": "dist/assets/products/HP6429-large.webp",
+    "mask": "dist/assets/official-masks/HP6429.svg",
+    "width": 360,
+    "height": 360,
+    "bounds": {
+      "minx": 48,
+      "miny": 87,
+      "maxx": 311,
+      "maxy": 271
+    },
+    "productRetouch": false
+  }
+]

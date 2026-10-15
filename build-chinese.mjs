@@ -43,6 +43,7 @@ for(const file of files){
  html=html.replace(/@@PROTECTED(\d+)@@/g,(_,n)=>protectedBlocks[Number(n)]);
  // Split editorial headlines need idiomatic Chinese, rather than English word order.
  const headings={
+  '/zh/hang-tags-catalogues/':'产品吊牌<br>与目录。',
   '/zh/premium-rigid-boxes/':'高档<br><em>精品硬盒</em>',
   '/zh/adhesive-labels/':'不干胶<br>标签<span class="fold-title-dot">。</span>',
   '/zh/printed-corrugated-boxes/':'彩印<br><em>瓦楞纸盒</em>',

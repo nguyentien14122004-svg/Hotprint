@@ -171,3 +171,5 @@ P04 sau rà soát của chủ website: [sửa ảnh, bóng tiếp xúc và khôi
 **P06 Túi giấy mới nhất (15/10/2026):** xem [thiết kế và bàn giao](docs/bags-reference-v2.md). Giữ logo gốc, 15 mẫu thật, ba ngôn ngữ; kiểm tra bằng npm run test:bags.
 
 **P07 Nhãn dán decal mới nhất (15/10/2026):** xem [thiết kế và bàn giao](docs/labels-reference-v2.md); 7 mẫu thật, VI/EN/中文, kiểm tra bằng npm run test:labels.
+
+**P08 cập nhật 15/10/2026:** [Nhãn hàng & catalog theo mẫu mới](docs/catalog-reference-v2.md), 8 mẫu thật, VI/EN/中文; logo gốc, ảnh nguồn nguyên vẹn, gallery đủ góc, bộ lọc và carousel. `npm run test:tags` kiểm tra 18 tổ hợp màn hình/ngôn ngữ và các hành vi.

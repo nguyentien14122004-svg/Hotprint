@@ -1,5 +1,7 @@
 # Website HotPrint
 
+**Cập nhật P12 — Yêu cầu báo giá:** [bố cục theo mẫu mới](docs/quote-reference-v2.md), nền giấy/lá, ảnh nhân sự thật và biểu mẫu gọn. `npm run test:quote` kiểm tra ba ngôn ngữ, nhập liệu và email dự thảo.
+
 **Cập nhật P10 — Về HotPrint:** [bố cục botanical mới](docs/about-reference-v2.md), ảnh nhà máy/đội ngũ thật, tám phần và carousel sáu nhóm sản phẩm. Chạy `npm run test:about` để kiểm tra cả ba ngôn ngữ và màn hình nhỏ.
 
 **Cập nhật P04 mới nhất:** xem [bản làm lại carton v4](docs/carton-reference-v4.md). Bố cục theo mẫu mới, 11 mẫu carton thật, nền tràn, ảnh giữ nguyên sản phẩm và sửa lỗi alpha của v3. Mọi điều hướng/footer vẫn có trong mục mở rộng; không dùng lại bố cục SAMONO của ff42f82.

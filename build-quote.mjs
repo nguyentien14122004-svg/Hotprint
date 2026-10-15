@@ -1,4 +1,5 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {quoteReferenceCopy,quoteReferenceLayout} from './quote-reference-layout.mjs';
 const source=await readFile('dist/index.html','utf8');
 const copy={
  email:['Email','Email'],checkSending:['Kiểm tra việc gửi yêu cầu','Check request sending'],requestTerms:['Điều kiện gửi yêu cầu','Request terms'],privacyNewTab:['(mở trong thẻ mới)','(opens in a new tab)'],
@@ -6,6 +7,8 @@ const copy={
 };
 const groups=[['hop-giay-mem','Hộp giấy mềm','Folding cartons'],['hop-carton','Hộp carton in màu','Printed corrugated boxes'],['hop-cao-cap','Hộp cứng cao cấp','Premium rigid boxes'],['tui-giay','Túi giấy','Paper bags'],['nhan-dan-decal','Nhãn dán decal','Adhesive labels'],['nhan-hang-catalog','Nhãn hàng & catalog','Hang tags & catalogues']];
 const arrow='<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>';
+// Downstream sample/consultation builders retain their existing base layout.
+export const quoteBasePages={};
 for(const lang of ['vi','en']){
  const tr=(vi,en)=>lang==='vi'?vi:en;const txt=key=>copy[key][lang==='vi'?0:1];const span=key=>`<span data-quote-text="${key}">${txt(key)}</span>`;
  const field=(name,key,input,required=false,hint='')=>`<label class="qp-field${name==='category'||name==='reference'||name==='message'?' qp-full':''}" for="q-${name}">${span(key)}${required?' <span aria-hidden="true">*</span>':''}${input}${hint?`<small id="q-hint-${name}" data-quote-text="${hint}">${txt(hint)}</small>`:''}<small class="qp-error" id="q-error-${name}" data-quote-error="${name}" aria-live="polite"></small></label>`;
@@ -22,6 +25,8 @@ for(const lang of ['vi','en']){
  <section class="qp-guide" aria-labelledby="qp-guide-title"><div class="qp-guide-heading"><div><p class="qp-kicker" data-quote-text="guideKicker">${txt('guideKicker')}</p><h2 id="qp-guide-title" data-quote-html="guideTitle">${txt('guideTitle')}</h2></div><p data-quote-text="guideIntro">${txt('guideIntro')}</p></div><div class="qp-guide-grid">${[1,2,3].map(i=>`<article><span aria-hidden="true">0${i}</span><h3 data-quote-text="guide${i}">${txt('guide'+i)}</h3><p data-quote-text="guide${i}Body">${txt('guide'+i+'Body')}</p></article>`).join('')}</div><a class="qp-text-link" href="${tr('/lien-he/','/en/contact/')}" data-contact-page>${span('contactPage')}${arrow}</a></section>
  </div></main><script id="quote-copy-data" type="application/json">${JSON.stringify({copy,groups})}</script>`;
  const html=source.replace(/<main id="main">[\s\S]*?<\/main>/,()=>main).replace('<body>','<body data-page="quote">').replace('<html lang="vi">',`<html lang="${lang}">`).replace(/<title>.*?<\/title>/,`<title>${tr('Yêu cầu báo giá','Request a quote')} | HotPrint</title>`).replace(/<meta name="description"[^>]+>/,`<meta name="description" content="${tr('Chia sẻ nhu cầu bao bì để trao đổi báo giá riêng với HotPrint. Một biểu mẫu cho thông tin liên hệ, sản phẩm, số lượng và các yêu cầu của bạn.','Share your packaging brief to discuss an individual quote with HotPrint. One form for contact details, products, quantity and requirements.')}">`).replace(/<link rel="preload" as="image"[^>]+>/,'').replace('<script src="/app.js" defer></script>','<link rel="stylesheet" href="/quote.css"><script src="/product-data.js" defer></script><script src="/app.js" defer></script><script src="/quote.js" defer></script>');
- const route=tr('yeu-cau-bao-gia','en/request-a-quote');await mkdir('dist/'+route,{recursive:true});await writeFile('dist/'+route+'/index.html',html);
+ quoteBasePages[lang]=html;
+ const redesigned=html.replace(main,()=>quoteReferenceLayout(main,{...copy,...quoteReferenceCopy},lang,groups)).replace('<link rel="stylesheet" href="/quote.css">','<link rel="stylesheet" href="/quote.css"><link rel="stylesheet" href="/quote-reference-v2.css">');
+ const route=tr('yeu-cau-bao-gia','en/request-a-quote');await mkdir('dist/'+route,{recursive:true});await writeFile('dist/'+route+'/index.html',redesigned);
 }
 console.log('Quote: three sections, single-page brief and email handoff, VI/EN generated.');

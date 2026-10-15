@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Cập nhật P15 chi tiết v3 — 16/10/2026:** Bài nổi bật, sáu thẻ và trang đọc được hoàn thiện với ảnh nền đá ngà, bóng tiếp xúc và điểm nhấn lá; mục lục theo vị trí đọc, checklist và sao chép ghi chú. Đọc `docs/knowledge-details-v3.md`. Sửa `knowledge-details.mjs`, `dist/knowledge-details-v3.css`, `dist/knowledge-reading.js`. Ảnh sản phẩm trình bày đã chỉnh bằng Imagegen, ảnh gốc vẫn có qua liên kết trong từng bài; không mô tả bản chỉnh là ảnh gốc chưa xử lý. Chạy `npm run test:knowledge-details`.
+
 **Cập nhật P15 — 16/10/2026:** Kiến thức bao bì thiết kế lại theo phong cách sổ tay botanical: hero bàn giấy, ba lối đọc, bài nổi bật, tìm kiếm/chủ đề, sáu bài và trang đọc đồng bộ. Đọc `docs/knowledge-editorial-v2.md`; sửa `knowledge-editorial.mjs`, `dist/knowledge-editorial-v2.css`. Giữ ảnh sản phẩm thật và chức năng tìm kiếm. Chạy `npm run test:knowledge` và `npm run test:knowledge-editorial`.
 
 **Cập nhật P02 — 16/10/2026:** Hero Khám phá sản phẩm theo mẫu mới, giữ nguyên ảnh hộp và bóng đổ từ ảnh được cung cấp; chữ/nút thật, ba ngôn ngữ, responsive. Đọc `docs/products-hero-reference-v3.md`; sửa `dist/products-hero-reference-v3.css`, không khôi phục lớp sản phẩm ghép cũ. Kiểm tra `node qa-products-hero-v3.mjs`.

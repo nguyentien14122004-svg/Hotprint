@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Cập nhật P10 — 15/10/2026:** Về HotPrint đã thiết kế lại theo mẫu mới, giữ logo gốc và ảnh công ty thật. Tám phần, lịch sử mở rộng, carousel sáu nhóm, đầy đủ điều hướng/footer và ba ngôn ngữ. Xem `docs/about-reference-v2.md` để tiếp tục; tài liệu này thay phần About sáu khối bên dưới. Phông tiêu đề tải cục bộ để hiển thị đúng dấu tiếng Việt. Bộ kiểm tra hiện tại là `qa-about-reference.mjs`.
+
 ## Đọc đầu tiên khi tiếp tục bằng tài khoản khác
 
 Mã nguồn và toàn bộ tài nguyên để chạy website nằm trong repo **https://github.com/nguyentien14122004-svg/Hotprint**, nhánh `main`. Dùng bản mới nhất của nhánh này. Repo là nguồn tiếp tục công việc; không cần đăng nhập vào dự án Sites hoặc dùng quyền truy cập tài khoản Codex trước.

@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+- P10 mới nhất 15/10/2026: đọc `docs/about-reference-v2.md`. Về HotPrint theo mẫu botanical với tám phần, bảy ảnh công ty thật, dấu mốc 2004/2018 đã đối chiếu, 6 nhóm/67 mẫu từ dữ liệu và carousel thủ công. Giữ logo gốc, chữ gọn; không tạo nhà máy/nhân sự/lời nhận xét giả. Sửa `build-about-reference.mjs`, `dist/about-reference-v2.css`, `dist/about-reference.js`; `build-about.mjs` là entry point. Không quay lại about.css cũ. Chạy `npm run test:about`.
+
 ## Dự án và ưu tiên
 
 Repo này là bản mã nguồn độc lập với tài khoản Codex/Sites. Chủ website trao đổi bằng tiếng Việt, ưu tiên lời giải thích đơn giản. Đọc HANDOFF.md, README.md, PRODUCTS.md và docs/ke-hoach-website.md trước khi sửa. HANDOFF.md là trạng thái bàn giao mới nhất tới P18 và nêu các phần chưa triển khai. Yêu cầu mới nhất của người dùng được ưu tiên hơn các lựa chọn cũ trong lịch sử.

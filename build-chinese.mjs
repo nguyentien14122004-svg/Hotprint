@@ -52,6 +52,10 @@ for(const file of files){
   '/zh/contact/':'联系<br><em>HotPrint。</em>'
  };
  if(headings[zh])html=html.replace(/(<h1\b[^>]*>)[\s\S]*?(<\/h1>)/,(_,a,b)=>a+headings[zh]+b);
+ if(zh==='/zh/about/'){
+  const aboutHeadings={'ap-story-title':'源于对印刷的热爱<br><em>与越南品牌<br>携手同行。</em>','ap-values-title':'塑造 <em>HotPrint</em> 的价值观','ap-people-title':'打造 HotPrint 的<br><em>每一位伙伴</em>'};
+  for(const [id,copy]of Object.entries(aboutHeadings))html=html.replace(new RegExp('(<h2 id="'+id+'">)[\\s\\S]*?(</h2>)'),(_,a,b)=>a+copy+b);
+ }
  await mkdir('dist'+zh,{recursive:true});await writeFile('dist'+zh+'index.html',html);
 }
 // Static links work without JavaScript; controller updates preserve query and anchor in the browser.

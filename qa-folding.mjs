@@ -39,7 +39,9 @@ await page.locator('.fold-faq summary').first().focus();await page.keyboard.pres
 const next=page.locator('[data-showcase-step="1"]');await next.click();assert.equal(await page.locator('[data-showcase-slide]:visible').getAttribute('data-showcase-slide'),'032A5315');assert.equal(await page.locator('[data-showcase-quote]').getAttribute('data-model'),'032A5315');
 await next.focus();await page.keyboard.press('ArrowRight');assert.equal(await page.locator('[data-showcase-slide]:visible').getAttribute('data-showcase-slide'),'032A5268');
 await assertQuote(page,'[data-showcase-quote]','hop-giay-mem','032A5268');
-await assertSample(page,'[data-showcase-sample]','hop-giay-mem','032A5267');
+await assertSample(page,'[data-showcase-sample]','hop-giay-mem','HP6388');
+await page.locator('.fold-showcase [data-fold-detail=HP6388]').click();assert.match(await page.locator('#fold-detail-image').getAttribute('src'),/HP6388-large.webp/);await page.keyboard.press('Escape');
+await assertQuote(page,'[data-showcase-quote]','hop-giay-mem','HP6388');
 await page.goto(origin+'/san-pham/');await page.locator('.family-card').first().click();await page.waitForURL('**/danh-muc/hop-giay-mem/');assert.ok(await page.locator('.fold-hero').isVisible());
 await page.goto(origin+'/');await page.locator('#category-links a').first().click();await page.waitForURL('**/danh-muc/hop-giay-mem/');
 assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);

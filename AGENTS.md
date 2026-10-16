@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Cập nhật P03 AMPHA 3B — 16/10/2026:** Slide đầu cuối trang đổi sang HP6388 với ảnh dựng cảnh nền đá ngà/hoa trắng theo mẫu gửi. Nút báo giá/mẫu và cửa sổ ảnh gốc đều dùng HP6388. Đọc `docs/folding-ampha-showcase.md`; không khôi phục Lévinia làm slide mặc định.
+
 **Cập nhật dải ảnh P03 — 16/10/2026:** Thay cận cảnh Lévinia bằng bộ hộp LUBI theo ảnh chủ website gửi, nền đá ngà/hoa trắng và nội dung đúng sản phẩm. Liên kết mở ảnh gốc LUBI. Đọc `docs/folding-lubi-detail.md`; sửa `build-folding.mjs` và CSS `.fold-lubi-strip` cuối `dist/folding-reference.css`. Giữ hero và 13 mẫu thư viện.
 
 **Chuyển tiếp P02 — 16/10/2026:** Trang Khám phá sản phẩm nối các khối bằng nền giấy sáng và mép cong kem/xanh nhạt; ảnh liên hệ hòa vào phần chữ trên điện thoại. Đọc `docs/products-section-flow.md`, sửa `dist/products-section-flow.css` và SVG trong `products-template.html`. Không nhân rộng CSS này sang các trang khác.

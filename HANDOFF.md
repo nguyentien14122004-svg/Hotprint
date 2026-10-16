@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Hero Nhãn dán decal — 17/10/2026:** Dùng nguyên ảnh cuộn nhãn đỏ theo mẫu chủ website, lossless giữ từng pixel/bóng. Không crop, không ghép bóng mới. Nút ảnh gốc 032A5328. Xem `docs/label-hero-red-roll-v3.md`; giữ 7 mẫu thư viện, điều hướng và footer.
+
 **Slide đầu Ảnh thực tế Túi giấy — 16/10/2026:** Thay KARL bằng bộ túi–hộp HP7073. Dùng ảnh mẫu nguyên khung lossless, giữ từng pixel và bóng. Điều hướng/chữ nằm trên ảnh; ảnh gốc và yêu cầu mẫu đúng HP7073. Xem `docs/bag-gift-set-showcase.md`. Giữ hero đỏ, khối túi vàng và 15 mẫu thư viện.
 
 **Khối chi tiết Túi giấy — 16/10/2026:** Túi Socola đổi sang túi vàng 032A5311 theo mẫu, ảnh lớn và callout bên phải; mobile chữ dưới ảnh. Nút ảnh gốc/tư vấn đúng mẫu. Xem `docs/bag-yellow-craft-v3.md`. Giữ hero túi đỏ và đủ 15 gallery.

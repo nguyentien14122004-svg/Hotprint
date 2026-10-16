@@ -37,3 +37,28 @@ body[data-page=label] .site-footer{background:#f4eadb;padding:35px 0 0;border:0}
 @media(prefers-reduced-motion:reduce){.label-reference *{transition:none!important;scroll-behavior:auto!important}}
 
 @media(min-width:651px){.label-real-photo>[data-label-panel]{width:auto;height:110%;aspect-ratio:10/9;left:auto;right:0;top:50%;transform:translateY(-50%)}}
+
+/* Exact supplied hero photograph: the roll, stage and shadows stay in one image. */
+body[data-page=label] .label-hero-reference{height:auto;min-height:0;max-height:none;background:#f5edde}
+body[data-page=label] .label-hero-reference .label-hero-layout{width:100%;display:grid;grid-template-columns:34% 66%;height:auto;align-items:center}
+body[data-page=label] .label-hero-reference .label-hero-copy{width:auto;padding:38px 24px 38px 5.5vw}
+body[data-page=label] .label-hero-reference h1{font-size:clamp(60px,5.1vw,88px)}
+body[data-page=label] .label-hero-reference .label-hero-copy h2{font-size:clamp(29px,2.4vw,42px)}
+body[data-page=label] .label-hero-reference .label-hero-product{position:relative;inset:auto;width:100%;aspect-ratio:auto;margin:0;align-self:center}
+body[data-page=label] .label-hero-reference-image{display:block;width:100%;height:auto;object-fit:contain;border-radius:0}
+body[data-page=label] .label-hero-reference .label-zoom{width:44px;height:44px;right:24px;bottom:24px}
+body[data-page=label] .label-hero-reference .label-breadcrumb{font-size:10px;gap:6px;flex-wrap:wrap}
+@media(max-width:1100px){
+ body[data-page=label] .label-hero-reference .label-hero-layout{display:flex;flex-direction:column;align-items:stretch}
+ body[data-page=label] .label-hero-reference .label-hero-copy{width:86%;margin-inline:auto;padding:30px 0}
+ body[data-page=label] .label-hero-reference h1{font-size:66px}
+ body[data-page=label] .label-hero-reference .label-hero-copy h2{font-size:34px}
+}
+@media(max-width:650px){
+ body[data-page=label] .label-hero-reference .label-hero-copy{width:calc(100% - 40px);padding:24px 0 28px}
+ body[data-page=label] .label-hero-reference h1{font-size:58px}
+ body[data-page=label] .label-hero-reference .label-hero-copy h2{font-size:30px}
+ body[data-page=label] .label-hero-reference .label-hero-copy>p:not(.label-eyebrow){font-size:15px}
+ body[data-page=label] .label-hero-reference .label-hero-note{margin-top:18px;font-size:11px}
+ body[data-page=label] .label-hero-reference .label-zoom{right:12px;bottom:12px}
+}

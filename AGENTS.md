@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Khối 06 Nhãn dán decal — 17/10/2026:** Theo mẫu mới, bộ năm cuộn nhãn màu kem HP6425 trên nền đá và bóng lá. Chữ/nút thật, mobile tách chữ trên ảnh. Báo giá/mẫu/ảnh gốc đúng HP6425. Ảnh cảnh đã xử lý bằng Imagegen; xem `docs/label-cream-final-v3.md`. Giữ hero đỏ và đủ 7 mẫu thư viện.
+
 **Hero Nhãn dán decal — 17/10/2026:** Dùng nguyên ảnh cuộn nhãn đỏ theo mẫu chủ website, lossless giữ từng pixel/bóng. Không crop, không ghép bóng mới. Nút ảnh gốc 032A5328. Xem `docs/label-hero-red-roll-v3.md`; giữ 7 mẫu thư viện, điều hướng và footer.
 
 **Slide đầu Ảnh thực tế Túi giấy — 16/10/2026:** Thay KARL bằng bộ túi–hộp HP7073. Dùng ảnh mẫu nguyên khung lossless, giữ từng pixel và bóng. Điều hướng/chữ nằm trên ảnh; ảnh gốc và yêu cầu mẫu đúng HP7073. Xem `docs/bag-gift-set-showcase.md`. Giữ hero đỏ, khối túi vàng và 15 mẫu thư viện.

@@ -26,8 +26,8 @@ await page.fill('#bag-query','NO_MATCH_12345');assert.ok(await page.locator('#ba
 await page.goto(origin+path.vi+'?use=retail#mau-tham-khao',{waitUntil:'networkidle'});await page.locator('[data-bag-filter=gift]').click();await page.goBack();assert.equal(await page.locator('.bag-card:visible').count(),6);
 await page.goto(origin+path.vi,{waitUntil:'networkidle'});const ids=await page.locator('.bag-card').evaluateAll(els=>els.map(e=>e.dataset.model));
 for(const id of ids){await page.locator(`.bag-card[data-model="${id}"] .bag-card-photo`).click();assert.ok(await page.locator('#fold-detail').isVisible());assert.match(await page.locator('#fold-detail-image').getAttribute('src'),new RegExp(id));await page.locator('#fold-detail-image').evaluate(im=>im.decode());await page.keyboard.press('Escape');assert.ok(!await page.locator('#fold-detail').isVisible());}
-await page.locator('.bag-hero [data-fold-detail]').click();await assertQuote(page,'#fold-detail-quote','tui-giay','032A5331');
-await page.locator('.bag-hero [data-fold-detail]').click();await assertSample(page,'#fold-detail-sample','tui-giay','032A5331');await assertQuote(page,'.bag-hero [data-request=quote]','tui-giay');await assertConsult(page,'.bag-craft [data-request=consult]');
+await page.locator('.bag-hero [data-fold-detail]').click();await assertQuote(page,'#fold-detail-quote','tui-giay','032A5336');
+await page.locator('.bag-hero [data-fold-detail]').click();await assertSample(page,'#fold-detail-sample','tui-giay','032A5336');await assertQuote(page,'.bag-hero [data-request=quote]','tui-giay');await assertConsult(page,'.bag-craft [data-request=consult]');
 await assertSample(page,'.bag-card[data-model=HP6418] .bag-sample-link','tui-giay','HP6418');
 await page.locator('.bag-faq summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.bag-faq details[open]').count(),1);
 for(const id of ['032A5355','032A5311','032A5357','032A5331']){await page.locator('#bag-slide-next').click();assert.equal(await page.locator('#bag-slide-open').getAttribute('data-fold-detail'),id);assert.equal(await page.locator('[data-bag-panel]:visible').count(),1)}

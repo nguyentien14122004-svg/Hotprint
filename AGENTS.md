@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Hero Túi giấy — 16/10/2026:** Theo xác nhận chủ website, thay KARL đầu trang bằng túi đỏ theo mẫu. Xem `docs/bag-hero-red-v4.md`. Ảnh gốc đúng là **032A5336**, không phải túi vàng 032A5311. Giữ thư viện 15 mẫu, logo và footer đầy đủ.
+
 **Cập nhật chân trang carton — 16/10/2026:** Dùng footer chung đầy đủ, hiển thị trực tiếp; không rút gọn hoặc đưa vào disclosure. Dải liên hệ chuyển nền kem–sage mềm để nối thư viện với footer. Xem `docs/carton-footer-flow.md`; chỉnh `build-carton.mjs` và CSS `.carton-flow`/`.carton-footer-full`.
 
 **Cập nhật hero carton — 16/10/2026:** Thay Cookever bằng đúng ảnh hộp bánh trung thu đỏ chủ website gửi; giữ pixel ảnh và bóng bằng WebP lossless. Xem `docs/carton-hero-mooncake-v5.md`. Nút mở ảnh gốc HP6410. Chỉnh `build-carton.mjs` và CSS cuối `dist/carton-reference-v4.css`.

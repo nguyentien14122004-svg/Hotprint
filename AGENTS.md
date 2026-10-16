@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Slide đầu Ảnh thực tế Túi giấy — 16/10/2026:** Thay KARL bằng bộ túi–hộp HP7073. Dùng ảnh mẫu nguyên khung lossless, giữ từng pixel và bóng. Điều hướng/chữ nằm trên ảnh; ảnh gốc và yêu cầu mẫu đúng HP7073. Xem `docs/bag-gift-set-showcase.md`. Giữ hero đỏ, khối túi vàng và 15 mẫu thư viện.
+
 **Khối chi tiết Túi giấy — 16/10/2026:** Túi Socola đổi sang túi vàng 032A5311 theo mẫu, ảnh lớn và callout bên phải; mobile chữ dưới ảnh. Nút ảnh gốc/tư vấn đúng mẫu. Xem `docs/bag-yellow-craft-v3.md`. Giữ hero túi đỏ và đủ 15 gallery.
 
 **Hero Túi giấy — 16/10/2026:** Theo xác nhận chủ website, thay KARL đầu trang bằng túi đỏ theo mẫu. Xem `docs/bag-hero-red-v4.md`. Ảnh gốc đúng là **032A5336**, không phải túi vàng 032A5311. Giữ thư viện 15 mẫu, logo và footer đầy đủ.

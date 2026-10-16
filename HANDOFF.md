@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Khối 06 Nhãn hàng & catalog — 17/10/2026:** Bộ catalog WEbuild HP6435 thay lịch/thẻ trong khối Cùng bắt đầu. Ảnh nguyên mẫu lossless phủ vùng sản phẩm/bóng, nền trái xóa chữ bằng Imagegen; chữ/nút thật ba ngôn ngữ. Xem `docs/catalog-webuild-final-v3.md`; giữ hero lịch, 8 mẫu và footer.
+
 **Hero Nhãn hàng & catalog — 17/10/2026:** Dùng nguyên ảnh mẫu lịch để bàn 2025, WebP lossless giữ từng pixel và bóng. Nút ảnh gốc đúng 032A5364. Nhãn HTML sửa chú thích TRU-CANINE cũ tại vùng trống. Xem `docs/catalog-calendar-hero-v3.md`; giữ 8 mẫu thư viện và footer đầy đủ.
 
 **Khối 06 Nhãn dán decal — 17/10/2026:** Theo mẫu mới, bộ năm cuộn nhãn màu kem HP6425 trên nền đá và bóng lá. Chữ/nút thật, mobile tách chữ trên ảnh. Báo giá/mẫu/ảnh gốc đúng HP6425. Ảnh cảnh đã xử lý bằng Imagegen; xem `docs/label-cream-final-v3.md`. Giữ hero đỏ và đủ 7 mẫu thư viện.

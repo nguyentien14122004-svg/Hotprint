@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Cập nhật dải ảnh P03 — 16/10/2026:** Thay cận cảnh Lévinia bằng bộ hộp LUBI theo ảnh chủ website gửi, nền đá ngà/hoa trắng và nội dung đúng sản phẩm. Liên kết mở ảnh gốc LUBI. Đọc `docs/folding-lubi-detail.md`; sửa `build-folding.mjs` và CSS `.fold-lubi-strip` cuối `dist/folding-reference.css`. Giữ hero và 13 mẫu thư viện.
+
 **Chuyển tiếp P02 — 16/10/2026:** Trang Khám phá sản phẩm nối các khối bằng nền giấy sáng và mép cong kem/xanh nhạt; ảnh liên hệ hòa vào phần chữ trên điện thoại. Đọc `docs/products-section-flow.md`, sửa `dist/products-section-flow.css` và SVG trong `products-template.html`. Không nhân rộng CSS này sang các trang khác.
 
 **Cập nhật P03 hero v3 — 16/10/2026:** Đầu trang Hộp giấy mềm theo mẫu mới: ảnh tràn cụm hộp LUBI và hộp khăn giấy từ ảnh chủ website gửi, bệ đá, ánh sáng cửa sổ và bóng tiếp xúc. Giữ logo và sáu nhóm. Đọc `docs/folding-hero-v3.md`; sửa `folding-hero-v3.mjs`, `dist/folding-hero-v3.css`. Không khôi phục hero Bitter Melon ghép cũ. Ảnh hero là bản dựng cảnh AI từ ảnh được cung cấp; không gắn nhãn ảnh gốc. Thư viện 13 mẫu giữ nguyên. Chạy `npm run test:folding-hero` và `npm run test:folding`.

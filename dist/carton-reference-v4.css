@@ -135,3 +135,9 @@ body[data-page=carton] .header-inner,.carton-reference .carton-hero-inner{width:
  .carton-card-actions button:before{content:'';position:absolute;inset:-9px 0}
  .carton-final p:not(.carton-eyebrow){line-height:1.4}
 }
+/* Supplied mooncake composition: preserve the full photograph and its shadows. */
+@media(min-width:1101px){body[data-page=carton]{--cr-total:33.333333vw}.carton-reference .carton-hero{min-height:0}.carton-hero-photo{object-fit:contain}.carton-hero-art:after{display:none}.carton-hero-copy{width:43%;padding-bottom:10px}.carton-reference .carton-hero h1{font-size:clamp(45px,4.1vw,78px)}}
+@media(min-width:701px) and (max-width:1100px){.carton-reference .carton-hero{height:auto;min-height:0}.carton-reference .carton-hero-inner{display:flex;flex-direction:column;width:100%}.carton-hero-copy{width:100%;padding:28px 8% 32px;background:#f1eddf}.carton-hero-art{position:relative;top:auto;height:auto;width:100%;aspect-ratio:3}.carton-hero-photo{object-fit:contain}.carton-hero-art:after{display:none}.carton-hero-copy .carton-intro{max-width:560px}.carton-reference .carton-hero h1{font-size:48px}.carton-hero .carton-button{min-height:44px;font-size:13px}}
+@media(max-width:700px){.carton-hero-art{height:auto;aspect-ratio:1.55}.carton-hero-photo{object-position:right center}.carton-hero-copy{background:#f1eddf}}
+@media(min-width:701px) and (max-width:1100px){body[data-page=carton] .carton-reference .carton-hero-inner{width:100%;max-width:none}}
+@media(max-width:700px){.carton-hero-art{aspect-ratio:1.7}}

@@ -35,7 +35,7 @@ try{
   assert.equal(await page.locator('.fold-sample[data-use="undefined"]').count(),0);assert.equal(await page.locator('.carton-reference').filter({hasText:'undefined'}).count(),0);
   assert(images.every(im=>im.width>0&&im.height>0),`${lang} ${width}: image and shadow decode`);
   for(const id of ids){const im=images.find(im=>im.src===`/assets/carton-studio-v4/${id}.webp`);assert(im&&im.width===1440&&im.height===810,`${id}: registered 16:9 photograph`);}
-  assert.equal(await page.locator('.carton-hero-photo').getAttribute('src'),'/assets/carton-hero-v4.webp');
+  assert.equal(await page.locator('.carton-hero-photo').getAttribute('src'),'/assets/carton-hero-mooncake-v5.webp');
   assert.equal(await page.locator('.carton-benefits article').count(),4);
   assert(!(await page.locator('.carton-footer-details').getAttribute('open')));
   await page.locator('.carton-footer-details>summary').click();

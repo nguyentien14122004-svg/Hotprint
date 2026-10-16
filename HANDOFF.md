@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Cập nhật hero carton — 16/10/2026:** Thay Cookever bằng đúng ảnh hộp bánh trung thu đỏ chủ website gửi; giữ pixel ảnh và bóng bằng WebP lossless. Xem `docs/carton-hero-mooncake-v5.md`. Nút mở ảnh gốc HP6410. Chỉnh `build-carton.mjs` và CSS cuối `dist/carton-reference-v4.css`.
+
 **Cập nhật P03 AMPHA 3B — 16/10/2026:** Slide đầu cuối trang đổi sang HP6388 với ảnh dựng cảnh nền đá ngà/hoa trắng theo mẫu gửi. Nút báo giá/mẫu và cửa sổ ảnh gốc đều dùng HP6388. Đọc `docs/folding-ampha-showcase.md`; không khôi phục Lévinia làm slide mặc định.
 
 **Cập nhật dải ảnh P03 — 16/10/2026:** Thay cận cảnh Lévinia bằng bộ hộp LUBI theo ảnh chủ website gửi, nền đá ngà/hoa trắng và nội dung đúng sản phẩm. Liên kết mở ảnh gốc LUBI. Đọc `docs/folding-lubi-detail.md`; sửa `build-folding.mjs` và CSS `.fold-lubi-strip` cuối `dist/folding-reference.css`. Giữ hero và 13 mẫu thư viện.

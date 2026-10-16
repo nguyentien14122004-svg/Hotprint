@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Khối chi tiết Túi giấy — 16/10/2026:** Túi Socola đổi sang túi vàng 032A5311 theo mẫu, ảnh lớn và callout bên phải; mobile chữ dưới ảnh. Nút ảnh gốc/tư vấn đúng mẫu. Xem `docs/bag-yellow-craft-v3.md`. Giữ hero túi đỏ và đủ 15 gallery.
+
 **Hero Túi giấy — 16/10/2026:** Theo xác nhận chủ website, thay KARL đầu trang bằng túi đỏ theo mẫu. Xem `docs/bag-hero-red-v4.md`. Ảnh gốc đúng là **032A5336**, không phải túi vàng 032A5311. Giữ thư viện 15 mẫu, logo và footer đầy đủ.
 
 **Cập nhật chân trang carton — 16/10/2026:** Dùng footer chung đầy đủ, hiển thị trực tiếp; không rút gọn hoặc đưa vào disclosure. Dải liên hệ chuyển nền kem–sage mềm để nối thư viện với footer. Xem `docs/carton-footer-flow.md`; chỉnh `build-carton.mjs` và CSS `.carton-flow`/`.carton-footer-full`.

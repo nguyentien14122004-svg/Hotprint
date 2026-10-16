@@ -47,3 +47,10 @@ body[data-page=about] .ap-team-reference .ap-sr-only{position:absolute;width:1px
 body[data-page=about] .ap-team-reference a:focus-visible{outline:3px solid #315b41;outline-offset:-4px}
 @media(max-width:1100px){body[data-page=about] .ap-hero-team .ap-hero-grid{display:flex;flex-direction:column;align-items:stretch}body[data-page=about] .ap-hero-team .ap-hero-copy{width:86%;padding:30px 0;margin:auto}body[data-page=about] .ap-hero-team .ap-hero-copy>p:not(.ap-eyebrow){max-width:650px}}
 @media(max-width:650px){body[data-page=about] .ap-hero-team .ap-hero-copy{width:calc(100% - 40px);padding:28px 0}body[data-page=about] .ap-hero-team h1{font-size:52px}}
+/* Quality inspection: preserve the supplied photograph, paper frame, foliage and shadows. */
+body[data-page=about] .ap-quality-reference{position:relative;padding:0;margin:0;background:transparent;border:0;border-radius:0;box-shadow:none;transform:none}
+body[data-page=about] .ap-quality-reference:before,body[data-page=about] .ap-quality-reference:after{display:none}
+body[data-page=about] .ap-quality-reference a{display:block}
+body[data-page=about] .ap-quality-reference img{display:block;width:100%;height:auto;border-radius:0;object-fit:contain}
+body[data-page=about] .ap-quality-reference .ap-sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+body[data-page=about] .ap-quality-reference a:focus-visible{outline:3px solid #315b41;outline-offset:-4px}

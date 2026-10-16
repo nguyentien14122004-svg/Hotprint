@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**Ảnh Câu chuyện thương hiệu — 17/10/2026:** Thay ảnh hoàn thiện bằng ảnh kiểm tra chất lượng theo mẫu, giữ nguyên ảnh/khung/nền lá/bóng bằng WebP lossless; bấm mở ảnh gốc. Xem `docs/about-quality-reference-v3.md`, anchor #kiem-tra-chat-luong. Giữ hero đội ngũ và tám phần.
+
 **Ảnh đầu trang Về chúng tôi — 17/10/2026:** Thay nhà xưởng bằng ảnh đội ngũ trong khung giấy theo mẫu cung cấp. Dùng nguyên ảnh lossless giữ người/khung/lá/bóng, không dựng AI; bấm ảnh mở ảnh đội ngũ gốc. Xem `docs/about-team-hero-v3.md`. Giữ đủ tám phần, lịch sử, carousel và footer.
 
 **Khối 06 Nhãn hàng & catalog — 17/10/2026:** Bộ catalog WEbuild HP6435 thay lịch/thẻ trong khối Cùng bắt đầu. Ảnh nguyên mẫu lossless phủ vùng sản phẩm/bóng, nền trái xóa chữ bằng Imagegen; chữ/nút thật ba ngôn ngữ. Xem `docs/catalog-webuild-final-v3.md`; giữ hero lịch, 8 mẫu và footer.

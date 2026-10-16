@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**Cập nhật chân trang carton — 16/10/2026:** Dùng footer chung đầy đủ, hiển thị trực tiếp; không rút gọn hoặc đưa vào disclosure. Dải liên hệ chuyển nền kem–sage mềm để nối thư viện với footer. Xem `docs/carton-footer-flow.md`; chỉnh `build-carton.mjs` và CSS `.carton-flow`/`.carton-footer-full`.
+
 **Cập nhật hero carton — 16/10/2026:** Thay Cookever bằng đúng ảnh hộp bánh trung thu đỏ chủ website gửi; giữ pixel ảnh và bóng bằng WebP lossless. Xem `docs/carton-hero-mooncake-v5.md`. Nút mở ảnh gốc HP6410. Chỉnh `build-carton.mjs` và CSS cuối `dist/carton-reference-v4.css`.
 
 **Cập nhật P03 AMPHA 3B — 16/10/2026:** Slide đầu cuối trang đổi sang HP6388 với ảnh dựng cảnh nền đá ngà/hoa trắng theo mẫu gửi. Nút báo giá/mẫu và cửa sổ ảnh gốc đều dùng HP6388. Đọc `docs/folding-ampha-showcase.md`; không khôi phục Lévinia làm slide mặc định.

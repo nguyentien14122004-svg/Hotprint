@@ -141,3 +141,17 @@ body[data-page=carton] .header-inner,.carton-reference .carton-hero-inner{width:
 @media(max-width:700px){.carton-hero-art{height:auto;aspect-ratio:1.55}.carton-hero-photo{object-position:right center}.carton-hero-copy{background:#f1eddf}}
 @media(min-width:701px) and (max-width:1100px){body[data-page=carton] .carton-reference .carton-hero-inner{width:100%;max-width:none}}
 @media(max-width:700px){.carton-hero-art{aspect-ratio:1.7}}
+/* Continuous paper/sage transition and the full shared footer. */
+body[data-page=carton] .carton-reference .carton-final.carton-flow{display:block;width:100%;max-width:none;margin:0;padding:64px 0 72px;border-radius:0;min-height:0;background:linear-gradient(180deg,var(--cr-paper) 0%,#e8e7d7 35%,#e3e5d3 60%,var(--cr-paper) 100%);overflow:clip}
+.carton-flow .carton-final-inner{display:flex;align-items:center;justify-content:space-between;gap:36px;position:relative;z-index:1;padding:20px 30px}
+body[data-page=carton] .carton-flow:before{inset:auto auto 12px -38px;width:180px;height:190px;background:url('/assets/carton-olive-branch-v4.webp') center/contain no-repeat;opacity:.4;transform:rotate(18deg);z-index:0;mask-image:linear-gradient(0deg,transparent,#000 25%,#000 75%,transparent)}
+body[data-page=carton] .carton-flow:after{inset:15px -48px auto auto;width:160px;height:180px;background:url('/assets/carton-olive-branch-v4.webp') center/contain no-repeat;opacity:.18;transform:rotate(190deg);z-index:0;mask-image:linear-gradient(0deg,transparent,#000 30%,#000 70%,transparent)}
+.carton-reference .carton-flow h2{font-size:clamp(30px,3vw,44px);margin:10px 0 12px}
+.carton-flow .carton-eyebrow{font-size:10px;letter-spacing:.12em}
+.carton-flow p:not(.carton-eyebrow){font-family:inherit;font-size:15px;line-height:1.8}
+.carton-flow .carton-button{min-height:46px;font-size:14px;padding:12px 26px}
+body[data-page=carton] .site-footer.carton-footer-full{background:var(--cr-paper);border-top:0;padding-top:12px}
+body[data-page=carton] .carton-footer-full>.page-width{width:min(83%,1492px);max-width:none}
+body[data-page=carton] .carton-footer-full .footer-brand{width:170px}
+@media(max-width:900px){body[data-page=carton] .carton-footer-full>.page-width{width:90%}.carton-flow .carton-final-inner{padding-inline:16px}}
+@media(max-width:700px){body[data-page=carton] .carton-reference .carton-final.carton-flow{padding:42px 0 38px}.carton-flow .carton-final-inner{display:block;padding:16px 12px}.carton-flow .carton-button{margin-top:20px}.carton-flow p:not(.carton-eyebrow){font-size:14px}.carton-reference .carton-flow h2{font-size:32px}body[data-page=carton] .carton-flow:before{width:100px;height:130px;left:-48px;opacity:.22}body[data-page=carton] .carton-flow:after{display:none}body[data-page=carton] .site-footer.carton-footer-full{padding-bottom:100px}}

@@ -1,8 +1,9 @@
+import {policyChinese} from './policy-layout.mjs';
 import {aboutCompanyChinese} from './about-company-content.mjs';
 import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import vm from 'node:vm';
 import {articles,topics} from './knowledge-content.mjs';
-const dictionary={...JSON.parse(await readFile('locales/zh-Hans.json','utf8')),...aboutCompanyChinese};
+const dictionary={...JSON.parse(await readFile('locales/zh-Hans.json','utf8')),...aboutCompanyChinese,...policyChinese};
 await writeFile('dist/zh-dictionary.js','window.HOTPRINT_ZH_DICTIONARY = '+JSON.stringify(dictionary)+';\n');
 const normalize=s=>s.replace(/\s+/g,' ').trim();
 const ctx={};vm.createContext(ctx);
@@ -49,7 +50,6 @@ for(const file of files){
   '/zh/adhesive-labels/':'不干胶<br>标签<span class="fold-title-dot">。</span>',
   '/zh/printed-corrugated-boxes/':'彩印<br><em>瓦楞纸盒</em>',
   '/zh/packaging-insights/':'读懂每个细节。<br><em>选对产品包装。</em>',
-  '/zh/request-terms/':'提交申请前，<br><em>请先了解。</em>',
   '/zh/contact/':'联系<br><em>HotPrint。</em>'
  };
  if(headings[zh])html=html.replace(/(<h1\b[^>]*>)[\s\S]*?(<\/h1>)/,(_,a,b)=>a+headings[zh]+b);

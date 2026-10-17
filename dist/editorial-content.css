@@ -1,0 +1,49 @@
+/* One serif family throughout, with separate reading, interface and display scales. */
+@font-face{font-family:'HotPrint Text';src:url('/assets/playfair-display-variable.ttf') format('truetype');font-weight:400 900;font-style:normal;font-display:swap}
+:root{--reading-font:'HotPrint Text',Georgia,serif;--reading-size:18px;--reading-leading:1.75}
+html:lang(zh){--reading-font:'Songti SC','Noto Serif CJK SC','SimSun',serif;--reading-leading:1.85}
+body{font-family:var(--reading-font)!important;font-size:var(--reading-size);line-height:var(--reading-leading);font-weight:400}
+body :is(div,p,a,button,input,select,textarea,label,legend,summary,small,li,dt,dd,span,strong,em,b,figcaption,address,td,th){font-family:var(--reading-font)!important}
+body main p:not([class*="kicker"]):not([class*="eyebrow"]):not(.cp-hero-line):not(.cp-channel-value):not(.bag-craft-callout>p):not(.qp-error):not(.qp-count):not(.sr-only):not(.cs-kicker){font-size:clamp(16px,1.2vw,19px);line-height:1.75;letter-spacing:0;font-weight:400}
+body :is(button,input,select,textarea){font-size:16px;line-height:1.5;letter-spacing:0}
+body :is(input,select,textarea)::placeholder{font-family:var(--reading-font);opacity:1;color:#6c705f}
+body :is(.button,.cp-button,.cs-button,.qp-submit){font-weight:600;letter-spacing:0;line-height:1.45;min-height:48px;white-space:normal;text-align:center}
+body :is(.nav-link,.header-actions a,.header-actions button){font-size:16px;letter-spacing:0;font-weight:500}
+body .header-actions{flex-shrink:0}body .nav-link{white-space:nowrap}
+body :is(.eyebrow,[class*="eyebrow"],[class*="kicker"]){font-family:var(--reading-font)!important;font-size:12px!important;font-weight:500!important;letter-spacing:.14em!important;line-height:1.65!important}
+body :is(.site-footer p,.site-footer address,.site-footer a){font-size:15px;line-height:1.75;font-weight:400;letter-spacing:0}
+body :is(.qp-field,.qp-consent label){font-size:16px;line-height:1.65}
+body :is(.qp-field small,.qp-email-method,.qp-contact-hint,.qp-files p,.qp-consent a){font-size:14px;line-height:1.65;letter-spacing:0}
+body :is(.qp-field input,.qp-field select,.qp-field textarea){font-size:17px;min-height:46px}
+body :is(.qp-field-grid,.filter-bar,.catalog-filters)>*{min-width:0}
+body :is(.kp-article-body,.kp-reading-body,.pv-section){font-size:19px;line-height:1.85}
+body :is(.kp-article-body,.kp-reading-body,.pv-section) p{font-size:19px;line-height:1.85;max-width:70ch}
+body :is(.kp-article-body,.kp-reading-body,.pv-section) li{line-height:1.85;margin-block:8px}
+body :is(.product-caption,.fold-sample-info,.fold-sample-copy) p{font-size:16px;line-height:1.65}
+body :is(.product-meta,.catalog-status,.library-count,.product-count){font-size:14px;letter-spacing:.015em;line-height:1.6}
+body :is(.product-card-actions,.fold-sample-actions){flex-wrap:wrap;gap:12px}
+body :is(.product-card-actions button,.product-card-actions a){font-size:15px;min-height:44px}
+body :is(.cp-need-grid){grid-template-columns:repeat(2,minmax(0,1fr))}
+body :is(.connection-routes,.connection-actions){gap:20px}
+body .cs-booking .qp-field small{font-size:14px}
+body :is(.qp-breadcrumb,.cs-breadcrumb,.cp-breadcrumb,.pv-breadcrumb,.fp-breadcrumb){font-size:14px;line-height:1.6}
+body .qp-count{font-size:13px!important}
+body main :is(a,button,summary){overflow-wrap:break-word}
+body :is(.catalog-final-actions,.label-final-actions,.fold-final-actions){flex-wrap:wrap;gap:14px}
+@media(max-width:1100px){body :is(.header-actions a,.header-actions button,.nav-link){font-size:14px}body .site-header .page-width{gap:18px}body .header-actions{gap:12px}}
+@media(max-width:650px){:root{--reading-size:17px}body main p:not([class*="kicker"]):not([class*="eyebrow"]):not(.cp-hero-line):not(.cp-channel-value):not(.bag-craft-callout>p):not(.qp-error):not(.qp-count):not(.sr-only):not(.cs-kicker){font-size:17px;line-height:1.75}body :is(.kp-article-body,.kp-reading-body,.pv-section) p{font-size:18px;line-height:1.8}body :is(.cp-need-grid){grid-template-columns:1fr}body :is(.qp-field input,.qp-field select,.qp-field textarea){font-size:16px}body .site-footer :is(p,address,a){font-size:15px}body :is(.eyebrow,[class*="eyebrow"],[class*="kicker"]){font-size:11px!important;letter-spacing:.11em!important}}
+/* Headings retain the exact approved display face, including nested spans and links. */
+body :is(h1,h2,h3,h4,h5,h6),body :is(h1,h2,h3,h4,h5,h6) :is(span,a,strong,em,b){font-family:var(--heading-font)!important}
+/* Compact benefit headings and readable tablet grids. */
+body .rigid-reference .rigid-benefits h2{font-size:23px!important;line-height:1.25!important;letter-spacing:-.02em!important}
+.rigid-benefits article{min-width:0}
+.botanical-scene>figcaption{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:1000px){.rigid-benefits>.rigid-wrap{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 8px}.rigid-benefits article{padding:0 16px}.rigid-benefits article:first-child{padding-left:16px}}
+@media(max-width:650px){.rigid-benefits>.rigid-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.rigid-benefits article{padding:0 10px}.rigid-benefits article:first-child{padding-left:10px}body .rigid-reference .rigid-benefits h2{font-size:21px!important}.fold-group-nav .fold-wrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 18px;overflow:visible}.fold-group-nav a{white-space:normal;min-height:44px}}
+/* Rebalance shared contact blocks after removing the sample-request feature. */
+body .cp-needs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#lien-he.connection-reference .connection-heading{grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+#lien-he.connection-reference .connection-intro{max-width:52ch;padding-top:0}
+#lien-he.connection-reference .connection-desk{grid-template-columns:1fr 1fr;gap:24px}
+#lien-he.connection-reference .direct-note{min-height:330px}
+@media(max-width:650px){body .cp-needs-grid,#lien-he.connection-reference .connection-heading,#lien-he.connection-reference .connection-desk{grid-template-columns:1fr}#lien-he.connection-reference .connection-heading{gap:24px}#lien-he.connection-reference .direct-note{min-height:300px}}

@@ -12,15 +12,15 @@ for(const [lang,route]of [['vi','/lien-he/'],['en','/en/contact/'],['zh','/zh/co
  await page.setViewportSize({width,height:1000});await page.goto(origin+route,{waitUntil:'networkidle'});await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('main img')].map(im=>{im.loading='eager';return im.decode()}))});
  assert.equal(await page.locator('main>section').count(),4);assert.equal(await page.locator('h1').count(),1);assert.equal(await page.title(),lang==='vi'?'Liên hệ | HotPrint':lang==='zh'?'联系我们 | HotPrint':'Contact | HotPrint');assert.equal(await page.locator('html').getAttribute('lang'),lang==='zh'?'zh-Hans':lang);
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${lang} ${width} overflow`);
- assert.equal(await page.locator('.cp-channel').count(),3);assert.equal(await page.locator('.cp-address').count(),2);assert.equal(await page.locator('.cp-need').count(),3);
+ assert.equal(await page.locator('.cp-channel').count(),3);assert.equal(await page.locator('.cp-address').count(),2);assert.equal(await page.locator('.cp-need').count(),2);
  assert.equal(await page.locator('.cp-channel-phone>a').getAttribute('href'),'tel:+84903032686');assert.equal(await page.locator('.cp-channel a[href^="https://zalo.me"]').getAttribute('href'),'https://zalo.me/0903032686');assert.equal(await page.locator('.cp-channel a[href^="mailto:"]').getAttribute('href'),'mailto:info@hotprint.vn');
  for(const map of await page.locator('.cp-address a[href^="https://www.google.com/maps"]').all()){const u=new URL(await map.getAttribute('href'));assert.ok(u.searchParams.get('query').includes('HotPrint'));assert.ok(u.searchParams.get('query').includes('Đồng Nai'))}
  if(width===1440){
  if(lang!=='zh'){
- for(const type of ['quote','sample','consult']){if(type==='quote'){await assertQuote(page,'.cp-need [data-request=quote]');continue;}if(type==='sample'){await assertSample(page,'.cp-need [data-request=sample]');continue;}await assertConsult(page,'.cp-need [data-request=consult]');}
+ for(const type of ['quote','consult']){if(type==='quote'){await assertQuote(page,'.cp-need [data-request=quote]');continue;}await assertConsult(page,'.cp-need [data-request=consult]');}
  await assertConsult(page,'[data-contact-topic=visit]','visit');
  }else{
- for(const [type,slug] of [['quote','request-a-quote'],['sample','request-a-sample'],['consult','request-a-consultation']]){await page.locator('.cp-need [data-request='+type+']').click();await page.waitForURL('**/zh/'+slug+'/');assert.ok(await page.locator('#quote-form').isVisible());await page.goto(origin+route);}
+ for(const [type,slug] of [['quote','request-a-quote'],['consult','request-a-consultation']]){await page.locator('.cp-need [data-request='+type+']').click();await page.waitForURL('**/zh/'+slug+'/');assert.ok(await page.locator('#quote-form').isVisible());await page.goto(origin+route);}
  await page.locator('[data-contact-topic=visit]').click();await page.waitForURL(u=>u.pathname==='/zh/request-a-consultation/');assert.equal(await page.locator('#q-topic').inputValue(),'visit');await page.goto(origin+route);
  }
  }

@@ -7,11 +7,11 @@ const browser=await chromium.launch({headless:true,channel:'chrome'});
 const page=await browser.newPage({reducedMotion:'reduce'}),errors=[],failed=[],checks=[];
 page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push(r.url())});
 await mkdir('qa',{recursive:true});
-const routes=[['/','vi','/yeu-cau-bao-gia/','/dat-lich-tu-van/','/yeu-cau-mau/'],['/en/','en','/en/request-a-quote/','/en/request-a-consultation/','/en/request-a-sample/'],['/zh/','zh-Hans','/zh/request-a-quote/','/zh/request-a-consultation/','/zh/request-a-sample/']];
-for(const [route,lang,quote,consult,sample] of routes){
+const routes=[['/','vi','/yeu-cau-bao-gia/','/dat-lich-tu-van/'],['/en/','en','/en/request-a-quote/','/en/request-a-consultation/'],['/zh/','zh-Hans','/zh/request-a-quote/','/zh/request-a-consultation/']];
+for(const [route,lang,quote,consult] of routes){
  for(const width of [1968,1440,1024,768,390,320]){
   await page.setViewportSize({width,height:1000});await page.goto(origin+route,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);
-  const section=page.locator('#lien-he');await section.scrollIntoViewIfNeeded();await section.locator('.sample-photo img').evaluate(im=>im.decode());
+  const section=page.locator('#lien-he');await section.scrollIntoViewIfNeeded();
   assert.equal(await page.locator('html').getAttribute('lang'),lang);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,route+' horizontal overflow '+width);
   assert.equal(await section.locator('.studio-route').count(),3);
@@ -23,7 +23,7 @@ for(const [route,lang,quote,consult,sample] of routes){
   if(route==='/'&&[1968,390].includes(width))await section.screenshot({path:`qa/contact-reference-${width}.png`,style:'.site-header,.mobile-contact-bar,.skip-link{display:none!important}'});
  }
  await page.setViewportSize({width:1440,height:1000});
- for(const [selector,dest] of [['.connection-intro [data-request=quote]',quote],['.studio-routes [data-request=quote]',quote],['.studio-routes [data-request=consult]',consult],['.sample-note',sample]]){
+ for(const [selector,dest] of [['.connection-intro [data-request=quote]',quote],['.studio-routes [data-request=quote]',quote],['.studio-routes [data-request=consult]',consult]]){
   await page.goto(origin+route);await page.locator('#lien-he '+selector).click();await page.waitForURL(u=>u.pathname===dest);assert.equal(new URL(page.url()).pathname,dest);
  }
 }

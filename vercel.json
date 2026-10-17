@@ -3,5 +3,22 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/yeu-cau-mau/:path*",
+      "destination": "/dat-lich-tu-van/",
+      "permanent": true
+    },
+    {
+      "source": "/en/request-a-sample/:path*",
+      "destination": "/en/request-a-consultation/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/request-a-sample/:path*",
+      "destination": "/zh/request-a-consultation/",
+      "permanent": true
+    }
+  ]
 }

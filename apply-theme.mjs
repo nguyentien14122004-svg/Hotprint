@@ -5,3 +5,6 @@ async function applyLanguageStyles(directory){for(const e of await readdir(direc
 await applyLanguageStyles('dist');
 async function applyEditorialHeadings(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+entry.name;if(entry.isDirectory())await applyEditorialHeadings(file);else if(entry.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/[ \t]*<link rel="stylesheet" href="\/editorial-headings\.css">\s*/g,'').replace('</head>','  <link rel="stylesheet" href="/editorial-headings.css">\n</head>');await writeFile(file,html);}}}
 await applyEditorialHeadings('dist');console.log('Natural Green / Warm Beige / Earthy Brown and language styles applied to all routes.');
+
+async function applyReadingStyles(directory){for(const e of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+e.name;if(e.isDirectory())await applyReadingStyles(file);else if(e.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/<link rel="stylesheet" href="\/editorial-content\.css">\s*/g,'').replace('</head>','<link rel="stylesheet" href="/editorial-content.css">\n</head>');await writeFile(file,html);}}}
+await applyReadingStyles('dist');

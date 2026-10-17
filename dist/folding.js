@@ -17,7 +17,7 @@
   const trigger=event.target.closest('[data-fold-detail]');if(!trigger)return;
   selected=samples.find(p=>p.id===trigger.dataset.foldDetail);if(!selected)return;
   index=0;document.querySelector('#fold-detail-title').textContent=selected[document.documentElement.lang.startsWith('zh')?'zh':en?'en':'vi'];document.querySelector('#fold-detail-reference').textContent=tr('Mã ảnh tham khảo: ','Photo reference: ')+selected.id;
-  for(const id of ['fold-detail-quote','fold-detail-sample'])document.getElementById(id).dataset.model=selected.id;
+  for(const id of ['fold-detail-quote'])document.getElementById(id).dataset.model=selected.id;
   renderPhoto();openDialog(dialog,trigger);
  });
  document.querySelector('#fold-photo-prev').onclick=()=>{index=(index-1+selected.images.length)%selected.images.length;renderPhoto();};

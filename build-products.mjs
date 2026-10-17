@@ -18,7 +18,6 @@ await import('./build-factory.mjs');
 await import('./build-about.mjs');
 await import('./build-contact.mjs');
 await import('./build-quote.mjs');
-await import('./build-sample-request.mjs');
 await import('./build-consultation.mjs');
 await import('./build-knowledge.mjs');
 await import('./build-privacy.mjs');

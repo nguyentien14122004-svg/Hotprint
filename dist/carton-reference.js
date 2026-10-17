@@ -97,7 +97,7 @@
     if (selectionCount) selectionCount.textContent = String(selection.length);
     if (selectionLink) {
       selectionLink.hidden = selection.length === 0;
-      const route = lang === 'vi' ? '/yeu-cau-mau/' : lang === 'zh' ? '/zh/request-a-sample/' : '/en/request-a-sample/';
+      const route = lang === 'vi' ? '/dat-lich-tu-van/' : lang === 'zh' ? '/zh/request-a-consultation/' : '/en/request-a-consultation/';
       const target = new URL(route, location.origin);
       if (selection.length) target.searchParams.set('models', selection.join(','));
       selectionLink.href = target.pathname + target.search;

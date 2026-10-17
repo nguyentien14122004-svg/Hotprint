@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**17/10/2026 — Tư vấn / bỏ Yêu cầu mẫu / serif toàn website:** Đọc `docs/consultation-and-type-v2.md`. Tư vấn dùng `consultation-layout.mjs`, `dist/consultation.css/js`, nền sổ giấy Imagegen. Kế thừa quoteBasePages trực tiếp, không dùng trang mẫu. Yêu cầu mẫu đã gỡ (69 routes), các URL cũ chuyển sang tư vấn bằng Vercel. Không thêm lại CTA hoặc quy trình nhận mẫu. Thư viện ảnh sản phẩm vẫn là nội dung tham khảo; chọn sản phẩm dẫn tư vấn. `editorial-content.css` là lớp cuối: Playfair cho toàn nội dung, phân cỡ/độ đậm/khoảng cách riêng theo thành phần; CJK serif. Giữ tất cả ảnh đã duyệt và email handoff. QA: `qa-content-refresh.mjs`, `qa-consultation.mjs`.
+
 **17/10/2026 — Đổi tên mục:** “Nhà máy” trong điều hướng/CTA/tên trang đổi thành “Hồ sơ doanh nghiệp” (Company profile / 企业简介). Giữ route `/nha-may/`, `/en/factory/`, `/zh/factory/` để không hỏng liên kết. `factoryLocation` là nhãn địa chỉ nhà máy thật trong footer, không đổi thành tên tính năng.
 
 **17/10/2026 — Thứ tự trang Báo giá:** Khối form “Dành cho dự án của bạn” cùng trạng thái chuẩn bị email nằm ngay sau liên hệ nhanh, trước “Bạn chưa rõ quy cách?”. Đổi trong `quote-reference-layout.mjs` cho VI/EN/中文; giữ mọi trường và xử lý form.

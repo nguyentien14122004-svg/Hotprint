@@ -8,3 +8,6 @@ await applyEditorialHeadings('dist');console.log('Natural Green / Warm Beige / E
 
 async function applyReadingStyles(directory){for(const e of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+e.name;if(e.isDirectory())await applyReadingStyles(file);else if(e.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/<link rel="stylesheet" href="\/editorial-content\.css">\s*/g,'').replace('</head>','<link rel="stylesheet" href="/editorial-content.css">\n</head>');await writeFile(file,html);}}}
 await applyReadingStyles('dist');
+
+async function applySharedHeader(directory){for(const e of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+e.name;if(e.isDirectory())await applySharedHeader(file);else if(e.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/<link rel="stylesheet" href="\/shared-header\.css">\s*/g,'').replace('</head>','<link rel="stylesheet" href="/shared-header.css">\n</head>');await writeFile(file,html);}}}
+await applySharedHeader('dist');

@@ -1,5 +1,8 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**17/10/2026 — Thanh đầu trang & Về HotPrint đầy đủ:** Đọc `docs/shared-header-and-company-story.md`. `shared-header.css` gắn cuối trên 69 trang, cố định 88px desktop/tablet và 72px mobile; logo/menu không đổi theo trang hoặc khi cuộn. Không thêm CSS riêng của trang để đổi kích thước header. Trang Về HotPrint có 12 phần, đầy đủ nội dung từ hotprint.vn/ve-chung-toi/: triết lý, sứ mệnh, cam kết, đội ngũ, vận hành, chứng nhận. Nguồn bổ sung `about-company-content.mjs`, `about-company.css`; bản dịch Trung cùng module. Giữ ảnh đã duyệt. QA: `qa-shared-header.mjs`, `qa-about-reference.mjs`.
+
+
 **17/10/2026 — Tư vấn / bỏ Yêu cầu mẫu / serif toàn website:** Đọc `docs/consultation-and-type-v2.md`. Tư vấn dùng `consultation-layout.mjs`, `dist/consultation.css/js`, nền sổ giấy Imagegen. Kế thừa quoteBasePages trực tiếp, không dùng trang mẫu. Yêu cầu mẫu đã gỡ (69 routes), các URL cũ chuyển sang tư vấn bằng Vercel. Không thêm lại CTA hoặc quy trình nhận mẫu. Thư viện ảnh sản phẩm vẫn là nội dung tham khảo; chọn sản phẩm dẫn tư vấn. `editorial-content.css` là lớp cuối: Playfair cho toàn nội dung, phân cỡ/độ đậm/khoảng cách riêng theo thành phần; CJK serif. Giữ tất cả ảnh đã duyệt và email handoff. QA: `qa-content-refresh.mjs`, `qa-consultation.mjs`.
 
 **17/10/2026 — Đổi tên mục:** “Nhà máy” trong điều hướng/CTA/tên trang đổi thành “Hồ sơ doanh nghiệp” (Company profile / 企业简介). Giữ route `/nha-may/`, `/en/factory/`, `/zh/factory/` để không hỏng liên kết. `factoryLocation` là nhãn địa chỉ nhà máy thật trong footer, không đổi thành tên tính năng.

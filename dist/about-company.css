@@ -1,0 +1,29 @@
+/* Expanded company story: warm paper, forest-green ink and a calm editorial rhythm. */
+.ap-philosophy{background:#e5e7d6;border-block:1px solid #ced3bd}
+.ap-philosophy-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:center}
+.ap-philosophy blockquote{margin:0;padding:22px 0 22px 40px;border-left:1px solid #a4b191}
+.ap-page .ap-philosophy blockquote p{font-size:clamp(23px,2vw,32px)!important;line-height:1.6!important;color:#354b35}
+.ap-philosophy blockquote footer{font-size:14px;letter-spacing:.08em;color:#617052}
+.ap-page .ap-company-name{font-size:15px!important;max-width:30ch;margin:0}
+.ap-company-heading{max-width:740px;margin-bottom:42px}
+.ap-company-heading p{max-width:58ch}
+.ap-page .ap-mission-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid #cfc9b6}
+.ap-page .ap-mission-grid article{display:grid;grid-template-columns:46px 1fr;column-gap:20px;text-align:left;align-content:start;padding:32px 36px 32px 0;border:0;border-bottom:1px solid #cfc9b6;background:transparent;min-width:0}
+.ap-page .ap-mission-grid article:nth-child(even){padding-left:36px;border-left:1px solid #cfc9b6}
+.ap-page .ap-mission-grid h3{font-size:27px!important;line-height:1.3!important;margin-bottom:12px}
+.ap-page .ap-mission-grid p{grid-column:2;margin:0}
+.ap-number{font-size:15px;line-height:1.5;color:#8a6a55;letter-spacing:.06em;display:block;padding-top:5px}
+.ap-commitment{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}
+.ap-commitment-list article{display:grid;grid-template-columns:36px 1fr;gap:24px;padding:24px 0;border-bottom:1px solid #d8cfbb}
+.ap-commitment-list article:first-child{padding-top:0}.ap-commitment-list h3{font-size:26px!important}.ap-commitment-list p{margin-bottom:0}
+.ap-system-grid{list-style:none;margin:38px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.ap-system-grid li{padding:26px 0 0;border-top:1px solid #a6b495}.ap-system-grid .ap-number{display:flex;align-items:center;justify-content:center;padding:0;width:46px;height:46px;background:#e4e7d4;border-radius:50%;margin-bottom:22px}
+.ap-system-grid h3{font-size:25px!important;line-height:1.35!important}.ap-system-grid p{margin:0}
+.ap-cert-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-bottom:30px}
+.ap-cert-grid article{background:#faf7edf2;border:1px solid #ded6c2;border-radius:8px;padding:36px 30px;box-shadow:0 12px 28px #63583b08}
+.ap-page .ap-cert-grid h3{font-size:32px!important;margin:0 0 20px;line-height:1.2!important}.ap-cert-grid p{margin-bottom:8px}.ap-cert-grid small{font-size:14px;color:#5e6e52}
+.ap-page .ap-section{padding-block:80px}.ap-story .ap-copy{max-width:600px}.ap-page .ap-story-more{margin-top:28px}
+@media(max-width:1000px){.ap-philosophy-grid,.ap-commitment{gap:36px;grid-template-columns:1fr 1fr}.ap-philosophy blockquote{padding-left:28px}.ap-cert-grid{gap:16px}.ap-cert-grid article{padding:28px 22px}.ap-page .ap-cert-grid h3{font-size:26px!important}.ap-system-grid{gap:24px}.ap-page .ap-mission-grid article{padding-right:24px}.ap-page .ap-mission-grid article:nth-child(even){padding-left:24px}}
+@media(max-width:650px){.ap-page .ap-section{padding-block:48px}.ap-philosophy-grid,.ap-commitment{grid-template-columns:1fr;gap:24px}.ap-philosophy blockquote{padding:8px 0 8px 22px}.ap-company-heading{margin-bottom:28px}.ap-page .ap-mission-grid,.ap-system-grid,.ap-cert-grid{grid-template-columns:1fr}.ap-page .ap-mission-grid article,.ap-page .ap-mission-grid article:nth-child(even){padding:26px 0;border-left:0;grid-template-columns:30px 1fr;column-gap:14px}.ap-page .ap-mission-grid h3{font-size:25px!important}.ap-commitment .ap-company-heading{margin-bottom:0}.ap-cert-grid article{padding:28px}.ap-system-grid{gap:26px}.ap-system-grid li{display:grid;grid-template-columns:46px 1fr;column-gap:18px}.ap-system-grid p{grid-column:2}.ap-system-grid .ap-number{grid-row:1/3}.ap-page .ap-cert-grid h3{font-size:30px!important}.ap-commitment-list h3,.ap-system-grid h3{font-size:24px!important}}
+.ap-company-index{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 24px;padding-block:20px}.ap-company-index a{font-size:15px;line-height:1.5;padding:10px 0;text-decoration:none;color:#526345;border-bottom:1px solid transparent}.ap-company-index a:hover{border-bottom-color:currentColor}.ap-company-index a:focus-visible{outline:2px solid #526345;outline-offset:4px}
+@media(max-width:650px){.ap-company-index{justify-content:flex-start;gap:0 22px;padding-block:18px}.ap-company-index a{font-size:16px;min-height:44px}}

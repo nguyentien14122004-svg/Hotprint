@@ -1,3 +1,9 @@
+/* Clear lining numerals only; letters retain the approved editorial serif. */
+@font-face{font-family:'HotPrint Numerals';src:url('/assets/be-vietnam-0.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0030-0039}
+@font-face{font-family:'HotPrint Numerals';src:url('/assets/be-vietnam-1.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+0030-0039}
+@font-face{font-family:'HotPrint Numerals';src:url('/assets/be-vietnam-2.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap;unicode-range:U+0030-0039}
+@font-face{font-family:'HotPrint Numerals';src:url('/assets/be-vietnam-3.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap;unicode-range:U+0030-0039}
+@font-face{font-family:'HotPrint Numerals';src:url('/assets/be-vietnam-4.ttf') format('truetype');font-weight:800 900;font-style:normal;font-display:swap;unicode-range:U+0030-0039}
 /* One serif family throughout, with separate reading, interface and display scales. */
 @font-face{font-family:'HotPrint Text';src:url('/assets/playfair-display-variable.ttf') format('truetype');font-weight:400 900;font-style:normal;font-display:swap}
 /* Use a conventional ampersand only; every other glyph retains the approved serif. */
@@ -6,10 +12,10 @@
 @font-face{font-family:'HotPrint Ampersand';src:url('/assets/be-vietnam-2.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap;unicode-range:U+0026}
 @font-face{font-family:'HotPrint Ampersand';src:url('/assets/be-vietnam-3.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap;unicode-range:U+0026}
 @font-face{font-family:'HotPrint Ampersand';src:url('/assets/be-vietnam-4.ttf') format('truetype');font-weight:800 900;font-style:normal;font-display:swap;unicode-range:U+0026}
-:root{--reading-font:'HotPrint Ampersand','HotPrint Text',Georgia,serif;--heading-font:'HotPrint Ampersand','HotPrint Display',Georgia,serif;--reading-size:18px;--reading-leading:1.75}
-html:lang(zh){--reading-font:'HotPrint Ampersand','Songti SC','Noto Serif CJK SC','SimSun',serif;--heading-font:'HotPrint Ampersand','Songti SC','Noto Serif CJK SC','SimSun',serif;--reading-leading:1.85}
+:root{--reading-font:'HotPrint Numerals','HotPrint Ampersand','HotPrint Text',Georgia,serif;--heading-font:'HotPrint Numerals','HotPrint Ampersand','HotPrint Display',Georgia,serif;--reading-size:18px;--reading-leading:1.75}
+html:lang(zh){--reading-font:'HotPrint Numerals','HotPrint Ampersand','Songti SC','Noto Serif CJK SC','SimSun',serif;--heading-font:'HotPrint Numerals','HotPrint Ampersand','Songti SC','Noto Serif CJK SC','SimSun',serif;--reading-leading:1.85}
 html:lang(zh) body :is(.eyebrow,[class$=-eyebrow],[class$=-kicker]){font-family:var(--reading-font)!important}
-body{font-family:var(--reading-font)!important;font-size:var(--reading-size);line-height:var(--reading-leading);font-weight:400}
+body{font-family:var(--reading-font)!important;font-size:var(--reading-size);line-height:var(--reading-leading);font-weight:400;font-variant-numeric:lining-nums tabular-nums}
 body :is(div,p,a,button,input,select,textarea,label,legend,summary,small,li,dt,dd,span,strong,em,b,figcaption,address,td,th){font-family:var(--reading-font)!important}
 body main p:not([class*="kicker"]):not([class*="eyebrow"]):not(.cp-hero-line):not(.cp-channel-value):not(.bag-craft-callout>p):not(.qp-error):not(.qp-count):not(.sr-only):not(.cs-kicker){font-size:clamp(16px,1.2vw,19px);line-height:1.75;letter-spacing:0;font-weight:400}
 body :is(button,input,select,textarea){font-size:16px;line-height:1.5;letter-spacing:0}

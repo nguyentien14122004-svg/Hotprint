@@ -14,7 +14,7 @@ try{
   await page.setViewportSize({width,height});await page.goto('http://127.0.0.1:4196'+path);await page.evaluate(()=>document.fonts.ready);
   assert.equal(await page.locator('main section').count(),5);assert.equal(await page.locator('.pl-summary').count(),3);
   const state=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,img:document.querySelector('.pl-photo img').naturalWidth,font:getComputedStyle(document.querySelector('.pv-content p')).fontFamily,retired:document.body.innerText.match(/yêu cầu mẫu|nhận mẫu|request a sample|sample request|sample arrangements|样品申请|申请样品/gi),size:parseFloat(getComputedStyle(document.querySelector('.pv-content p')).fontSize)}));
-  assert.equal(state.overflow,false,path+' '+width);assert.ok(state.img>0);assert.equal(state.retired,null);assert.ok(state.font.includes('HotPrint Ampersand'));assert.ok(state.size>=17);
+  assert.equal(state.overflow,false,path+' '+width);assert.ok(state.img>0);assert.equal(state.retired,null);assert.ok(state.font.includes('HotPrint Sans'));assert.ok(state.size>=17);
   if(width===1440||width===390){const name=path.replaceAll('/','-')+width;await page.screenshot({path:'qa/policy/'+name+'.png',fullPage:true})}
   checks.push({path,width,height});
  }

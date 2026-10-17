@@ -1,5 +1,10 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+## 17/10/2026 — Liên hệ: lời mời cùng tạo nên bao bì
+
+Trang Liên hệ đã được thiết kế lại toàn bộ theo bộ màu và phong cách botanical hiện tại. Xem `docs/contact-invitation-v2.md`. Nguồn: `build-contact.mjs`, `dist/contact-page.css/js`; đủ VI/EN/中文. Nền phong thư `contact-invitation-v2.webp` do Imagegen tạo, chỉ trang trí; ảnh nhà máy 032A5054 giữ nguyên. Giữ đủ liên hệ, hai địa chỉ, footer và các luồng yêu cầu chuẩn bị email. `npm run test:contact-page` kiểm tra 21 tổ hợp kích thước/ngôn ngữ.
+
+
 **Ảnh Câu chuyện thương hiệu — 17/10/2026:** Thay ảnh hoàn thiện bằng ảnh kiểm tra chất lượng theo mẫu, giữ nguyên ảnh/khung/nền lá/bóng bằng WebP lossless; bấm mở ảnh gốc. Xem `docs/about-quality-reference-v3.md`, anchor #kiem-tra-chat-luong. Giữ hero đội ngũ và tám phần.
 
 **Ảnh đầu trang Về chúng tôi — 17/10/2026:** Thay nhà xưởng bằng ảnh đội ngũ trong khung giấy theo mẫu cung cấp. Dùng nguyên ảnh lossless giữ người/khung/lá/bóng, không dựng AI; bấm ảnh mở ảnh đội ngũ gốc. Xem `docs/about-team-hero-v3.md`. Giữ đủ tám phần, lịch sử, carousel và footer.

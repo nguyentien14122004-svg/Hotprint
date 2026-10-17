@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**17/10/2026 — Thứ tự trang Báo giá:** Khối form “Dành cho dự án của bạn” cùng trạng thái chuẩn bị email nằm ngay sau liên hệ nhanh, trước “Bạn chưa rõ quy cách?”. Đổi trong `quote-reference-layout.mjs` cho VI/EN/中文; giữ mọi trường và xử lý form.
+
 **17/10/2026 — Hệ tiêu đề toàn website:** Theo mẫu hero Hộp giấy mềm: Playfair serif đứng, xanh rừng #343f2d, nhãn viết hoa giãn chữ. `dist/editorial-headings.css` được `apply-theme.mjs` gắn cuối trên 72 routes; đây là lớp ưu tiên typography, không đổi nội dung/ảnh/nút. Tiêu đề trên nền tối dùng màu ngà tương phản; tiếng Trung dùng serif CJK. Xem `docs/editorial-headings.md`; chạy `npm run test:headings`.
 
 **17/10/2026 — Hero Trang chủ:** Theo yêu cầu chủ website, bỏ nút báo giá trong `.hero-intro` trên VI/EN/中文. Giữ nội dung, ảnh và các hành động ở header/phần khác.

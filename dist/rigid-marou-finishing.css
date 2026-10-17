@@ -1,0 +1,43 @@
+/* Owner-supplied scene. Display clipping retains the original product, light and shadow pixels. */
+.rigid-reference #hoan-thien{padding:clamp(36px,2.75vw,64px) 0;background:#f6f2e2;isolation:isolate}
+.rigid-reference #hoan-thien:after{display:none}
+#hoan-thien .rigid-finishing-layout{width:93%;max-width:2048px;grid-template-columns:43% 57%;gap:0;align-items:center}
+#hoan-thien .rigid-finishing-copy{padding:24px 7% 36px 1%;position:relative;z-index:2}
+body .rigid-reference #hoan-thien h2{font-size:clamp(30px,2.45vw,50px)!important;line-height:1.22!important;margin:18px 0 24px;max-width:none}
+#hoan-thien .rigid-finishing-copy>p:not(.rigid-eyebrow){max-width:40ch;font-size:clamp(16px,1.25vw,23px);line-height:1.75;margin-bottom:28px}
+#hoan-thien .rigid-finishing-copy .rigid-button{font-size:16px;min-height:48px;padding:13px 28px}
+#hoan-thien .rigid-finish-showcase{grid-template-columns:47.8% 52.2%;min-height:0;border:0;border-radius:0;overflow:visible;background:none;position:relative}
+#hoan-thien .rigid-scene-mask{position:absolute;pointer-events:none}
+#hoan-thien .rigid-marou-photo{min-height:0;aspect-ratio:520/594;align-self:center;border:0;padding:0;background:transparent;clip-path:none;border-radius:0;overflow:visible;position:relative;z-index:0;cursor:zoom-in}
+#hoan-thien .rigid-marou-photo img{position:absolute;width:393.846%;height:auto;max-width:none;left:-173.654%;top:-9.428%;transform:none;object-fit:initial;clip-path:url(#rigid-marou-scene);pointer-events:none}
+#hoan-thien .rigid-marou-photo:focus-visible{outline:3px solid #466343;outline-offset:6px;border-radius:20px}
+#hoan-thien .rigid-finish-list{position:relative;z-index:1;display:grid;grid-template-rows:repeat(4,1fr);padding:10px clamp(16px,1.5vw,32px);border:1px solid #e4ddc6;border-left:0;border-radius:0 18px 18px 0;background:#f6f2e2}
+#hoan-thien .rigid-finish-list article{padding:10px 0;gap:clamp(12px,1vw,22px);min-width:0}
+#hoan-thien .rigid-finish-list .rigid-medallion{width:clamp(44px,3.6vw,76px);height:clamp(44px,3.6vw,76px);flex:none}
+#hoan-thien .rigid-finish-list .icon{width:55%;height:55%}
+body .rigid-reference #hoan-thien .rigid-finish-list h3{font-size:clamp(18px,1.48vw,30px)!important;line-height:1.3!important;margin:0 0 8px}
+#hoan-thien .rigid-finish-list p{font-size:clamp(14px,1.15vw,22px);line-height:1.6;margin:0}
+@media(min-width:1101px){.rigid-reference #hoan-thien{padding-bottom:2.25vw}}
+@media(max-width:1100px){
+ #hoan-thien .rigid-finishing-layout{width:90%;grid-template-columns:1fr;gap:32px}
+ #hoan-thien .rigid-finishing-copy{padding:0;max-width:750px}
+ #hoan-thien .rigid-finishing-copy>p:not(.rigid-eyebrow){max-width:58ch}
+ #hoan-thien .rigid-finish-showcase{grid-template-columns:47.8% 52.2%}
+ #hoan-thien .rigid-marou-photo{overflow:hidden;border-radius:22% 0 22% 0}
+ #hoan-thien .rigid-finish-list article{padding:20px 0}
+ body .rigid-reference #hoan-thien .rigid-finish-list h3{font-size:23px!important}
+ #hoan-thien .rigid-finish-list p{font-size:16px}
+}
+@media(max-width:650px){
+ .rigid-reference #hoan-thien{padding:36px 0}
+ #hoan-thien .rigid-finishing-layout{width:calc(100% - 40px);gap:28px}
+ body .rigid-reference #hoan-thien h2{font-size:30px!important;margin:16px 0 20px}
+ #hoan-thien h2 br{display:none}
+ #hoan-thien .rigid-finishing-copy>p:not(.rigid-eyebrow){font-size:16px}
+ #hoan-thien .rigid-finish-showcase{grid-template-columns:1fr}
+ #hoan-thien .rigid-marou-photo{width:100%;max-width:440px;justify-self:center}
+ #hoan-thien .rigid-finish-list{margin-top:24px;border:1px solid #e4ddc6;border-radius:16px;padding:0 18px}
+ #hoan-thien .rigid-finish-list article{padding:22px 0;gap:14px}
+ body .rigid-reference #hoan-thien .rigid-finish-list h3{font-size:21px!important}
+ #hoan-thien .rigid-finish-list p{font-size:15px}
+}

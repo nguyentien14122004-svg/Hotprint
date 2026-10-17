@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**18/10/2026 — Maison Marou tại khối hoàn thiện Hộp cứng:** Theo mẫu chủ website, `#hoan-thien` dùng ảnh tham chiếu lossless, clip hiển thị giữ nguyên sản phẩm/nền đá/lá/bóng đổ. Nội dung và CTA thật VI/EN/中文, giữ bộ chữ sans mới; bấm ảnh mở 032A5316. Chỉ sửa khối này. Xem `docs/rigid-marou-finishing.md`.
+
 **18/10/2026 — Hệ chữ sans theo mẫu mới:** Yêu cầu mới nhất thay thế hệ serif trước đây. Toàn website dùng Be Vietnam Pro (`HotPrint Sans`) cho nội dung và tiêu đề; H1 800, H2 700, tiêu đề nhỏ 600, nội dung 400. `dist/editorial-headings.css` và `dist/editorial-content.css` giữ vai trò lớp typography chung. Tiếng Trung dùng sans hệ thống cho ký tự CJK. Giữ số lining/tabular và dấu & thông thường, header 88/72px, link bản đồ đã xác nhận, tất cả ảnh/logo. Cỡ chữ/giãn dòng điều chỉnh riêng cho hero, form, đọc dài, card, caption; không khôi phục serif từ ghi chú cũ. Xem `docs/sans-typography-v3.md`.
 
 **17/10/2026 — Bản đồ và chữ số:** Mọi nút bản đồ dùng link nhà máy do chủ website cung cấp `https://maps.app.goo.gl/mU83QSNuuFKbqRQs6`. Mục trụ sở giữ địa chỉ/sao chép, không gắn nhầm ghim nhà máy. Footer nguồn ở `dist/index.html`, CTA nhà máy ở `build-factory.mjs`, liên hệ ở `build-contact.mjs`. `editorial-content.css` dùng Be Vietnam Pro qua `HotPrint Numerals` giới hạn U+0030–0039, lining/tabular numbers; phần chữ vẫn Playfair, dấu & vẫn thông thường. Không đổi số điện thoại, mã số thuế, ngày hoặc mã sản phẩm.

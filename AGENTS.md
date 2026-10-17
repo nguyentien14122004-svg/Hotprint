@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**17/10/2026 — Hero Trang chủ:** Theo yêu cầu chủ website, bỏ nút báo giá trong `.hero-intro` trên VI/EN/中文. Giữ nội dung, ảnh và các hành động ở header/phần khác.
+
 ## 17/10/2026 — Liên hệ: lời mời cùng tạo nên bao bì
 
 Trang Liên hệ đã được thiết kế lại toàn bộ theo bộ màu và phong cách botanical hiện tại. Xem `docs/contact-invitation-v2.md`. Nguồn: `build-contact.mjs`, `dist/contact-page.css/js`; đủ VI/EN/中文. Nền phong thư `contact-invitation-v2.webp` do Imagegen tạo, chỉ trang trí; ảnh nhà máy 032A5054 giữ nguyên. Giữ đủ liên hệ, hai địa chỉ, footer và các luồng yêu cầu chuẩn bị email. `npm run test:contact-page` kiểm tra 21 tổ hợp kích thước/ngôn ngữ.

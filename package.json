@@ -39,6 +39,7 @@
     "test:library-reference": "node qa-library-reference.mjs",
     "test:knowledge-editorial": "node qa-knowledge-editorial.mjs",
     "test:knowledge-details": "node qa-knowledge-details.mjs",
-    "test:folding-hero": "node qa-folding-hero-v3.mjs"
+    "test:folding-hero": "node qa-folding-hero-v3.mjs",
+    "test:headings": "node qa-editorial-headings.mjs"
   }
 }

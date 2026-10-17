@@ -1,0 +1,32 @@
+/* Shared editorial heading system, matched to the approved folding-carton hero.
+   Typography only: existing copy, imagery, layout and actions stay in their page templates.
+   Important declarations deliberately own type treatment across legacy page selectors. */
+@font-face{font-family:'HotPrint Display';src:url('/assets/playfair-display-600.ttf') format('truetype');font-style:normal;font-weight:500 600;font-display:swap}
+:root{--heading-ink:#343f2d;--heading-font:'HotPrint Display',Georgia,serif;--heading-tracking:-.04em}
+html:lang(zh){--heading-font:'Songti SC','Noto Serif CJK SC','SimSun',serif;--heading-tracking:0}
+body :is(h1,h2,h3,h4,h5,h6){font-family:var(--heading-font)!important;font-style:normal!important;font-weight:500!important;letter-spacing:var(--heading-tracking)!important;color:var(--heading-ink)!important;text-wrap:pretty;overflow-wrap:break-word}
+body :is(h1,h2,h3,h4,h5,h6) :is(em,strong,b,span,a){font-family:inherit!important;font-style:normal!important;font-weight:inherit!important;color:inherit!important;letter-spacing:inherit!important}
+body main h1{font-size:clamp(40px,4.5vw,76px)!important;line-height:1.08!important}
+body main h2{font-size:clamp(30px,3.1vw,48px)!important;line-height:1.13!important}
+body :is(h3,h4,h5,h6){line-height:1.3!important;letter-spacing:-.025em!important}
+body main h3{font-size:clamp(20px,1.65vw,26px)!important}
+body :is(dialog,.site-footer) :is(h2,h3,h4){line-height:1.25!important}
+body dialog h2{font-size:clamp(27px,2.5vw,38px)!important}
+body .site-footer :is(h3,h4){font-size:19px!important}
+body :is(.hero-eyebrow,.fh3-eyebrow,.eyebrow,.section-kicker,.fold-eyebrow,.rigid-eyebrow,.carton-eyebrow,.bag-eyebrow,.label-eyebrow,.catalog-eyebrow,.botanical-eyebrow,.ap-eyebrow,.ap-kicker,.cp-kicker,.fp-kicker,.kp-kicker,.pv-kicker,.qp-kicker,.rs-kicker){font-family:'Be Vietnam Pro',sans-serif!important;font-weight:500!important;font-style:normal!important;font-size:clamp(10px,.9vw,13px)!important;letter-spacing:.22em!important;line-height:1.7!important;text-transform:uppercase;color:var(--heading-ink)!important}
+html:lang(zh) body :is(.eyebrow,[class$=-eyebrow],[class$=-kicker]){font-family:'Microsoft YaHei','PingFang SC',sans-serif!important;letter-spacing:.1em!important}
+/* Keep sufficient contrast on genuine dark panels, while retaining the same serif. */
+:is(.factory-shade,.factory-copy,.fp-process,.fp-final,.contact-story,.form-aside,.cp-channel-phone,.ap-together){--heading-ink:#fffaf0}
+/* Page-specific narrow columns and utility headings use the same hierarchy at a smaller scale. */
+body :is(.qp-form,.qp-guide,.qp-summary,.qr-support,.pv-content,.pv-section,.rs-panel,.kp-article-body,.kp-reading-body) h2{font-size:clamp(27px,2.3vw,36px)!important}
+body .cp-channel h3{font-size:21px!important}
+body .hero h1{max-width:1000px;line-height:1.08!important}
+body .hero h1>span{display:block}
+body .fold-reference .fh3 h1{font-size:clamp(37px,4.5vw,76px)!important;line-height:1.02!important}
+@media(max-width:1200px){body .fold-reference .fh3 h1{font-size:clamp(33px,6.5vw,48px)!important;line-height:1.1!important}}
+@media(max-width:650px){body main h1{font-size:clamp(36px,9vw,48px)!important;line-height:1.12!important}body main h2{font-size:clamp(29px,7.4vw,36px)!important;line-height:1.16!important}body main h3{font-size:22px!important}body .site-footer :is(h3,h4){font-size:18px!important}body :is(.qp-form,.qp-guide,.qp-summary,.qr-support,.pv-content,.pv-section,.rs-panel,.kp-article-body,.kp-reading-body) h2{font-size:28px!important}}
+html:lang(zh) body :is(h1,h2){line-height:1.22!important}
+/* Reversed type on photographic overlays and deep-green call-to-action panels. */
+:is(.factory-content,.fold-showcase-copy,.rigid-cta,.ap-connect-panel,.qr-connect,.kp-connect){--heading-ink:#fffaf0}
+/* Display copy authored as paragraphs still belongs to the same heading family. */
+body :is(.bag-craft-callout>p,.cp-hero-line,.cp-channel-value){font-family:var(--heading-font)!important;font-style:normal!important;font-weight:500!important;letter-spacing:var(--heading-tracking)!important;line-height:1.16!important;color:var(--heading-ink)!important}

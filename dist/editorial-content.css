@@ -2,6 +2,7 @@
 @font-face{font-family:'HotPrint Text';src:url('/assets/playfair-display-variable.ttf') format('truetype');font-weight:400 900;font-style:normal;font-display:swap}
 :root{--reading-font:'HotPrint Text',Georgia,serif;--reading-size:18px;--reading-leading:1.75}
 html:lang(zh){--reading-font:'Songti SC','Noto Serif CJK SC','SimSun',serif;--reading-leading:1.85}
+html:lang(zh) body :is(.eyebrow,[class$=-eyebrow],[class$=-kicker]){font-family:var(--reading-font)!important}
 body{font-family:var(--reading-font)!important;font-size:var(--reading-size);line-height:var(--reading-leading);font-weight:400}
 body :is(div,p,a,button,input,select,textarea,label,legend,summary,small,li,dt,dd,span,strong,em,b,figcaption,address,td,th){font-family:var(--reading-font)!important}
 body main p:not([class*="kicker"]):not([class*="eyebrow"]):not(.cp-hero-line):not(.cp-channel-value):not(.bag-craft-callout>p):not(.qp-error):not(.qp-count):not(.sr-only):not(.cs-kicker){font-size:clamp(16px,1.2vw,19px);line-height:1.75;letter-spacing:0;font-weight:400}

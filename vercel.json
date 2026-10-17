@@ -6,17 +6,17 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/yeu-cau-mau/:path*",
+      "source": "/yeu-cau-mau/",
       "destination": "/dat-lich-tu-van/",
       "permanent": true
     },
     {
-      "source": "/en/request-a-sample/:path*",
+      "source": "/en/request-a-sample/",
       "destination": "/en/request-a-consultation/",
       "permanent": true
     },
     {
-      "source": "/zh/request-a-sample/:path*",
+      "source": "/zh/request-a-sample/",
       "destination": "/zh/request-a-consultation/",
       "permanent": true
     }

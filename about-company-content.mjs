@@ -19,7 +19,7 @@ export function enrichAbout(main,lang){
  main=main.replace(/<section id="gia-tri"[\s\S]*?<\/section>/,mission);
  const promises=[
  [t('Chất lượng & bảo hành','Quality & warranty','质量与保修'),t('100% hàng hóa đạt chất lượng và được bảo hành.','100% of goods meet quality requirements and are covered by warranty.','100%的产品符合质量要求，并提供保修。')],
- [t('Năng lực cung ứng','Supply capability','供应能力'),t('Đáp ứng tối đa yêu cầu về cung ứng hàng hóa của khách hàng.','Meet customer requirements for the supply of goods to the fullest extent.','最大限度满足客户的产品供应要求。')],
+ [t('Năng lực cung ứng','Supply capability','供应能力'),t('Đáp ứng vừa đủ yêu cầu về cung ứng hàng hóa của khách hàng.','Provide just enough to meet customer requirements for the supply of goods.','恰好满足客户的产品供应要求。')],
  [t('Cải tiến không ngừng','Continuous improvement','持续改进'),t('Không ngừng nỗ lực, cải tiến và phát triển nguồn lực để xây dựng năng lực tốt nhất.','Continuously strive, improve and develop resources to build the strongest possible capability.','持续努力、改进并发展资源，不断提升企业能力。')]
  ];
  const commitment=`<section id="cam-ket" class="ap-commitment ap-section ap-wrap" aria-labelledby="ap-commitment-title"><div class="ap-company-heading">${kicker('CAM KẾT VỚI KHÁCH HÀNG','OUR CUSTOMER COMMITMENTS','对客户的承诺')}<h2 id="ap-commitment-title">${t('Đặt chất lượng<br>vào từng cam kết.','Quality in<br>every commitment.','让每一份承诺<br>体现品质。')}</h2></div><div class="ap-commitment-list">${promises.map(([h,p],i)=>`<article><span class="ap-number" aria-hidden="true">0${i+1}</span><div><h3>${h}</h3><p>${p}</p></div></article>`).join('')}</div></section>`;

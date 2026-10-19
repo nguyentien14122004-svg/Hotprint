@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**19/10/2026 — Cận cảnh sản xuất:** Bổ sung bốn ảnh chủ website cung cấp tại `#cong-doan-thuc-te` trong Hồ sơ doanh nghiệp. Imagegen làm rõ/ánh sáng theo yêu cầu; lưu cả ảnh gốc lossless và liên kết xem gốc, không mô tả bản xử lý là nguyên bản. Nguồn `factory-journal.mjs`, CSS/JS riêng, VI/EN/中文, mobile một cột và xem ảnh lớn. Giữ tab thiết bị, thư viện tám ảnh, SLA và CTA. Xem `docs/factory-journal.md`; QA `qa-factory-journal.mjs`.
+
 **19/10/2026 — SLA Hồ sơ doanh nghiệp:** Bổ sung `#cam-ket-sla` sau quy trình, đủ 8 cam kết theo ảnh chủ website; chủ website xác nhận 98% và dưới 1%. Nguồn `factory-sla.mjs`, giao diện `factory-sla.css`; đủ VI/EN/中文. Chỉ số là cam kết, không tự diễn giải thành dữ liệu hiệu suất đã kiểm toán. Nút báo giá cuối trang bo tròn, bằng chiều cao nút tư vấn. Xem `docs/factory-sla.md`; QA `qa-factory-sla.mjs`.
 
 **19/10/2026 — Email và chân trang chung:** Email toàn website dùng chính xác `Info@HotPrint.vn`, gồm mailto, sao chép và thư nháp. Đã bỏ `.note-signature` dưới email ở khối liên hệ trang chủ. `shared-footer.css` gắn cuối qua `apply-theme.mjs` trên 69 trang; không để CSS danh mục thu nhỏ chân trang. Xem `docs/shared-footer-and-email.md`; QA: `node qa-shared-footer.mjs`.

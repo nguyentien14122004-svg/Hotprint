@@ -1,9 +1,10 @@
+import {factorySlaChinese} from './factory-sla.mjs';
 import {policyChinese} from './policy-layout.mjs';
 import {aboutCompanyChinese} from './about-company-content.mjs';
 import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import vm from 'node:vm';
 import {articles,topics} from './knowledge-content.mjs';
-const dictionary={...JSON.parse(await readFile('locales/zh-Hans.json','utf8')),...aboutCompanyChinese,...policyChinese};
+const dictionary={...JSON.parse(await readFile('locales/zh-Hans.json','utf8')),...aboutCompanyChinese,...policyChinese,...factorySlaChinese};
 await writeFile('dist/zh-dictionary.js','window.HOTPRINT_ZH_DICTIONARY = '+JSON.stringify(dictionary)+';\n');
 const normalize=s=>s.replace(/\s+/g,' ').trim();
 const ctx={};vm.createContext(ctx);

@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**19/10/2026 — SLA Hồ sơ doanh nghiệp:** Bổ sung `#cam-ket-sla` sau quy trình, đủ 8 cam kết theo ảnh chủ website; chủ website xác nhận 98% và dưới 1%. Nguồn `factory-sla.mjs`, giao diện `factory-sla.css`; đủ VI/EN/中文. Chỉ số là cam kết, không tự diễn giải thành dữ liệu hiệu suất đã kiểm toán. Nút báo giá cuối trang bo tròn, bằng chiều cao nút tư vấn. Xem `docs/factory-sla.md`; QA `qa-factory-sla.mjs`.
+
 **19/10/2026 — Email và chân trang chung:** Email toàn website dùng chính xác `Info@HotPrint.vn`, gồm mailto, sao chép và thư nháp. Đã bỏ `.note-signature` dưới email ở khối liên hệ trang chủ. `shared-footer.css` gắn cuối qua `apply-theme.mjs` trên 69 trang; không để CSS danh mục thu nhỏ chân trang. Xem `docs/shared-footer-and-email.md`; QA: `node qa-shared-footer.mjs`.
 
 **18/10/2026 — Maison Marou tại khối hoàn thiện Hộp cứng:** Theo mẫu chủ website, `#hoan-thien` dùng ảnh tham chiếu lossless, clip hiển thị giữ nguyên sản phẩm/nền đá/lá/bóng đổ. Nội dung và CTA thật VI/EN/中文, giữ bộ chữ sans mới; bấm ảnh mở 032A5316. Chỉ sửa khối này. Xem `docs/rigid-marou-finishing.md`.

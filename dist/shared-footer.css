@@ -1,0 +1,42 @@
+/* Shared footer sizing: independent of category-page typography and layout. */
+html body .site-footer{padding:40px 0 24px!important;margin:0!important;background:#eeeada!important;border-top:1px solid #ded6c2!important;font-family:var(--reading-font)!important;font-size:14px!important;line-height:1.65!important;color:#466343!important}
+html body .site-footer>.page-width{width:calc(100% - 80px)!important;max-width:1440px!important;margin:0 auto!important;padding:0!important}
+html body .site-footer .footer-grid{display:grid!important;grid-template-columns:1.2fr 1.25fr .9fr 1fr!important;gap:28px!important;align-items:start!important;padding:0 0 30px!important;margin:0!important;border:0!important}
+html body .site-footer .footer-grid>*{min-width:0!important;grid-column:auto!important;padding:0!important;margin:0!important;border:0!important}
+html body .site-footer .footer-grid>*+*{border-left:1px solid #d9d1bb!important;padding-left:28px!important}
+html body .site-footer .footer-brand{display:block!important;width:176px!important;max-width:100%!important;height:auto!important;min-height:0!important;margin:0 0 22px!important;padding:0!important;font-size:14px!important;line-height:1.65!important}
+html body .site-footer .logo-window{display:block!important;width:100%!important;aspect-ratio:336/73!important;height:auto!important;overflow:hidden!important}
+html body .site-footer .footer-brand img{display:block!important;width:100%!important;max-width:none!important;height:auto!important;margin:0!important;transform:none!important}
+html body .site-footer :is(h3,h4){font-family:var(--heading-font)!important;font-size:18px!important;line-height:1.35!important;font-weight:600!important;letter-spacing:-.015em!important;color:#466343!important;margin:0 0 12px!important}
+html body .site-footer h4{font-size:16px!important;margin-bottom:6px!important}
+html body .site-footer :is(p,address,a:not(.brand),.tax-id,span){font-size:14px!important;line-height:1.65!important;font-weight:400!important;letter-spacing:0!important;font-style:normal!important;color:#466343!important}
+html body .site-footer p{margin:0 0 14px!important;max-width:none!important}
+html body .site-footer address{margin:0!important;max-width:none!important}
+html body .site-footer .footer-locations>div{margin:0 0 18px!important}
+html body .site-footer :is(.footer-products,.footer-company){display:block!important;gap:0!important}
+html body .site-footer :is(.footer-products,.footer-company) a{display:block!important;min-height:26px!important;padding:2px 0!important;margin:0!important;overflow-wrap:anywhere}
+html body .site-footer .footer-map{display:inline-flex!important;min-height:28px!important;padding:2px 0!important;margin:4px 0 0!important;text-decoration:underline;text-underline-offset:4px}
+html body .site-footer .footer-bottom{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:16px 24px!important;margin:0!important;padding:20px 0 0!important;border-top:1px solid #c9c3b3!important}
+html body .site-footer .footer-bottom nav{display:flex!important;flex-wrap:wrap!important;gap:8px 24px!important;margin:0!important;padding:0!important}
+html body .site-footer .footer-bottom :is(a,span){font-size:12px!important;line-height:1.6!important;margin:0!important}
+html body .site-footer .footer-bottom a{display:inline-flex!important;align-items:center!important;min-height:32px!important;padding:0!important}
+@media(max-width:1100px){
+ html body .site-footer>.page-width{width:calc(100% - 64px)!important}
+ html body .site-footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:32px!important}
+ html body .site-footer .footer-grid>*+*{border:0!important;padding:0!important}
+ html body .site-footer .footer-grid>:nth-child(even){border-left:1px solid #d9d1bb!important;padding-left:28px!important}
+}
+@media(max-width:650px){
+ html body .site-footer{padding:32px 0 100px!important}
+ html body .site-footer>.page-width{width:calc(100% - 40px)!important}
+ html body .site-footer .footer-grid{gap:28px 20px!important;padding-bottom:26px!important}
+ html body .site-footer .footer-grid>:is(.footer-identity,.footer-locations){grid-column:1/-1!important}
+ html body .site-footer .footer-grid>:nth-child(even){border:0!important;padding:0!important}
+ html body .site-footer .footer-brand{width:160px!important;margin-bottom:18px!important}
+ html body .site-footer :is(h3,h4){font-size:17px!important}
+ html body .site-footer :is(.footer-products,.footer-company) a{min-height:38px!important;padding:7px 0!important}
+ html body .site-footer .footer-map{min-height:40px!important}
+ html body .site-footer .footer-bottom{flex-direction:column!important;align-items:flex-start!important;gap:12px!important}
+ html body .site-footer .footer-bottom nav{gap:6px 18px!important}
+ html body .site-footer .footer-bottom a{min-height:40px!important}
+}

@@ -16,7 +16,7 @@ for(const [route,lang,quote,consult] of routes){
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,route+' horizontal overflow '+width);
   assert.equal(await section.locator('.studio-route').count(),3);
   const bad=await section.evaluate(el=>[...el.querySelectorAll('h2, .studio-phone, .studio-route, .sample-note, .connection-intro')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.className));assert.deepEqual(bad,[],route+' text overflow '+width);
-  assert.equal(await section.locator('.studio-phone').getAttribute('href'),'tel:+84903032686');assert.equal(await section.locator('.studio-email').getAttribute('href'),'mailto:info@hotprint.vn');
+  assert.equal(await section.locator('.studio-phone').getAttribute('href'),'tel:+84903032686');assert.equal(await section.locator('.studio-email').getAttribute('href'),'mailto:Info@HotPrint.vn');
   assert.equal(await section.locator('a.studio-route').getAttribute('href'),'https://zalo.me/0903032686');
   const asset=await section.locator('.direct-note').evaluate(el=>getComputedStyle(el).backgroundImage);assert.ok(asset.includes('contact-direct-reference.webp'));
   checks.push({route,width});

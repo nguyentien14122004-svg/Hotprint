@@ -1,5 +1,7 @@
 # Hướng dẫn tiếp tục website HotPrint
 
+**19/10/2026 — Email và chân trang chung:** Email toàn website dùng chính xác `Info@HotPrint.vn`, gồm mailto, sao chép và thư nháp. Đã bỏ `.note-signature` dưới email ở khối liên hệ trang chủ. `shared-footer.css` gắn cuối qua `apply-theme.mjs` trên 69 trang; không để CSS danh mục thu nhỏ chân trang. Xem `docs/shared-footer-and-email.md`; QA: `node qa-shared-footer.mjs`.
+
 **18/10/2026 — Maison Marou tại khối hoàn thiện Hộp cứng:** Theo mẫu chủ website, `#hoan-thien` dùng ảnh tham chiếu lossless, clip hiển thị giữ nguyên sản phẩm/nền đá/lá/bóng đổ. Nội dung và CTA thật VI/EN/中文, giữ bộ chữ sans mới; bấm ảnh mở 032A5316. Chỉ sửa khối này. Xem `docs/rigid-marou-finishing.md`.
 
 **18/10/2026 — Hệ chữ sans theo mẫu mới:** Yêu cầu mới nhất thay thế hệ serif trước đây. Toàn website dùng Be Vietnam Pro (`HotPrint Sans`) cho nội dung và tiêu đề; H1 800, H2 700, tiêu đề nhỏ 600, nội dung 400. `dist/editorial-headings.css` và `dist/editorial-content.css` giữ vai trò lớp typography chung. Tiếng Trung dùng sans hệ thống cho ký tự CJK. Giữ số lining/tabular và dấu & thông thường, header 88/72px, link bản đồ đã xác nhận, tất cả ảnh/logo. Cỡ chữ/giãn dòng điều chỉnh riêng cho hero, form, đọc dài, card, caption; không khôi phục serif từ ghi chú cũ. Xem `docs/sans-typography-v3.md`.

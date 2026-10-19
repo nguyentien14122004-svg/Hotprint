@@ -13,7 +13,7 @@ for(const [lang,route]of [['vi','/lien-he/'],['en','/en/contact/'],['zh','/zh/co
  assert.equal(await page.locator('main>section').count(),4);assert.equal(await page.locator('h1').count(),1);assert.equal(await page.title(),lang==='vi'?'Liên hệ | HotPrint':lang==='zh'?'联系我们 | HotPrint':'Contact | HotPrint');assert.equal(await page.locator('html').getAttribute('lang'),lang==='zh'?'zh-Hans':lang);
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width,`${lang} ${width} overflow`);
  assert.equal(await page.locator('.cp-channel').count(),3);assert.equal(await page.locator('.cp-address').count(),2);assert.equal(await page.locator('.cp-need').count(),2);
- assert.equal(await page.locator('.cp-channel-phone>a').getAttribute('href'),'tel:+84903032686');assert.equal(await page.locator('.cp-channel a[href^="https://zalo.me"]').getAttribute('href'),'https://zalo.me/0903032686');assert.equal(await page.locator('.cp-channel a[href^="mailto:"]').getAttribute('href'),'mailto:info@hotprint.vn');
+ assert.equal(await page.locator('.cp-channel-phone>a').getAttribute('href'),'tel:+84903032686');assert.equal(await page.locator('.cp-channel a[href^="https://zalo.me"]').getAttribute('href'),'https://zalo.me/0903032686');assert.equal(await page.locator('.cp-channel a[href^="mailto:"]').getAttribute('href'),'mailto:Info@HotPrint.vn');
  const map=page.locator('.cp-address a[href^="https://maps.app.goo.gl/"]');assert.equal(await map.count(),1);assert.equal(await map.getAttribute('href'),'https://maps.app.goo.gl/mU83QSNuuFKbqRQs6');assert.equal(await map.getAttribute('target'),'_blank');
  if(width===1440){
  if(lang!=='zh'){
@@ -25,7 +25,7 @@ for(const [lang,route]of [['vi','/lien-he/'],['en','/en/contact/'],['zh','/zh/co
  }
  }
  await page.locator('[data-contact-copy="0903032686"]').click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'0903032686');assert.equal(await page.locator('#cp-phone-status').textContent(),lang==='vi'?'Đã sao chép.':lang==='zh'?'已复制。':'Copied.');
- await page.locator('[data-contact-copy="info@hotprint.vn"]').click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'info@hotprint.vn');
+ await page.locator('[data-contact-copy="Info@HotPrint.vn"]').click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'Info@HotPrint.vn');
  assert.equal(await page.locator('.cp-route-index a').count(),3);
  assert.equal(await page.locator('.cp-scene img').evaluate(im=>im.naturalWidth>0),true);
  assert.equal(await page.locator('[data-lang=en]').getAttribute('href'),'/en/contact/');assert.equal(await page.locator('[data-lang=vi]').getAttribute('href'),'/lien-he/');

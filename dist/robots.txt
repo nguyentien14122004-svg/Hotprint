@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-json/
+
+Sitemap: https://hotprint.vn/sitemap_index.xml

@@ -8,7 +8,8 @@ window.HOTPRINT_PRODUCTS = [
       "032A5293",
       "032A5292",
       "032A5360"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-003/"
   },
   {
     "id": "032A5315",
@@ -36,7 +37,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5366",
       "032A5367"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-carton-004/"
   },
   {
     "id": "032A5339",
@@ -56,7 +58,8 @@ window.HOTPRINT_PRODUCTS = [
       "032A5353",
       "032A5283",
       "032A5284"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-hang-catalog-001/"
   },
   {
     "id": "032A5308",
@@ -66,7 +69,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5308",
       "032A5286"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-carton-002/"
   },
   {
     "id": "032A5316",
@@ -75,7 +79,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Maison Marou rigid box",
     "images": [
       "032A5316"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-005/"
   },
   {
     "id": "032A5355",
@@ -84,7 +89,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Socola paper bag",
     "images": [
       "032A5355"
-    ]
+    ],
+    "legacyUrl": "/san-pham/tui-giay-001/"
   },
   {
     "id": "032A5358",
@@ -102,7 +108,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Red printed label roll",
     "images": [
       "032A5328"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-dan-decal-002/"
   },
   {
     "id": "032A5364",
@@ -111,7 +118,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "2025 desk calendar",
     "images": [
       "032A5364"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-hang-catalog-004/"
   },
   {
     "id": "032A5246",
@@ -121,7 +129,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5246",
       "032A5244"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-001/"
   },
   {
     "id": "032A5267",
@@ -139,7 +148,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Round 2 symbol label roll",
     "images": [
       "032A5337"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-dan-decal-001/"
   },
   {
     "id": "032A5311",
@@ -149,7 +159,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5311",
       "032A5248"
-    ]
+    ],
+    "legacyUrl": "/san-pham/tui-giay-006/"
   },
   {
     "id": "032A5326",
@@ -158,7 +169,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Milk Pan packaging box",
     "images": [
       "032A5326"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-carton-003/"
   },
   {
     "id": "032A5323",
@@ -167,7 +179,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Long-format product tags",
     "images": [
       "032A5323"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-hang-catalog-003/"
   },
   {
     "id": "032A5255",
@@ -176,7 +189,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "GANT lift-off box",
     "images": [
       "032A5255"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-carton-007/"
   },
   {
     "id": "032A5320",
@@ -186,7 +200,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5320",
       "032A5259"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-giay-mem-005/"
   },
   {
     "id": "032A5336",
@@ -213,7 +228,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Yellow illustrated product tags",
     "images": [
       "032A5325"
-    ]
+    ],
+    "legacyUrl": "/san-pham/nhan-hang-catalog-002/"
   },
   {
     "id": "032A5309",
@@ -223,7 +239,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5309",
       "032A5254"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-004/"
   },
   {
     "id": "032A5268",
@@ -233,7 +250,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5268",
       "032A5298"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-giay-mem-001/"
   },
   {
     "id": "032A5332",
@@ -251,7 +269,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "30th anniversary gift box",
     "images": [
       "032A5257"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-002/"
   },
   {
     "id": "032A5318",
@@ -278,7 +297,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Dragon-pattern gift box",
     "images": [
       "032A5356"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-006/"
   },
   {
     "id": "032A5312",
@@ -288,7 +308,8 @@ window.HOTPRINT_PRODUCTS = [
     "images": [
       "032A5312",
       "032A5249"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-giay-mem-002/"
   },
   {
     "id": "032A5357",
@@ -297,7 +318,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "GAP paper bag",
     "images": [
       "032A5357"
-    ]
+    ],
+    "legacyUrl": "/san-pham/tui-giay-002/"
   },
   {
     "id": "032A5282",
@@ -333,7 +355,8 @@ window.HOTPRINT_PRODUCTS = [
     "en": "Orange gift box",
     "images": [
       "032A5363"
-    ]
+    ],
+    "legacyUrl": "/san-pham/hop-cao-cap-007/"
   },
   {
     "id": "HP7119",
@@ -349,7 +372,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/q4.png",
     "imageWidth": 600,
     "imageHeight": 600,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-giay-mem-004/"
   },
   {
     "id": "HP7117",
@@ -365,7 +389,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/q3.png",
     "imageWidth": 400,
     "imageHeight": 400,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-giay-mem-003/"
   },
   {
     "id": "HP7107",
@@ -381,7 +406,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t5.png",
     "imageWidth": 600,
     "imageHeight": 600,
-    "use": "kitchen"
+    "use": "kitchen",
+    "legacyUrl": "/san-pham/hop-carton-006/"
   },
   {
     "id": "HP7106",
@@ -397,7 +423,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t4.png",
     "imageWidth": 600,
     "imageHeight": 600,
-    "use": "other"
+    "use": "other",
+    "legacyUrl": "/san-pham/hop-carton-005/"
   },
   {
     "id": "HP7094",
@@ -413,7 +440,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/t0.png",
     "imageWidth": 536,
     "imageHeight": 536,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-carton-001/"
   },
   {
     "id": "HP7093",
@@ -429,7 +457,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/r9.png",
     "imageWidth": 550,
     "imageHeight": 550,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/hop-cao-cap-008/"
   },
   {
     "id": "HP7076",
@@ -445,7 +474,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/r0.png",
     "imageWidth": 400,
     "imageHeight": 400,
-    "use": "retail"
+    "use": "retail",
+    "legacyUrl": "/san-pham/tui-giay-005/"
   },
   {
     "id": "HP7075",
@@ -461,7 +491,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/e0.png",
     "imageWidth": 400,
     "imageHeight": 400,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/tui-giay-004/"
   },
   {
     "id": "HP7073",
@@ -477,7 +508,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/04/e9.png",
     "imageWidth": 527,
     "imageHeight": 527,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/tui-giay-003/"
   },
   {
     "id": "HP6435",
@@ -493,7 +525,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/24.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "print"
+    "use": "print",
+    "legacyUrl": "/san-pham/catalog-bia-cung/"
   },
   {
     "id": "HP6433",
@@ -509,7 +542,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/23.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "tags"
+    "use": "tags",
+    "legacyUrl": "/san-pham/the-treo-the-bai/"
   },
   {
     "id": "HP6431",
@@ -525,7 +559,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/22.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "tags"
+    "use": "tags",
+    "legacyUrl": "/san-pham/nhan-hang/"
   },
   {
     "id": "HP6429",
@@ -541,7 +576,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/21.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "print"
+    "use": "print",
+    "legacyUrl": "/san-pham/catalog-brochuse-tap-chi/"
   },
   {
     "id": "HP6427",
@@ -557,7 +593,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/20.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "barcode"
+    "use": "barcode",
+    "legacyUrl": "/san-pham/tem-nhan-in-nhiet/"
   },
   {
     "id": "HP6425",
@@ -573,7 +610,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/19.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "information"
+    "use": "information",
+    "legacyUrl": "/san-pham/nhan-satin-rubang/"
   },
   {
     "id": "HP6423",
@@ -589,7 +627,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/18.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "symbol"
+    "use": "symbol",
+    "legacyUrl": "/san-pham/nhan-dan-decal-lien-tuc/"
   },
   {
     "id": "HP6420",
@@ -605,7 +644,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/17.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "barcode"
+    "use": "barcode",
+    "legacyUrl": "/san-pham/nhan-dan-decal/"
   },
   {
     "id": "HP6418",
@@ -621,7 +661,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/16.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/tui-giay-quai-xach-nap-gap/"
   },
   {
     "id": "HP6416",
@@ -637,7 +678,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/15.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/tui-giay-dung-ruou-vang/"
   },
   {
     "id": "HP6414",
@@ -653,7 +695,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/14.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "gift"
+    "use": "gift",
+    "legacyUrl": "/san-pham/tui-giay-dung-qua-tang/"
   },
   {
     "id": "HP6412",
@@ -669,7 +712,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/13.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "retail"
+    "use": "retail",
+    "legacyUrl": "/san-pham/tui-xach-lnkk/"
   },
   {
     "id": "HP6410",
@@ -685,7 +729,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/12.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-banh-trung-thu/"
   },
   {
     "id": "HP6408",
@@ -701,7 +746,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/11.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-banh-sinh-nhat/"
   },
   {
     "id": "HP6406",
@@ -717,7 +763,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/10.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "food"
+    "use": "food",
+    "legacyUrl": "/san-pham/hop-carton-dung-pizza/"
   },
   {
     "id": "HP6404",
@@ -733,7 +780,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/9.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "footwear"
+    "use": "footwear",
+    "legacyUrl": "/san-pham/hop-carton-dung-giay/"
   },
   {
     "id": "HP6400",
@@ -749,7 +797,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/7.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "brand"
+    "use": "brand",
+    "legacyUrl": "/san-pham/hop-giay-hop-giay-pierre-cardin/"
   },
   {
     "id": "HP6398",
@@ -765,7 +814,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/6.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "brand"
+    "use": "brand",
+    "legacyUrl": "/san-pham/hop-giay-hop-giay-marc-opolo/"
   },
   {
     "id": "HP6394",
@@ -781,7 +831,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/4.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "fragrance"
+    "use": "fragrance",
+    "legacyUrl": "/san-pham/hop-giay-hop-my-pham-levinia/"
   },
   {
     "id": "HP6392",
@@ -797,7 +848,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/3.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "health"
+    "use": "health",
+    "legacyUrl": "/san-pham/hop-giay-hop-duoc-pham/"
   },
   {
     "id": "HP6390",
@@ -813,7 +865,8 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/2.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "health"
+    "use": "health",
+    "legacyUrl": "/san-pham/hop-duoc-pham-varogel/"
   },
   {
     "id": "HP6388",
@@ -829,6 +882,7 @@ window.HOTPRINT_PRODUCTS = [
     "sourceImage": "https://hotprint.vn/wp-content/uploads/2025/02/1.png",
     "imageWidth": 800,
     "imageHeight": 800,
-    "use": "health"
+    "use": "health",
+    "legacyUrl": "/san-pham/hop-duoc-pham-ampha-3b/"
   }
 ];

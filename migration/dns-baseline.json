@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-20T05:43:33.680Z",
+  "domain": "hotprint.vn",
+  "records": {
+    "hotprint.vn/A": [
+      "103.124.95.168"
+    ],
+    "www.hotprint.vn/CNAME": [
+      "hotprint.vn"
+    ],
+    "hotprint.vn/NS": [
+      "ns2.trangwebvang.net",
+      "ns1.trangwebvang.net"
+    ],
+    "hotprint.vn/MX": [
+      {
+        "exchange": "smtp.google.com",
+        "priority": 0,
+        "type": "MX"
+      }
+    ],
+    "hotprint.vn/TXT": [
+      [
+        "google-site-verification=5qi6W7x2dQpivmkDVe2ubwOR5a43Y7EvvuqDs8KeamU"
+      ],
+      [
+        "google-site-verification=gozMt0YiiiSykzFSX05XdQnz3LzelBIadD2KDxxrrEA"
+      ],
+      [
+        "v=spf1 include:_spf.google.com ~all"
+      ]
+    ],
+    "_dmarc.hotprint.vn/TXT": [
+      [
+        "v=DMARC1; p=none;"
+      ]
+    ]
+  },
+  "dkim": "Unknown selector/zone; must be confirmed from domain administration or an actual email header before changing nameservers.",
+  "webCutoverApplied": false
+}

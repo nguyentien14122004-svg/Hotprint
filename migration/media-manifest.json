@@ -1,0 +1,3725 @@
+{
+  "checkedAt": "2026-10-20T05:31:47.364Z",
+  "records": [
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2023/11/609037-400x400-1.png",
+      "path": "/wp-content/uploads/2023/11/609037-400x400-1.png",
+      "bytes": 14599,
+      "sha256": "13aabd6f59cb5c5c5e3e5d3c975b0a88783074869ca264b7cc3180ead4427f0a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2023/11/icdoingu-400x400-1.png",
+      "path": "/wp-content/uploads/2023/11/icdoingu-400x400-1.png",
+      "bytes": 21815,
+      "sha256": "f26e74d710679e5faea066f45b146581e6b1aacc3eadd3133adaf8bc3d659f98"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2023/11/icprice-400x400-1.png",
+      "path": "/wp-content/uploads/2023/11/icprice-400x400-1.png",
+      "bytes": 37948,
+      "sha256": "cbb6b50953beb1ad1cf0945afdf5923e2dd4094da095a90575f5a52ef9abfc98"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2023/11/icuytin-400x400-1.png",
+      "path": "/wp-content/uploads/2023/11/icuytin-400x400-1.png",
+      "bytes": 48735,
+      "sha256": "7470767b174d3b8a1bcb371f5a4f888ba71fc6fdee2da46ff166a1483b95dc5b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0--100x100.jpg",
+      "path": "/wp-content/uploads/2025/02/0--100x100.jpg",
+      "bytes": 2064,
+      "sha256": "6f1f989989f166af3181cd6aa63dde1d5b6c622a1c3abdeb1ab07abaa99a9dc1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0-.jpg",
+      "path": "/wp-content/uploads/2025/02/0-.jpg",
+      "bytes": 4615,
+      "sha256": "1c9ae455a9e1e2936bd8616e1903b2dab6dc1873ef526c407591f758319e418a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0-1-100x100.jpg",
+      "path": "/wp-content/uploads/2025/02/0-1-100x100.jpg",
+      "bytes": 1219,
+      "sha256": "9735f845747b17fdddc3e9997cc269c4d60c9af2043f6cc3efc7954e0f3a18f6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0-1.jpg",
+      "path": "/wp-content/uploads/2025/02/0-1.jpg",
+      "bytes": 2472,
+      "sha256": "a7b10e4b23f208a1629e4173d544b614090a141d2d15e4baa814927ab6a4b38f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0-2-100x100.jpg",
+      "path": "/wp-content/uploads/2025/02/0-2-100x100.jpg",
+      "bytes": 1246,
+      "sha256": "aca01f1c59584510b21bf126ab7d3727e2b0c847cd71d63168557c6d7451baa3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0-2.jpg",
+      "path": "/wp-content/uploads/2025/02/0-2.jpg",
+      "bytes": 2822,
+      "sha256": "94b2e40968338e0b35a65b5848a81449407eb600a1ced18754d3cbf9ce618a17"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/0.jpg",
+      "path": "/wp-content/uploads/2025/02/0.jpg",
+      "bytes": 6145,
+      "sha256": "db428201e20749b4ded359e0f4ca34364615f3200102dcc4ad0c3c9a3c059ca4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-1-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-1-scaled.jpg",
+      "bytes": 439553,
+      "sha256": "b426f198b1687e81398fa592df0272fcd90f02cb6f69801b8637fb8539e66b74"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-1200x800.jpg",
+      "bytes": 128822,
+      "sha256": "1a793ebb3fc8405ea0b6a3e3651df66de23822540fd900538d4b277b55773ffb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-1536x1024.jpg",
+      "bytes": 192115,
+      "sha256": "30763259bea9f9131dc0ad7da64ed442584810c30732dbeb81054985747bf410"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-2048x1365.jpg",
+      "bytes": 307442,
+      "sha256": "605204bf09ae43a2d23692276845602589f28c500554dcf72ac5e0c61274b3fa"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-600x400.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-600x400.jpg",
+      "bytes": 41819,
+      "sha256": "0b6e0ae4c4db6292c15e8fb16635867d3988258bf052b7cd8c0cd01879f00759"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-700x467.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-700x467.jpg",
+      "bytes": 54470,
+      "sha256": "2af343c0ac64da747e7465ba37862f86044888272ab1e9bb45d2796c4c168afa"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-768x512.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-768x512.jpg",
+      "bytes": 62607,
+      "sha256": "1cb4f92eeb254e9606b9e877df65a0befe8b10b6bbc53f0847f2add8e16fbfa7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A4965-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A4965-scaled.jpg",
+      "bytes": 439553,
+      "sha256": "b426f198b1687e81398fa592df0272fcd90f02cb6f69801b8637fb8539e66b74"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-1200x800.jpg",
+      "bytes": 100199,
+      "sha256": "bb40e9fd54ba2a15680e45618c6184dd231d8ad45c268c01b7e1485d8f6645af"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-1536x1024.jpg",
+      "bytes": 150079,
+      "sha256": "3ae13eefe0e3296d386111350c4f7d6a474d045ea8ef2878887e80d91f7d4c2b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-2048x1365.jpg",
+      "bytes": 241827,
+      "sha256": "6f7ec8694531ce1658bed30e449ec623565ab469ed43a8006a10e183d0a05474"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-600x400.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-600x400.jpg",
+      "bytes": 32387,
+      "sha256": "ece0dddf07e7293d35b41ce26cc9a0b248074dcba33f67ed266b0a0d788fe1c4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-700x467.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-700x467.jpg",
+      "bytes": 42040,
+      "sha256": "815855114f9c7edbb72835effb2ed7b8708d4bc80a414d7e0076c2e8ca3f4010"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-768x512.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-768x512.jpg",
+      "bytes": 48825,
+      "sha256": "e6a5238b3dcd4c2ef4d446a65620a5ad1d03e5369cc9ddad70387c021877643e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5182-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5182-scaled.jpg",
+      "bytes": 351275,
+      "sha256": "405f4f8d4875adac6b1ae364582ba4a2ceec849330b092484850d91cbacbcf26"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-1200x800.jpg",
+      "bytes": 115039,
+      "sha256": "f56cc2ad0c8df83fff1de71caf8efab62557540ada9f5a00f22283b043880286"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-1536x1024.jpg",
+      "bytes": 162222,
+      "sha256": "72bc0251919181d527721d974545b5c92ddb1d62f3d537b0a8b4a148bdd0876d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-2048x1365.jpg",
+      "bytes": 244851,
+      "sha256": "264be8a62d52ed37ee6630ae8560a3bd1679cf466b492803e9e61f3a36a93430"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-600x400.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-600x400.jpg",
+      "bytes": 42990,
+      "sha256": "dd8a6e3ccd8892e3141f86b45a688a8693a288d41c685d40da7c4903a96a0717"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-700x467.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-700x467.jpg",
+      "bytes": 54204,
+      "sha256": "7be28e003cf35dd2dabd18fda728fc9ee2af6d38a51a8b4e7388dc149a878c31"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-768x512.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-768x512.jpg",
+      "bytes": 61298,
+      "sha256": "83c8030a5c0045adee940ae509b0563bfe0ca8f86c802c1451e6ed74b05110cd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5195-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5195-scaled.jpg",
+      "bytes": 343156,
+      "sha256": "8406a86ad475ff34d58cf4beaf90ef93d9c55d77e94ce5a89b242da8847b195b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5213-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5213-scaled.jpg",
+      "bytes": 381363,
+      "sha256": "f08276bdbde635ecd15994da83427163151d79e58e622b6fc3bcb77716a34929"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5214-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5214-scaled.jpg",
+      "bytes": 182273,
+      "sha256": "b7341a18e29d1e13d1a9ef431ab4f6cc621997cbdc03d6957d74db1eea431355"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-1200x800.jpg",
+      "bytes": 111151,
+      "sha256": "5d725dc51197bf1ed342c571662911b2d4fcc996cf1df1d63bde70a28e9da46f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-1536x1024.jpg",
+      "bytes": 162740,
+      "sha256": "1e5fb538c3527c16393e9d0e276b4d6747f127678f9b95d32b96fbcb278f15fe"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-2048x1365.jpg",
+      "bytes": 251635,
+      "sha256": "22881a7ca302ab26c030227388ffe59d07036c218ca25668b30a63bb93229336"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-600x400.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-600x400.jpg",
+      "bytes": 37762,
+      "sha256": "ac96a897ff8f787b7aadf4f77733973a01a86d1acd05b0d864bf5cae96e24b83"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-700x467.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-700x467.jpg",
+      "bytes": 48555,
+      "sha256": "163c586e2fe8f8826cc23f7a2c4c5494c0dbf559b39708b2d23751ffdb7dc7ff"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-768x512.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-768x512.jpg",
+      "bytes": 55790,
+      "sha256": "ae53c92215854da39784b63fb1190db3450b61215835035d3802dfcd0244f4e0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5376-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5376-scaled.jpg",
+      "bytes": 351879,
+      "sha256": "28ad4b8e77e47b05785ebbae466c129a8e905e5fe488095944d55fb224c21f26"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-1200x800.jpg",
+      "bytes": 72839,
+      "sha256": "cbdb07da6b46870a2c90c6f013a576605d57f6c3822f8ba1d16b5fa695fb7d6b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-1536x1024.jpg",
+      "bytes": 106339,
+      "sha256": "b1c27dadeb68a4fe770e8d2b12e158eb1d3e303abab4d0c13a6f60e15717a8d8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-2048x1365.jpg",
+      "bytes": 166041,
+      "sha256": "9e1c044a6f3791cfaf1a4f6fca3314199fbb8831f298324203124e7513dda96d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-600x400.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-600x400.jpg",
+      "bytes": 25253,
+      "sha256": "9eb8c6fd8fb4194e48cda0e63fff8dcab362c636d713afe0b44ad940be80b99f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-700x467.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-700x467.jpg",
+      "bytes": 32211,
+      "sha256": "eeae3b32a83c41e8642b7bcc7e2334336b4d5af5bdc244abd25769aa793a91cf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-768x512.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-768x512.jpg",
+      "bytes": 36629,
+      "sha256": "c451a73abc7ecbb00998dd3a7e02c7d33ac44cc0b921cf25e95943fc8ea73ea1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/032A5383-scaled.jpg",
+      "path": "/wp-content/uploads/2025/02/032A5383-scaled.jpg",
+      "bytes": 235015,
+      "sha256": "45cdf301cd103011a7e61ed1f41486d1e1e4b6bf522e4ece7fb2a134f403172a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-100x100.png",
+      "path": "/wp-content/uploads/2025/02/1-100x100.png",
+      "bytes": 1825,
+      "sha256": "42296384991dc3b7d0c3023e50093b3ffea5b1aa92d7ef298891228dafb03074"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-280x280.png",
+      "path": "/wp-content/uploads/2025/02/1-280x280.png",
+      "bytes": 8924,
+      "sha256": "ab8458bc98dd5a038e2f54f3e44eff470f2643d6e4e7b2a4c4628b4a60f0cb85"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-3.jpg",
+      "path": "/wp-content/uploads/2025/02/1-3.jpg",
+      "bytes": 3686,
+      "sha256": "91fb368a0f28a3261b91cf86388db0bba8859469e7835e6186899885aa367215"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-400x400.png",
+      "path": "/wp-content/uploads/2025/02/1-400x400.png",
+      "bytes": 16258,
+      "sha256": "b5af2f98fcec2685872677f3a972c1f507168a28d95a2a26e86baa8fab03e73f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-500x500.png",
+      "path": "/wp-content/uploads/2025/02/1-500x500.png",
+      "bytes": 24009,
+      "sha256": "b3d72820fd1edca43fbd975c068b4967c9dbffa8c0b1a77f8cf92495d96e7d45"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-700x700.png",
+      "path": "/wp-content/uploads/2025/02/1-700x700.png",
+      "bytes": 42247,
+      "sha256": "c1de6fe5cd8ee011c2b2154e656930aebd96849f983712519944d541a0fbabaf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1-768x768.png",
+      "path": "/wp-content/uploads/2025/02/1-768x768.png",
+      "bytes": 49207,
+      "sha256": "a6500fb2b25f2feabf48c507de1b718349e9c6e2da6762259ac091b5743dbe7d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1.png",
+      "path": "/wp-content/uploads/2025/02/1.png",
+      "bytes": 54864,
+      "sha256": "3c704b1610329e2a585025b82af872d6e2e6b47b696bdcc38fa07ad41eda64b3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-100x100.png",
+      "path": "/wp-content/uploads/2025/02/10-100x100.png",
+      "bytes": 2402,
+      "sha256": "592303d5a38badc44702007bdaa058bce6ac551b24a7f2a4f0ccdf6e9a0b7419"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-280x280.png",
+      "path": "/wp-content/uploads/2025/02/10-280x280.png",
+      "bytes": 15746,
+      "sha256": "d43fec1d762236559820523f30a6ff86eab7e31b00e421d84d04ad33e5558357"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-400x400.png",
+      "path": "/wp-content/uploads/2025/02/10-400x400.png",
+      "bytes": 30900,
+      "sha256": "1d28e22f1d82d1f8fab4673eb49aa86581df1ed9ba5c808b27344e6dc53eee21"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-500x500.png",
+      "path": "/wp-content/uploads/2025/02/10-500x500.png",
+      "bytes": 44257,
+      "sha256": "7360cf8509fd660638e8ae95028ff137de36a5324f4a58535e101620d5b077b0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-700x700.png",
+      "path": "/wp-content/uploads/2025/02/10-700x700.png",
+      "bytes": 81403,
+      "sha256": "432308af6e9a02abf58ac7b813c2ff79cba6a358b451e85bb8238ab49764ecbf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10-768x768.png",
+      "path": "/wp-content/uploads/2025/02/10-768x768.png",
+      "bytes": 91943,
+      "sha256": "2b2aacaf1e0a2ae516630ca2bb5de4c1f51577e1447e37f387c05a390a72cde4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/10.png",
+      "path": "/wp-content/uploads/2025/02/10.png",
+      "bytes": 107378,
+      "sha256": "c9c8af17e3de3a897625ead83572746f59c329a2896ee64b8b88debac3c265bf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-100x100.png",
+      "path": "/wp-content/uploads/2025/02/11-100x100.png",
+      "bytes": 2618,
+      "sha256": "3a2f817c6a4301422067b989df760c181a5e11fc48efc761094d6df5d2420cc7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-280x280.png",
+      "path": "/wp-content/uploads/2025/02/11-280x280.png",
+      "bytes": 13293,
+      "sha256": "0c809e153e23b29e359138eb28674143605b14a280016b907c750be33bf7a72a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-400x400.png",
+      "path": "/wp-content/uploads/2025/02/11-400x400.png",
+      "bytes": 24783,
+      "sha256": "6ae697ca7de14d7c1064d4ed0981cda69e04b1cf3f242234aebb1f7be3ad3afa"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-500x500.png",
+      "path": "/wp-content/uploads/2025/02/11-500x500.png",
+      "bytes": 34418,
+      "sha256": "970ce9fd0af34b194f9c334bdbe2b7bccddb8dab23b7a3f8a83dd29ecaff75d0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-700x700.png",
+      "path": "/wp-content/uploads/2025/02/11-700x700.png",
+      "bytes": 60573,
+      "sha256": "9976de9bc9264db9b24d2014dd54845d1801689c2f7a4f9540d370d76023f322"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11-768x768.png",
+      "path": "/wp-content/uploads/2025/02/11-768x768.png",
+      "bytes": 70642,
+      "sha256": "9ff695d0fa331ecc5f24a70febaf500e5e252c01a57aab0bd9d8ddf8eaa122bb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/11.png",
+      "path": "/wp-content/uploads/2025/02/11.png",
+      "bytes": 77287,
+      "sha256": "93178e3346b174d2299810f3cf6efb21cc83b0cefc1f6a28dd078563cfd3bb27"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-100x100.png",
+      "path": "/wp-content/uploads/2025/02/12-100x100.png",
+      "bytes": 2832,
+      "sha256": "ef97aa4442650f632f471548e9dfb0dda4d1f90e9b8b44d3f909e3103a4b48ea"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-280x280.png",
+      "path": "/wp-content/uploads/2025/02/12-280x280.png",
+      "bytes": 12288,
+      "sha256": "ef301a24282dd0852f743b4742022d42f276c6bc10f37e662d529024194e8f0e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-400x400.png",
+      "path": "/wp-content/uploads/2025/02/12-400x400.png",
+      "bytes": 23765,
+      "sha256": "5b8ad612976b140a56ea5d6b3b4f13fe3ccd9ad8aa0bea956dcb635f53aa5cd0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-500x500.png",
+      "path": "/wp-content/uploads/2025/02/12-500x500.png",
+      "bytes": 33960,
+      "sha256": "fcfb036a1a34431e6bae7259a94e51e77fe69d2743a6d6221dc2f3cfb0d98afb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-700x700.png",
+      "path": "/wp-content/uploads/2025/02/12-700x700.png",
+      "bytes": 60919,
+      "sha256": "c9c93d3c828cc5d69cb61a546357ddf91ac71b1a2b19daf620f6e176c9730488"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12-768x768.png",
+      "path": "/wp-content/uploads/2025/02/12-768x768.png",
+      "bytes": 70845,
+      "sha256": "945244c73091d8ed5c0c10123117d8a0b43b3a0ac31fc84cb188122fb1469ce2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12.png",
+      "path": "/wp-content/uploads/2025/02/12.png",
+      "bytes": 80755,
+      "sha256": "2473367ce84361fbf62fd7004da1d4fd6ea35392905036972203e028adf0f15b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1267187921021-533x400.jpg",
+      "path": "/wp-content/uploads/2025/02/1267187921021-533x400.jpg",
+      "bytes": 17678,
+      "sha256": "7a558bae1b3db2e78ecccfe51c1cdbc9dbc24d3f6d616f25a01266c67ade6501"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1267187921021.jpg",
+      "path": "/wp-content/uploads/2025/02/1267187921021.jpg",
+      "bytes": 22126,
+      "sha256": "74df51f89c82263f9ceb9790b3e2cd805068e23041d33e59793a06af295d5799"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12671892012-609x400.png",
+      "path": "/wp-content/uploads/2025/02/12671892012-609x400.png",
+      "bytes": 81156,
+      "sha256": "7cae27edfc0aa64299537b36bb03d502eb4852989a99b8313a00cab7b0747abe"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12671892012-700x460.png",
+      "path": "/wp-content/uploads/2025/02/12671892012-700x460.png",
+      "bytes": 104589,
+      "sha256": "89bd99be2b982ec9c6ca33784dd4a403577b7da7fd8c7a88af176dfb5351bb3f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/12671892012.png",
+      "path": "/wp-content/uploads/2025/02/12671892012.png",
+      "bytes": 126381,
+      "sha256": "fb379220e92d61a4a2737c784698786ff11f04b3ca79148d14b4c80fedb82141"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-100x100.png",
+      "path": "/wp-content/uploads/2025/02/13-100x100.png",
+      "bytes": 2079,
+      "sha256": "fece1890ca0448f30cbe1d751140c22c9be4c0bbb136efd309562845040546ed"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-280x280.png",
+      "path": "/wp-content/uploads/2025/02/13-280x280.png",
+      "bytes": 9695,
+      "sha256": "20f465dcbb2fc169213597c4345321c92b011c371c70ce3ad57dbcd16d6931c6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-400x400.png",
+      "path": "/wp-content/uploads/2025/02/13-400x400.png",
+      "bytes": 17107,
+      "sha256": "67b3cf3d4bd03027e0bfb0ee454e263cdf58016319452cf16da9ca730087dc61"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-500x500.png",
+      "path": "/wp-content/uploads/2025/02/13-500x500.png",
+      "bytes": 26170,
+      "sha256": "f0a9dcb15dcbd282c7d5971cd19008331afe5faad6b27a831ec9de4b6feee6e4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-700x700.png",
+      "path": "/wp-content/uploads/2025/02/13-700x700.png",
+      "bytes": 45728,
+      "sha256": "bb2a6ab833132016bfb43be1d16855e4c4eb51b06b51f0267295de86fa0d38cd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13-768x768.png",
+      "path": "/wp-content/uploads/2025/02/13-768x768.png",
+      "bytes": 58831,
+      "sha256": "7c4da27a7e1bc3f1f75489feb48743cda96a4e18eea5226f681163604ba15350"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/13.png",
+      "path": "/wp-content/uploads/2025/02/13.png",
+      "bytes": 66478,
+      "sha256": "b2486db306d995f3e9af43865edec29cdd7cdbd8ca097232b02933afd4d49603"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-100x100.png",
+      "path": "/wp-content/uploads/2025/02/14-100x100.png",
+      "bytes": 2057,
+      "sha256": "1a8604d652ed3b13634e26c4d69246e3771fa5edc094aed5fb87ad5e7bdbb90d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-280x280.png",
+      "path": "/wp-content/uploads/2025/02/14-280x280.png",
+      "bytes": 11686,
+      "sha256": "3c04dfbba036e1fb46cc28691827129c7c2ee0c43a6b149be34546f5b2af39c3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-400x400.png",
+      "path": "/wp-content/uploads/2025/02/14-400x400.png",
+      "bytes": 22218,
+      "sha256": "eb975448557bf10c4bede9315e36001a874b44b804db8c278b0d526fba468119"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-500x500.png",
+      "path": "/wp-content/uploads/2025/02/14-500x500.png",
+      "bytes": 30635,
+      "sha256": "cc9a05b2b930daec602f4fbab50cd1f1c463eda807d0d651e6880fb8ec96b162"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-700x700.png",
+      "path": "/wp-content/uploads/2025/02/14-700x700.png",
+      "bytes": 56729,
+      "sha256": "2c45f65f9de6c0a5415dbe674290198fcc687f245d224197486321383edadbcf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14-768x768.png",
+      "path": "/wp-content/uploads/2025/02/14-768x768.png",
+      "bytes": 65994,
+      "sha256": "ec05bf2bcfc8aaa259cdf6b9f69509ef126c7bc370ac05f578d7b3b72017cf29"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/14.png",
+      "path": "/wp-content/uploads/2025/02/14.png",
+      "bytes": 72822,
+      "sha256": "109e4a630dfa38edd070f6a6a04f7dea7baf00351f0d3ec621c161090e314be3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-100x100.png",
+      "path": "/wp-content/uploads/2025/02/15-100x100.png",
+      "bytes": 1632,
+      "sha256": "f95970429b24b775d7baabeef17c6b68e23a703183738bcee12edf6fbc80f058"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-280x280.png",
+      "path": "/wp-content/uploads/2025/02/15-280x280.png",
+      "bytes": 10264,
+      "sha256": "9b38eac0c505dcb1295c36d1308be11673d516c4b8845834439589be656b0404"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-400x400.png",
+      "path": "/wp-content/uploads/2025/02/15-400x400.png",
+      "bytes": 21577,
+      "sha256": "c335fa78f36e4c29cb87c97ed55d7586a037b22a142f149fb3f7a6492cf8ae62"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-500x500.png",
+      "path": "/wp-content/uploads/2025/02/15-500x500.png",
+      "bytes": 31492,
+      "sha256": "6b052b76ee5aaaa99a2f2adbe81ef6ca13b1e7d157b2f65fc9b792d66e06ad95"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-700x700.png",
+      "path": "/wp-content/uploads/2025/02/15-700x700.png",
+      "bytes": 60185,
+      "sha256": "a31941806e1f979c1b8016205ce1eb6ed89ab4b76899f1ebe77994c0c96bc663"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15-768x768.png",
+      "path": "/wp-content/uploads/2025/02/15-768x768.png",
+      "bytes": 73070,
+      "sha256": "f26add9e990e660f790695ad5e1857312e353878b8a7566e621b34238e297402"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/15.png",
+      "path": "/wp-content/uploads/2025/02/15.png",
+      "bytes": 84641,
+      "sha256": "b640e6a18611890bc8f66cff9eceab540d7853133fda4627dbd4d85e3f93acbb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-100x100.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-100x100.png",
+      "bytes": 4229,
+      "sha256": "f06474e95f406d395e00a226aea7295dd9d93fe1fe7a8520da049ae063290fbe"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-280x280.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-280x280.png",
+      "bytes": 26657,
+      "sha256": "6da41f398eb84d7c2d64356d5477290a7cf0bb5db19ccd7e0cf50e7061188939"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-400x400.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-400x400.png",
+      "bytes": 54820,
+      "sha256": "e3a5952bdb2bf829d230a428b0566988dea1c6002d3cdfbeafbf04156c71d8ca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-500x500.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-500x500.png",
+      "bytes": 76461,
+      "sha256": "c9f96f3c0de9e08f87554aad0f07a6a8d86fa03e82253e503fa4b354a876b9db"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-700x700.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-700x700.png",
+      "bytes": 140768,
+      "sha256": "e336aaab64f2081740fb6c5de6afd7f27a4b37dc00a9461dba1f834606aa7331"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212-768x768.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212-768x768.png",
+      "bytes": 170489,
+      "sha256": "399944545333eaf51c01f4ceb05c109ecbfa92b974ef2dbcb5a538e346e9952c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/156276817980212.png",
+      "path": "/wp-content/uploads/2025/02/156276817980212.png",
+      "bytes": 185681,
+      "sha256": "9b28a3b65db7c7b9da778320ca24dbda151de92daf344251dcf7a9623ebf62b7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-100x100.png",
+      "path": "/wp-content/uploads/2025/02/16-100x100.png",
+      "bytes": 964,
+      "sha256": "ed7acaa154ba327bee4354f0cf9313dac73c48eef9d3bddc02cd47e47023eb06"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-280x280.png",
+      "path": "/wp-content/uploads/2025/02/16-280x280.png",
+      "bytes": 5003,
+      "sha256": "9b8d55123c2821e46be2be654de48f5c787124ad116c70a431c9dc88d4ac47f2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-400x400.png",
+      "path": "/wp-content/uploads/2025/02/16-400x400.png",
+      "bytes": 10328,
+      "sha256": "8bdb85f8efe1c538a9c64a34f5c65cc13a30fde23c75064742542d69643064a0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-500x500.png",
+      "path": "/wp-content/uploads/2025/02/16-500x500.png",
+      "bytes": 13817,
+      "sha256": "187c26cb760b05cfa2357241ff35c93288d79d23ccb9bedee068bc9a43a809a2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-700x700.png",
+      "path": "/wp-content/uploads/2025/02/16-700x700.png",
+      "bytes": 27429,
+      "sha256": "360613e1eb4194130594f148ec3bff4e3ca8cdfe91ee414107fc16aba6ef99cf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16-768x768.png",
+      "path": "/wp-content/uploads/2025/02/16-768x768.png",
+      "bytes": 34613,
+      "sha256": "56eae7fe1a61eb327bf8861ffb19e1949270a317730a02cfffc5a904e6dd3a03"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/16.png",
+      "path": "/wp-content/uploads/2025/02/16.png",
+      "bytes": 35746,
+      "sha256": "ad41effba35932e386c2181fb1c02eff631011b1849fcdcb7bf06b60a676fa23"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/1627617890212.jpg",
+      "path": "/wp-content/uploads/2025/02/1627617890212.jpg",
+      "bytes": 19634,
+      "sha256": "fe7cf46860b34d84ab2e423cdd839d1b9fede82fa7827471361899e18c6b0ac5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/162781902121.jpg",
+      "path": "/wp-content/uploads/2025/02/162781902121.jpg",
+      "bytes": 22464,
+      "sha256": "67680755aee99cd43c95f28dc87cd22ee3ddb47232cf4e6dfe64808d1ec4e15e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-100x100.png",
+      "path": "/wp-content/uploads/2025/02/17-100x100.png",
+      "bytes": 1587,
+      "sha256": "10499e57754ba8973d9e374d2bf5117ff84137a9992ca2ddc6a95955a5adcdf0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-280x280.png",
+      "path": "/wp-content/uploads/2025/02/17-280x280.png",
+      "bytes": 8997,
+      "sha256": "01e9d8a4bf70b79a55bc223c0160afd515b3e196a0082ec1c57822e054065ae5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-400x400.png",
+      "path": "/wp-content/uploads/2025/02/17-400x400.png",
+      "bytes": 17793,
+      "sha256": "39ead97b6ee915fae322cb700c27bde95c957f87ea607ad9a17433b84e22dd9f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-500x500.png",
+      "path": "/wp-content/uploads/2025/02/17-500x500.png",
+      "bytes": 26836,
+      "sha256": "d6ecf69ce991d8c29ac93d2cc98cf054985daa2494dd20db63f5d6ccfab60771"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-700x700.png",
+      "path": "/wp-content/uploads/2025/02/17-700x700.png",
+      "bytes": 49663,
+      "sha256": "40aa1cc70037a7dbc28e696a03635f57822f1b1c24ea215c0ba33ac9c64e0ffe"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17-768x768.png",
+      "path": "/wp-content/uploads/2025/02/17-768x768.png",
+      "bytes": 58455,
+      "sha256": "4ce80512c46672aab98e37559688179797e6e935da0882768afcf3e00c8f1fed"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/17.png",
+      "path": "/wp-content/uploads/2025/02/17.png",
+      "bytes": 66270,
+      "sha256": "eef5b872236634c01b239c67112eaf027639c217c32c91157623f7045836d215"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/172879102321.webp",
+      "path": "/wp-content/uploads/2025/02/172879102321.webp",
+      "bytes": 35716,
+      "sha256": "a6a4dd9aef0f5be3398c1a6c33961b9e28854219d773936669cd5d9c182d4e44"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-100x100.png",
+      "path": "/wp-content/uploads/2025/02/18-100x100.png",
+      "bytes": 2018,
+      "sha256": "5a718a5b1212a3dbd1a212de1e57ea0fe74f9fea0735c13987e68bd2f86ce8f4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-280x280.png",
+      "path": "/wp-content/uploads/2025/02/18-280x280.png",
+      "bytes": 10370,
+      "sha256": "2c477bdea9df79f2fd8bb44df2d557a4d5a9be4f635b09dfa943b68ecd48c36c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-400x400.png",
+      "path": "/wp-content/uploads/2025/02/18-400x400.png",
+      "bytes": 18750,
+      "sha256": "da51ad9e464b2a8998d3c100476d967d0b6de5e7aa950756c9e6c6b4214d6534"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-500x500.png",
+      "path": "/wp-content/uploads/2025/02/18-500x500.png",
+      "bytes": 26469,
+      "sha256": "f9f72739d5c1abfe38763915f4d9902d0000952ae61e36224c1d9f56faa9ab65"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-700x700.png",
+      "path": "/wp-content/uploads/2025/02/18-700x700.png",
+      "bytes": 45123,
+      "sha256": "76c2b262b673c92262a21ca411d6b0ea9cb420296e6b8fe669d01981d4755a92"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18-768x768.png",
+      "path": "/wp-content/uploads/2025/02/18-768x768.png",
+      "bytes": 51964,
+      "sha256": "7c6a8e447fbf213a710b8cb20e50fa59d2cd3d25365041782afed187b35ad55e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/18.png",
+      "path": "/wp-content/uploads/2025/02/18.png",
+      "bytes": 56478,
+      "sha256": "dae8637d8920e463a71d19c74b6452b17d0039ba07a6d0586e8af57a992f8813"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-100x100.png",
+      "path": "/wp-content/uploads/2025/02/19-100x100.png",
+      "bytes": 1450,
+      "sha256": "561ba82cb95bc2872f8252ab3a92ba69216a36bc33ed6fcda8869a7fc270f778"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-280x280.png",
+      "path": "/wp-content/uploads/2025/02/19-280x280.png",
+      "bytes": 7844,
+      "sha256": "2921f1f0ef44870ed01e5cc7845cd45a4178ef69a7f171f5b2de1563e67d8f51"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-400x400.png",
+      "path": "/wp-content/uploads/2025/02/19-400x400.png",
+      "bytes": 15415,
+      "sha256": "5fc7ed0b253a881f2f6b40d48c19bd31f84223efa87a2b51ff09b53cf728f03b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-500x500.png",
+      "path": "/wp-content/uploads/2025/02/19-500x500.png",
+      "bytes": 23072,
+      "sha256": "b890f6c64d8ffc71c427ce0ee6a4443db0134928c02f942ce923187edb3ccb09"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-700x700.png",
+      "path": "/wp-content/uploads/2025/02/19-700x700.png",
+      "bytes": 41334,
+      "sha256": "2fe75a1829a8fc5338089db67a68a9b662399c5e91f08d697f0ba45d6834160c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19-768x768.png",
+      "path": "/wp-content/uploads/2025/02/19-768x768.png",
+      "bytes": 47464,
+      "sha256": "166c719f7a2aecfa9d451ae7196e1015c780fee6207290f625e35fb9187e8acf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/19.png",
+      "path": "/wp-content/uploads/2025/02/19.png",
+      "bytes": 53096,
+      "sha256": "c0ebb8051b17313b013d4391f67faa73a026cbe703ba3ceedd27be0f7f7f5779"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-100x100.png",
+      "path": "/wp-content/uploads/2025/02/2-100x100.png",
+      "bytes": 3330,
+      "sha256": "0348db076476cb0f2f9ff0a0d36772b82124f3dd443d5ca82e510dfa4273a820"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-280x280.png",
+      "path": "/wp-content/uploads/2025/02/2-280x280.png",
+      "bytes": 18888,
+      "sha256": "60251fc7a3d31a2bb93b8f9dc4aad35ab15ef8b4f233489e4132027fa31fedb2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-400x400.png",
+      "path": "/wp-content/uploads/2025/02/2-400x400.png",
+      "bytes": 32921,
+      "sha256": "7bc14bac9ae1aa892905c2b2c1cb621bd9392708b643bd4f8e71e6ef6d884f27"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-500x500.png",
+      "path": "/wp-content/uploads/2025/02/2-500x500.png",
+      "bytes": 47388,
+      "sha256": "f16c20c072de6d2511220e383c7501aa520238734cc42521a6eb4bc138916125"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-700x700.png",
+      "path": "/wp-content/uploads/2025/02/2-700x700.png",
+      "bytes": 83806,
+      "sha256": "ca71e69a5a33b22e1cc6c2b6297052201c1b79bfc22c3f214ca3d2b19903e42a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2-768x768.png",
+      "path": "/wp-content/uploads/2025/02/2-768x768.png",
+      "bytes": 96908,
+      "sha256": "bca13dcebf1ec32d6cba229cf473e1208e87bd96d6ed62d51a94e0819bec32fd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2.png",
+      "path": "/wp-content/uploads/2025/02/2.png",
+      "bytes": 105831,
+      "sha256": "c47259983c4fa8ce3bf15f6ad5b5d4953fd02952a197442a097160c80e417bd7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-100x100.png",
+      "path": "/wp-content/uploads/2025/02/20-100x100.png",
+      "bytes": 1668,
+      "sha256": "55528b067359624b4eb2ee9e8435b8c846f6b8084dc2520b06c24764cac782ee"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-280x280.png",
+      "path": "/wp-content/uploads/2025/02/20-280x280.png",
+      "bytes": 9273,
+      "sha256": "532ecd03160c2ff18e05d9013e9148fb13c7918bc4c160bdcd01116b97428ad4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-400x400.png",
+      "path": "/wp-content/uploads/2025/02/20-400x400.png",
+      "bytes": 18181,
+      "sha256": "41ea0e1abe795f0d0dde199653996ba43b39f1979aaea772891de5cfe76f61a7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-500x500.png",
+      "path": "/wp-content/uploads/2025/02/20-500x500.png",
+      "bytes": 26741,
+      "sha256": "de6e26e799e005228186d80ab05fafd58fafeef1a8f8fdaab82d96180098fcb9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-700x700.png",
+      "path": "/wp-content/uploads/2025/02/20-700x700.png",
+      "bytes": 50306,
+      "sha256": "73f8c2842d94df8d58f8b1c74d8a6622ae2894d1e48ca5b6bd26e7d2e25d4096"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20-768x768.png",
+      "path": "/wp-content/uploads/2025/02/20-768x768.png",
+      "bytes": 59227,
+      "sha256": "0381f62254a29bf1ff3cf3fc264777aea0091242c5f2fe2aa0da3c1e4194cca4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/20.png",
+      "path": "/wp-content/uploads/2025/02/20.png",
+      "bytes": 69731,
+      "sha256": "0a5586fa80f8ad424b168307a825ed271acf6f851eca477344ea2f6099864bf9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-100x100.png",
+      "path": "/wp-content/uploads/2025/02/21-100x100.png",
+      "bytes": 2454,
+      "sha256": "a50627c78c8f03f6d9f1dd36d0ae30a4b9f898fdd3929651d5cffb85d85a7762"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-280x280.png",
+      "path": "/wp-content/uploads/2025/02/21-280x280.png",
+      "bytes": 11081,
+      "sha256": "972ef3963c764316029fb53187727eabaf75957ff743d9e3122e12f0344f636d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-400x400.png",
+      "path": "/wp-content/uploads/2025/02/21-400x400.png",
+      "bytes": 20170,
+      "sha256": "1d4bfbce4a1a8883eb422b27931a0d3d68981fb23c2b10053834def62126c61d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-500x500.png",
+      "path": "/wp-content/uploads/2025/02/21-500x500.png",
+      "bytes": 29050,
+      "sha256": "3f8f26af9dd5b8de8c2ee955153f1cb76b21c3c93350a2c22dbb59635869adc8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-700x700.png",
+      "path": "/wp-content/uploads/2025/02/21-700x700.png",
+      "bytes": 51085,
+      "sha256": "acb4a5ec4c0de09b22eeb1cd9a15fad47bd6e36771b0b63b0f238bc3d04af78b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21-768x768.png",
+      "path": "/wp-content/uploads/2025/02/21-768x768.png",
+      "bytes": 59663,
+      "sha256": "c2a41d5444fac91209726387c951c16f3a4fe25b27fc4589fd12df67ed9fad22"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21.png",
+      "path": "/wp-content/uploads/2025/02/21.png",
+      "bytes": 64122,
+      "sha256": "d74d280204e02298d68f7d5a04b00c12e9f684d6ec74c0d3511877cc77045162"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21667287192121-641x400.jpg",
+      "path": "/wp-content/uploads/2025/02/21667287192121-641x400.jpg",
+      "bytes": 32037,
+      "sha256": "0dc14defad48f34bd8211683daed33e3698a47c182dc3ae97a180023b2d10823"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21667287192121-700x437.jpg",
+      "path": "/wp-content/uploads/2025/02/21667287192121-700x437.jpg",
+      "bytes": 36497,
+      "sha256": "ecb3e82f1569819a0e1c3a5e1ef7785615cedea8fd5d0e3129a9987c51b94de9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21667287192121-768x479.jpg",
+      "path": "/wp-content/uploads/2025/02/21667287192121-768x479.jpg",
+      "bytes": 41445,
+      "sha256": "373e68643951cef872fea7842ef513e7b71db8591bc17ab5dc1245c7b39f1f39"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21667287192121.jpg",
+      "path": "/wp-content/uploads/2025/02/21667287192121.jpg",
+      "bytes": 44600,
+      "sha256": "91fd440664adb148500d06a7d73bf518bde67e917b6d1de25fb74ff4ad780a19"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21676278718921-100x100.jpg",
+      "path": "/wp-content/uploads/2025/02/21676278718921-100x100.jpg",
+      "bytes": 2828,
+      "sha256": "f361515a6b1f0b5d4609a0afdd0153f24126635729e3766e035f54693a84c26b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21676278718921-280x280.jpg",
+      "path": "/wp-content/uploads/2025/02/21676278718921-280x280.jpg",
+      "bytes": 12977,
+      "sha256": "a620e4f40f7afa854709b22e4f017ac5a9d21f639a09dcb45eec23f662b45375"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/21676278718921.jpg",
+      "path": "/wp-content/uploads/2025/02/21676278718921.jpg",
+      "bytes": 23856,
+      "sha256": "a109d339459d331427737274e9f4f139e25190fc3fa9913a4ed5d99e2e61a227"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-100x100.png",
+      "path": "/wp-content/uploads/2025/02/22-100x100.png",
+      "bytes": 2807,
+      "sha256": "9fb16765735e3cac8879893d64084a72eaa19a1f26facd092c60c37d6fbca39a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-280x280.png",
+      "path": "/wp-content/uploads/2025/02/22-280x280.png",
+      "bytes": 17268,
+      "sha256": "2de542d1d35f1319942ab9fbded032d369d4314718100d7e9a13f1021883cbc5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-400x400.png",
+      "path": "/wp-content/uploads/2025/02/22-400x400.png",
+      "bytes": 30785,
+      "sha256": "7753e21a86f7eed28d1249ece77bcece0059319749e403445c4499b59fa212cc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-500x500.png",
+      "path": "/wp-content/uploads/2025/02/22-500x500.png",
+      "bytes": 44713,
+      "sha256": "1e8b1d916612ecd071450b9c362be1dcc73b53c10a71781d3c777b4ed3378f91"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-700x700.png",
+      "path": "/wp-content/uploads/2025/02/22-700x700.png",
+      "bytes": 77402,
+      "sha256": "facad19c23a67749424052b14e61aedd55f33481e7376b731d85c9cdd3ffe8c1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22-768x768.png",
+      "path": "/wp-content/uploads/2025/02/22-768x768.png",
+      "bytes": 90759,
+      "sha256": "018dfceb6a8473116997c80ab7fbfb155cfc3d3b990cf85c02b4ae49f557ab9a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/22.png",
+      "path": "/wp-content/uploads/2025/02/22.png",
+      "bytes": 99786,
+      "sha256": "ac8b09a4a2201a130afe68a2fb34158b55004064351e1010a9ca560c1e697b20"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-100x100.png",
+      "path": "/wp-content/uploads/2025/02/23-100x100.png",
+      "bytes": 1839,
+      "sha256": "13392ebd28e03b03c0f4c0f37812d9bd089c5cff8623794a7ea9c194913931e5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-280x280.png",
+      "path": "/wp-content/uploads/2025/02/23-280x280.png",
+      "bytes": 10044,
+      "sha256": "a25a90602671b193f57c61f24f9acf58eefd3bfff7c54ccc0f8b59098f691e51"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-400x400.png",
+      "path": "/wp-content/uploads/2025/02/23-400x400.png",
+      "bytes": 20014,
+      "sha256": "311ba8ad5252342b0ed251498accf936e12df917d5f3e03442633fa9a54b36bf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-500x500.png",
+      "path": "/wp-content/uploads/2025/02/23-500x500.png",
+      "bytes": 25976,
+      "sha256": "89f1fe9b560bee76aec0eed7289b7e2696b12dcb7650750ed8b6f8ab5571f8da"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-700x700.png",
+      "path": "/wp-content/uploads/2025/02/23-700x700.png",
+      "bytes": 47908,
+      "sha256": "6c16f1271e50daeaa350ccdd49f633ef2d3c97871081e46a0a342a8c86173050"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23-768x768.png",
+      "path": "/wp-content/uploads/2025/02/23-768x768.png",
+      "bytes": 55482,
+      "sha256": "a455d0a5bc5e7a6d2ec17287d4e82f5fd7af0d52b1dfeecdf9a9cd7ec78de464"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/23.png",
+      "path": "/wp-content/uploads/2025/02/23.png",
+      "bytes": 63074,
+      "sha256": "d203ed008374dae5f14dc851e7c5a2f00c68a1e9d57815fd42c82e520b46f7e1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-100x100.png",
+      "path": "/wp-content/uploads/2025/02/24-100x100.png",
+      "bytes": 3049,
+      "sha256": "7b94a8dbc2cdd5b73ede06e94fcfa5082fc357080cf4c60ce149f5816d1ddb7e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-280x280.png",
+      "path": "/wp-content/uploads/2025/02/24-280x280.png",
+      "bytes": 16298,
+      "sha256": "fb34b8a86639d132a258c7d0aa5752879d84cb00a75f4c91c955ea81030d8bdf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-400x400.png",
+      "path": "/wp-content/uploads/2025/02/24-400x400.png",
+      "bytes": 29288,
+      "sha256": "a756dd088e0ae8271bdc24e2cb29696deeb7a17546ababa22135c7f84dc52455"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-500x500.png",
+      "path": "/wp-content/uploads/2025/02/24-500x500.png",
+      "bytes": 42364,
+      "sha256": "26f8b2d710ac4e1d0a699c844eed07104ebeda59c9205716da475cb97fffa76b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-700x700.png",
+      "path": "/wp-content/uploads/2025/02/24-700x700.png",
+      "bytes": 76321,
+      "sha256": "2239d9c41beedd4a697f79ff2c26ea1d36ddf86b9b4da507d92f0b6d606ed7f4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24-768x768.png",
+      "path": "/wp-content/uploads/2025/02/24-768x768.png",
+      "bytes": 90324,
+      "sha256": "45839eaaa9b1bcef5a6aca86b98006e722b404dc89018f5abf44d84d5b345273"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/24.png",
+      "path": "/wp-content/uploads/2025/02/24.png",
+      "bytes": 99127,
+      "sha256": "ee67f3da86c538a10ea4b1ae12510a11c70a02538efd8e5f4380ac622f5a6de0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/241576827912-640x400.jpg",
+      "path": "/wp-content/uploads/2025/02/241576827912-640x400.jpg",
+      "bytes": 32042,
+      "sha256": "e6f88e2899635217dac3ac5867fc484abd018f46fee40819e7537bc552a7001e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/241576827912-700x438.jpg",
+      "path": "/wp-content/uploads/2025/02/241576827912-700x438.jpg",
+      "bytes": 36735,
+      "sha256": "48ffdb7849c60c6cc11c67142b917b941d56c33228eaae36d1ed8526cfb68aa8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/241576827912-768x480.jpg",
+      "path": "/wp-content/uploads/2025/02/241576827912-768x480.jpg",
+      "bytes": 41907,
+      "sha256": "40d07f2a9176591e2fe49f3a697577ed12e2f8f5c2273af6ac44add290b7124f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/241576827912.jpg",
+      "path": "/wp-content/uploads/2025/02/241576827912.jpg",
+      "bytes": 47356,
+      "sha256": "447c934896ece6823cad59cac8adb675d592e5db779d55da85505e90515ee395"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2517678279819021.webp",
+      "path": "/wp-content/uploads/2025/02/2517678279819021.webp",
+      "bytes": 36330,
+      "sha256": "7101a83691d5683c2b276c1d8a1126fb7ed54e386bf570e61df1d850b1386a45"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/256177878291.png",
+      "path": "/wp-content/uploads/2025/02/256177878291.png",
+      "bytes": 74420,
+      "sha256": "997c0a76aaa2ccd2c35124e350b339b60635bc1d8c148306002c677a45aa4ba1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/256178290121.jpg",
+      "path": "/wp-content/uploads/2025/02/256178290121.jpg",
+      "bytes": 46078,
+      "sha256": "35a206aee149002e205d3e6fdb4eb2004b6c52887e0de92d6cb4abd9f1ea7a45"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26167827912121.webp",
+      "path": "/wp-content/uploads/2025/02/26167827912121.webp",
+      "bytes": 445952,
+      "sha256": "a1c52e2f863f3d1e7ba03bba6c0f35f8290a5284efa8e5b82dc08e1808054240"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/261768729102-640x400.jpg",
+      "path": "/wp-content/uploads/2025/02/261768729102-640x400.jpg",
+      "bytes": 25242,
+      "sha256": "75b7a9d416dc9716bc462c7cd8191fc699b489d7deebf44b5c094c814b1b6557"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/261768729102-700x438.jpg",
+      "path": "/wp-content/uploads/2025/02/261768729102-700x438.jpg",
+      "bytes": 29376,
+      "sha256": "fe56c64cc405861f2fd337c9991a3fb697848bebfb94b2cae69393b80bd3e676"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/261768729102-768x480.jpg",
+      "path": "/wp-content/uploads/2025/02/261768729102-768x480.jpg",
+      "bytes": 34294,
+      "sha256": "988e85d39f0316292cb8525f5bf0ebbbd88af27f913477e332852699deff9ecd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/261768729102.jpg",
+      "path": "/wp-content/uploads/2025/02/261768729102.jpg",
+      "bytes": 40620,
+      "sha256": "b5f6bb95b3908755a547d757bcce233c28b0f5959bcbb739820cd99a4db4d26f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26178279121-e1739954948185-700x329.jpg",
+      "path": "/wp-content/uploads/2025/02/26178279121-e1739954948185-700x329.jpg",
+      "bytes": 42975,
+      "sha256": "c6831013ca040ee13b0d8bbb2b3fbc6995384a22958d98bd022196fb38093163"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26178279121-e1739954948185-768x361.jpg",
+      "path": "/wp-content/uploads/2025/02/26178279121-e1739954948185-768x361.jpg",
+      "bytes": 48866,
+      "sha256": "db3afcfb79568b529a386929f518df1115a8ebe4c386861b0738c3e18e53fa75"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26178279121-e1739954948185.jpg",
+      "path": "/wp-content/uploads/2025/02/26178279121-e1739954948185.jpg",
+      "bytes": 55092,
+      "sha256": "1fd2c741daa334366b3b8716f0979ea2d51f587c50702f354cc8d4df5ba0aaf9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617827912121-533x400.jpg",
+      "path": "/wp-content/uploads/2025/02/2617827912121-533x400.jpg",
+      "bytes": 32133,
+      "sha256": "4ad73960009ea1eea4e58f81c40d703a5bfb174dfab011cbcbd0dd829f239fcf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617827912121-700x525.jpg",
+      "path": "/wp-content/uploads/2025/02/2617827912121-700x525.jpg",
+      "bytes": 47968,
+      "sha256": "59d1a12a0872ca80bed5d85ba0209e55c8425588f1eb9a77e2c750bb264ff5a4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617827912121-768x576.jpg",
+      "path": "/wp-content/uploads/2025/02/2617827912121-768x576.jpg",
+      "bytes": 54132,
+      "sha256": "e0cd2f66d7ea9c12d8e80216f2822d2690ad162b26b39f940b05247f3f51261e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617827912121.jpg",
+      "path": "/wp-content/uploads/2025/02/2617827912121.jpg",
+      "bytes": 61815,
+      "sha256": "e60a565b4fae6bd77f08fcc035af846e30534797e4325e585b194a4bf8ba18c6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617829121121-533x400.jpg",
+      "path": "/wp-content/uploads/2025/02/2617829121121-533x400.jpg",
+      "bytes": 17019,
+      "sha256": "3574becb0cece67fa8f79f40c5d5df4cf8bf88dac81cd4910a3227035f3697c7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617829121121-700x525.jpg",
+      "path": "/wp-content/uploads/2025/02/2617829121121-700x525.jpg",
+      "bytes": 26146,
+      "sha256": "664cd8fc1a7cc83120a6b28b735acfada20ef6bb78fa4606c8661ff01a876789"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617829121121-768x576.jpg",
+      "path": "/wp-content/uploads/2025/02/2617829121121-768x576.jpg",
+      "bytes": 29709,
+      "sha256": "e2f0bbc1fa863665a3bf2713e45889defb1eb9c665cc5d067e92a139877ad723"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2617829121121.jpg",
+      "path": "/wp-content/uploads/2025/02/2617829121121.jpg",
+      "bytes": 32815,
+      "sha256": "c821c84fccfd67d0f70ec350b75ee441523e047092ef0392f45f7d540dfeec98"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26517829121-533x400.jpg",
+      "path": "/wp-content/uploads/2025/02/26517829121-533x400.jpg",
+      "bytes": 14872,
+      "sha256": "80a453361f2b3fab38a91fe019971296af702d6c5313f6fdc1430355862bbfe6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26517829121-700x525.jpg",
+      "path": "/wp-content/uploads/2025/02/26517829121-700x525.jpg",
+      "bytes": 22896,
+      "sha256": "4df88413f158de3063921ae38563d971e5a2ab97f65a9505cd198d962ed7b8ae"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26517829121-768x576.jpg",
+      "path": "/wp-content/uploads/2025/02/26517829121-768x576.jpg",
+      "bytes": 26740,
+      "sha256": "b56f7dbd441be1c6d84477caca93de7a7f1eaf115edd8a4804c69596680fbd7e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/26517829121.jpg",
+      "path": "/wp-content/uploads/2025/02/26517829121.jpg",
+      "bytes": 28472,
+      "sha256": "f615ee0103fbf6e7a3dd1455f5558a81300d05945272cdb16242910ef624a47c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2718792801921-673x400.jpg",
+      "path": "/wp-content/uploads/2025/02/2718792801921-673x400.jpg",
+      "bytes": 44561,
+      "sha256": "734eee2f0bcd50ab0953262d282d4e2739cad47d211b4927c015f4b19f56e93d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2718792801921-700x416.jpg",
+      "path": "/wp-content/uploads/2025/02/2718792801921-700x416.jpg",
+      "bytes": 47629,
+      "sha256": "3fc80f8f7802b3893dcb1eef86eaedfef65c254b78f33d4a2195c9374a5dd524"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2718792801921-768x456.jpg",
+      "path": "/wp-content/uploads/2025/02/2718792801921-768x456.jpg",
+      "bytes": 55591,
+      "sha256": "877b4fa9290c409aee9afeee678a90534a872183c563e747a6899c76e51ede72"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/2718792801921.jpg",
+      "path": "/wp-content/uploads/2025/02/2718792801921.jpg",
+      "bytes": 103729,
+      "sha256": "82a011d5098f7bea87771712381cf6a731372fad03194a9a8b8e22c63faf3956"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-1.jpg",
+      "path": "/wp-content/uploads/2025/02/3-1.jpg",
+      "bytes": 5817,
+      "sha256": "162e62efed843cf806a49f5cc7551d7bf7698eeab1937ba5bbf47b29685b197d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-100x100.png",
+      "path": "/wp-content/uploads/2025/02/3-100x100.png",
+      "bytes": 1801,
+      "sha256": "e65c3dd345c3b9ace1a0a7155f6ac8169e6e27794f0d92b9dbb20d0a016a27a8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-280x280.png",
+      "path": "/wp-content/uploads/2025/02/3-280x280.png",
+      "bytes": 10283,
+      "sha256": "855ed8d512eb7a69e7fcd71b22728a378b21f272e4a71f5e4c1489aaf9ff37fd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-400x400.png",
+      "path": "/wp-content/uploads/2025/02/3-400x400.png",
+      "bytes": 20810,
+      "sha256": "c0ee03173ecf0df0034bc666b18c6e05249afab6fbff4f498ac046b82d7efe6a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-500x500.png",
+      "path": "/wp-content/uploads/2025/02/3-500x500.png",
+      "bytes": 29513,
+      "sha256": "f76e0e3a0c5129255c477561c5d63d6f2e3b95b943fe866912e6fc2972c10261"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-700x700.png",
+      "path": "/wp-content/uploads/2025/02/3-700x700.png",
+      "bytes": 54245,
+      "sha256": "f28eb526fb6934738d4561cf4f9bf52ee09e70ce40035a33e5dc5963671a943e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3-768x768.png",
+      "path": "/wp-content/uploads/2025/02/3-768x768.png",
+      "bytes": 64210,
+      "sha256": "0d6b7d19c9100072a5bee2b10cf83b25503abcc0e75b03c009c09a60244ec55a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/3.png",
+      "path": "/wp-content/uploads/2025/02/3.png",
+      "bytes": 75786,
+      "sha256": "20c954d2ecd76b182b67e7756e4eca832bf4248f8c84a3b7f315187c21118529"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-100x100.png",
+      "path": "/wp-content/uploads/2025/02/4-100x100.png",
+      "bytes": 1839,
+      "sha256": "f6d1cd0bdfae2e9ff92fccbe1922a1ac8c75893922179dcd2b23ec896b407878"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-280x280.png",
+      "path": "/wp-content/uploads/2025/02/4-280x280.png",
+      "bytes": 8763,
+      "sha256": "2958c0be16d48a8ce7a7b3e843a9007c05cdd8a2d47b572e63886c86d690ce1d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-400x400.png",
+      "path": "/wp-content/uploads/2025/02/4-400x400.png",
+      "bytes": 16268,
+      "sha256": "8bbaab5eb5f2f56fba2b8da0a82c1afd0736c8fb8bdcb6b3abd80f5c9dcb5dc6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-500x500.png",
+      "path": "/wp-content/uploads/2025/02/4-500x500.png",
+      "bytes": 24159,
+      "sha256": "b2a2c982d5041b9c5ab07b9a102b0f2829e1e189b4cc0609668df240e3d47206"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-700x700.png",
+      "path": "/wp-content/uploads/2025/02/4-700x700.png",
+      "bytes": 42676,
+      "sha256": "57374ad6cf45e4e0554bfd59958bedc7568d6c42fc0f450d42810713692bd18d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4-768x768.png",
+      "path": "/wp-content/uploads/2025/02/4-768x768.png",
+      "bytes": 49436,
+      "sha256": "87440019facab46f404e0e774f419dd0cc0b4c536eb962285ab56ff17c6fea89"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4.jpg",
+      "path": "/wp-content/uploads/2025/02/4.jpg",
+      "bytes": 3945,
+      "sha256": "88717a82909725b0bb08b76e6f8e7e562981619149910413728b9374674fb303"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4.png",
+      "path": "/wp-content/uploads/2025/02/4.png",
+      "bytes": 57451,
+      "sha256": "bf6e566b153e1446da02d100c17fc8b19ad991c15eb873ab75756c3645c78437"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/4433106-e1739938940652.png",
+      "path": "/wp-content/uploads/2025/02/4433106-e1739938940652.png",
+      "bytes": 55784,
+      "sha256": "b5064848ab1f8e22eb9c7fd15928680e9d995278e427439e43b89b18a87843c4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/5.jpg",
+      "path": "/wp-content/uploads/2025/02/5.jpg",
+      "bytes": 4752,
+      "sha256": "fb23cb11e53613b173863a21cf172eefd357cebf8322a96cfee42d0f0afa138e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/5.png",
+      "path": "/wp-content/uploads/2025/02/5.png",
+      "bytes": 37942,
+      "sha256": "8445d40400979ac1e01606e1cd8d67d78a03ef22cef3a6826b55376725d15f9c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-100x100.png",
+      "path": "/wp-content/uploads/2025/02/6-100x100.png",
+      "bytes": 1166,
+      "sha256": "dcbe381f3048cbbcea81afd36ad9db8b9ea38d1ace42e9f3c23303e2b7103a5a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-280x280.png",
+      "path": "/wp-content/uploads/2025/02/6-280x280.png",
+      "bytes": 5897,
+      "sha256": "ed1d042d083fdf910c14bfae84fa0ea3293800a4b48ed45d506aa1eaaa241872"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-400x400.png",
+      "path": "/wp-content/uploads/2025/02/6-400x400.png",
+      "bytes": 11958,
+      "sha256": "e866433971960de3532816c9e0a44bc5efcacda4a6eb09340b9c68abb868b4ee"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-500x500.png",
+      "path": "/wp-content/uploads/2025/02/6-500x500.png",
+      "bytes": 17114,
+      "sha256": "d12782ef9648c50dc42fd4d596540932a6df2258ae65e49e7ed42eca502b5efc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-700x700.png",
+      "path": "/wp-content/uploads/2025/02/6-700x700.png",
+      "bytes": 32694,
+      "sha256": "016da189b985998031090f17bb139d8fde5eaa25067d2b059e9c1f0ea59c3463"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6-768x768.png",
+      "path": "/wp-content/uploads/2025/02/6-768x768.png",
+      "bytes": 38466,
+      "sha256": "8fdec644101b7de8015f6011e092d2f5d46f2fa35bc57a7c7acf2869ab19e861"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6.jpg",
+      "path": "/wp-content/uploads/2025/02/6.jpg",
+      "bytes": 4098,
+      "sha256": "31258262d84ace5b96a5c84b4739cded851be863a27752c033683fb0bed04fec"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/6.png",
+      "path": "/wp-content/uploads/2025/02/6.png",
+      "bytes": 43726,
+      "sha256": "ea189cf43004fb4864f8d3a344817a3854cf934812e259459ac6806a5225dc93"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-100x100.png",
+      "path": "/wp-content/uploads/2025/02/7-100x100.png",
+      "bytes": 1733,
+      "sha256": "d3ba5cebc99d0cd136d9bdbe5fc05833fd8c903fd40ee502c5287165faf76d98"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-280x280.png",
+      "path": "/wp-content/uploads/2025/02/7-280x280.png",
+      "bytes": 8305,
+      "sha256": "1320066e42c959e8b8afa12f03f960ebb106eb407319c53da336645eec6d8661"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-400x400.png",
+      "path": "/wp-content/uploads/2025/02/7-400x400.png",
+      "bytes": 15252,
+      "sha256": "f0c073adb98deb2de1de5ecf1ce4f9ed0f879492660acf91a3417a7c141e8667"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-500x500.png",
+      "path": "/wp-content/uploads/2025/02/7-500x500.png",
+      "bytes": 22496,
+      "sha256": "927bab25143984f02668a301ed57f5adb9a5c0392f54bd708643a38ff162d46d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-700x700.png",
+      "path": "/wp-content/uploads/2025/02/7-700x700.png",
+      "bytes": 38690,
+      "sha256": "7e3ad7e8cc9caa2fca11ac6cf3b9b26507e3a466c5e2339c3684ecdf65b812c4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7-768x768.png",
+      "path": "/wp-content/uploads/2025/02/7-768x768.png",
+      "bytes": 45743,
+      "sha256": "b1a34b4528f7b9e02fce7ebae8bc1741d384716b81e3a83a07e148161b8d4cbb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7.jpg",
+      "path": "/wp-content/uploads/2025/02/7.jpg",
+      "bytes": 5682,
+      "sha256": "86fa305475f2d95050a840ead50b39c77e589de8a68d4c9d6af1a5fe52d82efd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/7.png",
+      "path": "/wp-content/uploads/2025/02/7.png",
+      "bytes": 50855,
+      "sha256": "8bd9563744610c18c6506109bd8075b9b2e6f4c4af35f6f903f64061fe72493d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/8.jpg",
+      "path": "/wp-content/uploads/2025/02/8.jpg",
+      "bytes": 5207,
+      "sha256": "3156ccf4f7ab9648e9a32e846ae98ef5a025dcc1a5ed45b48d8c99a23192a983"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-100x100.png",
+      "path": "/wp-content/uploads/2025/02/9-100x100.png",
+      "bytes": 3417,
+      "sha256": "29c3ba1b0fbf915f827395085680c09b2b68db0082faec26b857bd2ea400bac5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-280x280.png",
+      "path": "/wp-content/uploads/2025/02/9-280x280.png",
+      "bytes": 15872,
+      "sha256": "6ae7845085f313f42e2d584817fa3a9e76db349596910610f0e6c6be9f3f91fc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-400x400.png",
+      "path": "/wp-content/uploads/2025/02/9-400x400.png",
+      "bytes": 28147,
+      "sha256": "256eba43aae64c0b126261e9a5a07c539e128e3cb5c297dc42f60912e26a90f6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-500x500.png",
+      "path": "/wp-content/uploads/2025/02/9-500x500.png",
+      "bytes": 39645,
+      "sha256": "8f3a48250f438cbffcb9549b128a73210cdf4ddc1adda019bf4b0720222aa5e6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-700x700.png",
+      "path": "/wp-content/uploads/2025/02/9-700x700.png",
+      "bytes": 69079,
+      "sha256": "fc7ad0c6d5919040449e62336ce4474eaa251043627cc2f10d6ca35a72e6c3a9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9-768x768.png",
+      "path": "/wp-content/uploads/2025/02/9-768x768.png",
+      "bytes": 81484,
+      "sha256": "5729689545731586d24744bbdd24f8d2d2dcdaa888d899b0d9e526c5e1cc4ce3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9.jpg",
+      "path": "/wp-content/uploads/2025/02/9.jpg",
+      "bytes": 3305,
+      "sha256": "4e5bbd8b2f25f64cdae6152792447b125a7c1c97c9702fa4ad024728408734d9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/9.png",
+      "path": "/wp-content/uploads/2025/02/9.png",
+      "bytes": 89140,
+      "sha256": "e513d73e34b09d99dbc760c2a9ce802d4d278d0f61f51ef34582180a632b36db"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/cropped-logo_62781921-e1739932923445.png",
+      "path": "/wp-content/uploads/2025/02/cropped-logo_62781921-e1739932923445.png",
+      "bytes": 14922,
+      "sha256": "101da54b41d9e65b5e5a9e244e9b367dfa9ab988a12f004b519490c636c0490d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon1.png",
+      "path": "/wp-content/uploads/2025/02/icon1.png",
+      "bytes": 2593,
+      "sha256": "cc2fcd35eeec03f7c0f983d3564cfe6c49ea178f42e481364fab3396c69aa55f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon2.png",
+      "path": "/wp-content/uploads/2025/02/icon2.png",
+      "bytes": 2889,
+      "sha256": "7b8619a1c17387277cfa701b4e3b4e42b5b75e7ead4387e6cbedb83ad97c1ab5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon3.png",
+      "path": "/wp-content/uploads/2025/02/icon3.png",
+      "bytes": 2995,
+      "sha256": "dca24eb4dad21258ed290b4934485ba8a3a3e721640a355ea4af5ca3ff2d99eb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon4.png",
+      "path": "/wp-content/uploads/2025/02/icon4.png",
+      "bytes": 3094,
+      "sha256": "0a92fcd97f82cbbb32ecae41ee4fc414af3e6da603157ab042f2d2437262a9d5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon5.png",
+      "path": "/wp-content/uploads/2025/02/icon5.png",
+      "bytes": 3297,
+      "sha256": "827ca3b59bc8d2406288d7f7bc47a27bc612eb00f667833fe12cc7a09162c7d5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/icon6.png",
+      "path": "/wp-content/uploads/2025/02/icon6.png",
+      "bytes": 4154,
+      "sha256": "4fc36b4aba0587bf5680836f2a9ee3e6d16299c001ab62e3c88c9bc44239e955"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/logo_62781921-e1739932923445.png",
+      "path": "/wp-content/uploads/2025/02/logo_62781921-e1739932923445.png",
+      "bytes": 3476,
+      "sha256": "4e25992420c25d09f25e9d9e0b91f8c1c39972459383ff0a5a2300f69417779e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/title_center.png",
+      "path": "/wp-content/uploads/2025/02/title_center.png",
+      "bytes": 209,
+      "sha256": "86685b03f695d8d31b66a54f4b950a7b247d0f03b8e60057c5db3f7686ca0a12"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/02/tuyen-dung.png",
+      "path": "/wp-content/uploads/2025/02/tuyen-dung.png",
+      "bytes": 11883,
+      "sha256": "4a297eb14ee0b0cef6518944748aaeaffbc83afe60370b814e313a2513ce7c46"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-1-scaled.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-1-scaled.jpg",
+      "bytes": 348179,
+      "sha256": "361a98c69207886803599b64629d7f7f381a7d8d387cd297993335a2619498ad"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-1200x800.jpg",
+      "bytes": 107126,
+      "sha256": "b3215d0c57754e2ff410ff1ab02abc3262cc42ee3e2ad8d7f005c6fa5dda1343"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-1536x1024.jpg",
+      "bytes": 157857,
+      "sha256": "52f7f7673609634e583193913c5288a1915a6b189a14a0c854cb2e3068d41259"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-2-scaled.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-2-scaled.jpg",
+      "bytes": 348179,
+      "sha256": "361a98c69207886803599b64629d7f7f381a7d8d387cd297993335a2619498ad"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-2048x1365.jpg",
+      "bytes": 245761,
+      "sha256": "c75824e34b5448fe6cb9cea9ae4902fb7564864319eedae8ad25f726b77d276b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-600x400.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-600x400.jpg",
+      "bytes": 35614,
+      "sha256": "db4e72b6c64ddd829832adf1661caafa3adc24a2a3ddf07d9dd637ef7cc13bc6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-700x467.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-700x467.jpg",
+      "bytes": 46267,
+      "sha256": "73eddff5cea7c7152862b488fbb73808c461c8ba4f1d855aa88686371211540f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-768x512.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-768x512.jpg",
+      "bytes": 53016,
+      "sha256": "54512af132c41ed6774e3d034894fbb61c9f824b8848efc5b74015f66fdeeb77"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5210-scaled.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5210-scaled.jpg",
+      "bytes": 348179,
+      "sha256": "361a98c69207886803599b64629d7f7f381a7d8d387cd297993335a2619498ad"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-1200x800.jpg",
+      "bytes": 37565,
+      "sha256": "805034b01367ed00cd31bcbe6b11d1e56d6f6d556c8db65763f537f6aaacac1a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-1536x1024.jpg",
+      "bytes": 56200,
+      "sha256": "7d03c6df0a3a66b13de27c4cf743f59648ec1ff7a73757d1659df16a50acdaac"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-2048x1365.jpg",
+      "bytes": 90207,
+      "sha256": "cdc1119fbd2b19de84ce3650819ea1222be1638a17c5096b5245c92f8770c09c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-600x400.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-600x400.jpg",
+      "bytes": 12508,
+      "sha256": "1029564f629ded1f97ff491ff2cdb85c74946dc914c1d8781bb5192b7cd0adfb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-700x467.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-700x467.jpg",
+      "bytes": 16279,
+      "sha256": "fa0d0c293f0fbd4bba03156462e712b512a32f3935b4e51627178f449c4a1c89"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-768x512.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-768x512.jpg",
+      "bytes": 18614,
+      "sha256": "0b5f4944f00d979ca61626a19299483ee0b23a4296e8df60a0fb7fe347286594"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/032A5350-scaled.jpg",
+      "path": "/wp-content/uploads/2025/03/032A5350-scaled.jpg",
+      "bytes": 132554,
+      "sha256": "b2e1ed3fe4f915d0c363a88b9314d329461e9b21f64b0f843cc93602e8801d5e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/42525467_237453466936095_7509081367309713408_n.jpg",
+      "path": "/wp-content/uploads/2025/03/42525467_237453466936095_7509081367309713408_n.jpg",
+      "bytes": 44033,
+      "sha256": "bd672a6b1f2586c146bafbadb19ed4321caae532f8e0e8dd7881ca0f1f3c4846"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hinh-1-4-527x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hinh-1-4-527x400.jpg",
+      "bytes": 19009,
+      "sha256": "6b8afa8782815f188b39f6c36e9de561141f82928e855cbdf76f392982eb3a97"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hinh-1-4.jpg",
+      "path": "/wp-content/uploads/2025/03/hinh-1-4.jpg",
+      "bytes": 26050,
+      "sha256": "ea4aca6af60f20d92d05815646e7de5c109210385623e4bbdc8a73028431560a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-carton-536x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-carton-536x400.jpg",
+      "bytes": 19646,
+      "sha256": "f83d2336cc40f7cabba01d58acb2299913bedbe3900eacc7610bad06e5a0c6eb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-carton.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-carton.jpg",
+      "bytes": 23089,
+      "sha256": "8116f6e8b90f2cd10131981dd54516a295bf51bd06f3b774833a3cb9d0e73a27"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-cung-13-669x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-cung-13-669x400.jpg",
+      "bytes": 22165,
+      "sha256": "63e9424ce057a7e376fae6d747bece658bcf72864a0949bcad5d0fc295c31290"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-cung-13-700x418.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-cung-13-700x418.jpg",
+      "bytes": 24047,
+      "sha256": "7e1ccf05d946a16f97b5d431c0fff72db6b82c982cc6f3eafbb05ea5ff3be326"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-cung-13-768x459.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-cung-13-768x459.jpg",
+      "bytes": 27364,
+      "sha256": "7d4ca0b5f4c1c7873a3cb9d2d2853321edfe2b42ea058953bd84cf9749414247"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-cung-13.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-cung-13.jpg",
+      "bytes": 31097,
+      "sha256": "ca3febef3f39a4449138f94a0c0cb784ea855104ff8a6020352a28e50aae96a6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-2-653x400.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-2-653x400.png",
+      "bytes": 75256,
+      "sha256": "5244d8568af2cb3c10f3be356dbbf014b4d7e945fd58072cd59eb48be56a8343"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-2-700x429.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-2-700x429.png",
+      "bytes": 82920,
+      "sha256": "663818adeb691d8275ce85b32e6814d9573ad86f2ec41e597528dfd963694f73"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-2-768x470.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-2-768x470.png",
+      "bytes": 99978,
+      "sha256": "808f244c9fa09cfcee57cd825de1e80046ee670d93bdb5ead3fe7f5bb7dceacb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-2.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-2.png",
+      "bytes": 285049,
+      "sha256": "81889c5ee2a71a5202c00cdc1370846a35f87f593d1dead83badd20d2d168c18"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-100x100.jpg",
+      "bytes": 1911,
+      "sha256": "9fd1be8b6e980197dd6beeafdfcc90bc5d6f432e1e04ddb55b0f8a1999ebc6cc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-280x280.jpg",
+      "bytes": 8232,
+      "sha256": "3e9e6b21482c8d8294644c95136fb271a9341f664cc67b7b57fd6b76c14c1bac"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-400x400.jpg",
+      "bytes": 14899,
+      "sha256": "4a9cfc5b3943372a0b9f7d7f6a8543b45706cb12ac02ee645e3722bcff331ca4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-500x500.jpg",
+      "bytes": 20667,
+      "sha256": "ad1a1e16a660d3427a66b3bb244c48786a9470886284590fec4d9770b81d9770"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-700x700.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-700x700.jpg",
+      "bytes": 34214,
+      "sha256": "f8a383f3d393352bfe6c56c4a3c03783c63bc1b61ac2a9fae77f65d503c1ab1b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4-768x768.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4-768x768.jpg",
+      "bytes": 38962,
+      "sha256": "0a9d60e3ab0941a02d725af323eaaee6fbec14a0736a4e181b93fdc64329d6eb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-4.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-4.jpg",
+      "bytes": 47037,
+      "sha256": "3f10fa1f740e8f6caa5ce45e6a0a455dfd868ca959b032891f5c1f2c76419884"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-7-480x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-7-480x400.jpg",
+      "bytes": 20752,
+      "sha256": "e8b838bb1bed1e945311171050ef2b2cba69eff3477686e715a67dab17272d73"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-7-700x583.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-7-700x583.jpg",
+      "bytes": 38182,
+      "sha256": "799a0828f7bb45ac22c4ce91076333f17bd869d9bd3587b8e06e7969457d0531"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-7-768x639.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-7-768x639.jpg",
+      "bytes": 43921,
+      "sha256": "94531e95dbdea97c7c7ef0f74f1a124e0f824e5e3a73a0121e268ae5e562994a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-7.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-7.jpg",
+      "bytes": 50990,
+      "sha256": "658278452b11710d7dab89489bc5f658fdc7cd209918568029f4ac5b42ce00bc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8-1231x800.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8-1231x800.jpg",
+      "bytes": 90997,
+      "sha256": "d6a75d15a613e10ab91199d39a707f917b5bb2c5853bfb51191cdf26e5d090a0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8-1536x998.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8-1536x998.jpg",
+      "bytes": 125590,
+      "sha256": "9b1a761c31386c724ef9384c5ebeb7e8c958a988b76c25864d89dcf1cbd8ad4d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8-615x400.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8-615x400.jpg",
+      "bytes": 30652,
+      "sha256": "3bfb926d90b1c9a9390b86b5165078ad08569aeb139189a8db18b172a4864c08"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8-700x455.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8-700x455.jpg",
+      "bytes": 37681,
+      "sha256": "f8a4f86807f7a568a7dcb72d54d43b9d606307b84e28c836c1dca20f82deb105"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8-768x499.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8-768x499.jpg",
+      "bytes": 43894,
+      "sha256": "a2482e04b6ab0e4ee52c80f99adfa955b472400014c77f3ccbad0aaa595baba2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-8.jpg",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-8.jpg",
+      "bytes": 113318,
+      "sha256": "971d5e502b06feec7572c437a5259ac6cc00d8fd019dc7c09e51b206f00bdd26"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-avatar-100x100.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-avatar-100x100.png",
+      "bytes": 3476,
+      "sha256": "530ea09c97a77e018fd8bee820d34ed0de815cb2fb04b315f334abfe8800c7a9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-avatar-280x280.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-avatar-280x280.png",
+      "bytes": 15583,
+      "sha256": "683178ac97942c3aa2d0c515f5d2ebe1856ec03214db088c89efe9a3ae95cdd0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-avatar-400x400.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-avatar-400x400.png",
+      "bytes": 29078,
+      "sha256": "191d204b7b5d2f33d2285b319254699cc899b03b6353956664f835064d6dc23e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-avatar-500x500.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-avatar-500x500.png",
+      "bytes": 43202,
+      "sha256": "445cc2accb790c0e3de93dc949a1359a8f546f6809a29eec7a61bcbea4fc6fa9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/hop-giay-mem-avatar.png",
+      "path": "/wp-content/uploads/2025/03/hop-giay-mem-avatar.png",
+      "bytes": 52176,
+      "sha256": "46d9dbae2d10df137e2fe408c8967f0e6c1dfaf53b10fa55fd94060c20206627"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-catalogue-so-luong-it-3.jpg",
+      "path": "/wp-content/uploads/2025/03/in-catalogue-so-luong-it-3.jpg",
+      "bytes": 33861,
+      "sha256": "cc08dc17047d6d6712bbdc32e39a33de50ab60bc9e0aa1971854aeb2ba4216b9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-4.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-4.jpg",
+      "bytes": 8707,
+      "sha256": "136453e5419bfdd89862b000750c1e5bcf5e4bac848c85599ba9fa987930b520"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-100x100.jpg",
+      "bytes": 1409,
+      "sha256": "8c4cff38ee69dea6903b6061b277e349c8a7a8b589eaeaf798b58b5c90635951"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-280x280.jpg",
+      "bytes": 4973,
+      "sha256": "f6a61e48301dbcbf05bc3752e720a00f30944c6a81da60c9d94e1dda2a621e37"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-400x400.jpg",
+      "bytes": 8360,
+      "sha256": "a351c5c42836d1a548c732a624fe6112900d7a1060a84015399aa38fce94e566"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-500x500.jpg",
+      "bytes": 11320,
+      "sha256": "70dd74874bb374219f6244abcb586a15aca4ba73f0d7a04b2726ac26a19393e2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-700x700.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-700x700.jpg",
+      "bytes": 17981,
+      "sha256": "1a57b23f828ed8cf2abd6f582b30c82488039b45018684cfc08335a242381a30"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-768x768.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau-768x768.jpg",
+      "bytes": 20380,
+      "sha256": "8832e0ac6b51ac498fb4ee480106a157435c4ac3b0646a0a84484d8854d82777"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau.jpg",
+      "bytes": 21951,
+      "sha256": "6bb77b1c05cf097731dc148db0f1f014a2d429084149b84ee09e034c9243fb50"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-100x100.jpg",
+      "bytes": 2291,
+      "sha256": "06ad8f7469c3c4a52f971b5825bd152bdd7372628f784d2e2c8ab5d05047d2b1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-280x280.jpg",
+      "bytes": 8954,
+      "sha256": "417d11738bfce53aaa2e459a09f7a644cf19483fe6adde45be412fd96352e592"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-400x400.jpg",
+      "bytes": 14389,
+      "sha256": "5f33b0175503bac8e54884d2550d59e46a669f5e813fd971f8f7fd825cd84006"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10-500x500.jpg",
+      "bytes": 19681,
+      "sha256": "8357fc763fddbc746e975f961849a69d09901150ad0eccaf0297bc63bb3835d5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10.jpg",
+      "bytes": 30477,
+      "sha256": "fa042af6b3e41432b366764f6fba19ea1ced36b0c90ee73d416101b9aa0ec888"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-100x100.jpg",
+      "bytes": 2617,
+      "sha256": "3d9c3ffb55c9eabf30922869e2079a4c272bbab98d570ab8515342a2d1899948"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-280x280.jpg",
+      "bytes": 10606,
+      "sha256": "97bf38e2060be3b935548a8816d9c374e63db73a6145a2ba59e3d0dc02bda28c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-400x400.jpg",
+      "bytes": 17637,
+      "sha256": "95c3b9ff1ee2e6099a2043a7c37e0959ad9b32a24642b71c50db04fe8798a6f2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-500x500.jpg",
+      "bytes": 23492,
+      "sha256": "8c72620b91513882afe692a05568b17748fbfd4f8d2e46b6bc334e0cac276625"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-700x700.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-700x700.jpg",
+      "bytes": 37513,
+      "sha256": "fbcfdc34b7f77d5981118b0b7e13fccb42e541d9eb2caa4db889d917f5d9a692"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra-768x768.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra-768x768.jpg",
+      "bytes": 42789,
+      "sha256": "53bbac4da38226dcfe8cf0f9169dd6dd6f9c8439f544f1211cd7fb6f8729c5da"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-cung-dung-tra.jpg",
+      "path": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra.jpg",
+      "bytes": 45863,
+      "sha256": "6e483c9e1c658f6db2b7dea6773504fb6de3f1ddd3b649121de18219c7bd3565"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-100x100.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-100x100.png",
+      "bytes": 3190,
+      "sha256": "c42ffe3c5722269b05de3ba764d5da591f3c7b8015409397e1dfa45a02398d64"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-280x280.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-280x280.png",
+      "bytes": 16797,
+      "sha256": "7f0567bfec698933d82072129cf34d2e6f829fc509489f2ba3998f8be5f937ab"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-400x400.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-400x400.png",
+      "bytes": 31412,
+      "sha256": "da10940e239f43de4459c8da02915e2bf3ea3f57a784107b966d664c84efca1c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-500x500.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-500x500.png",
+      "bytes": 48633,
+      "sha256": "7575aae334c1cb5ccc636a0976d478261249b1b48810a8719f8f754488cd4f10"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-700x700.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-700x700.png",
+      "bytes": 89705,
+      "sha256": "277ac7def57dfb4ed3911f1ad25a927415807466264fc9a6d8b3d9f300dc36ad"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-768x768.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-768x768.png",
+      "bytes": 94653,
+      "sha256": "87d0d1f4531e1decd7ccad84369bee21ee0ed7586a43d9ec6b1382a4720d3781"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-800x800.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7-800x800.png",
+      "bytes": 112084,
+      "sha256": "66034b510985ea2b18a3e9287b5b2f25743b0c3db974363cfbdabd146d1697d8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7.png",
+      "path": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7.png",
+      "bytes": 173731,
+      "sha256": "7ec7d9918e8e1b220be29874f9096478cb51bdba9e67110df9b4ce105182d8bd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-nhan-decal-giay-27-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27-100x100.jpg",
+      "bytes": 3277,
+      "sha256": "3ed529d82d2507e9372f1ae3b3eb9a83a682aa38e9d9bd4a73ca7d92189e23e9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-nhan-decal-giay-27-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27-280x280.jpg",
+      "bytes": 19613,
+      "sha256": "da17c8158c222e9f77750b8141607f22207a39da920bc10b61fdb50c4f697dca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-nhan-decal-giay-27-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27-400x400.jpg",
+      "bytes": 36246,
+      "sha256": "30825176e60c3b0a20d8a41d14d0eb2b48f8e4553aa3bf897173ce7c2558d8c3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-nhan-decal-giay-27-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27-500x500.jpg",
+      "bytes": 53268,
+      "sha256": "2218ad91da1b939498f09d9641c760aba95b0e0e8d84ae669950fe3aa2d4cf5e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-nhan-decal-giay-27.jpg",
+      "path": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27.jpg",
+      "bytes": 69976,
+      "sha256": "922a60c8794fbe876c5cf7f64f46c9fa96a5c87a14f2af580a0909449275f084"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-thung-carton-1-608x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-thung-carton-1-608x400.jpg",
+      "bytes": 12587,
+      "sha256": "a6cc6295df8d7c87fa6c33bbb78cca904c0eb82e31cf9f9237d3011ef3185deb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-thung-carton-1-700x460.jpg",
+      "path": "/wp-content/uploads/2025/03/in-thung-carton-1-700x460.jpg",
+      "bytes": 16189,
+      "sha256": "ccbe4a481c7fed00853f87582333208e2a3e90b66934743c4e28276bdb51b9ab"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-thung-carton-1-768x505.jpg",
+      "path": "/wp-content/uploads/2025/03/in-thung-carton-1-768x505.jpg",
+      "bytes": 18904,
+      "sha256": "cfdf7972edb5799d23d77cb5abd376c917d77a4583f982116172eaad759dc1f0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-thung-carton-1.jpg",
+      "path": "/wp-content/uploads/2025/03/in-thung-carton-1.jpg",
+      "bytes": 19600,
+      "sha256": "19303f2f02df55129b4a38a79a2c00dee954eeda921ae475e5f358e5a4fa942c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-100x100.jpg",
+      "bytes": 1854,
+      "sha256": "0757576f1a3b3d4942f47e5f96ad429f5ff8cdb4b5f2698a57f48fb887db111d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-280x280.jpg",
+      "bytes": 6777,
+      "sha256": "8403ab96e0d1e56b332abf9c6aad933aa3159b9e2ae505ba33ea5a019da0d147"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-400x400.jpg",
+      "bytes": 11540,
+      "sha256": "e9e898cf835a8aeb16d7ea6ad85a8aeac9062225654ef892228523a48d4d8d11"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-500x500.jpg",
+      "bytes": 15628,
+      "sha256": "4d662f2579c182fe5183cf6bcdd82387bd3c675eff013a1855d09646144084e4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-700x700.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-700x700.jpg",
+      "bytes": 25323,
+      "sha256": "d30ca21bf19928a0242dba25b8db2ce2731b8c4ab2c96cee39a476a1fe79599c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-768x768.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re-768x768.jpg",
+      "bytes": 28560,
+      "sha256": "4719426d57ceb4861eca2aaaf61c4ec4ee277b04fb388283baa2c2abdd30c10e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re.jpg",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re.jpg",
+      "bytes": 29326,
+      "sha256": "54d09a037191a225d7d178a32e0069ef5c88e0430f8cb1878649a66d309d7db3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-100x100.png",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-100x100.png",
+      "bytes": 2850,
+      "sha256": "1337bc230c15cf9b565fb9cd704fd182a182e3bbbf25992ce791242cde43b60c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-280x280.png",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-280x280.png",
+      "bytes": 14951,
+      "sha256": "0852c1b7700c6f6caf7ca5739dac16385958a41c08b26c0bae085e711749e796"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-400x400.png",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-400x400.png",
+      "bytes": 27111,
+      "sha256": "bda816d33becdcebea0cc05ad36c5fcb83cc089072716fed6e10c72a96c2ebf1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-500x500.png",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1-500x500.png",
+      "bytes": 40798,
+      "sha256": "bf625d274bac10de530f2fbaa677ae57cab241bdcfbf3a6ca58b33047292fc22"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1.png",
+      "path": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1.png",
+      "bytes": 56909,
+      "sha256": "2d4b1c432c5cf8fd78b5a75b1fce4f93bb3f5a63a0bae5fa6b94bbcf73f4d5e1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/m1.jpg",
+      "path": "/wp-content/uploads/2025/03/m1.jpg",
+      "bytes": 31473,
+      "sha256": "8413e96f55af2eb50c8c3179ede9aaedcc4e458143d19a71755bc7d691e5f4b3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-100x100.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-100x100.jpg",
+      "bytes": 1272,
+      "sha256": "0ddcf79485cf3350526336ef34b9a43b04bed452ad3250e910243ae073278949"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-280x280.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-280x280.jpg",
+      "bytes": 5108,
+      "sha256": "bdab09e1c04a18719e23dd937b0be0e81add0f7f1f131f29839a4cfd8832f430"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-400x400.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-400x400.jpg",
+      "bytes": 9428,
+      "sha256": "3a4480bf472e1639dcd108cb7a694f15dce866c6926e8f0fb5db1023bab4cdb9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-500x500.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-500x500.jpg",
+      "bytes": 14849,
+      "sha256": "08faba9de213a8affee13ae01af76b9a7045d1a96e1103da029776c56628d509"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-700x700.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-700x700.jpg",
+      "bytes": 32251,
+      "sha256": "518a5ea45bf0e8bb09e9d8ca74235f8d0781781b375c40d5b4bebc5d6e681cb6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-768x768.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-768x768.jpg",
+      "bytes": 39364,
+      "sha256": "2b920cd0e50cd6004dec4552f1184c39d807281c18373e322d1afebf94f3b451"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-800x800.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447-800x800.jpg",
+      "bytes": 43561,
+      "sha256": "f136d71e18d4c74c21fb53d0fcffe154d34c6dbabdc6fcf0e9a5ca9430af5389"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447.jpg",
+      "path": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447.jpg",
+      "bytes": 81480,
+      "sha256": "ac78e06a40e2af89d9ef818ecdd872f2cfb0a4d5a3e12ee3d922278d5b3b7616"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/thung-carton-nong-san-533x400.png",
+      "path": "/wp-content/uploads/2025/03/thung-carton-nong-san-533x400.png",
+      "bytes": 62199,
+      "sha256": "dfbf870b59efa0baf840ee99ff8f82f7eb66e2ee28c738ca61d449a1b96135de"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/thung-carton-nong-san-700x525.png",
+      "path": "/wp-content/uploads/2025/03/thung-carton-nong-san-700x525.png",
+      "bytes": 97672,
+      "sha256": "e33f23adda5418c72d7de2100a1eea1639910f5b7963b5e163831bfedbbc243d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/thung-carton-nong-san-768x576.png",
+      "path": "/wp-content/uploads/2025/03/thung-carton-nong-san-768x576.png",
+      "bytes": 113640,
+      "sha256": "3b99b856d2ff3c09fdae67df50ea02b5bfa587cdce4a5ae91362fc55e61e4f54"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/thung-carton-nong-san.png",
+      "path": "/wp-content/uploads/2025/03/thung-carton-nong-san.png",
+      "bytes": 126153,
+      "sha256": "6f015163092d4b1fdd247a746c1935c017fe6f4aa611d3eea213bad5153509f4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-1200x800.jpg",
+      "bytes": 23303,
+      "sha256": "f9f7513821e54b72a0691df5dba8300abfad6131935758cd6fa27514d3c1909f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-1536x1024.jpg",
+      "bytes": 35040,
+      "sha256": "01dd2aebba48650eb2f5292fa479f2d51c6313fccf6d239c73869b8fb5170cd0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-2048x1366.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-2048x1366.jpg",
+      "bytes": 55041,
+      "sha256": "163031ac7912262f1ead1ec5cdff0b472125da61cd928f1829c022624cf285f5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-600x400.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-600x400.jpg",
+      "bytes": 8335,
+      "sha256": "f8a20fab8ccbc5a6e6d2dc563244d8cb2a056bf7d68e16e08d02b12733508982"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-700x467.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-700x467.jpg",
+      "bytes": 10358,
+      "sha256": "2813166c967e0feca66a17f39b047cf1e7158a389d51ca21cdeffd08da9c2398"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1-768x512.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1-768x512.jpg",
+      "bytes": 11854,
+      "sha256": "1cf5abb23b7823af52273e5713a3fe21adb88ec111da7db5c422fd0e89201aa5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/TuiGiay-scaled-1.jpg",
+      "path": "/wp-content/uploads/2025/03/TuiGiay-scaled-1.jpg",
+      "bytes": 78706,
+      "sha256": "76efac66da149d0f4a2e4d2a0f75dd79edad0510f08b530b956d5273f9ed8b56"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/unnamed-495x400.jpg",
+      "path": "/wp-content/uploads/2025/03/unnamed-495x400.jpg",
+      "bytes": 14021,
+      "sha256": "2d532186fadac42edf19c7fd304436e4ed51df333e94214f5fbf50514999c7e1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/unnamed.jpg",
+      "path": "/wp-content/uploads/2025/03/unnamed.jpg",
+      "bytes": 15367,
+      "sha256": "385713dd6701b1df584298651193f55e927a072240be1c8bafa9adf36bf7a00a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/Untitled-123-483x400.png",
+      "path": "/wp-content/uploads/2025/03/Untitled-123-483x400.png",
+      "bytes": 77956,
+      "sha256": "f5339879a391830d3609f16872b01e762d41d3f0f4ab553550184cacd8b53bea"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/Untitled-123-700x580.png",
+      "path": "/wp-content/uploads/2025/03/Untitled-123-700x580.png",
+      "bytes": 145409,
+      "sha256": "6a29b71e567954f37aceb03bde221c4a90c0398f05688b800c05c576956d7e77"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/Untitled-123-768x637.png",
+      "path": "/wp-content/uploads/2025/03/Untitled-123-768x637.png",
+      "bytes": 172375,
+      "sha256": "bc37905da546bfde268f2eacba42a33345dc4159325dcd077915cf9e37fbdf53"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/Untitled-123.png",
+      "path": "/wp-content/uploads/2025/03/Untitled-123.png",
+      "bytes": 234230,
+      "sha256": "b95213f007c1f3509733c494deec287a7f7b11a864f4837d250a2bd8c2bd7452"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-1067x800.jpg",
+      "path": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-1067x800.jpg",
+      "bytes": 29185,
+      "sha256": "0cf720a524fe624b9183c6a4c9ceebe58d326361a2015191c063cac22bf9a28a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-533x400.jpg",
+      "path": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-533x400.jpg",
+      "bytes": 10696,
+      "sha256": "e3a30c25767cb9bd4bade8203b26bf711b0b8f9c81c2732fc518153eb6131d32"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-700x525.jpg",
+      "path": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-700x525.jpg",
+      "bytes": 16199,
+      "sha256": "9325d28e8c9c0c278491fe513fac504869c79a33ea5b9fd1765a717349ea40a4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-768x576.jpg",
+      "path": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650-768x576.jpg",
+      "bytes": 18437,
+      "sha256": "39285e418556ac502bed4d3601ed4e83ec7e9d4262de31d84d9148504e271fab"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650.jpg",
+      "path": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650.jpg",
+      "bytes": 23265,
+      "sha256": "f1a252cb702d1ad2898a4312dce7f3b964305f65cb65b0e2c55be8bf5dff51ca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4949-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4949-scaled.jpg",
+      "bytes": 257893,
+      "sha256": "029d4ae9130424c8c12f3c8d86cfd58910799e3901690844b8757e474462c1d1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-1200x800.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-1200x800.jpg",
+      "bytes": 88058,
+      "sha256": "dc1d3248cd5c19bcac690532c38f4376c19a7497f0a8278a070b2ff04460562a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-1536x1024.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-1536x1024.jpg",
+      "bytes": 126239,
+      "sha256": "d2c6ec06fc4c19f67ae3c084cd311f2d2ba6e4212c5b8da386f348aa829b672b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-2048x1365.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-2048x1365.jpg",
+      "bytes": 192134,
+      "sha256": "0fd3c96ac8ca57bd760360ac2fb40228bd1e1ee98b0dbea3c2f594378f042970"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-600x400.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-600x400.jpg",
+      "bytes": 32555,
+      "sha256": "b2faa0bcc02148e6e63095a1abe653344384228b3bdc5dd66644def514d8b78c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-700x467.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-700x467.jpg",
+      "bytes": 41082,
+      "sha256": "307256d9a6703693789edf5976e68e0fffe4866f6f8efd39756fd7df8d66bfb0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-768x512.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-768x512.jpg",
+      "bytes": 46550,
+      "sha256": "907ad11ba89a0543ee8eb3316e42e3e991877683e36d167b4a0e653111678984"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A4958-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A4958-scaled.jpg",
+      "bytes": 265555,
+      "sha256": "18ae31df31a4a424f44dfb9aeabfd17e9b557a4822e2e2127941c69f969e986f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5244-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5244-scaled.jpg",
+      "bytes": 166350,
+      "sha256": "a4ba3c7dbae402fd14696ce29fd24502451f505e58780b49552e0c9929c3c97f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5248-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5248-scaled.jpg",
+      "bytes": 190306,
+      "sha256": "af86c9d2e268d3eeb22cf31f62a5c901c97492c431de3f7779d7fa3f6dfc0eca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5249-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5249-scaled.jpg",
+      "bytes": 209807,
+      "sha256": "557ac4f2f5576944c6954e95c123db14e2b1a450f34f897a844438d4dd68cfaf"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5255-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5255-scaled.jpg",
+      "bytes": 92765,
+      "sha256": "e781a79c33fc49da3fd80051345d7747a26fb4a589caae7be8d56e015c350ba2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5257-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5257-scaled.jpg",
+      "bytes": 176037,
+      "sha256": "58bf099d21c0329bf4ca2ed0d97b158aafee2b507208da98bd353e047194030b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5267-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5267-scaled.jpg",
+      "bytes": 125261,
+      "sha256": "168d5709a501a457ff95b6ecbf9f55b0e16b39c97ce87a5db68762249016c88a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5268-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5268-scaled.jpg",
+      "bytes": 148353,
+      "sha256": "2744c0dfbcd9b74b18864fe8f98d79d77b3297ba3b92745ceae120a0682e19b7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5280-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5280-scaled.jpg",
+      "bytes": 109313,
+      "sha256": "5acbc8399ed119d8ed8a3b0b91f2d3e6c9ad9ce4b586b5a52a25deeb2130734d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5283-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5283-scaled.jpg",
+      "bytes": 218662,
+      "sha256": "29e91a529c4efaf66485cf180fcafbb75b6bd9a05cfe344e2c940b07e77be20c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5292-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5292-scaled.jpg",
+      "bytes": 106215,
+      "sha256": "955d2fb62386fc87f9ab9bf9d6de0528a7e80ac218ef3e1ce3b5f2bb73c20524"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5307-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5307-scaled.jpg",
+      "bytes": 181603,
+      "sha256": "32bda9cc3e572094d4996cf9bc5b36bca0afa9727e0ce69fa2a6603c73e49c7e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5308-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5308-scaled.jpg",
+      "bytes": 73619,
+      "sha256": "62a0c7c2a0d94a130ed717aea2bc32877755b30eda4cfb91601de969a2c41862"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5309-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5309-scaled.jpg",
+      "bytes": 100355,
+      "sha256": "faba212cd22225a9f8d3cded04d6a4d953a2cac9f38aba99fa8a9ea574c33366"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5312-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5312-scaled.jpg",
+      "bytes": 162936,
+      "sha256": "c601e72e1d964af773e2d85b7371c9d5c93cb6f8173ff28595961dbb3298e4fc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5315-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5315-scaled.jpg",
+      "bytes": 114030,
+      "sha256": "9adcc9e0ad5ddb5968d1efc21f420cfc26c3b1fe56cd1bb4e84c9442e206508a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5316-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5316-scaled.jpg",
+      "bytes": 90486,
+      "sha256": "702f5b05796284c055af06fc9233145a6a14b8a435423a5a6da206c6e9773915"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5320-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5320-scaled.jpg",
+      "bytes": 110535,
+      "sha256": "c0692e66d72d271ed41fbf666c23bdfae9932e6a40383cc35c4177028447deba"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5323-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5323-scaled.jpg",
+      "bytes": 270533,
+      "sha256": "029372416505751a89b30646b80905700b5f553e3b5d94b08b463f191da435a7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5325-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5325-scaled.jpg",
+      "bytes": 257339,
+      "sha256": "7f630e7e52fd387c5a3cde7ea9a4f0d830b1603bc99c1d0527de52e90d17f320"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5326-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5326-scaled.jpg",
+      "bytes": 139250,
+      "sha256": "8ee4adb12fe5b5db3a7be9a80af607868bcfbd8ad84781c8e4c1d24c381f3c3e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5328-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5328-scaled.jpg",
+      "bytes": 271239,
+      "sha256": "19561952ba2e070d007a2169584fdcd59b0925b69bd701eedf80d400624da58c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5331-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5331-scaled.jpg",
+      "bytes": 71910,
+      "sha256": "f6b305ec9cdd03998955fc5fc2d5d5314c05a18fdea03496f1f2a9c129a1d055"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5333-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5333-scaled.jpg",
+      "bytes": 181080,
+      "sha256": "b58609bfad7e174e62796f129e020be83846d3b73781ef124723f31a688b6b2e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5337-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5337-scaled.jpg",
+      "bytes": 181296,
+      "sha256": "9464c72cdf8a85d12ab9cf5128d87fbf46b09d21b863e663339ddc9d92feb261"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5342-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5342-scaled.jpg",
+      "bytes": 113979,
+      "sha256": "8be80ea1ebf81c4227440dde033cb708ca6d095b1f62eb4f10f7d4c6e1cdc5b4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5355-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5355-scaled.jpg",
+      "bytes": 73338,
+      "sha256": "493f66ef604aed5714e8072cf31739fce4580c288a2400e3d6680df3697d288d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5356-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5356-scaled.jpg",
+      "bytes": 226015,
+      "sha256": "876e466ee9c642539cabf2d84223a627b450855016e06493a4791946fed51db6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5357-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5357-scaled.jpg",
+      "bytes": 69786,
+      "sha256": "8ce8ba1eb3898e3c951ea90a9844e38099c852590707c6e4658a6638f6af59d1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5363-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5363-scaled.jpg",
+      "bytes": 104948,
+      "sha256": "e2f9de426a74c2a887aed708d0a4ec29892874be710ef9dbd9d0f4dc55ef01b6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5364-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5364-scaled.jpg",
+      "bytes": 143753,
+      "sha256": "c385a36822360dbce784df8d56d605cff132dc3a99ae23a9209d37327fb15995"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5365-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5365-scaled.jpg",
+      "bytes": 129316,
+      "sha256": "75ec80842206c1b984f2a9fc2278bc17fa85428a632f5d713617483a1e9a67b4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/032A5367-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/032A5367-scaled.jpg",
+      "bytes": 154940,
+      "sha256": "8af54b4d07ff0fe4971ca14d6b432e26802f8697307cd41bc0c9f3b7749c2e6e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-126761872121-700x275.png",
+      "path": "/wp-content/uploads/2025/04/banner-126761872121-700x275.png",
+      "bytes": 106789,
+      "sha256": "ff53b9728ab9d1fa24c729b0e419fa5ceef8872ea6517f9bd35a06825b5a1b8f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-126761872121-768x302.png",
+      "path": "/wp-content/uploads/2025/04/banner-126761872121-768x302.png",
+      "bytes": 125180,
+      "sha256": "c3756691ab34f862408f5783f85059b3aa99afcdbffd0d50dff55ac7f7f7b3af"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-126761872121-800x314.png",
+      "path": "/wp-content/uploads/2025/04/banner-126761872121-800x314.png",
+      "bytes": 133797,
+      "sha256": "30dc22d8089cab0721e1fb898ff46d69324ee7bf666fbf86ddb4dd8aa64aa3ca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-126761872121.png",
+      "path": "/wp-content/uploads/2025/04/banner-126761872121.png",
+      "bytes": 357776,
+      "sha256": "4adc7fa2260748f69d82281cc3a4af3b54a5bc90755433055b74fd2d00201505"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-26176287121.png",
+      "path": "/wp-content/uploads/2025/04/banner-26176287121.png",
+      "bytes": 194085,
+      "sha256": "fd5488ca0a120db0c798c7569dc5f72793521bc68d1ce0ee6d2ca9f28a4883bb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/banner-zalo162676178.png",
+      "path": "/wp-content/uploads/2025/04/banner-zalo162676178.png",
+      "bytes": 87424,
+      "sha256": "2022b55c6b8e7f0d5d71aa5def1ef15603140577578c44bfeecdad771be14ef3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/cropped-logo-logo.png",
+      "path": "/wp-content/uploads/2025/04/cropped-logo-logo.png",
+      "bytes": 11350,
+      "sha256": "42cb08d683f075f242bf88be794b2adaecc9eb0baa7c996bf04d2d31d33d6edc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e0-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e0-100x100.png",
+      "bytes": 4397,
+      "sha256": "ca89ce6cba03aee26646a4659cf5f3977d1b06addff3aee1410c90f514ebcbd0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e0-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e0-280x280.png",
+      "bytes": 24413,
+      "sha256": "c1b2bf5e886c94c0138e3c200e28bc9de328dc90e51a26eeee4a6226e32043e5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e0.png",
+      "path": "/wp-content/uploads/2025/04/e0.png",
+      "bytes": 47690,
+      "sha256": "47e07892917cf2b29dc60d3648eac5c6f38a900925f56a0b3cb33ea24606bb98"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e1-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e1-100x100.png",
+      "bytes": 3131,
+      "sha256": "91b7d04391e7f5c6afeb490195611d0e054046acaac3b36c9c9632006d3c6fc5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e1-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e1-280x280.png",
+      "bytes": 23880,
+      "sha256": "f9ca1d58c5687490c9e6d02da3bbb37900d8d87b11a174a82c9ce796410f4992"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e1-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e1-400x400.png",
+      "bytes": 41858,
+      "sha256": "ac6357a6fbdaf72f51d5e6cb6932056ed6b6ba85d4d6294742585738076374e5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e1.png",
+      "path": "/wp-content/uploads/2025/04/e1.png",
+      "bytes": 64451,
+      "sha256": "f56b9a1f6ea0d759b23bb6587b39947a61d065a2fd9431e6ecf90b5f6502108f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e2-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e2-100x100.png",
+      "bytes": 6216,
+      "sha256": "a06a4b0cbcefbd5a8753a198683d8dc94b9b8fa8f843713ef88b7336412cbf14"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e2-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e2-280x280.png",
+      "bytes": 38393,
+      "sha256": "8b76f72da48b292cfb133e4a908ca6bdec6a76ef7f8b9eceb8a3b6ef1b86aa45"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e2-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e2-400x400.png",
+      "bytes": 47216,
+      "sha256": "cd4b0a537cee488754b4bcb03f22a12601338b023f76ce128cb4b5eb3af94c25"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e2-500x500.png",
+      "path": "/wp-content/uploads/2025/04/e2-500x500.png",
+      "bytes": 90428,
+      "sha256": "bc85d3b9189838a4da66a252c33b7499b85703bb1e06edd72a32e47001b1d80e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e2.png",
+      "path": "/wp-content/uploads/2025/04/e2.png",
+      "bytes": 84310,
+      "sha256": "a57a4d60aa86dc830ed885d7139a3e92a543fb0c7a454328be345852488336bb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e3-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e3-100x100.png",
+      "bytes": 6149,
+      "sha256": "7bc6e544ce4306b3d94c1cae3e4b3fd809370fee238ab72256b092f009df6e8c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e3-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e3-280x280.png",
+      "bytes": 40992,
+      "sha256": "a5d54bd2d956c2821c6fe532c114f1c8be56d0894f9947917f601e23f3931df4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e3-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e3-400x400.png",
+      "bytes": 51203,
+      "sha256": "7532387067a3c8479501933f2398d7c8deb0d24901cd992c2c0e7082d2e61c80"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e3-500x500.png",
+      "path": "/wp-content/uploads/2025/04/e3-500x500.png",
+      "bytes": 97726,
+      "sha256": "115cc52e920c4eb03263d863ea7e35099636475b40dc27c110cfa1d1112a5169"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e3.png",
+      "path": "/wp-content/uploads/2025/04/e3.png",
+      "bytes": 85342,
+      "sha256": "ba60fda60bc4ef6a7fe18986f92899389a187a6c05bd867ee30179de28d755e9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e4-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e4-100x100.png",
+      "bytes": 3890,
+      "sha256": "97cdc7e05e8885c1b10a0e26caf2459bab4140031ed447693f4b7c830255ccc1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e4-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e4-280x280.png",
+      "bytes": 25291,
+      "sha256": "0d2ee868703d2c4aeeea00f1e24304aa545cb214b72a80058f3fa60f98b2cf3b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e4-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e4-400x400.png",
+      "bytes": 34711,
+      "sha256": "d322a72bdef804683f9ae44b101bddb43da9678678ac4a33f080c7592d67a154"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e4.png",
+      "path": "/wp-content/uploads/2025/04/e4.png",
+      "bytes": 51367,
+      "sha256": "b2b256564bc5169694a82f91c848cab1dfb770cf279821aac00c9014e0bd6ac9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/E5-100x100.png",
+      "path": "/wp-content/uploads/2025/04/E5-100x100.png",
+      "bytes": 4175,
+      "sha256": "c71da31a2ecf168decc7ea5a80574182f5428dfd958245ac8e564d369d6c4c3c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/E5-280x280.png",
+      "path": "/wp-content/uploads/2025/04/E5-280x280.png",
+      "bytes": 25685,
+      "sha256": "4885bf1f2b8193abe3fb434f64858affd7a6532c581f2e845b8bee8e2bc85278"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/E5-400x400.png",
+      "path": "/wp-content/uploads/2025/04/E5-400x400.png",
+      "bytes": 37213,
+      "sha256": "eeb7a35f03b49732b04dd3a50d4a346fad553e33d887aef4ad8b69a6bcd8fba6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/E5-500x500.png",
+      "path": "/wp-content/uploads/2025/04/E5-500x500.png",
+      "bytes": 62221,
+      "sha256": "1758e9e71e18c5071566a1ce7043ebaed4bb8d1afd7902b8e622c1e2c5f16fbb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/E5.png",
+      "path": "/wp-content/uploads/2025/04/E5.png",
+      "bytes": 72797,
+      "sha256": "5c1977c221549c9506a5871e21775d5205b99a870b61b881bc4b6d4669700c28"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e6-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e6-100x100.png",
+      "bytes": 3815,
+      "sha256": "8310782ba9575d64f9c56a063e33d7ef45e33850a2c8a67ad1c82b15eebaa472"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e6-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e6-280x280.png",
+      "bytes": 24741,
+      "sha256": "50c5bb3ea99d614a573fc5707b08db0ca075071ce5511854adeba0394570d7d6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e6-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e6-400x400.png",
+      "bytes": 32425,
+      "sha256": "326cddd5385c07bf14dc05215cb6a133ae3437593c62321e66415a73bbbbded3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e6-500x500.png",
+      "path": "/wp-content/uploads/2025/04/e6-500x500.png",
+      "bytes": 57508,
+      "sha256": "ad9846d0232519263ebe966e8c00a571d34a9b2d1fa0997505a34ca18638de94"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e6.png",
+      "path": "/wp-content/uploads/2025/04/e6.png",
+      "bytes": 65185,
+      "sha256": "71a6ec55ed94e2b2cb7ed62e87c5830ee0584933dba1219e7aabb9c5d4cb74de"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e7-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e7-100x100.png",
+      "bytes": 1933,
+      "sha256": "db9e7c42466fbe80181ce7b99f742fb36dc466746faa4e2036c021484b61626e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e7-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e7-280x280.png",
+      "bytes": 12474,
+      "sha256": "e7b0d3ed12770a419ca4afa803b27615ceb67d4d0962b44f993f3438d545d359"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e7-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e7-400x400.png",
+      "bytes": 16543,
+      "sha256": "9d1594ceb8c4ee4f45cfdcd80591e50e96bc2e24c5be3c910be5ed46fec1175b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e7.png",
+      "path": "/wp-content/uploads/2025/04/e7.png",
+      "bytes": 25129,
+      "sha256": "7175b8cc750c7ddb12a07d389d1c0993e2bf7e44124eac5546a2be142da02e11"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e8-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e8-100x100.png",
+      "bytes": 1498,
+      "sha256": "07153d094b662ce2d099efb7b9fe6430c1c296d2ae2b2d0c2655bb46a4ddb948"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e8-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e8-280x280.png",
+      "bytes": 13079,
+      "sha256": "9ca1ae6e57d2aaabc08089091a289a565f184ec11b85d9608363dfccbb7c603d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e8-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e8-400x400.png",
+      "bytes": 12999,
+      "sha256": "c4cd8069f1d077e36517dbcd6fd7a5882b571f4312fc20adf0080f0173f98ff1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e8-500x500.png",
+      "path": "/wp-content/uploads/2025/04/e8-500x500.png",
+      "bytes": 21858,
+      "sha256": "843b2b07cb99146ff8182dfdce2b84ad5f13c03176d7e5fdd7f2df56903590e6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e8.png",
+      "path": "/wp-content/uploads/2025/04/e8.png",
+      "bytes": 23493,
+      "sha256": "3852ff6efb370a5b3e6e68ea7240f12ec15310880893ab8ea600ceecfdf1fdb5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e9-100x100.png",
+      "path": "/wp-content/uploads/2025/04/e9-100x100.png",
+      "bytes": 4564,
+      "sha256": "eb4d734588504c5273b23463fb61bdb701fb442a214a575dc21e38b4d852a489"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e9-280x280.png",
+      "path": "/wp-content/uploads/2025/04/e9-280x280.png",
+      "bytes": 32833,
+      "sha256": "489d1b40984a8310f05ef43815c637869689241ec27e88a1801cf17e30cb60c1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e9-400x400.png",
+      "path": "/wp-content/uploads/2025/04/e9-400x400.png",
+      "bytes": 61234,
+      "sha256": "3928792b081e74c49d6b8fae8901461715088164c6b912b6c6b28bc6e7b661e6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e9-500x500.png",
+      "path": "/wp-content/uploads/2025/04/e9-500x500.png",
+      "bytes": 87917,
+      "sha256": "a15d24661aec33630b5c655f258884c88a6e0cad59679a161ed9cca286b40263"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/e9.png",
+      "path": "/wp-content/uploads/2025/04/e9.png",
+      "bytes": 62997,
+      "sha256": "a235e0a0be431f7d53505ee071849baedbc1743b8450eaf3e164081ca1699a03"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/logo-logo.png",
+      "path": "/wp-content/uploads/2025/04/logo-logo.png",
+      "bytes": 5248,
+      "sha256": "6e82c02b4f0cb05b80041e1fbc52ee3e547094dd54b0f79c4d06f156af8e0d4a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q1-100x100.png",
+      "path": "/wp-content/uploads/2025/04/q1-100x100.png",
+      "bytes": 3375,
+      "sha256": "64933ab21c2f69080586da4c3ab5dc731b28a2f606d8905ead86372e040b41cd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q1-280x280.png",
+      "path": "/wp-content/uploads/2025/04/q1-280x280.png",
+      "bytes": 21465,
+      "sha256": "2831becc5b60c07988bfcbee1e735e2561b58557585a4e9ec9da1e14066aa8ad"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q1-400x400.png",
+      "path": "/wp-content/uploads/2025/04/q1-400x400.png",
+      "bytes": 35333,
+      "sha256": "40fd424739f330edda9429ac4aa7198cfc20865de5be4ca38d000efbc43b39ef"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q1-500x500.png",
+      "path": "/wp-content/uploads/2025/04/q1-500x500.png",
+      "bytes": 53900,
+      "sha256": "2de20ba2711bb6619489fe170337b0859c597e4a8dadf3fde1a125552ad34f35"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q1.png",
+      "path": "/wp-content/uploads/2025/04/q1.png",
+      "bytes": 70010,
+      "sha256": "564347acf5c38e6a50e00a56021e0f7e477a15fe880c56865597b8e28581b994"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q2-100x100.png",
+      "path": "/wp-content/uploads/2025/04/q2-100x100.png",
+      "bytes": 3802,
+      "sha256": "a53ea4d7a6b0600c729f7e528b8a359ffbc363e96c26f2e535397de0186481d7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q2-280x280.png",
+      "path": "/wp-content/uploads/2025/04/q2-280x280.png",
+      "bytes": 24432,
+      "sha256": "002ff4e78628400591e4e9925f1627bce0dee164a06a01481a17a482bf6e6bbb"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q2-400x400.png",
+      "path": "/wp-content/uploads/2025/04/q2-400x400.png",
+      "bytes": 32986,
+      "sha256": "eca990f97c9e74acd12fe5592b66b9f6c486f61a61344a1ec488c0d458f63329"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q2-500x500.png",
+      "path": "/wp-content/uploads/2025/04/q2-500x500.png",
+      "bytes": 58150,
+      "sha256": "f18e18961ad472b806de139405b7a888bd2bdf58f9ef7d23e2245edbc6f9bd75"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q2.png",
+      "path": "/wp-content/uploads/2025/04/q2.png",
+      "bytes": 69496,
+      "sha256": "3a2f3a0e7bff9742e1177d2503d2338d4b8e95e151da0087105f6027b3999ebc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q3-100x100.png",
+      "path": "/wp-content/uploads/2025/04/q3-100x100.png",
+      "bytes": 4493,
+      "sha256": "62b0d613b8671b35e2f704bdbebe5018711d103441afe47f2eceafb43993b153"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q3-280x280.png",
+      "path": "/wp-content/uploads/2025/04/q3-280x280.png",
+      "bytes": 24112,
+      "sha256": "4b71dfe3dd322feda7ac1b958628e46236f086472dd77c85108742656c118167"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q3.png",
+      "path": "/wp-content/uploads/2025/04/q3.png",
+      "bytes": 43544,
+      "sha256": "847256346c1e89526f6788aa2b291bcaa8c5a9f54b2f3b396f1a7d9efc6675c7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q4-100x100.png",
+      "path": "/wp-content/uploads/2025/04/q4-100x100.png",
+      "bytes": 3694,
+      "sha256": "37c7d1c4a3cbe09c50a58e0b3f80963cef2f2087767c998537304c1f8124514c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q4-280x280.png",
+      "path": "/wp-content/uploads/2025/04/q4-280x280.png",
+      "bytes": 22080,
+      "sha256": "a7165e371adf060fce5d3bea2c93fbb23f71402be0a7ce77ca48baecee46b9b0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q4-400x400.png",
+      "path": "/wp-content/uploads/2025/04/q4-400x400.png",
+      "bytes": 33591,
+      "sha256": "004573b24dd12355ad9bdbbfafecd63d2ef359940a034f59aa541459d263c183"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q4-500x500.png",
+      "path": "/wp-content/uploads/2025/04/q4-500x500.png",
+      "bytes": 53936,
+      "sha256": "12947201507681c8156f5eab47c215b5a694b7b85c95198a5cdd87581d9b306c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q4.png",
+      "path": "/wp-content/uploads/2025/04/q4.png",
+      "bytes": 67915,
+      "sha256": "10a7191960eefd770297dd8628640e7a5c6b7ac046a4e27a9e0989f9aa1afddc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q5-100x100.png",
+      "path": "/wp-content/uploads/2025/04/q5-100x100.png",
+      "bytes": 3217,
+      "sha256": "a66a00dfd7d876aee349afeaeacd3b909f31ea4c895511031274ce6284eb044e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q5-280x280.png",
+      "path": "/wp-content/uploads/2025/04/q5-280x280.png",
+      "bytes": 19020,
+      "sha256": "e7b51324d74a2d1fb3c3fbc8bdf89800922a67726b8308517fc61b7a9936fa22"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q5-400x400.png",
+      "path": "/wp-content/uploads/2025/04/q5-400x400.png",
+      "bytes": 32567,
+      "sha256": "3212878a10c9205ae6784ae0670013221f2c5502fb32eaa1bcd32d02232dec00"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q5-500x500.png",
+      "path": "/wp-content/uploads/2025/04/q5-500x500.png",
+      "bytes": 49275,
+      "sha256": "5aa84039668a02956af2a6a7dff7360ff865ea677e6765c69931236324f87203"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/q5.png",
+      "path": "/wp-content/uploads/2025/04/q5.png",
+      "bytes": 63026,
+      "sha256": "b7163ce948b94df90787448b4afbd5eae2c13a8166dbfda7933fff18d4a33c12"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r0-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r0-100x100.png",
+      "bytes": 3185,
+      "sha256": "145b78e51dfe78d77a00e0a9b49d6ae12bb5bfa93e26b021515ccafd7b4e98bd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r0-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r0-280x280.png",
+      "bytes": 17444,
+      "sha256": "47667bf51a967044e1a98775faf12c15d2b903501f4f25b16f4057addc4db40d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r0.png",
+      "path": "/wp-content/uploads/2025/04/r0.png",
+      "bytes": 35045,
+      "sha256": "cca32e1684958bb4c93431e966bfc74d8a816cda392a3f912cd2370803b70c7c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r1-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r1-100x100.png",
+      "bytes": 5053,
+      "sha256": "fdf1c556ddb6a7532fba5d46a40b5e82701207564d57fcdf1807123236095fd4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r1-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r1-280x280.png",
+      "bytes": 32944,
+      "sha256": "d2dac0ee92c6e94c30d5df173747c880afc8b42b14d3902aa4edb4a877a2b957"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r1-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r1-400x400.png",
+      "bytes": 47032,
+      "sha256": "93737093b40db66373b296e27714abf5edba2576e366fed2b5abb5ffff218694"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r1-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r1-500x500.png",
+      "bytes": 77040,
+      "sha256": "977e68917326622b7a752c91d62bd2989dbb05af368325e5d482eedb40fa644a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r1.png",
+      "path": "/wp-content/uploads/2025/04/r1.png",
+      "bytes": 93448,
+      "sha256": "9fee9b46ea230e48365693a1febb0f59d05d3fb83b7c516a8d14ac64b4dd3bb4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r2-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r2-100x100.png",
+      "bytes": 2615,
+      "sha256": "11c07a8bc1e4ecfcfc04f42ab1091af713e5c7afa0c57feb6ce6bf2dcc914703"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r2-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r2-280x280.png",
+      "bytes": 18288,
+      "sha256": "2726ce7a65d1fd1043fdd2aa951947d561d8ba322008690b4f0b8a4e46363444"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r2-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r2-400x400.png",
+      "bytes": 27371,
+      "sha256": "a81e311246403b13f45288c9b6e9890001da11f21490bc9ffd0973ea156df82c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r2-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r2-500x500.png",
+      "bytes": 40075,
+      "sha256": "93a9200ddcc5bdd9b8dce013a96700f73fe0f885e1fdb4ce920fefdc942499a4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r2.png",
+      "path": "/wp-content/uploads/2025/04/r2.png",
+      "bytes": 56160,
+      "sha256": "bd4d933c31a2694426fd77dd9d43934f00b1cb42160bd4ec400f24fad52b58d1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r3-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r3-100x100.png",
+      "bytes": 3215,
+      "sha256": "20f113b81ddb4cc7d98f9c7304077485472c00143c8ab4cdbed1d11825b1e407"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r3-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r3-280x280.png",
+      "bytes": 21136,
+      "sha256": "79ddbbb8be0ac495522c0d3cbda9623aebe2fcb46875acc4392c0d10c1a78f8d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r3-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r3-400x400.png",
+      "bytes": 39450,
+      "sha256": "0a1eda6bbbbed19a0e39f35edf5d4b000fdd1be80ed9ff447e89126852baa0e1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r3-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r3-500x500.png",
+      "bytes": 56325,
+      "sha256": "7e3613129faf4cef8ac4adfff9a46e7ac16eb8dedd72f99713a16133e1b69ab4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r3.png",
+      "path": "/wp-content/uploads/2025/04/r3.png",
+      "bytes": 78940,
+      "sha256": "6ab9386511e833be0cb0f92415d6cf0afdfff117a843037672d35425d0c0fdd1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r4-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r4-100x100.png",
+      "bytes": 1315,
+      "sha256": "0141e677fd808579989dd826e70b3e738fe05329f803844e07c221770474bcb9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r4-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r4-280x280.png",
+      "bytes": 9175,
+      "sha256": "a1e47421c37e39073c5224c748c9ddaf6d2f9d21a563adfc7a316d6b1a2d24d5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r4-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r4-400x400.png",
+      "bytes": 15904,
+      "sha256": "5246875dabf93d68c7224374eb067bb3a223d33370cc60beb37f8fe4e5cf321f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r4-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r4-500x500.png",
+      "bytes": 24916,
+      "sha256": "b3fa8203cc6942bc0519d3abbae865894c9c22336cd15e797a05ce19c9ece675"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r4.png",
+      "path": "/wp-content/uploads/2025/04/r4.png",
+      "bytes": 35739,
+      "sha256": "0d14d242d79b4888e917a68797b44ba993092849e89d347b27d048cc111e5388"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r5-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r5-100x100.png",
+      "bytes": 1717,
+      "sha256": "506b7d60350ae3199df402e7e6d5a3f8aed6fda935321ccbb681920ef21f2530"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r5-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r5-280x280.png",
+      "bytes": 8938,
+      "sha256": "d0bce79fb26333e116c7d24e433b4827b42e50a8298cb00e875e2e1a34367d48"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r5-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r5-400x400.png",
+      "bytes": 13788,
+      "sha256": "9a18ed8a3d39e59b61d66e023404a64ffbaeedd756f2809e1804f363af85d91e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r5-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r5-500x500.png",
+      "bytes": 22386,
+      "sha256": "fa23168c406275d31350cb4b610db33f85eabab2a5b7e48280b020849380e2a6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r5.png",
+      "path": "/wp-content/uploads/2025/04/r5.png",
+      "bytes": 29729,
+      "sha256": "33305a4ff96f7c931baced32f083803e78f2d701a156dbddfbcc739341a6d80b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r6-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r6-100x100.png",
+      "bytes": 2292,
+      "sha256": "d528325b99c6e2c3db35c27bdeb453d8888c87c3c0717253b28fd1754855796c"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r6-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r6-280x280.png",
+      "bytes": 13230,
+      "sha256": "2b24dce5ae2ff2134a2613b4ef0be0a1e8e320050030ddac721c64920cb7f99f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r6-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r6-400x400.png",
+      "bytes": 22090,
+      "sha256": "b759142b94029fac9f886ce57e7656c51e7ef42bf86c8395ed58826e96a104dd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r6-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r6-500x500.png",
+      "bytes": 35111,
+      "sha256": "86947e3aff68719d254163aaa59ecebe9edb20005939419fa5c8636c1c54d74a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r6.png",
+      "path": "/wp-content/uploads/2025/04/r6.png",
+      "bytes": 44063,
+      "sha256": "b2b5d925e71588771835fd8dc193e708a75a369834c3b68d735d57a24ddce3a3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r7-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r7-100x100.png",
+      "bytes": 3866,
+      "sha256": "da933491ed50a3075a34fe79c02c411d3c4a93a9e741e6b1759a9629e0a3c306"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r7-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r7-280x280.png",
+      "bytes": 26149,
+      "sha256": "4913d8f4d643c6b198c963a5422c5fa0e7b52552218c7081bcd83e5f3c0bc218"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r7-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r7-400x400.png",
+      "bytes": 34205,
+      "sha256": "114c200c08bd8b3eaddacd7ea1117f106825ab598321a29dfcdaccac9d2b635b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r7-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r7-500x500.png",
+      "bytes": 59808,
+      "sha256": "1f3069d172eaf641b8385e816b6c5730e86c3e9d07aacdba2efbfd312b1fa8d4"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r7.png",
+      "path": "/wp-content/uploads/2025/04/r7.png",
+      "bytes": 67293,
+      "sha256": "fb7aa32db44710b47d1cc54504618ebeddb650b7f83e6a80da88686472500404"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r8-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r8-100x100.png",
+      "bytes": 2476,
+      "sha256": "267408e592738b84eae6c5fa84cd124c30af60317ccd9753e4f28a1887177b7a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r8-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r8-280x280.png",
+      "bytes": 16630,
+      "sha256": "226b4469702b8b46a693a17a73b6944df443ea605e02be18a0a551c9b19ca251"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r8-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r8-400x400.png",
+      "bytes": 21326,
+      "sha256": "433e697994fc01382499df4d95a58246f1fc5216c88e5e9415d17dcf434d7b86"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r8-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r8-500x500.png",
+      "bytes": 36657,
+      "sha256": "f3c017212886888c3c66995ac2df35b23a061050477443fb81000db09429207b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r8.png",
+      "path": "/wp-content/uploads/2025/04/r8.png",
+      "bytes": 42705,
+      "sha256": "60fb609ad1757670cec3afa18f15c42b76659927c8ef692d063b70927bcfacc0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r9-100x100.png",
+      "path": "/wp-content/uploads/2025/04/r9-100x100.png",
+      "bytes": 1939,
+      "sha256": "85c071092e9129070745c59a3681862190bd8381c3f22556a474c73e3bd78b8a"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r9-280x280.png",
+      "path": "/wp-content/uploads/2025/04/r9-280x280.png",
+      "bytes": 16753,
+      "sha256": "a30d31cf60366b67bb99e37c401dc8675acb7c80bc571452c41340365440c4e2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r9-400x400.png",
+      "path": "/wp-content/uploads/2025/04/r9-400x400.png",
+      "bytes": 19182,
+      "sha256": "77909a6a1f5bb20ccbbe505694c26201867650e5e081e3f6d65e84fb565b0a52"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r9-500x500.png",
+      "path": "/wp-content/uploads/2025/04/r9-500x500.png",
+      "bytes": 32936,
+      "sha256": "7f739c8f359718689d4815a26bd0c9b58ba6944680f5a7360f1bb655c9ce602f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/r9.png",
+      "path": "/wp-content/uploads/2025/04/r9.png",
+      "bytes": 35771,
+      "sha256": "6fa3379c9af96688a745f896e529b896baeee85d97525e128891c9b9afc1a223"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t0-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t0-100x100.png",
+      "bytes": 4543,
+      "sha256": "d97b176b2beee29ce7468e9d358e22e45cf78afc114036f431df623daa798c2d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t0-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t0-280x280.png",
+      "bytes": 26668,
+      "sha256": "5b44f5cec36b31724802d7206ca8a0fb822f080b6db27b5384f961566498a473"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t0-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t0-400x400.png",
+      "bytes": 49671,
+      "sha256": "b0460d64f07a9643bcb197b153b158cd9af74cf8e352725b27798dd9ecc9e703"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t0-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t0-500x500.png",
+      "bytes": 73214,
+      "sha256": "88d79492be782c6d1f648aab10e77f4980b7b70a727bb7fe4b4fa8ff8a63a253"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t0.png",
+      "path": "/wp-content/uploads/2025/04/t0.png",
+      "bytes": 70608,
+      "sha256": "856009e321c09f852d3632c35627287f8211f79d8d7f25c44e20b3e378d073e0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t1-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t1-100x100.png",
+      "bytes": 1316,
+      "sha256": "2d67a3a3f2ba13ce5d92baf8c8e3b937cbdd6c8f243d6cec3cce6958821dbe50"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t1-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t1-280x280.png",
+      "bytes": 6483,
+      "sha256": "93f88be4648be2c40afc712ae7a72f82d18883e07fb4f4b3e3be80b87df7c91b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t1-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t1-400x400.png",
+      "bytes": 13305,
+      "sha256": "3a067d70f6fbc28f73ce679769980611c5eb14ac8c4005f35764f00af5001c87"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t1-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t1-500x500.png",
+      "bytes": 17680,
+      "sha256": "d2e037be46709440da89bc59d4d515f6adf2bb4ca4ee926f33858d7fa0cc6ce7"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t1.png",
+      "path": "/wp-content/uploads/2025/04/t1.png",
+      "bytes": 27432,
+      "sha256": "32ce1c17d237604cc377d2d13c58b5d5fbe94bed97173e5eafa94f2f1370767f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t2-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t2-100x100.png",
+      "bytes": 2947,
+      "sha256": "8ef4b807b3bc4e634e389d1f6cfe116eac2553bcc45d337f8a41c438799506b1"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t2-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t2-280x280.png",
+      "bytes": 17577,
+      "sha256": "a4403b64553a1424acca6ae10616dd828ec2cdc2182058d8eb54aad5d7f913c2"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t2-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t2-400x400.png",
+      "bytes": 33772,
+      "sha256": "b72c35057b0780c249391ae0349f045e849a29188f2dc5c349e6ec60557f13d0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t2-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t2-500x500.png",
+      "bytes": 51555,
+      "sha256": "6047280970fb286f75ae30781ab5f47e1493e50d89e3453c96628431a28e3cca"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t2.png",
+      "path": "/wp-content/uploads/2025/04/t2.png",
+      "bytes": 80665,
+      "sha256": "2525a89d068b1daa1e9801bf494587aae2d41cde0b36f2a36c63396374b7123f"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t3-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t3-100x100.png",
+      "bytes": 2479,
+      "sha256": "95451a8ebce72844dd7818465a7f3c39db1ff6787839ecbfcc1d72c9dbbe8d66"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t3-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t3-280x280.png",
+      "bytes": 17224,
+      "sha256": "3880dc7a883fc349deca9052ad9b8a6e366e273a57d2da053d108ba3dfcfabdc"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t3-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t3-400x400.png",
+      "bytes": 24110,
+      "sha256": "92243aaadfd31779e20522a31a4dfc8d193e588c39bd4d5f717739c6aec73df6"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t3-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t3-500x500.png",
+      "bytes": 41215,
+      "sha256": "b44635d00f88646dab083006704762ec8f534b47c3bbbbde8954a00d2f5d57e0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t3.png",
+      "path": "/wp-content/uploads/2025/04/t3.png",
+      "bytes": 49968,
+      "sha256": "61ed0592b71498d891428860c46fba6bc89909fe7b59c95101a7f6fc3fc83d55"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t4-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t4-100x100.png",
+      "bytes": 3649,
+      "sha256": "8f6cec9fd6dd7eb594ccf1a244df6ee61042ac2a133b0c031d0739d8a9333036"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t4-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t4-280x280.png",
+      "bytes": 19864,
+      "sha256": "8e1b51dcab7588b87e572a46c9894c076d47fb01ec38c584d093d5799964d2e9"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t4-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t4-400x400.png",
+      "bytes": 30660,
+      "sha256": "46a52d3bebb231ebb10ccad847dd7130af84db7ce6dede35082006713b27abba"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t4-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t4-500x500.png",
+      "bytes": 48742,
+      "sha256": "8dc3f4b1084e07eacb22ff630d0eacb0307af1ebd5061bff94e5cf0e91e1a6c0"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t4.png",
+      "path": "/wp-content/uploads/2025/04/t4.png",
+      "bytes": 63750,
+      "sha256": "6b30b3a9cc4d7a11e96823f526601877c62a1d05d4319d4d37cc1e41f1e71369"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t5-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t5-100x100.png",
+      "bytes": 1938,
+      "sha256": "a14bddae0e35d36cb80cb7fa9ac1f55c0a8a6e7d529233c3180e47b71dba88bd"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t5-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t5-280x280.png",
+      "bytes": 10849,
+      "sha256": "5406c78735e266b654c79cbe824725c3080f0936cf59dc194263374bcf1ee800"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t5-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t5-400x400.png",
+      "bytes": 18991,
+      "sha256": "854e1ae2bdd7b169e3b7f8233676adf438f81ada67762d8b45f40bae9f789e47"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t5-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t5-500x500.png",
+      "bytes": 25370,
+      "sha256": "2b09f9acefb011b9f3ebf0daca3614a2096cef9aa7695329d05a2617d7d4240e"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t5.png",
+      "path": "/wp-content/uploads/2025/04/t5.png",
+      "bytes": 40152,
+      "sha256": "9627efce2e109d11874730ac07f3319abf4083512f0f1980eb7f0081ed0a78d8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t6-100x100.png",
+      "path": "/wp-content/uploads/2025/04/t6-100x100.png",
+      "bytes": 1032,
+      "sha256": "35d60a224be0314321377a4ded4b4cc131372e04b648f3da66edba9a0cee9797"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t6-280x280.png",
+      "path": "/wp-content/uploads/2025/04/t6-280x280.png",
+      "bytes": 4838,
+      "sha256": "aba45e4effbda230a3c511deb9c6904412757275e84bbda93bc96e96bf418d20"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t6-400x400.png",
+      "path": "/wp-content/uploads/2025/04/t6-400x400.png",
+      "bytes": 12317,
+      "sha256": "1a63180ea3a91d0acfdf71622ef72850054443d7966946a1edf01c55d25ddc3d"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t6-500x500.png",
+      "path": "/wp-content/uploads/2025/04/t6-500x500.png",
+      "bytes": 16606,
+      "sha256": "be3cf318afd2fed1de1216596e9b0c513a8d9d92dfe9561921f5b44b2b9fb1f8"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/t6.png",
+      "path": "/wp-content/uploads/2025/04/t6.png",
+      "bytes": 21756,
+      "sha256": "7783280fcee81d9709feae55371d7aef6454f7115d89744995c6cfe1c8f8e684"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/Untitled-1-bn2-700x275.png",
+      "path": "/wp-content/uploads/2025/04/Untitled-1-bn2-700x275.png",
+      "bytes": 60614,
+      "sha256": "224a6ae84673f7a891e7ba81a2f526a80db68828497c233f084f76566c8d1c54"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/Untitled-1-bn2-768x302.png",
+      "path": "/wp-content/uploads/2025/04/Untitled-1-bn2-768x302.png",
+      "bytes": 89970,
+      "sha256": "5d4995dec7b550a1eaca149d33a830b0aa1365fe80c27f3b98b9c753c649f004"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/Untitled-1-bn2-800x314.png",
+      "path": "/wp-content/uploads/2025/04/Untitled-1-bn2-800x314.png",
+      "bytes": 80279,
+      "sha256": "22e4da3130bbcef26a171e02a5bff0e30f19d9210f3b8a6b83601493cee09798"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/Untitled-1-bn2.png",
+      "path": "/wp-content/uploads/2025/04/Untitled-1-bn2.png",
+      "bytes": 196227,
+      "sha256": "2c438cb289a6380b6c9e3f9cbf2e322a5954fd57e436c80fc5649e12cc156206"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-1199x800.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-1199x800.jpg",
+      "bytes": 82356,
+      "sha256": "8bf090323c1e82e0b5904b2a255d06958e9aafff340079f03d3a36556e7b8490"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-1536x1025.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-1536x1025.jpg",
+      "bytes": 120704,
+      "sha256": "aa091eb2f29e468a6b31fd6fdf1b966ac393442cd32eb6a61f610e8e814e6253"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-2048x1366.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-2048x1366.jpg",
+      "bytes": 184375,
+      "sha256": "ccb0c27c90cb5c4d8356ab4d83b5f775cee892dffa32cccf9ce3f3f67e1f7bf3"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-600x400.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-600x400.jpg",
+      "bytes": 27688,
+      "sha256": "8b16c3f5320e4ca04389f60e2e818c49e1315baf8c1f48cac06a8f3e17a5fe37"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-700x467.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-700x467.jpg",
+      "bytes": 35652,
+      "sha256": "b803bfc42fd5ece8b2a43b3d1023f1054c485b1809408df0caf1aa3abf913338"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-768x512.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39-768x512.jpg",
+      "bytes": 40803,
+      "sha256": "7189d5c1010fb0e53efe9e66e28e3e51b9f19155fe7e21d095267465933466f5"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39.jpg",
+      "bytes": 247469,
+      "sha256": "3ed2e364634bbe9fd2455600681b32d59603f8fd7560d9020e081406e0d65bac"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/2025/04/z6492825377244_858ec2f84cbfe9f6ac54b659c6f723c4-scaled.jpg",
+      "path": "/wp-content/uploads/2025/04/z6492825377244_858ec2f84cbfe9f6ac54b659c6f723c4-scaled.jpg",
+      "bytes": 109829,
+      "sha256": "c3c0b8a19772bcd42f2112a30303fa2bf6ce3b098971a4d04807588ecbefbe7b"
+    },
+    {
+      "source": "https://hotprint.vn/wp-content/uploads/woocommerce-placeholder.png",
+      "path": "/wp-content/uploads/woocommerce-placeholder.png",
+      "bytes": 25140,
+      "sha256": "f45e849e6b0a23fecb5c782d9a0f0937ad203403205f3f9385a472cb6a401514"
+    }
+  ]
+}

@@ -1,0 +1,1606 @@
+{
+  "origin": "https://hotprint.vn",
+  "pages": [
+    {
+      "route": "/albums/",
+      "file": "dist/albums/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums | HotPrint",
+      "canonical": "https://hotprint.vn/albums/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-hop-cao-cap/",
+      "file": "dist/albums-hop-cao-cap/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums hộp cao cấp | HotPrint",
+      "canonical": "https://hotprint.vn/albums-hop-cao-cap/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-hop-carton/",
+      "file": "dist/albums-hop-carton/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums hộp carton | HotPrint",
+      "canonical": "https://hotprint.vn/albums-hop-carton/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-hop-giay-mem/",
+      "file": "dist/albums-hop-giay-mem/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums hộp giấy mềm | HotPrint",
+      "canonical": "https://hotprint.vn/albums-hop-giay-mem/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-in-an-bao-bi/",
+      "file": "dist/albums-in-an-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums in ấn bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/albums-in-an-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-nhan-dan-decal/",
+      "file": "dist/albums-nhan-dan-decal/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums nhãn dán (Decal) | HotPrint",
+      "canonical": "https://hotprint.vn/albums-nhan-dan-decal/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-nhan-hang-catalog/",
+      "file": "dist/albums-nhan-hang-catalog/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums nhãn hàng, catalog | HotPrint",
+      "canonical": "https://hotprint.vn/albums-nhan-hang-catalog/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-thiet-ke-che-ban-bao-bi/",
+      "file": "dist/albums-thiet-ke-che-ban-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums thiết kế, chế bản bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/albums-thiet-ke-che-ban-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/albums-tui-giay/",
+      "file": "dist/albums-tui-giay/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Albums túi giấy | HotPrint",
+      "canonical": "https://hotprint.vn/albums-tui-giay/",
+      "alternates": null
+    },
+    {
+      "route": "/cac-loai-bao-bi-giay-giup-nang-tam-thuong-hieu-cua-ban/",
+      "file": "dist/cac-loai-bao-bi-giay-giup-nang-tam-thuong-hieu-cua-ban/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Các loại bao bì giấy giúp nâng tầm thương hiệu của bạn | HotPrint",
+      "canonical": "https://hotprint.vn/cac-loai-bao-bi-giay-giup-nang-tam-thuong-hieu-cua-ban/",
+      "alternates": null
+    },
+    {
+      "route": "/chinh-sach-rieng-tu/",
+      "file": "dist/chinh-sach-rieng-tu/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Chính sách riêng tư | HotPrint",
+      "canonical": "https://hotprint.vn/chinh-sach-rieng-tu/",
+      "alternates": {
+        "vi": "/chinh-sach-rieng-tu/",
+        "en": "/en/privacy/",
+        "zh": "/zh/privacy/"
+      }
+    },
+    {
+      "route": "/da-gui-yeu-cau/",
+      "file": "dist/da-gui-yeu-cau/index.html",
+      "lang": "vi",
+      "indexable": false,
+      "title": "Xác nhận gửi yêu cầu | HotPrint",
+      "canonical": "https://hotprint.vn/da-gui-yeu-cau/",
+      "alternates": {
+        "vi": "/da-gui-yeu-cau/",
+        "en": "/en/request-status/",
+        "zh": "/zh/request-status/"
+      }
+    },
+    {
+      "route": "/danh-muc/chua-phan-loai/",
+      "file": "dist/danh-muc/chua-phan-loai/index.html",
+      "lang": "vi",
+      "indexable": false,
+      "title": "Chưa phân loại | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/chua-phan-loai/",
+      "alternates": null
+    },
+    {
+      "route": "/danh-muc/hop-carton-in-mau/",
+      "file": "dist/danh-muc/hop-carton-in-mau/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton in màu | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/hop-carton-in-mau/",
+      "alternates": {
+        "vi": "/danh-muc/hop-carton-in-mau/",
+        "en": "/en/printed-corrugated-boxes/",
+        "zh": "/zh/printed-corrugated-boxes/"
+      }
+    },
+    {
+      "route": "/danh-muc/hop-cung-cao-cap/",
+      "file": "dist/danh-muc/hop-cung-cao-cap/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cứng cao cấp | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/hop-cung-cao-cap/",
+      "alternates": {
+        "vi": "/danh-muc/hop-cung-cao-cap/",
+        "en": "/en/premium-rigid-boxes/",
+        "zh": "/zh/premium-rigid-boxes/"
+      }
+    },
+    {
+      "route": "/danh-muc/hop-giay-mem/",
+      "file": "dist/danh-muc/hop-giay-mem/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/hop-giay-mem/",
+      "alternates": {
+        "vi": "/danh-muc/hop-giay-mem/",
+        "en": "/en/folding-cartons/",
+        "zh": "/zh/folding-cartons/"
+      }
+    },
+    {
+      "route": "/danh-muc/nhan-dan-decal/",
+      "file": "dist/danh-muc/nhan-dan-decal/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn dán decal | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/nhan-dan-decal/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-dan-decal/",
+        "en": "/en/adhesive-labels/",
+        "zh": "/zh/adhesive-labels/"
+      }
+    },
+    {
+      "route": "/danh-muc/nhan-hang-catalog/",
+      "file": "dist/danh-muc/nhan-hang-catalog/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng & catalog | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/nhan-hang-catalog/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-hang-catalog/",
+        "en": "/en/hang-tags-catalogues/",
+        "zh": "/zh/hang-tags-catalogues/"
+      }
+    },
+    {
+      "route": "/danh-muc/san-pham-noi-bat/",
+      "file": "dist/danh-muc/san-pham-noi-bat/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Sản phẩm nổi bật | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/san-pham-noi-bat/",
+      "alternates": null
+    },
+    {
+      "route": "/danh-muc/tui-giay/",
+      "file": "dist/danh-muc/tui-giay/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy | HotPrint",
+      "canonical": "https://hotprint.vn/danh-muc/tui-giay/",
+      "alternates": {
+        "vi": "/danh-muc/tui-giay/",
+        "en": "/en/paper-bags/",
+        "zh": "/zh/paper-bags/"
+      }
+    },
+    {
+      "route": "/dat-lich-tu-van/",
+      "file": "dist/dat-lich-tu-van/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Đặt lịch tư vấn | HotPrint",
+      "canonical": "https://hotprint.vn/dat-lich-tu-van/",
+      "alternates": {
+        "vi": "/dat-lich-tu-van/",
+        "en": "/en/request-a-consultation/",
+        "zh": "/zh/request-a-consultation/"
+      }
+    },
+    {
+      "route": "/dich-vu/",
+      "file": "dist/dich-vu/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Dịch vụ | HotPrint",
+      "canonical": "https://hotprint.vn/dich-vu/",
+      "alternates": null
+    },
+    {
+      "route": "/dieu-kien-gui-yeu-cau/",
+      "file": "dist/dieu-kien-gui-yeu-cau/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Điều kiện gửi yêu cầu | HotPrint",
+      "canonical": "https://hotprint.vn/dieu-kien-gui-yeu-cau/",
+      "alternates": {
+        "vi": "/dieu-kien-gui-yeu-cau/",
+        "en": "/en/request-terms/",
+        "zh": "/zh/request-terms/"
+      }
+    },
+    {
+      "route": "/en/about/",
+      "file": "dist/en/about/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "About HotPrint | HotPrint",
+      "canonical": "https://hotprint.vn/en/about/",
+      "alternates": {
+        "vi": "/ve-chung-toi/",
+        "en": "/en/about/",
+        "zh": "/zh/about/"
+      }
+    },
+    {
+      "route": "/en/adhesive-labels/",
+      "file": "dist/en/adhesive-labels/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Adhesive labels | HotPrint",
+      "canonical": "https://hotprint.vn/en/adhesive-labels/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-dan-decal/",
+        "en": "/en/adhesive-labels/",
+        "zh": "/zh/adhesive-labels/"
+      }
+    },
+    {
+      "route": "/en/contact/",
+      "file": "dist/en/contact/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Contact | HotPrint",
+      "canonical": "https://hotprint.vn/en/contact/",
+      "alternates": {
+        "vi": "/lien-he/",
+        "en": "/en/contact/",
+        "zh": "/zh/contact/"
+      }
+    },
+    {
+      "route": "/en/factory/",
+      "file": "dist/en/factory/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Company profile | HotPrint",
+      "canonical": "https://hotprint.vn/en/factory/",
+      "alternates": {
+        "vi": "/nha-may/",
+        "en": "/en/factory/",
+        "zh": "/zh/factory/"
+      }
+    },
+    {
+      "route": "/en/folding-cartons/",
+      "file": "dist/en/folding-cartons/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Folding cartons | HotPrint",
+      "canonical": "https://hotprint.vn/en/folding-cartons/",
+      "alternates": {
+        "vi": "/danh-muc/hop-giay-mem/",
+        "en": "/en/folding-cartons/",
+        "zh": "/zh/folding-cartons/"
+      }
+    },
+    {
+      "route": "/en/hang-tags-catalogues/",
+      "file": "dist/en/hang-tags-catalogues/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Hang tags & catalogues | HotPrint",
+      "canonical": "https://hotprint.vn/en/hang-tags-catalogues/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-hang-catalog/",
+        "en": "/en/hang-tags-catalogues/",
+        "zh": "/zh/hang-tags-catalogues/"
+      }
+    },
+    {
+      "route": "/en/",
+      "file": "dist/en/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "HotPrint — From flat ideas. To lasting impressions.",
+      "canonical": "https://hotprint.vn/en/",
+      "alternates": {
+        "vi": "/",
+        "en": "/en/",
+        "zh": "/zh/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/choose-a-packaging-structure/",
+      "file": "dist/en/packaging-insights/choose-a-packaging-structure/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Choose the structure around what you need to pack. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/choose-a-packaging-structure/",
+      "alternates": {
+        "vi": "/kien-thuc/chon-cau-truc-bao-bi/",
+        "en": "/en/packaging-insights/choose-a-packaging-structure/",
+        "zh": "/zh/packaging-insights/choose-a-packaging-structure/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/discuss-packaging-materials/",
+      "file": "dist/en/packaging-insights/discuss-packaging-materials/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Materials: define the need, feel the sample. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/discuss-packaging-materials/",
+      "alternates": {
+        "vi": "/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+        "en": "/en/packaging-insights/discuss-packaging-materials/",
+        "zh": "/zh/packaging-insights/discuss-packaging-materials/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/",
+      "file": "dist/en/packaging-insights/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Packaging insights | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/",
+      "alternates": {
+        "vi": "/kien-thuc/",
+        "en": "/en/packaging-insights/",
+        "zh": "/zh/packaging-insights/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/prepare-a-packaging-brief/",
+      "file": "dist/en/packaging-insights/prepare-a-packaging-brief/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Before a quote, start with a clear packaging brief. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/prepare-a-packaging-brief/",
+      "alternates": {
+        "vi": "/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+        "en": "/en/packaging-insights/prepare-a-packaging-brief/",
+        "zh": "/zh/packaging-insights/prepare-a-packaging-brief/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/prepare-packaging-artwork/",
+      "file": "dist/en/packaging-insights/prepare-packaging-artwork/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Clear artwork makes the handoff easier. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/prepare-packaging-artwork/",
+      "alternates": {
+        "vi": "/kien-thuc/chuan-bi-tep-in-bao-bi/",
+        "en": "/en/packaging-insights/prepare-packaging-artwork/",
+        "zh": "/zh/packaging-insights/prepare-packaging-artwork/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/review-a-packaging-sample/",
+      "file": "dist/en/packaging-insights/review-a-packaging-sample/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Review a sample: look, feel and test the fit. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/review-a-packaging-sample/",
+      "alternates": {
+        "vi": "/kien-thuc/danh-gia-mau-bao-bi/",
+        "en": "/en/packaging-insights/review-a-packaging-sample/",
+        "zh": "/zh/packaging-insights/review-a-packaging-sample/"
+      }
+    },
+    {
+      "route": "/en/packaging-insights/working-together-on-a-packaging-project/",
+      "file": "dist/en/packaging-insights/working-together-on-a-packaging-project/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "From brief to finished pack: keep a shared reference. | HotPrint",
+      "canonical": "https://hotprint.vn/en/packaging-insights/working-together-on-a-packaging-project/",
+      "alternates": {
+        "vi": "/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+        "en": "/en/packaging-insights/working-together-on-a-packaging-project/",
+        "zh": "/zh/packaging-insights/working-together-on-a-packaging-project/"
+      }
+    },
+    {
+      "route": "/en/paper-bags/",
+      "file": "dist/en/paper-bags/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Paper bags | HotPrint",
+      "canonical": "https://hotprint.vn/en/paper-bags/",
+      "alternates": {
+        "vi": "/danh-muc/tui-giay/",
+        "en": "/en/paper-bags/",
+        "zh": "/zh/paper-bags/"
+      }
+    },
+    {
+      "route": "/en/premium-rigid-boxes/",
+      "file": "dist/en/premium-rigid-boxes/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Premium rigid boxes | HotPrint",
+      "canonical": "https://hotprint.vn/en/premium-rigid-boxes/",
+      "alternates": {
+        "vi": "/danh-muc/hop-cung-cao-cap/",
+        "en": "/en/premium-rigid-boxes/",
+        "zh": "/zh/premium-rigid-boxes/"
+      }
+    },
+    {
+      "route": "/en/printed-corrugated-boxes/",
+      "file": "dist/en/printed-corrugated-boxes/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Printed corrugated boxes | HotPrint",
+      "canonical": "https://hotprint.vn/en/printed-corrugated-boxes/",
+      "alternates": {
+        "vi": "/danh-muc/hop-carton-in-mau/",
+        "en": "/en/printed-corrugated-boxes/",
+        "zh": "/zh/printed-corrugated-boxes/"
+      }
+    },
+    {
+      "route": "/en/privacy/",
+      "file": "dist/en/privacy/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Privacy | HotPrint",
+      "canonical": "https://hotprint.vn/en/privacy/",
+      "alternates": {
+        "vi": "/chinh-sach-rieng-tu/",
+        "en": "/en/privacy/",
+        "zh": "/zh/privacy/"
+      }
+    },
+    {
+      "route": "/en/products/",
+      "file": "dist/en/products/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Product overview | HotPrint",
+      "canonical": "https://hotprint.vn/en/products/",
+      "alternates": {
+        "vi": "/san-pham/",
+        "en": "/en/products/",
+        "zh": "/zh/products/"
+      }
+    },
+    {
+      "route": "/en/request-a-consultation/",
+      "file": "dist/en/request-a-consultation/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Request a consultation | HotPrint",
+      "canonical": "https://hotprint.vn/en/request-a-consultation/",
+      "alternates": {
+        "vi": "/dat-lich-tu-van/",
+        "en": "/en/request-a-consultation/",
+        "zh": "/zh/request-a-consultation/"
+      }
+    },
+    {
+      "route": "/en/request-a-quote/",
+      "file": "dist/en/request-a-quote/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Request a quote | HotPrint",
+      "canonical": "https://hotprint.vn/en/request-a-quote/",
+      "alternates": {
+        "vi": "/yeu-cau-bao-gia/",
+        "en": "/en/request-a-quote/",
+        "zh": "/zh/request-a-quote/"
+      }
+    },
+    {
+      "route": "/en/request-status/",
+      "file": "dist/en/request-status/index.html",
+      "lang": "en",
+      "indexable": false,
+      "title": "Request confirmation | HotPrint",
+      "canonical": "https://hotprint.vn/en/request-status/",
+      "alternates": {
+        "vi": "/da-gui-yeu-cau/",
+        "en": "/en/request-status/",
+        "zh": "/zh/request-status/"
+      }
+    },
+    {
+      "route": "/en/request-terms/",
+      "file": "dist/en/request-terms/index.html",
+      "lang": "en",
+      "indexable": true,
+      "title": "Request terms | HotPrint",
+      "canonical": "https://hotprint.vn/en/request-terms/",
+      "alternates": {
+        "vi": "/dieu-kien-gui-yeu-cau/",
+        "en": "/en/request-terms/",
+        "zh": "/zh/request-terms/"
+      }
+    },
+    {
+      "route": "/in-an-bao-bi/",
+      "file": "dist/in-an-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "In ấn bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/in-an-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/in-decal-cuon/",
+      "file": "dist/in-decal-cuon/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Chất lượng sản phẩm | HotPrint",
+      "canonical": "https://hotprint.vn/in-decal-cuon/",
+      "alternates": null
+    },
+    {
+      "route": "/",
+      "file": "dist/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "HotPrint — Ý tưởng phẳng. Ấn tượng đa chiều.",
+      "canonical": "https://hotprint.vn/",
+      "alternates": {
+        "vi": "/",
+        "en": "/en/",
+        "zh": "/zh/"
+      }
+    },
+    {
+      "route": "/kien-thuc/chon-cau-truc-bao-bi/",
+      "file": "dist/kien-thuc/chon-cau-truc-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Chọn cấu trúc từ điều bạn cần đóng gói. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/chon-cau-truc-bao-bi/",
+      "alternates": {
+        "vi": "/kien-thuc/chon-cau-truc-bao-bi/",
+        "en": "/en/packaging-insights/choose-a-packaging-structure/",
+        "zh": "/zh/packaging-insights/choose-a-packaging-structure/"
+      }
+    },
+    {
+      "route": "/kien-thuc/chuan-bi-tep-in-bao-bi/",
+      "file": "dist/kien-thuc/chuan-bi-tep-in-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Một tệp in rõ ràng, ít vòng trao đổi hơn. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/chuan-bi-tep-in-bao-bi/",
+      "alternates": {
+        "vi": "/kien-thuc/chuan-bi-tep-in-bao-bi/",
+        "en": "/en/packaging-insights/prepare-packaging-artwork/",
+        "zh": "/zh/packaging-insights/prepare-packaging-artwork/"
+      }
+    },
+    {
+      "route": "/kien-thuc/danh-gia-mau-bao-bi/",
+      "file": "dist/kien-thuc/danh-gia-mau-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Đánh giá mẫu: nhìn, chạm và thử với sản phẩm. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/danh-gia-mau-bao-bi/",
+      "alternates": {
+        "vi": "/kien-thuc/danh-gia-mau-bao-bi/",
+        "en": "/en/packaging-insights/review-a-packaging-sample/",
+        "zh": "/zh/packaging-insights/review-a-packaging-sample/"
+      }
+    },
+    {
+      "route": "/kien-thuc/",
+      "file": "dist/kien-thuc/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Kiến thức bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/",
+      "alternates": {
+        "vi": "/kien-thuc/",
+        "en": "/en/packaging-insights/",
+        "zh": "/zh/packaging-insights/"
+      }
+    },
+    {
+      "route": "/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+      "file": "dist/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Từ yêu cầu đến thành phẩm: cùng giữ một phiên bản rõ. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+      "alternates": {
+        "vi": "/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+        "en": "/en/packaging-insights/working-together-on-a-packaging-project/",
+        "zh": "/zh/packaging-insights/working-together-on-a-packaging-project/"
+      }
+    },
+    {
+      "route": "/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+      "file": "dist/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Trước khi hỏi báo giá, hãy bắt đầu từ một bản yêu cầu rõ. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+      "alternates": {
+        "vi": "/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+        "en": "/en/packaging-insights/prepare-a-packaging-brief/",
+        "zh": "/zh/packaging-insights/prepare-a-packaging-brief/"
+      }
+    },
+    {
+      "route": "/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+      "file": "dist/kien-thuc/trao-doi-vat-lieu-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Vật liệu: chọn bằng yêu cầu, cảm nhận bằng mẫu. | HotPrint",
+      "canonical": "https://hotprint.vn/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+      "alternates": {
+        "vi": "/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+        "en": "/en/packaging-insights/discuss-packaging-materials/",
+        "zh": "/zh/packaging-insights/discuss-packaging-materials/"
+      }
+    },
+    {
+      "route": "/lien-he/",
+      "file": "dist/lien-he/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Liên hệ | HotPrint",
+      "canonical": "https://hotprint.vn/lien-he/",
+      "alternates": {
+        "vi": "/lien-he/",
+        "en": "/en/contact/",
+        "zh": "/zh/contact/"
+      }
+    },
+    {
+      "route": "/nha-may/",
+      "file": "dist/nha-may/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hồ sơ doanh nghiệp | HotPrint",
+      "canonical": "https://hotprint.vn/nha-may/",
+      "alternates": {
+        "vi": "/nha-may/",
+        "en": "/en/factory/",
+        "zh": "/zh/factory/"
+      }
+    },
+    {
+      "route": "/nhung-dieu-can-biet-ve-tinh-chat-cua-bao-bi-giay/",
+      "file": "dist/nhung-dieu-can-biet-ve-tinh-chat-cua-bao-bi-giay/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Những điều cần biết về tính chất của bao bì giấy | HotPrint",
+      "canonical": "https://hotprint.vn/nhung-dieu-can-biet-ve-tinh-chat-cua-bao-bi-giay/",
+      "alternates": null
+    },
+    {
+      "route": "/nhung-thong-tin-can-biet-ve-bao-bi-do-uong-bang-giay/",
+      "file": "dist/nhung-thong-tin-can-biet-ve-bao-bi-do-uong-bang-giay/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Những thông tin cần biết về bao bì đồ uống bằng giấy | HotPrint",
+      "canonical": "https://hotprint.vn/nhung-thong-tin-can-biet-ve-bao-bi-do-uong-bang-giay/",
+      "alternates": null
+    },
+    {
+      "route": "/phan-loai-cac-chat-lieu-chuyen-dung-trong-san-xuat-bao-bi/",
+      "file": "dist/phan-loai-cac-chat-lieu-chuyen-dung-trong-san-xuat-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Phân loại các chất liệu chuyên dùng trong sản xuất bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/phan-loai-cac-chat-lieu-chuyen-dung-trong-san-xuat-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/catalog-bia-cung/",
+      "file": "dist/san-pham/catalog-bia-cung/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Catalog bìa cứng | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/catalog-bia-cung/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/catalog-brochuse-tap-chi/",
+      "file": "dist/san-pham/catalog-brochuse-tap-chi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Catalog / Brochuse / Tạp chí | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/catalog-brochuse-tap-chi/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-banh-sinh-nhat/",
+      "file": "dist/san-pham/hop-banh-sinh-nhat/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp bánh sinh nhật | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-banh-sinh-nhat/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-banh-trung-thu/",
+      "file": "dist/san-pham/hop-banh-trung-thu/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp bánh trung thu | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-banh-trung-thu/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-001/",
+      "file": "dist/san-pham/hop-cao-cap-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-002/",
+      "file": "dist/san-pham/hop-cao-cap-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-003/",
+      "file": "dist/san-pham/hop-cao-cap-003/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 003 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-003/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-004/",
+      "file": "dist/san-pham/hop-cao-cap-004/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 004 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-004/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-005/",
+      "file": "dist/san-pham/hop-cao-cap-005/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 005 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-005/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-006/",
+      "file": "dist/san-pham/hop-cao-cap-006/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 006 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-006/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-007/",
+      "file": "dist/san-pham/hop-cao-cap-007/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 007 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-007/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-cao-cap-008/",
+      "file": "dist/san-pham/hop-cao-cap-008/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp cao cấp – 008 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-cao-cap-008/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-001/",
+      "file": "dist/san-pham/hop-carton-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-002/",
+      "file": "dist/san-pham/hop-carton-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-003/",
+      "file": "dist/san-pham/hop-carton-003/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 003 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-003/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-004/",
+      "file": "dist/san-pham/hop-carton-004/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 004 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-004/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-005/",
+      "file": "dist/san-pham/hop-carton-005/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 005 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-005/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-006/",
+      "file": "dist/san-pham/hop-carton-006/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 006 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-006/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-007/",
+      "file": "dist/san-pham/hop-carton-007/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton – 007 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-007/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-dung-giay/",
+      "file": "dist/san-pham/hop-carton-dung-giay/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton đựng giày | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-dung-giay/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-carton-dung-pizza/",
+      "file": "dist/san-pham/hop-carton-dung-pizza/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp carton đựng pizza | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-carton-dung-pizza/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-duoc-pham-ampha-3b/",
+      "file": "dist/san-pham/hop-duoc-pham-ampha-3b/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp dược phẩm Ampha 3B | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-duoc-pham-ampha-3b/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-duoc-pham-varogel/",
+      "file": "dist/san-pham/hop-duoc-pham-varogel/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp dược phẩm Varogel | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-duoc-pham-varogel/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-hop-duoc-pham/",
+      "file": "dist/san-pham/hop-giay-hop-duoc-pham/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy / Hộp dược phẩm | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-hop-duoc-pham/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-hop-giay-marc-opolo/",
+      "file": "dist/san-pham/hop-giay-hop-giay-marc-opolo/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy / Hộp giày MARC O’POLO | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-hop-giay-marc-opolo/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-hop-giay-pierre-cardin/",
+      "file": "dist/san-pham/hop-giay-hop-giay-pierre-cardin/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy / Hộp giày Pierre Cardin | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-hop-giay-pierre-cardin/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-hop-my-pham-levinia/",
+      "file": "dist/san-pham/hop-giay-hop-my-pham-levinia/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy / Hộp mỹ phẩm L’evinia | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-hop-my-pham-levinia/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-mem-001/",
+      "file": "dist/san-pham/hop-giay-mem-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-mem-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-mem-002/",
+      "file": "dist/san-pham/hop-giay-mem-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-mem-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-mem-003/",
+      "file": "dist/san-pham/hop-giay-mem-003/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm – 003 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-mem-003/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-mem-004/",
+      "file": "dist/san-pham/hop-giay-mem-004/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm – 004 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-mem-004/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-giay-mem-005/",
+      "file": "dist/san-pham/hop-giay-mem-005/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp giấy mềm – 005 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-giay-mem-005/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/hop-yen-sao/",
+      "file": "dist/san-pham/hop-yen-sao/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Hộp yến sào | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/hop-yen-sao/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/",
+      "file": "dist/san-pham/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Tổng quan sản phẩm | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/",
+      "alternates": {
+        "vi": "/san-pham/",
+        "en": "/en/products/",
+        "zh": "/zh/products/"
+      }
+    },
+    {
+      "route": "/san-pham/nhan-dan-decal/",
+      "file": "dist/san-pham/nhan-dan-decal/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn dán decal | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-dan-decal/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-dan-decal-001/",
+      "file": "dist/san-pham/nhan-dan-decal-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn dán (Decal) – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-dan-decal-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-dan-decal-002/",
+      "file": "dist/san-pham/nhan-dan-decal-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn dán (Decal) – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-dan-decal-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-dan-decal-lien-tuc/",
+      "file": "dist/san-pham/nhan-dan-decal-lien-tuc/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn dán decal liên tục | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-dan-decal-lien-tuc/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-hang/",
+      "file": "dist/san-pham/nhan-hang/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-hang/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-hang-catalog-001/",
+      "file": "dist/san-pham/nhan-hang-catalog-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng, Catalog – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-hang-catalog-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-hang-catalog-002/",
+      "file": "dist/san-pham/nhan-hang-catalog-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng, Catalog – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-hang-catalog-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-hang-catalog-003/",
+      "file": "dist/san-pham/nhan-hang-catalog-003/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng, Catalog – 003 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-hang-catalog-003/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-hang-catalog-004/",
+      "file": "dist/san-pham/nhan-hang-catalog-004/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn hàng, Catalog – 004 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-hang-catalog-004/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/nhan-satin-rubang/",
+      "file": "dist/san-pham/nhan-satin-rubang/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Nhãn satin / rubang | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/nhan-satin-rubang/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tem-nhan-in-nhiet/",
+      "file": "dist/san-pham/tem-nhan-in-nhiet/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Tem nhãn in nhiệt | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tem-nhan-in-nhiet/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/the-treo-the-bai/",
+      "file": "dist/san-pham/the-treo-the-bai/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Thẻ treo / thẻ bài | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/the-treo-the-bai/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-001/",
+      "file": "dist/san-pham/tui-giay-001/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 001 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-001/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-002/",
+      "file": "dist/san-pham/tui-giay-002/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 002 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-002/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-003/",
+      "file": "dist/san-pham/tui-giay-003/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 003 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-003/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-004/",
+      "file": "dist/san-pham/tui-giay-004/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 004 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-004/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-005/",
+      "file": "dist/san-pham/tui-giay-005/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 005 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-005/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-006/",
+      "file": "dist/san-pham/tui-giay-006/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy – 006 | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-006/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-dung-qua-tang/",
+      "file": "dist/san-pham/tui-giay-dung-qua-tang/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy đựng quà tặng | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-dung-qua-tang/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-dung-ruou-vang/",
+      "file": "dist/san-pham/tui-giay-dung-ruou-vang/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy đựng rượu vang | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-dung-ruou-vang/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-giay-quai-xach-nap-gap/",
+      "file": "dist/san-pham/tui-giay-quai-xach-nap-gap/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi giấy quai xách – nắp gập | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-giay-quai-xach-nap-gap/",
+      "alternates": null
+    },
+    {
+      "route": "/san-pham/tui-xach-lnkk/",
+      "file": "dist/san-pham/tui-xach-lnkk/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Túi xách LNKK | HotPrint",
+      "canonical": "https://hotprint.vn/san-pham/tui-xach-lnkk/",
+      "alternates": null
+    },
+    {
+      "route": "/san-xuat-bao-bi/",
+      "file": "dist/san-xuat-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Năng lực sản xuất chất lượng | HotPrint",
+      "canonical": "https://hotprint.vn/san-xuat-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/thiet-ke-che-ban-bao-bi/",
+      "file": "dist/thiet-ke-che-ban-bao-bi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Miễn phí tư vấn thiết kế bao bì | HotPrint",
+      "canonical": "https://hotprint.vn/thiet-ke-che-ban-bao-bi/",
+      "alternates": null
+    },
+    {
+      "route": "/tin-tuc/",
+      "file": "dist/tin-tuc/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Tin tức | HotPrint",
+      "canonical": "https://hotprint.vn/tin-tuc/",
+      "alternates": null
+    },
+    {
+      "route": "/tuyen-dung/",
+      "file": "dist/tuyen-dung/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Tuyển dụng | HotPrint",
+      "canonical": "https://hotprint.vn/tuyen-dung/",
+      "alternates": null
+    },
+    {
+      "route": "/tuyen-nhan-vien/",
+      "file": "dist/tuyen-nhan-vien/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Tuyển nhân viên | HotPrint",
+      "canonical": "https://hotprint.vn/tuyen-nhan-vien/",
+      "alternates": null
+    },
+    {
+      "route": "/ve-chung-toi/",
+      "file": "dist/ve-chung-toi/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Về HotPrint | HotPrint",
+      "canonical": "https://hotprint.vn/ve-chung-toi/",
+      "alternates": {
+        "vi": "/ve-chung-toi/",
+        "en": "/en/about/",
+        "zh": "/zh/about/"
+      }
+    },
+    {
+      "route": "/yeu-cau-bao-gia/",
+      "file": "dist/yeu-cau-bao-gia/index.html",
+      "lang": "vi",
+      "indexable": true,
+      "title": "Yêu cầu báo giá | HotPrint",
+      "canonical": "https://hotprint.vn/yeu-cau-bao-gia/",
+      "alternates": {
+        "vi": "/yeu-cau-bao-gia/",
+        "en": "/en/request-a-quote/",
+        "zh": "/zh/request-a-quote/"
+      }
+    },
+    {
+      "route": "/zh/about/",
+      "file": "dist/zh/about/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "关于 HotPrint | HotPrint",
+      "canonical": "https://hotprint.vn/zh/about/",
+      "alternates": {
+        "vi": "/ve-chung-toi/",
+        "en": "/en/about/",
+        "zh": "/zh/about/"
+      }
+    },
+    {
+      "route": "/zh/adhesive-labels/",
+      "file": "dist/zh/adhesive-labels/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "不干胶标签 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/adhesive-labels/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-dan-decal/",
+        "en": "/en/adhesive-labels/",
+        "zh": "/zh/adhesive-labels/"
+      }
+    },
+    {
+      "route": "/zh/contact/",
+      "file": "dist/zh/contact/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "联系我们 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/contact/",
+      "alternates": {
+        "vi": "/lien-he/",
+        "en": "/en/contact/",
+        "zh": "/zh/contact/"
+      }
+    },
+    {
+      "route": "/zh/factory/",
+      "file": "dist/zh/factory/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "企业简介 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/factory/",
+      "alternates": {
+        "vi": "/nha-may/",
+        "en": "/en/factory/",
+        "zh": "/zh/factory/"
+      }
+    },
+    {
+      "route": "/zh/folding-cartons/",
+      "file": "dist/zh/folding-cartons/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "折叠纸盒 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/folding-cartons/",
+      "alternates": {
+        "vi": "/danh-muc/hop-giay-mem/",
+        "en": "/en/folding-cartons/",
+        "zh": "/zh/folding-cartons/"
+      }
+    },
+    {
+      "route": "/zh/hang-tags-catalogues/",
+      "file": "dist/zh/hang-tags-catalogues/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "吊牌与产品目录 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/hang-tags-catalogues/",
+      "alternates": {
+        "vi": "/danh-muc/nhan-hang-catalog/",
+        "en": "/en/hang-tags-catalogues/",
+        "zh": "/zh/hang-tags-catalogues/"
+      }
+    },
+    {
+      "route": "/zh/",
+      "file": "dist/zh/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "HotPrint — 平面的创意，多维的印象。",
+      "canonical": "https://hotprint.vn/zh/",
+      "alternates": {
+        "vi": "/",
+        "en": "/en/",
+        "zh": "/zh/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/choose-a-packaging-structure/",
+      "file": "dist/zh/packaging-insights/choose-a-packaging-structure/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "围绕需要包装的产品，选择结构。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/choose-a-packaging-structure/",
+      "alternates": {
+        "vi": "/kien-thuc/chon-cau-truc-bao-bi/",
+        "en": "/en/packaging-insights/choose-a-packaging-structure/",
+        "zh": "/zh/packaging-insights/choose-a-packaging-structure/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/discuss-packaging-materials/",
+      "file": "dist/zh/packaging-insights/discuss-packaging-materials/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "材料：明确需求，感受样品。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/discuss-packaging-materials/",
+      "alternates": {
+        "vi": "/kien-thuc/trao-doi-vat-lieu-bao-bi/",
+        "en": "/en/packaging-insights/discuss-packaging-materials/",
+        "zh": "/zh/packaging-insights/discuss-packaging-materials/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/",
+      "file": "dist/zh/packaging-insights/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "包装知识 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/",
+      "alternates": {
+        "vi": "/kien-thuc/",
+        "en": "/en/packaging-insights/",
+        "zh": "/zh/packaging-insights/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/prepare-a-packaging-brief/",
+      "file": "dist/zh/packaging-insights/prepare-a-packaging-brief/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "报价前，先明确包装需求。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/prepare-a-packaging-brief/",
+      "alternates": {
+        "vi": "/kien-thuc/thong-tin-truoc-khi-hoi-bao-gia/",
+        "en": "/en/packaging-insights/prepare-a-packaging-brief/",
+        "zh": "/zh/packaging-insights/prepare-a-packaging-brief/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/prepare-packaging-artwork/",
+      "file": "dist/zh/packaging-insights/prepare-packaging-artwork/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "清晰的设计文件，让交接更顺畅。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/prepare-packaging-artwork/",
+      "alternates": {
+        "vi": "/kien-thuc/chuan-bi-tep-in-bao-bi/",
+        "en": "/en/packaging-insights/prepare-packaging-artwork/",
+        "zh": "/zh/packaging-insights/prepare-packaging-artwork/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/review-a-packaging-sample/",
+      "file": "dist/zh/packaging-insights/review-a-packaging-sample/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "审核样品：观察、感受、测试配合。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/review-a-packaging-sample/",
+      "alternates": {
+        "vi": "/kien-thuc/danh-gia-mau-bao-bi/",
+        "en": "/en/packaging-insights/review-a-packaging-sample/",
+        "zh": "/zh/packaging-insights/review-a-packaging-sample/"
+      }
+    },
+    {
+      "route": "/zh/packaging-insights/working-together-on-a-packaging-project/",
+      "file": "dist/zh/packaging-insights/working-together-on-a-packaging-project/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "从需求到成品，保留共同的参考依据。 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/packaging-insights/working-together-on-a-packaging-project/",
+      "alternates": {
+        "vi": "/kien-thuc/quy-trinh-phoi-hop-du-an-bao-bi/",
+        "en": "/en/packaging-insights/working-together-on-a-packaging-project/",
+        "zh": "/zh/packaging-insights/working-together-on-a-packaging-project/"
+      }
+    },
+    {
+      "route": "/zh/paper-bags/",
+      "file": "dist/zh/paper-bags/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "纸袋 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/paper-bags/",
+      "alternates": {
+        "vi": "/danh-muc/tui-giay/",
+        "en": "/en/paper-bags/",
+        "zh": "/zh/paper-bags/"
+      }
+    },
+    {
+      "route": "/zh/premium-rigid-boxes/",
+      "file": "dist/zh/premium-rigid-boxes/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "高档硬盒 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/premium-rigid-boxes/",
+      "alternates": {
+        "vi": "/danh-muc/hop-cung-cao-cap/",
+        "en": "/en/premium-rigid-boxes/",
+        "zh": "/zh/premium-rigid-boxes/"
+      }
+    },
+    {
+      "route": "/zh/printed-corrugated-boxes/",
+      "file": "dist/zh/printed-corrugated-boxes/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "彩印瓦楞纸盒 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/printed-corrugated-boxes/",
+      "alternates": {
+        "vi": "/danh-muc/hop-carton-in-mau/",
+        "en": "/en/printed-corrugated-boxes/",
+        "zh": "/zh/printed-corrugated-boxes/"
+      }
+    },
+    {
+      "route": "/zh/privacy/",
+      "file": "dist/zh/privacy/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "隐私政策 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/privacy/",
+      "alternates": {
+        "vi": "/chinh-sach-rieng-tu/",
+        "en": "/en/privacy/",
+        "zh": "/zh/privacy/"
+      }
+    },
+    {
+      "route": "/zh/products/",
+      "file": "dist/zh/products/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "产品总览 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/products/",
+      "alternates": {
+        "vi": "/san-pham/",
+        "en": "/en/products/",
+        "zh": "/zh/products/"
+      }
+    },
+    {
+      "route": "/zh/request-a-consultation/",
+      "file": "dist/zh/request-a-consultation/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "预约咨询 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/request-a-consultation/",
+      "alternates": {
+        "vi": "/dat-lich-tu-van/",
+        "en": "/en/request-a-consultation/",
+        "zh": "/zh/request-a-consultation/"
+      }
+    },
+    {
+      "route": "/zh/request-a-quote/",
+      "file": "dist/zh/request-a-quote/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "申请报价 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/request-a-quote/",
+      "alternates": {
+        "vi": "/yeu-cau-bao-gia/",
+        "en": "/en/request-a-quote/",
+        "zh": "/zh/request-a-quote/"
+      }
+    },
+    {
+      "route": "/zh/request-status/",
+      "file": "dist/zh/request-status/index.html",
+      "lang": "zh-Hans",
+      "indexable": false,
+      "title": "申请发送核对 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/request-status/",
+      "alternates": {
+        "vi": "/da-gui-yeu-cau/",
+        "en": "/en/request-status/",
+        "zh": "/zh/request-status/"
+      }
+    },
+    {
+      "route": "/zh/request-terms/",
+      "file": "dist/zh/request-terms/index.html",
+      "lang": "zh-Hans",
+      "indexable": true,
+      "title": "申请提交条件 | HotPrint",
+      "canonical": "https://hotprint.vn/zh/request-terms/",
+      "alternates": {
+        "vi": "/dieu-kien-gui-yeu-cau/",
+        "en": "/en/request-terms/",
+        "zh": "/zh/request-terms/"
+      }
+    }
+  ],
+  "indexable": 143,
+  "previewNoindex": "HTTP X-Robots-Tag on non-company hosts"
+}

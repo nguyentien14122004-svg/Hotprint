@@ -96,6 +96,8 @@
     for(const [id,key]of [['gallery-prev','prevImage'],['gallery-next','nextImage']]){$c('#'+id).hidden=p.images.length===1;$c('#'+id).setAttribute('aria-label',txt(key));}
     $c('#detail-thumbs').innerHTML=p.images.map((id,i)=>`<button data-image="${i}" aria-label="${txt('photo')} ${i+1}" aria-pressed="${i===imageIndex}"><img src="${imageURL(id)}" alt="" width="70" height="50"></button>`).join('');
     $c('#detail-quote').dataset.model=p.id;
+    let pageLink=$c('#detail-page-link');if(!pageLink){pageLink=document.createElement('a');pageLink.id='detail-page-link';pageLink.className='detail-page-link';$c('#detail-quote').before(pageLink);}
+    pageLink.hidden=!p.legacyUrl;if(p.legacyUrl){pageLink.href=p.legacyUrl;pageLink.textContent=language==='vi'?'Trang chi tiết sản phẩm ↗':language==='zh'?'产品详情（越南语） ↗':'Product page (Vietnamese) ↗';}
     $c('#detail-save').dataset.save=p.id;updateSelectionUI();
   }
   function localize(){

@@ -1,0 +1,33 @@
+import {readFile,writeFile,readdir} from 'node:fs/promises';
+import sanitize from 'sanitize-html';
+import {decodeHTML} from 'entities';
+const origin='https://hotprint.vn';
+const languages=JSON.parse(await readFile('dist/language-routes.json','utf8'));
+const legacy=JSON.parse(await readFile('migration/route-manifest.json','utf8'));
+const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const plain=s=>decodeHTML(sanitize(s||'',{allowedTags:[],allowedAttributes:{}})).replace(/\s+/g,' ').trim();
+const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
+const files=[];async function walk(p){for(const e of await readdir(p,{withFileTypes:true})){if(e.isDirectory())await walk(p+'/'+e.name);else if(e.name==='index.html')files.push(p+'/'+e.name)}}await walk('dist');
+const sitemap=[],inventory=[];
+for(const file of files){
+ const route=file==='dist/index.html'?'/':'/'+file.slice(5,-10),lang=route.startsWith('/zh/')?'zh-Hans':route.startsWith('/en/')?'en':'vi';
+ let html=await readFile(file,'utf8');const meta=legacy.pages.find(p=>p.route===route),title=plain(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||'HotPrint'),description=plain(html.match(/<meta name="description" content="([^"]*)"/)?.[1]||meta?.description||title);
+ const noindex=route.includes('/da-gui-yeu-cau/')||route.includes('/request-status/')||meta?.type==='empty-archive';
+ html=html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>\s*/gi,'').replace(/<link\b[^>]*rel=["'](?:canonical|alternate)["'][^>]*(?:hreflang|canonical)[^>]*>\s*/gi,'').replace(/<link\b[^>]*rel="canonical"[^>]*>\s*/gi,'').replace(/<meta\b[^>]*(?:property="og:[^"]+"|name="twitter:[^"]+")[^>]*>\s*/gi,'').replace(/<script\b[^>]*data-seo="true"[^>]*>[\s\S]*?<\/script>\s*/gi,'');
+ const pair=languages.find(p=>Object.values(p).includes(route)),image=origin+(meta?.image||'/assets/hero-hotprint-v3.webp');
+ const alternates=pair?Object.entries(pair).map(([code,url])=>`<link rel="alternate" hreflang="${code==='zh'?'zh-Hans':code}" href="${origin+url}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${origin+pair.vi}">`:'';
+ const graph=[{'@type':'Organization','@id':origin+'/#organization',name:'HotPrint',legalName:'Công Ty TNHH Tập Đoàn Hoàng Thị',url:origin+'/',logo:origin+'/assets/logo-original.png',email:'Info@HotPrint.vn',telephone:'+84903032686',taxID:'3600693834',sameAs:['https://www.facebook.com/Hotprint/']},{'@type':'WebPage','@id':origin+route+'#webpage',url:origin+route,name:title,description,inLanguage:lang,isPartOf:{'@id':origin+'/#website'}},{'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HotPrint',publisher:{'@id':origin+'/#organization'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HotPrint',item:origin+'/'},...(route==='/'?[]:[{'@type':'ListItem',position:2,name:title.replace(/\s*\| HotPrint$/,''),item:origin+route}])]}];
+ if(meta?.type==='product')graph.push({'@type':'Product','@id':origin+route+'#product',name:meta.title,url:origin+route,description:meta.description,...(meta.image?{image:origin+meta.image}:{})});
+ if(meta?.type==='article')graph.push({'@type':'Article','@id':origin+route+'#article',headline:meta.title,url:origin+route,inLanguage:'vi',...(meta.modified?{dateModified:meta.modified+'+07:00'}:{}),publisher:{'@id':origin+'/#organization'}});
+ const head=`<meta name="robots" content="${noindex?'noindex,nofollow':'index,follow,max-image-preview:large'}"><link rel="canonical" href="${origin+route}">${alternates}<meta property="og:type" content="${meta?.type==='article'?'article':'website'}"><meta property="og:site_name" content="HotPrint"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${origin+route}"><meta property="og:image" content="${esc(image)}"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json" data-seo="true">${json({'@context':'https://schema.org','@graph':graph})}</script>`;
+ html=html.replace('</head>',head+'\n</head>').replace(/(<a\b[^>]*\bhref=)"https:\/\/hotprint\.vn\/(tin-tuc|danh-muc-san-pham)\/"/g,(_,prefix,slug)=>`${prefix}"/${slug==='danh-muc-san-pham'?'san-pham':slug}/"`);
+ await writeFile(file,html);inventory.push({route,file,lang,indexable:!noindex,title,canonical:origin+route,alternates:pair||null});
+ if(!noindex)sitemap.push(`<url><loc>${esc(origin+route)}</loc>${pair?Object.entries(pair).map(([code,url])=>`<xhtml:link rel="alternate" hreflang="${code==='zh'?'zh-Hans':code}" href="${esc(origin+url)}"/>`).join(''):''}</url>`);
+}
+await writeFile('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+sitemap.join('')+'</urlset>\n');
+await writeFile('dist/sitemap_index.xml','<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>'+origin+'/sitemap.xml</loc></sitemap></sitemapindex>\n');
+await writeFile('dist/robots.txt','User-agent: *\nAllow: /\nDisallow: /wp-admin/\nDisallow: /wp-json/\n\nSitemap: '+origin+'/sitemap_index.xml\n');
+// A genuine HTTP 404 is served by Vercel/Apache and by the local preview server.
+let notFound=await readFile('dist/index.html','utf8');notFound=notFound.replace(/<main id="main"[\s\S]*?<\/main>/,`<main id="main" class="legacy-page"><section class="legacy-wrap legacy-hero"><p class="legacy-kicker">HOTPRINT / 404</p><h1>Trang bạn tìm chưa có ở đây.</h1><p>Khám phá các sản phẩm hoặc liên hệ HotPrint để được hỗ trợ.</p><div class="legacy-actions"><a class="legacy-button" href="/san-pham/">Xem sản phẩm ↗</a><a class="legacy-button" href="/lien-he/">Liên hệ HotPrint ↗</a></div></section></main>`).replace('<body>','<body data-page="legacy" data-legacy-title="Không tìm thấy trang | HotPrint" data-legacy-en="/en/" data-legacy-zh="/zh/">').replace(/<title>.*?<\/title>/,'<title>Không tìm thấy trang | HotPrint</title>').replace(/<meta name="robots"[^>]*>/,'<meta name="robots" content="noindex,follow">').replace(/<link\b[^>]*rel="(?:canonical|alternate)"[^>]*>/g,'').replace(/<script\b[^>]*data-seo="true"[^>]*>[\s\S]*?<\/script>/g,'').replace('</head>','<link rel="stylesheet" href="/legacy.css"></head>');
+await writeFile('dist/404.html',notFound);await writeFile('migration/seo-inventory.json',JSON.stringify({origin,pages:inventory,indexable:sitemap.length,previewNoindex:'HTTP X-Robots-Tag on non-company hosts'},null,2)+'\n');
+console.log(`SEO: ${inventory.length} canonical pages, ${sitemap.length} indexable; preview indexing blocked by response header.`);

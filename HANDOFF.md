@@ -1,5 +1,7 @@
 # Bàn giao website HotPrint — 13/10/2026
 
+**20/10/2026 — URL cũ và SEO chuyển đổi:** Đọc `docs/migration-readiness.md`. Bổ sung 78 trang VI giữ nội dung công khai cũ và 620 tệp tại /wp-content/uploads/. Build SEO canonical/hreflang/sitemap; preview noindex bằng HTTP header theo host, production index đúng trang. Routes/shortlinks/attachment trong vercel.json; luôn sinh và commit cấu hình trước deploy. DNS chỉ ghi/đối chiếu công khai, chưa cutover. Form vẫn email nháp, chưa xác minh mail/lưu/upload/lịch thật do thiếu quyền truy cập. Không báo bốn việc đã hoàn tất vận hành. QA `qa-migration.mjs`, `check-migration-dns.mjs`.
+
 **19/10/2026 — Cận cảnh sản xuất:** Bổ sung bốn ảnh chủ website cung cấp tại `#cong-doan-thuc-te` trong Hồ sơ doanh nghiệp. Imagegen làm rõ/ánh sáng theo yêu cầu; lưu cả ảnh gốc lossless và liên kết xem gốc, không mô tả bản xử lý là nguyên bản. Nguồn `factory-journal.mjs`, CSS/JS riêng, VI/EN/中文, mobile một cột và xem ảnh lớn. Giữ tab thiết bị, thư viện tám ảnh, SLA và CTA. Xem `docs/factory-journal.md`; QA `qa-factory-journal.mjs`.
 
 **19/10/2026 — SLA Hồ sơ doanh nghiệp:** Bổ sung `#cam-ket-sla` sau quy trình, đủ 8 cam kết theo ảnh chủ website; chủ website xác nhận 98% và dưới 1%. Nguồn `factory-sla.mjs`, giao diện `factory-sla.css`; đủ VI/EN/中文. Chỉ số là cam kết, không tự diễn giải thành dữ liệu hiệu suất đã kiểm toán. Nút báo giá cuối trang bo tròn, bằng chiều cao nút tư vấn. Xem `docs/factory-sla.md`; QA `qa-factory-sla.mjs`.

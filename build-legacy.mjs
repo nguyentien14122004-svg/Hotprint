@@ -58,7 +58,6 @@ for(const p of [...data.pages,...data.posts,...data.products]){const route=alias
 for(const m of data.media){const destination=localURL(m.source_url);if(destination)manifest.redirects.push({source:'/',has:[{type:'query',key:'attachment_id',value:String(m.id)}],destination,statusCode:301});}
 manifest.redirects.push({source:'/',has:[{type:'query',key:'s',value:'(?<legacySearch>.+)'},{type:'query',key:'post_type',value:'product'}],destination:'/san-pham/?q=:legacySearch',statusCode:301});
 await writeFile('migration/route-manifest.json',JSON.stringify(manifest,null,2)+'\n');
-await writeFile('dist/legacy-products.json',JSON.stringify(manifest.products)+'\n');
 for(const model of models){if(manifest.products[model.id])model.legacyUrl=manifest.products[model.id];else delete model.legacyUrl;}
 await writeFile('dist/product-data.js','window.HOTPRINT_PRODUCTS = '+JSON.stringify(models,null,2)+';\n');
 const config=JSON.parse(await readFile('vercel.json','utf8'));config.redirects=[...config.redirects.filter(r=>r.source.includes('yeu-cau-mau')||r.source.includes('request-a-sample')), ...manifest.redirects];

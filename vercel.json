@@ -19,6 +19,4112 @@
       "source": "/zh/request-a-sample/",
       "destination": "/zh/request-a-consultation/",
       "permanent": true
+    },
+    {
+      "source": "/danh-muc-san-pham/",
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/danh-muc/hop-carton/",
+      "destination": "/danh-muc/hop-carton-in-mau/",
+      "statusCode": 301
+    },
+    {
+      "source": "/danh-muc/hop-cao-cap/",
+      "destination": "/danh-muc/hop-cung-cao-cap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blocks/block-san-pham/",
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blocks/block-dau-trang/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blocks/block-lien-he/",
+      "destination": "/lien-he/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blocks/block-dang-ky-tu-van/",
+      "destination": "/dat-lich-tu-van/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blocks/block-widget/",
+      "destination": "/lien-he/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7121"
+        }
+      ],
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7121"
+        }
+      ],
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6838"
+        }
+      ],
+      "destination": "/albums/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6838"
+        }
+      ],
+      "destination": "/albums/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6823"
+        }
+      ],
+      "destination": "/albums-in-an-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6823"
+        }
+      ],
+      "destination": "/albums-in-an-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6821"
+        }
+      ],
+      "destination": "/albums-thiet-ke-che-ban-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6821"
+        }
+      ],
+      "destination": "/albums-thiet-ke-che-ban-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6786"
+        }
+      ],
+      "destination": "/albums-nhan-hang-catalog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6786"
+        }
+      ],
+      "destination": "/albums-nhan-hang-catalog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6784"
+        }
+      ],
+      "destination": "/albums-nhan-dan-decal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6784"
+        }
+      ],
+      "destination": "/albums-nhan-dan-decal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6782"
+        }
+      ],
+      "destination": "/albums-tui-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6782"
+        }
+      ],
+      "destination": "/albums-tui-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6780"
+        }
+      ],
+      "destination": "/albums-hop-cao-cap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6780"
+        }
+      ],
+      "destination": "/albums-hop-cao-cap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6778"
+        }
+      ],
+      "destination": "/albums-hop-carton/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6778"
+        }
+      ],
+      "destination": "/albums-hop-carton/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6620"
+        }
+      ],
+      "destination": "/albums-hop-giay-mem/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6620"
+        }
+      ],
+      "destination": "/albums-hop-giay-mem/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6338"
+        }
+      ],
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6338"
+        }
+      ],
+      "destination": "/san-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1280"
+        }
+      ],
+      "destination": "/ve-chung-toi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "1280"
+        }
+      ],
+      "destination": "/ve-chung-toi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "723"
+        }
+      ],
+      "destination": "/lien-he/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "723"
+        }
+      ],
+      "destination": "/lien-he/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6698"
+        }
+      ],
+      "destination": "/in-decal-cuon/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6698"
+        }
+      ],
+      "destination": "/in-decal-cuon/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6465"
+        }
+      ],
+      "destination": "/nhung-thong-tin-can-biet-ve-bao-bi-do-uong-bang-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6465"
+        }
+      ],
+      "destination": "/nhung-thong-tin-can-biet-ve-bao-bi-do-uong-bang-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6462"
+        }
+      ],
+      "destination": "/phan-loai-cac-chat-lieu-chuyen-dung-trong-san-xuat-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6462"
+        }
+      ],
+      "destination": "/phan-loai-cac-chat-lieu-chuyen-dung-trong-san-xuat-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6459"
+        }
+      ],
+      "destination": "/nhung-dieu-can-biet-ve-tinh-chat-cua-bao-bi-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6459"
+        }
+      ],
+      "destination": "/nhung-dieu-can-biet-ve-tinh-chat-cua-bao-bi-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6456"
+        }
+      ],
+      "destination": "/cac-loai-bao-bi-giay-giup-nang-tam-thuong-hieu-cua-ban/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6456"
+        }
+      ],
+      "destination": "/cac-loai-bao-bi-giay-giup-nang-tam-thuong-hieu-cua-ban/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6450"
+        }
+      ],
+      "destination": "/san-xuat-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6450"
+        }
+      ],
+      "destination": "/san-xuat-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6445"
+        }
+      ],
+      "destination": "/in-an-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6445"
+        }
+      ],
+      "destination": "/in-an-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6440"
+        }
+      ],
+      "destination": "/thiet-ke-che-ban-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6440"
+        }
+      ],
+      "destination": "/thiet-ke-che-ban-bao-bi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6437"
+        }
+      ],
+      "destination": "/tuyen-nhan-vien/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6437"
+        }
+      ],
+      "destination": "/tuyen-nhan-vien/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7120"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7120"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7119"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7119"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7117"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7117"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7116"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7116"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7109"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7109"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-mem-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7108"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-007/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7108"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-007/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7107"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7107"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7106"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7106"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7104"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7104"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7103"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7103"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7102"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7102"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7094"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7094"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7093"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-008/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7093"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-008/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7092"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-007/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7092"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-007/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7091"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7091"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7090"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7090"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7089"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7089"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7088"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7088"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7087"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7087"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7078"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7078"
+        }
+      ],
+      "destination": "/san-pham/hop-cao-cap-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7077"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7077"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-006/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7076"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7076"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-005/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7075"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7075"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7073"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7073"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7072"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7072"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7065"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7065"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7062"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7062"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7060"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7060"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7058"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7058"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-004/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7056"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7056"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-003/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7054"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7054"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-002/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7052"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7052"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang-catalog-001/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6981"
+        }
+      ],
+      "destination": "/san-pham/hop-yen-sao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6981"
+        }
+      ],
+      "destination": "/san-pham/hop-yen-sao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6435"
+        }
+      ],
+      "destination": "/san-pham/catalog-bia-cung/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6435"
+        }
+      ],
+      "destination": "/san-pham/catalog-bia-cung/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6433"
+        }
+      ],
+      "destination": "/san-pham/the-treo-the-bai/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6433"
+        }
+      ],
+      "destination": "/san-pham/the-treo-the-bai/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6431"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6431"
+        }
+      ],
+      "destination": "/san-pham/nhan-hang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6429"
+        }
+      ],
+      "destination": "/san-pham/catalog-brochuse-tap-chi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6429"
+        }
+      ],
+      "destination": "/san-pham/catalog-brochuse-tap-chi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6427"
+        }
+      ],
+      "destination": "/san-pham/tem-nhan-in-nhiet/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6427"
+        }
+      ],
+      "destination": "/san-pham/tem-nhan-in-nhiet/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6425"
+        }
+      ],
+      "destination": "/san-pham/nhan-satin-rubang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6425"
+        }
+      ],
+      "destination": "/san-pham/nhan-satin-rubang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6423"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-lien-tuc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6423"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal-lien-tuc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6420"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6420"
+        }
+      ],
+      "destination": "/san-pham/nhan-dan-decal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6418"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-quai-xach-nap-gap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6418"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-quai-xach-nap-gap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6416"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-dung-ruou-vang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6416"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-dung-ruou-vang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6414"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-dung-qua-tang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6414"
+        }
+      ],
+      "destination": "/san-pham/tui-giay-dung-qua-tang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6412"
+        }
+      ],
+      "destination": "/san-pham/tui-xach-lnkk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6412"
+        }
+      ],
+      "destination": "/san-pham/tui-xach-lnkk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6410"
+        }
+      ],
+      "destination": "/san-pham/hop-banh-trung-thu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6410"
+        }
+      ],
+      "destination": "/san-pham/hop-banh-trung-thu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6408"
+        }
+      ],
+      "destination": "/san-pham/hop-banh-sinh-nhat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6408"
+        }
+      ],
+      "destination": "/san-pham/hop-banh-sinh-nhat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6406"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-dung-pizza/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6406"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-dung-pizza/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6404"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-dung-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6404"
+        }
+      ],
+      "destination": "/san-pham/hop-carton-dung-giay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6400"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-giay-pierre-cardin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6400"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-giay-pierre-cardin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6398"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-giay-marc-opolo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6398"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-giay-marc-opolo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6394"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-my-pham-levinia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6394"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-my-pham-levinia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6392"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-duoc-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6392"
+        }
+      ],
+      "destination": "/san-pham/hop-giay-hop-duoc-pham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6390"
+        }
+      ],
+      "destination": "/san-pham/hop-duoc-pham-varogel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6390"
+        }
+      ],
+      "destination": "/san-pham/hop-duoc-pham-varogel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6388"
+        }
+      ],
+      "destination": "/san-pham/hop-duoc-pham-ampha-3b/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6388"
+        }
+      ],
+      "destination": "/san-pham/hop-duoc-pham-ampha-3b/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7114"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/q1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7113"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/q2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7112"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/q3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7111"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/q4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7110"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/q5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7101"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t0.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7100"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7099"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7098"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7097"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7096"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7095"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/t6.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7086"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7085"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7084"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7083"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7082"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r6.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7081"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r7.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7080"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r8.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7079"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r9.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7071"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e7.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7070"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e8.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7069"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e9.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7068"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e0.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7067"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r0.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7066"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/r1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7063"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e6.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7061"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/E5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7059"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7057"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7055"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7053"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/e1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7016"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/032A5210-2-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7015"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/032A5210-1-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7014"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/032A5210-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7013"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/032A5350-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7009"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A4965-1-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7002"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A4958-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7001"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A4949-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "7000"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5364-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6999"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5325-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6998"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5323-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6997"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5283-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6996"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5337-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6995"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5328-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6994"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5357-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6993"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5355-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6992"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5331-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6991"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5315-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6990"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5248-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6989"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5365-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6988"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5363-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6987"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5356-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6986"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5316-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6985"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5309-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6984"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5292-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6983"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5257-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6982"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5244-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6980"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5367-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6979"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5333-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6978"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5326-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6977"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5308-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6976"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5280-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6975"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5255-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6974"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5342-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6973"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5320-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6972"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5312-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6971"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5307-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6970"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5268-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6969"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5267-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6968"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/032A5249-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6935"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A4965-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6933"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5213-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6929"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5376-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6928"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5383-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6927"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5214-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6926"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5182-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6922"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/032A5195-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6919"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/Untitled-1-bn2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6916"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/cropped-logo-logo.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6915"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/logo-logo.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6908"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/z6492825377244_858ec2f84cbfe9f6ac54b659c6f723c4-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6905"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/z6492825351575_bbeda56e8828cf945bc3a22d14c9bc39.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6887"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/banner-zalo162676178.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6885"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/banner-126761872121.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6884"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/04/banner-26176287121.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6861"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-tui-giay-kraft-gia-re.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6860"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/The_gioi_in_an_tin_imagebanner_20230705164416447.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6859"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/TuiGiay-scaled-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6857"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-cung-13.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6856"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/m1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6855"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-hop-giay-cao-cap_b01dacc7d72c4815be75ae3d18709d3c_8f52fe2050cc480dbc8cf6b5dc1b96b7.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6854"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-hop-cung-cao-cap-10.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6852"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-carton.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6851"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/unnamed.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6850"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-hop-carton-4.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6849"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-hop-carton-gia-re-theo-yeu-cau.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6835"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-giay-mem-7.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6834"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-giay-mem-4.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6833"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-giay-mem-2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6832"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-giay-mem-avatar.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6817"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hinh-1-4.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6814"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/42525467_237453466936095_7509081367309713408_n.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6811"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-catalogue-so-luong-it-3.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6809"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-nhan-decal-giay-27.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6803"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-tui-giay-xu-huong-marketing-moi-cho-kinh-doanh-online-hien-nay-6489464b0aa0d-600x600-1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6801"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-hop-cung-dung-tra.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6792"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/thung-carton-nong-san.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6791"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/in-thung-carton-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6718"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/hop-giay-mem-8.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6705"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/Untitled-123.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6699"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/03/z5385656780578_392052d06ecbf5b3295bf4d7f567e650.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6647"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/title_center.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6571"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/0-2.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6569"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/0-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6567"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/0-.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6562"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/0.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6561"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/6.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6560"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/1-3.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6559"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/7.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6558"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/3-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6557"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/5.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6556"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/4.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6555"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/8.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6554"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/9.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6553"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/256177878291.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6551"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/4433106-e1739938940652.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6548"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6547"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6546"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6545"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6544"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6543"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/icon6.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6522"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/26167827912121.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6521"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/2517678279819021.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6520"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/21676278718921.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6519"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/2617827912121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6518"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/156276817980212.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6517"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/1267187921021.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6488"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/cropped-logo_62781921-e1739932923445.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6487"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/logo_62781921-e1739932923445.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6466"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/26517829121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6463"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/1627617890212.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6460"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/172879102321.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6457"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/261768729102.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6454"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/21667287192121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6453"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/26178279121-e1739954948185.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6448"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/256178290121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6447"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/12671892012.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6446"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/2718792801921.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6443"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/162781902121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6442"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/2617829121121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6441"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/241576827912.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6438"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/tuyen-dung.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6436"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/24.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6434"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/23.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6432"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/22.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6430"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/21.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6428"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/20.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6426"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/19.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6424"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/18.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6422"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/17.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6419"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/16.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6417"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/15.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6415"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/14.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6413"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/13.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6411"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/12.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6409"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/11.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6407"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/10.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6405"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/9.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6401"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/7.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6399"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/6.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6397"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/5.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6395"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/4.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6393"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6391"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/2.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "6389"
+        }
+      ],
+      "destination": "/wp-content/uploads/2025/02/1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "5325"
+        }
+      ],
+      "destination": "/wp-content/uploads/2023/11/icuytin-400x400-1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "5324"
+        }
+      ],
+      "destination": "/wp-content/uploads/2023/11/icprice-400x400-1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "5323"
+        }
+      ],
+      "destination": "/wp-content/uploads/2023/11/icdoingu-400x400-1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "5322"
+        }
+      ],
+      "destination": "/wp-content/uploads/2023/11/609037-400x400-1.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "attachment_id",
+          "value": "4825"
+        }
+      ],
+      "destination": "/wp-content/uploads/woocommerce-placeholder.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "s",
+          "value": "(?<legacySearch>.+)"
+        },
+        {
+          "type": "query",
+          "key": "post_type",
+          "value": "product"
+        }
+      ],
+      "destination": "/san-pham/?q=:legacySearch",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "missing": [
+        {
+          "type": "host",
+          "value": "(www\\.)?hotprint\\.vn"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }

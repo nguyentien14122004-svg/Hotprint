@@ -1,0 +1,725 @@
+{
+  "version": 3,
+  "records": [
+    {
+      "inventoryNumber": 5,
+      "name": "ACB",
+      "evidence": [
+        "032A5282"
+      ],
+      "note": "Hộp quà ghi ACB, Chúc mừng năm mới 2024.",
+      "id": "acb",
+      "file": "acb.svg",
+      "size": "bank",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 26
+    },
+    {
+      "inventoryNumber": 30,
+      "name": "SHB",
+      "evidence": [
+        "032A5363"
+      ],
+      "note": "Logo SHB rõ trên hộp quà màu cam.",
+      "id": "shb",
+      "file": "shb.png",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 27
+    },
+    {
+      "inventoryNumber": 2,
+      "name": "Biti’s",
+      "evidence": [],
+      "note": "Website ghi “Cty Giày Dép Bitis”; ảnh đi kèm là logo Biti’s. Được nêu tại mục “Khách hàng nói về chúng tôi”.",
+      "id": "bitis",
+      "file": "bitis.svg",
+      "size": "bank",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 4
+    },
+    {
+      "inventoryNumber": 26,
+      "name": "ORION",
+      "evidence": [
+        "032A5343",
+        "032A5344"
+      ],
+      "note": "Logo ORION rõ trên hộp và túi ChocoPie.",
+      "id": "orion",
+      "file": "orion.svg",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 1
+    },
+    {
+      "inventoryNumber": 34,
+      "name": "Thiên Long",
+      "evidence": [
+        "032A5351"
+      ],
+      "note": "Logo THIENLONG và tên Công ty Cổ phần Tập đoàn Thiên Long trên hộp đựng bút.",
+      "id": "thienlong",
+      "file": "thienlong.png",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 3
+    },
+    {
+      "inventoryNumber": 22,
+      "name": "Maison Marou",
+      "evidence": [
+        "032A5316",
+        "032A5303",
+        "032A5355"
+      ],
+      "note": "Logo MAISON VIETNAM MAROU rõ; nhiều hộp Bonbons/Creations trên kệ cùng thương hiệu. Túi ghi Sô-Cô-La và MAROUCHOCOLATE.COM; xác định được thương hiệu Marou từ URL in trên túi, không có wordmark Marou phía trước.",
+      "id": "marou",
+      "file": "marou.png",
+      "size": "marou mono",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 14
+    },
+    {
+      "inventoryNumber": 16,
+      "name": "GAP",
+      "evidence": [
+        "032A5357"
+      ],
+      "note": "Logo GAP rõ trên túi giấy xanh.",
+      "id": "gap",
+      "file": "gap.svg",
+      "size": "compact mono",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 6
+    },
+    {
+      "inventoryNumber": 19,
+      "name": "Levi’s",
+      "evidence": [
+        "032A5329"
+      ],
+      "note": "Logo Levi’s rõ trên túi kraft.",
+      "id": "levis",
+      "file": "levis.svg",
+      "size": "compact",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 5
+    },
+    {
+      "inventoryNumber": 15,
+      "name": "GANT",
+      "evidence": [
+        "032A5255"
+      ],
+      "note": "Logo chữ rõ trên nắp và thành hộp giày.",
+      "id": "gant",
+      "file": "gant.png",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 7
+    },
+    {
+      "inventoryNumber": 18,
+      "name": "KARL LAGERFELD",
+      "evidence": [
+        "032A5331"
+      ],
+      "note": "Tên và logo rõ trên túi giấy trắng.",
+      "id": "karl",
+      "file": "karl.svg",
+      "size": "wordmark",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 8
+    },
+    {
+      "inventoryNumber": 36,
+      "name": "TRETORN",
+      "evidence": [
+        "032A5286",
+        "032A5308",
+        "032A5303"
+      ],
+      "note": "Chữ TRETORN trên hộp xanh, xuất hiện cùng ETON.",
+      "id": "tretorn",
+      "file": "tretorn.svg",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 11
+    },
+    {
+      "inventoryNumber": 12,
+      "name": "DC Shoes",
+      "evidence": [
+        "032A5361"
+      ],
+      "note": "Logo DC và DCSHOECOUSA / DC SHOES, INC. rõ trên hộp giày.",
+      "id": "dc",
+      "file": "dc.png",
+      "size": "dc mono",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 13
+    },
+    {
+      "inventoryNumber": 48,
+      "name": "ROTHMANS NEW YORK",
+      "evidence": [
+        "HP7076"
+      ],
+      "note": "Tên ROTHMANS / NEW YORK trên túi giấy; không suy ra là thương hiệu thuốc lá cùng tên. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "rothmans",
+      "file": "rothmans.png",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 23
+    },
+    {
+      "inventoryNumber": 25,
+      "name": "ONISHI",
+      "evidence": [
+        "032A5323",
+        "032A5325"
+      ],
+      "note": "Tên ONISHI và logo in rõ trên thẻ bao bì dụng cụ Nhật Bản.",
+      "id": "onishi",
+      "file": "onishi-sp.png",
+      "size": "wide",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 21
+    },
+    {
+      "inventoryNumber": 41,
+      "name": "WESSER",
+      "evidence": [
+        "032A5318"
+      ],
+      "note": "Bình sữa PP Wesser; tên và logo rõ trên hộp.",
+      "id": "wesser",
+      "file": "wesser-nav.png",
+      "size": "wesser",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 20
+    },
+    {
+      "inventoryNumber": 1,
+      "name": "BEINCO",
+      "evidence": [],
+      "note": "Website ghi “Cty Dừa Bến Tre”; ảnh đi kèm là logo BEINCO. Được nêu tại mục “Khách hàng nói về chúng tôi”.",
+      "id": "beinco",
+      "file": "beinco.png",
+      "size": "tall",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 16
+    },
+    {
+      "inventoryNumber": 3,
+      "name": "Lily Fashion",
+      "evidence": [],
+      "note": "Website ghi “Lily Fashion”; ảnh đi kèm là wordmark lily. Được nêu tại mục “Khách hàng nói về chúng tôi”.",
+      "id": "lily",
+      "file": "lily.jpg",
+      "size": "lily",
+      "kind": "logo",
+      "status": "verified",
+      "displayPriority": 24
+    },
+    {
+      "inventoryNumber": 4,
+      "name": "NATURE VIỆT NAM",
+      "evidence": [
+        "032A5349",
+        "032A5350"
+      ],
+      "note": "Tài liệu kỹ thuật HotPrint ghi KHÁCH HÀNG: NATURE VIỆT NAM, hộp cứng nước uống MMN Collagen, ngày phê duyệt 18/2/2025. Đây là bằng chứng nội bộ về khách hàng tại thời điểm tài liệu, không phải logo hoặc xác nhận đối tác hiện tại. Không đưa ảnh tài liệu kỹ thuật này lên website. Display verified company name only; no logo artwork available.",
+      "id": "nature",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Đã tìm Nature Pharma npvietnam.com nhưng cần đối chiếu đầy đủ pháp nhân với tài liệu nội bộ trước chọn logo."
+    },
+    {
+      "inventoryNumber": 6,
+      "name": "Ananas Football",
+      "evidence": [
+        "032A5257",
+        "032A5313"
+      ],
+      "note": "Đọc được Ananas Football ở thành hộp đỏ kỷ niệm 30 năm và thành hộp trắng; hộp 5313 còn ghi Copyright © Ananas. Giữ nguyên tên đọc trên hộp; chưa gộp với một thương hiệu Ananas khác.",
+      "id": "ananas",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Đã khớp dòng Vietnam 95 kỷ niệm 1995–2025 trên https://ananas.vn/product-detail/frj0001/ ; website trả 502 khi lấy logo gốc. Chưa có tệp logo phù hợp."
+    },
+    {
+      "inventoryNumber": 7,
+      "name": "Anvy Yến",
+      "evidence": [
+        "032A5328"
+      ],
+      "note": "Nhãn đỏ ghi Anvy Yến; logo xanh Anvy Bird’s Nest; bên trái in tên Công ty Cổ phần SX và TM Minh Phúc. Pháp nhân thương nhân chịu trách nhiệm sản phẩm ghi trên nhãn Anvy Yến; không suy ra trực tiếp là pháp nhân đặt hàng HotPrint.",
+      "id": "anvy",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Khớp Minh Phúc qua yensaoanvy.com; hiện HTTPS không tải được, HTTP chuyển trang tên miền. Chưa tải được logo gốc."
+    },
+    {
+      "inventoryNumber": 8,
+      "name": "BẢO THỌ",
+      "evidence": [
+        "032A5307",
+        "HP7119"
+      ],
+      "note": "Logo BẢO THỌ / Premium Bird’s Nest rõ trên hộp yến sấy thăng hoa. Ảnh HP7119 cũng có logo BẢO THỌ; cùng tên với ảnh gốc 032A5307.",
+      "id": "baotho",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Kết quả gần nhất là Bảo Thọ Nest USA; chưa đủ cơ sở gộp với BẢO THỌ trên hộp."
+    },
+    {
+      "inventoryNumber": 9,
+      "name": "CITTA",
+      "evidence": [
+        "032A5303"
+      ],
+      "note": "Ống tròn trên kệ ghi CITTA / BLOOM OF SCENT. Tên được đọc từ ảnh; chưa xác nhận quan hệ với HotPrint.",
+      "id": "citta",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 10,
+      "name": "Cookever",
+      "evidence": [
+        "032A5366",
+        "032A5367"
+      ],
+      "note": "Logo Cookever rõ trên hộp dụng cụ bếp; cùng một thương hiệu.",
+      "id": "cookever",
+      "kind": "logo",
+      "file": "cookever.svg",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 19
+    },
+    {
+      "inventoryNumber": 11,
+      "name": "cordinate",
+      "evidence": [
+        "032A5348"
+      ],
+      "note": "Logo coordinate rõ trên hộp Mini Cord.",
+      "id": "cordinate",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Khớp dòng dây điện Cordinate trên https://byjasco.com/collections/cordinate ; mới tìm thấy ảnh banner/sản phẩm, chưa có logo độc lập."
+    },
+    {
+      "inventoryNumber": 13,
+      "name": "ETON",
+      "evidence": [
+        "032A5286",
+        "032A5308",
+        "032A5303"
+      ],
+      "note": "Chữ ETON trên hộp xanh, xuất hiện cùng TRETORN; không tách thành hai hợp đồng/đối tác đã xác nhận.",
+      "id": "eton",
+      "kind": "logo",
+      "file": "eton.jpg",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 12
+    },
+    {
+      "inventoryNumber": 14,
+      "name": "Evamost",
+      "evidence": [
+        "032A5278"
+      ],
+      "note": "Nhãn eVamost Premium trên hộp vàng; bên dưới ghi Tinh chất rửa vệ sinh. Đây là tên đọc từ bao bì.",
+      "id": "evamost",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 17,
+      "name": "GE / UltraPro",
+      "evidence": [
+        "032A5259",
+        "032A5320"
+      ],
+      "note": "Biểu trưng GE trên hộp ổ cắm chống sét; cùng xuất hiện UltraPro. Nhãn sản phẩm hiện trên hộp cùng biểu trưng GE; không mặc định là công ty đối tác riêng. Logo GE rõ trên hộp thiết bị điện; không tự suy ra pháp nhân đặt hàng.",
+      "id": "ge",
+      "kind": "logo",
+      "file": "ge.jpg",
+      "size": "compact",
+      "status": "verified",
+      "displayPriority": 18
+    },
+    {
+      "inventoryNumber": 20,
+      "name": "lillypots",
+      "evidence": [
+        "032A5326"
+      ],
+      "note": "Logo lillypots trên hộp Milk Pan; tên viết liền đúng như bao bì.",
+      "id": "lillypots",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Website lillypots.co.uk in trên hộp không phân giải được; chưa có logo chính thức."
+    },
+    {
+      "inventoryNumber": 21,
+      "name": "L’evinia",
+      "evidence": [
+        "032A5267",
+        "032A5268",
+        "032A5298",
+        "032A5310",
+        "032A5303"
+      ],
+      "note": "Đọc rõ L’evinia trên túi/hộp nước hoa, slogan Vẻ đẹp vĩnh cửu; Ritz và Style là dòng nước hoa.",
+      "id": "levinia",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Khớp nhãn nước hoa qua https://aria-cosmetics.com/levinia/ ; chưa tìm thấy tệp logo riêng. levinia.com.vn lỗi chứng chỉ."
+    },
+    {
+      "inventoryNumber": 23,
+      "name": "Mia88 Vietnam",
+      "evidence": [
+        "032A5249",
+        "032A5312",
+        "032A5303"
+      ],
+      "note": "Logo khuôn mặt và chữ Mia88 VIETNAM trên hộp sầu riêng; Ri6 Durian / King Durian là mô tả sản phẩm.",
+      "id": "mia88",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 24,
+      "name": "Ngọc Diệp Artichoke",
+      "evidence": [
+        "032A5303",
+        "032A5365",
+        "HP7093"
+      ],
+      "note": "Tên NGỌC DIỆP trên hộp nâu Cao hoa tươi Atisô phía dưới bên phải. Tên NGỌC DIỆP và logo NGỌC DIỆP ARTICHOKE rõ trên hộp cao hoa tươi atisô. Ảnh HP7093 cũng ghi NGỌC DIỆP / Cao hoa tươi Atisô.",
+      "id": "ngocdiep",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 27,
+      "name": "Phú Lộc Trường",
+      "evidence": [
+        "032A5364"
+      ],
+      "note": "Lịch để bàn 2025 có logo PLT, PHU LOC TRUONG CO., LTD., ISO 9001-2015; hai khẩu hiệu giải pháp khuôn bế / xử lý bão giấy là nội dung quảng cáo, không phải tên đối tác.",
+      "id": "plt",
+      "kind": "logo",
+      "file": "plt.png",
+      "size": "tall",
+      "status": "verified",
+      "displayPriority": 25
+    },
+    {
+      "inventoryNumber": 28,
+      "name": "SAMONO",
+      "evidence": [
+        "032A5280",
+        "HP7107"
+      ],
+      "note": "Logo chữ trên hộp máy pha cà phê. Ảnh HP7107 là cùng mẫu máy pha cà phê đã có trong ảnh 032A5280.",
+      "id": "samono",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 29,
+      "name": "Sanestco / Thiên Thành",
+      "evidence": [
+        "032A5321"
+      ],
+      "note": "Túi nước yến đường phèn ghi Sanestco và logo Thiên Thành. Không gộp thành Sanest / Yến sào Khánh Hòa. Logo THIÊN THÀNH và tên công ty in cạnh túi Sanestco.",
+      "id": "sanestco",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Không dùng logo Sanest/Sanvinest thay thế. Nhãn trên túi là Sanestco / Thiên Thành; chưa có logo độc lập xác minh được."
+    },
+    {
+      "inventoryNumber": 31,
+      "name": "SKYE Footwear",
+      "evidence": [
+        "032A5303"
+      ],
+      "note": "Hộp giày đỏ phía trên bên phải trên kệ, chữ SKYE FOOTWEAR rõ.",
+      "id": "skye",
+      "kind": "logo",
+      "file": "skye.png",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 22
+    },
+    {
+      "inventoryNumber": 32,
+      "name": "Sâm Ngọc Linh — Tu Mơ Rông",
+      "evidence": [
+        "032A5292",
+        "032A5293",
+        "032A5360"
+      ],
+      "note": "Logo tròn có dòng CÔNG TY CỔ PHẦN SÂM NGỌC LINH và TU MƠ RÔNG - KONTUM; chữ nhỏ và nhòe, chưa chốt tên pháp nhân. Tên lớn Rượu Sâm Ngọc Linh là sản phẩm, không suy ra một thương hiệu mới. Tên công ty ở vòng logo trên hộp Rượu Sâm Ngọc Linh.",
+      "id": "samngoclinh",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 33,
+      "name": "the 350F",
+      "evidence": [
+        "032A5303"
+      ],
+      "note": "Hộp trắng trên kệ bị đặt ngược; đã xoay ảnh để đọc chính xác the 350F, không phải 550F.",
+      "id": "the350f",
+      "kind": "logo",
+      "file": "the350f.png",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 15
+    },
+    {
+      "inventoryNumber": 35,
+      "name": "THIÊN LONG QUÂN",
+      "evidence": [
+        "032A5303"
+      ],
+      "note": "Hộp vàng bên dưới trái, ghi Sản phẩm cao cấp THIÊN LONG QUÂN; Atisô / Cao mềm là sản phẩm.",
+      "id": "thienlongquan",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 37,
+      "name": "TRU. CANINE",
+      "evidence": [
+        "032A5283",
+        "032A5284",
+        "032A5353"
+      ],
+      "note": "Logo trên thẻ đọc TRU. CANINE; dữ liệu mô tả cũ có cách viết TRUE CANINE/TRU-CANINE. Dòng nhà phân phối in trên thẻ là SMILE, LLC; không tính thành khách hàng riêng.",
+      "id": "trucanine",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 38,
+      "name": "TÂM PHÚC LÂM ĐỒNG",
+      "evidence": [
+        "032A5303"
+      ],
+      "note": "Hộp xanh đậm dưới trái có tên TÂM PHÚC LÂM ĐỒNG và Cordyceps WINE.",
+      "id": "tamphuc",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 39,
+      "name": "USPA SPORT",
+      "evidence": [
+        "032A5358"
+      ],
+      "note": "Hộp giày ghi USPA SPORT; chưa đủ cơ sở gộp với U.S. Polo Assn.",
+      "id": "uspa",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa đủ bằng chứng đồng nhất USPA SPORT với U.S. Polo Assn."
+    },
+    {
+      "inventoryNumber": 40,
+      "name": "WE VIET UNITED",
+      "evidence": [
+        "032A5244",
+        "032A5246",
+        "032A5303"
+      ],
+      "note": "Tên công ty/nhãn và huy hiệu khiên trên thành nắp hộp NMN Nano Collagen. Crop 5246 đọc rõ WE VIET UNITED / PROTECT YOUR LIFE.",
+      "id": "weviet",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 42,
+      "name": "EYAN",
+      "evidence": [
+        "HP6433"
+      ],
+      "note": "Tên EYAN trên thẻ treo màu đen; cách trình bày dấu/ký tự cần theo logo gốc khi chuẩn hóa. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "eyan",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 43,
+      "name": "Kinh Đô",
+      "evidence": [
+        "HP6410"
+      ],
+      "note": "Biểu trưng vương miện và chữ KINH DO trên hộp bánh trung thu. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "kinhdo",
+      "kind": "logo",
+      "file": "kinhdo.png",
+      "size": "compact",
+      "status": "verified",
+      "displayPriority": 2
+    },
+    {
+      "inventoryNumber": 44,
+      "name": "LIFT ROSE",
+      "evidence": [
+        "HP6394"
+      ],
+      "note": "Tên LIFT ROSE trên hộp mỹ phẩm trắng hồng; không gộp với L’evinia. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "liftrose",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 45,
+      "name": "LUBI",
+      "evidence": [
+        "HP6392"
+      ],
+      "note": "Logo LUBI / LUBICOSMETIC trên hộp mỹ phẩm; có thêm ảnh lubi-supplied-original.webp. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "lubi",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 46,
+      "name": "MARC O’POLO",
+      "evidence": [
+        "HP6398"
+      ],
+      "note": "Tên thương hiệu nhìn thấy trên mẫu hộp trong danh mục website. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "marcopolo",
+      "kind": "logo",
+      "file": "marcopolo.svg",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 9
+    },
+    {
+      "inventoryNumber": 47,
+      "name": "pierre cardin",
+      "evidence": [
+        "HP6400"
+      ],
+      "note": "Tên thương hiệu nhìn thấy trên mẫu hộp trong danh mục website. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "pierre",
+      "kind": "logo",
+      "file": "pierre.svg",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 10
+    },
+    {
+      "inventoryNumber": 49,
+      "name": "Shinpoong Daewoo",
+      "evidence": [
+        "HP6390"
+      ],
+      "note": "Hộp ghi CTY TNHH DP SHINPOONG DAEWOO; Varogel là tên sản phẩm. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "shinpoong",
+      "kind": "logo",
+      "file": "shinpoong.png",
+      "size": "wide",
+      "status": "verified",
+      "displayPriority": 17
+    },
+    {
+      "inventoryNumber": 50,
+      "name": "USA PHARM",
+      "evidence": [
+        "HP6388"
+      ],
+      "note": "Hộp ghi USA PHARM., JSC và tên sản phẩm AMPHA 3B; không tính AMPHA 3B thành đối tác thứ hai. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "usapharm",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "inventoryNumber": 51,
+      "name": "WEbuild",
+      "evidence": [
+        "HP6435"
+      ],
+      "note": "Tên WEbuild trên bìa catalog; chưa xác định pháp nhân cụ thể chỉ từ ảnh. Chứng cứ ở đây là mẫu hiển thị trên website, chưa xác nhận khách hàng hiện tại.",
+      "id": "webuild",
+      "kind": "pending",
+      "status": "pending",
+      "pendingReason": "Chưa xác định pháp nhân thiết kế kiến trúc; không dùng logo tập đoàn Webuild cùng tên."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Biểu trưng trên bộ túi–hộp HP7073",
+      "reason": "Biểu trưng nhỏ; chưa đủ chữ để nhận diện tên thương hiệu."
+    },
+    {
+      "name": "Hộp Cashew — chữ NU…S bị che",
+      "reason": "Quai túi che giữa chữ NU…S; có thể là NUTS, mô tả loại hạt. Chưa nhận diện được tên thương hiệu; không chốt là NU’S."
+    },
+    {
+      "name": "LNKK",
+      "reason": "Tên chỉ có trong tiêu đề trang “Túi xách LNKK”; mặt túi đỏ trong ảnh chưa cho thấy logo đọc được. Không coi là logo đã lọc."
+    },
+    {
+      "name": "Tên yến sào trên hộp vàng chưa đọc chắc",
+      "reason": "Có logo chim yến và chữ dạng … THAO NEST / YẾN SÀO … THẢO; phản sáng và mất nét. Không đưa tên suy đoán vào danh sách đã xác định. Có crop phân tích qa-second/5342-crop.jpg."
+    },
+    {
+      "name": "Wordmark khăn giấy HP7117",
+      "reason": "Có logo trong hình thoi nhưng chưa đọc chắc tên; không chốt nhãn hiệu."
+    },
+    {
+      "name": "Wordmark trên bộ túi–hộp đen HP7075",
+      "reason": "Chữ viết tay quá nhỏ; chưa chốt tên, không đoán theo hình dáng."
+    },
+    {
+      "name": "XXiS / Xxis",
+      "reason": "Hộp quà mỹ phẩm nam ghi Xxis Series 4.0, For Men; nhận diện chữ nhìn rõ nhưng cần xác nhận cách viết chính thức trước dùng logo."
+    }
+  ],
+  "displayPolicy": "Only verified standalone logo artwork. Never package crops, typed substitutes, competitor clients or uncertain identities.",
+  "displayOrderRationale": "Editorial priority, not a revenue ranking: established product brands with recurring paper packaging first; then specialist consumer brands, industrial packaging, retail and print suppliers; banks with gift-box evidence last. All 27 verified logos retained."
+}

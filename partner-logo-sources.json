@@ -1,0 +1,724 @@
+{
+  "reviewed": "2026-10-23",
+  "scope": "Official standalone logo-only display. Packaging evidence identifies brands; it does not establish current direct contractual status. Pending entries are excluded from the public carousel.",
+  "records": [
+    {
+      "id": "acb",
+      "name": "ACB",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 5,
+      "evidence": [
+        "032A5282"
+      ],
+      "file": "acb.svg",
+      "url": "https://acb.com.vn/images/logo.svg",
+      "page": "https://acb.com.vn/images/logo.svg",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 3580,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "shb",
+      "name": "SHB",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 30,
+      "evidence": [
+        "032A5363"
+      ],
+      "file": "shb.png",
+      "url": "https://www.shb.com.vn/",
+      "page": "https://www.shb.com.vn/",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 18627,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "bitis",
+      "name": "Biti’s",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 2,
+      "evidence": [],
+      "file": "bitis.svg",
+      "url": "https://bitis.com.vn/",
+      "page": "https://bitis.com.vn/",
+      "verification": "Official brand website header logo; matched to customer logo on original HotPrint testimonial. Biti’s retains original inline SVG paths and viewBox.",
+      "bytes": 21200,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "orion",
+      "name": "ORION",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 26,
+      "evidence": [
+        "032A5343",
+        "032A5344"
+      ],
+      "file": "orion.svg",
+      "url": "https://orion.vn/assets/images/Logo%20Orion%20Header%20Web.svg",
+      "page": "https://orion.vn/assets/images/Logo%20Orion%20Header%20Web.svg",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 7414,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "thienlong",
+      "name": "Thiên Long",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 34,
+      "evidence": [
+        "032A5351"
+      ],
+      "file": "thienlong.png",
+      "url": "https://thienlonggroup.com/storage/media/fIx9151fMeW2Yoq77l6Mag4OU9JO4pNPgMxMDS2f.png",
+      "page": "https://thienlonggroup.com/storage/media/fIx9151fMeW2Yoq77l6Mag4OU9JO4pNPgMxMDS2f.png",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 8397,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "marou",
+      "name": "Maison Marou",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 22,
+      "evidence": [
+        "032A5316",
+        "032A5303",
+        "032A5355"
+      ],
+      "file": "marou.png",
+      "url": "https://www.maisonmarou.com/cdn/shop/files/logo_webp.png?v=1737362041",
+      "page": "https://www.maisonmarou.com/cdn/shop/files/logo_webp.png?v=1737362041",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 17822,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "gap",
+      "name": "GAP",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 16,
+      "evidence": [
+        "032A5357"
+      ],
+      "file": "gap.svg",
+      "url": "https://www.gap.com/Asset_Archive/GPWeb/content/0030/015/725/assets/logo/logo_gap--light.svg",
+      "page": "https://www.gap.com/Asset_Archive/GPWeb/content/0030/015/725/assets/logo/logo_gap--light.svg",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 1131,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "levis",
+      "name": "Levi’s",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 19,
+      "evidence": [
+        "032A5329"
+      ],
+      "file": "levis.svg",
+      "url": "https://www.levi.com/global/images/levis-logo.svg",
+      "page": "https://www.levi.com/global/images/levis-logo.svg",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 12241,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "gant",
+      "name": "GANT",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 15,
+      "evidence": [
+        "032A5255"
+      ],
+      "file": "gant.png",
+      "url": "https://gant.com/mobify/bundle/1872/static/img/global/logo.png",
+      "page": "https://gant.com/mobify/bundle/1872/static/img/global/logo.png",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 1366,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "karl",
+      "name": "KARL LAGERFELD",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 18,
+      "evidence": [
+        "032A5331"
+      ],
+      "file": "karl.svg",
+      "url": "https://www.karllagerfeld.com/en-nl",
+      "page": "https://www.karllagerfeld.com/en-nl",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 2662,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "tretorn",
+      "name": "TRETORN",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 36,
+      "evidence": [
+        "032A5286",
+        "032A5308",
+        "032A5303"
+      ],
+      "file": "tretorn.svg",
+      "url": "https://www.tretorn.com/",
+      "page": "https://www.tretorn.com/",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 1891,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "dc",
+      "name": "DC Shoes",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 12,
+      "evidence": [
+        "032A5361"
+      ],
+      "file": "dc.png",
+      "url": "https://www.dcshoes.com/cdn/shop/files/logo-dc_1_736b9e85-ffe0-4341-b254-0dfdcfc3a549.png?v=1726165021",
+      "page": "https://www.dcshoes.com/cdn/shop/files/logo-dc_1_736b9e85-ffe0-4341-b254-0dfdcfc3a549.png?v=1726165021",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 5905,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "rothmans",
+      "name": "ROTHMANS NEW YORK",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 48,
+      "evidence": [
+        "HP7076"
+      ],
+      "file": "rothmans.png",
+      "url": "https://www.rothmansny.com/cdn/shop/files/Rothmans_Logo.png?v=1711392540&width=580",
+      "page": "https://www.rothmansny.com/cdn/shop/files/Rothmans_Logo.png?v=1711392540&width=580",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 15070,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "onishi",
+      "name": "ONISHI",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 25,
+      "evidence": [
+        "032A5323",
+        "032A5325"
+      ],
+      "file": "onishi-sp.png",
+      "url": "https://onishibit.co.jp/wp-content/themes/onishi/img/logo-sp.png",
+      "page": "https://onishibit.co.jp/wp-content/themes/onishi/img/logo.png",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 10317,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "wesser",
+      "name": "WESSER",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 41,
+      "evidence": [
+        "032A5318"
+      ],
+      "file": "wesser-nav.png",
+      "url": "https://wesser.com.vn/Content/layout/images/logo/nav-logo.png",
+      "page": "https://wesser.com.vn/Content/layout/images/logo/nav-logo.png",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 6570,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "beinco",
+      "name": "BEINCO",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 1,
+      "evidence": [],
+      "file": "beinco.png",
+      "url": "https://beinco.com.vn/storage/uploads/logo.png",
+      "page": "https://beinco.com.vn/",
+      "verification": "Official brand website header logo; matched to customer logo on original HotPrint testimonial. Biti’s retains original inline SVG paths and viewBox.",
+      "bytes": 38913,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "lily",
+      "name": "Lily Fashion",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 3,
+      "evidence": [],
+      "file": "lily.jpg",
+      "url": "https://hotprint.vn/",
+      "page": "https://hotprint.vn/",
+      "verification": "Standalone original logo previously sourced from brand website or existing HotPrint customer logo; matched to source inventory.",
+      "bytes": 2472,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "nature",
+      "name": "NATURE VIỆT NAM",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 4,
+      "evidence": [
+        "032A5349",
+        "032A5350"
+      ],
+      "reason": "Đã tìm Nature Pharma npvietnam.com nhưng cần đối chiếu đầy đủ pháp nhân với tài liệu nội bộ trước chọn logo."
+    },
+    {
+      "id": "ananas",
+      "name": "Ananas Football",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 6,
+      "evidence": [
+        "032A5257",
+        "032A5313"
+      ],
+      "reason": "Đã khớp dòng Vietnam 95 kỷ niệm 1995–2025 trên https://ananas.vn/product-detail/frj0001/ ; website trả 502 khi lấy logo gốc. Chưa có tệp logo phù hợp."
+    },
+    {
+      "id": "anvy",
+      "name": "Anvy Yến",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 7,
+      "evidence": [
+        "032A5328"
+      ],
+      "reason": "Khớp Minh Phúc qua yensaoanvy.com; hiện HTTPS không tải được, HTTP chuyển trang tên miền. Chưa tải được logo gốc."
+    },
+    {
+      "id": "baotho",
+      "name": "BẢO THỌ",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 8,
+      "evidence": [
+        "032A5307",
+        "HP7119"
+      ],
+      "reason": "Kết quả gần nhất là Bảo Thọ Nest USA; chưa đủ cơ sở gộp với BẢO THỌ trên hộp."
+    },
+    {
+      "id": "citta",
+      "name": "CITTA",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 9,
+      "evidence": [
+        "032A5303"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "cookever",
+      "name": "Cookever",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 10,
+      "evidence": [
+        "032A5366",
+        "032A5367"
+      ],
+      "file": "cookever.svg",
+      "url": "https://www.cookever.co.kr/data/skin/respon_default/images/skin/logo.svg",
+      "page": "https://www.cookever.co.kr/?language=eng",
+      "verification": "Korean cookware brand official header; company history describes its Vietnam factory founded in 1994. Matches Cookever cookware on 032A5366/5367; not replacement brand Be-Home.",
+      "bytes": 3223,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "cordinate",
+      "name": "cordinate",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 11,
+      "evidence": [
+        "032A5348"
+      ],
+      "reason": "Khớp dòng dây điện Cordinate trên https://byjasco.com/collections/cordinate ; mới tìm thấy ảnh banner/sản phẩm, chưa có logo độc lập."
+    },
+    {
+      "id": "eton",
+      "name": "ETON",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 13,
+      "evidence": [
+        "032A5286",
+        "032A5308",
+        "032A5303"
+      ],
+      "file": "eton.jpg",
+      "url": "https://assets.etonshirts.com/m/33ec510538357645/Large_JPG-Eton-Logo-Vector.jpg",
+      "page": "https://www.etonshirts.com/",
+      "verification": "Identity confirmed by official Eton × Tretorn collaboration: https://www.tretorn.eu/journal/eton-x-tretorn ; matches jointly branded green shoe box 032A5286.",
+      "bytes": 14052,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "evamost",
+      "name": "Evamost",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 14,
+      "evidence": [
+        "032A5278"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "ge",
+      "name": "GE / UltraPro",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 17,
+      "evidence": [
+        "032A5259",
+        "032A5320"
+      ],
+      "file": "ge.jpg",
+      "url": "https://iprsoftwaremedia.com/112/files/201511/56657cc65e8eef34bab82326_GELogo_Blue_CMYK/GELogo_Blue_CMYK_08b35dd1-9467-481d-9bf9-d0045a322953-prv.jpg?v=08b35dd1-9467-481d-9bf9-d0045a322953",
+      "page": "https://pressroom.geappliances.com/embed-file?fid=56657cc65e8eef34bab82326",
+      "verification": "Standalone GE monogram from official GE pressroom. Product identity cross-check: https://byjasco.com/collections/extension-cords . GE logo present on supplied surge protector packaging, not GE Aerospace/HealthCare.",
+      "bytes": 77762,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "lillypots",
+      "name": "lillypots",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 20,
+      "evidence": [
+        "032A5326"
+      ],
+      "reason": "Website lillypots.co.uk in trên hộp không phân giải được; chưa có logo chính thức."
+    },
+    {
+      "id": "levinia",
+      "name": "L’evinia",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 21,
+      "evidence": [
+        "032A5267",
+        "032A5268",
+        "032A5298",
+        "032A5310",
+        "032A5303"
+      ],
+      "reason": "Khớp nhãn nước hoa qua https://aria-cosmetics.com/levinia/ ; chưa tìm thấy tệp logo riêng. levinia.com.vn lỗi chứng chỉ."
+    },
+    {
+      "id": "mia88",
+      "name": "Mia88 Vietnam",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 23,
+      "evidence": [
+        "032A5249",
+        "032A5312",
+        "032A5303"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "ngocdiep",
+      "name": "Ngọc Diệp Artichoke",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 24,
+      "evidence": [
+        "032A5303",
+        "032A5365",
+        "HP7093"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "plt",
+      "name": "Phú Lộc Trường",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 27,
+      "evidence": [
+        "032A5364"
+      ],
+      "file": "plt.png",
+      "url": "https://phuloctruong.vn/wp-content/uploads/2025/12/cropped-Untitled-2-01.png",
+      "page": "https://phuloctruong.vn/",
+      "verification": "Official company header; matches PLT die-cutting machinery company and logo on 032A5364.",
+      "bytes": 4299,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "samono",
+      "name": "SAMONO",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 28,
+      "evidence": [
+        "032A5280",
+        "HP7107"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "sanestco",
+      "name": "Sanestco / Thiên Thành",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 29,
+      "evidence": [
+        "032A5321"
+      ],
+      "reason": "Không dùng logo Sanest/Sanvinest thay thế. Nhãn trên túi là Sanestco / Thiên Thành; chưa có logo độc lập xác minh được."
+    },
+    {
+      "id": "skye",
+      "name": "SKYE Footwear",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 31,
+      "evidence": [
+        "032A5303"
+      ],
+      "file": "skye.png",
+      "url": "https://skyefootwear.com/cdn/shop/files/skye-logo-header_2x_97c1d70e-c406-44ad-9070-a539e006915d_348x.png?v=1613743081",
+      "page": "https://skyefootwear.com/",
+      "verification": "Official SKYE Footwear site header; matches wordmark on red footwear box.",
+      "bytes": 6216,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "samngoclinh",
+      "name": "Sâm Ngọc Linh — Tu Mơ Rông",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 32,
+      "evidence": [
+        "032A5292",
+        "032A5293",
+        "032A5360"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "the350f",
+      "name": "the 350F",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 33,
+      "evidence": [
+        "032A5303"
+      ],
+      "file": "the350f.png",
+      "url": "https://the350f.com/wp-content/uploads/2025/06/LOGO.png",
+      "page": "https://the350f.com/",
+      "verification": "Official bakery header logo; matches the 350F wordmark on shelf box.",
+      "bytes": 41736,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "thienlongquan",
+      "name": "THIÊN LONG QUÂN",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 35,
+      "evidence": [
+        "032A5303"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "trucanine",
+      "name": "TRU. CANINE",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 37,
+      "evidence": [
+        "032A5283",
+        "032A5284",
+        "032A5353"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "tamphuc",
+      "name": "TÂM PHÚC LÂM ĐỒNG",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 38,
+      "evidence": [
+        "032A5303"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "uspa",
+      "name": "USPA SPORT",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 39,
+      "evidence": [
+        "032A5358"
+      ],
+      "reason": "Chưa đủ bằng chứng đồng nhất USPA SPORT với U.S. Polo Assn."
+    },
+    {
+      "id": "weviet",
+      "name": "WE VIET UNITED",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 40,
+      "evidence": [
+        "032A5244",
+        "032A5246",
+        "032A5303"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "eyan",
+      "name": "EYAN",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 42,
+      "evidence": [
+        "HP6433"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "kinhdo",
+      "name": "Kinh Đô",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 43,
+      "evidence": [
+        "HP6410"
+      ],
+      "file": "kinhdo.png",
+      "url": "https://images.ctfassets.net/5zzoeo2vl8d8/49NiAEzvLKbGM43l5x96sh/3d3a62e16e60d7fc338e679ceb00c0ea/Frame_3434.png",
+      "page": "https://www.snack-central.com/vn-en/",
+      "verification": "Kinh Do brand image from Mondelez official brand selector; crown wordmark matches mooncake packaging HP6410.",
+      "bytes": 6884,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "liftrose",
+      "name": "LIFT ROSE",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 44,
+      "evidence": [
+        "HP6394"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "lubi",
+      "name": "LUBI",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 45,
+      "evidence": [
+        "HP6392"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "marcopolo",
+      "name": "MARC O’POLO",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 46,
+      "evidence": [
+        "HP6398"
+      ],
+      "file": "marcopolo.svg",
+      "url": "https://company.marc-o-polo.com/en",
+      "page": "https://company.marc-o-polo.com/en",
+      "verification": "Original header SVG paths and viewBox; removed valueless Vue data attribute for valid standalone XML. Matches brand on HP6398.",
+      "bytes": 5645,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "pierre",
+      "name": "pierre cardin",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 47,
+      "evidence": [
+        "HP6400"
+      ],
+      "file": "pierre.svg",
+      "url": "https://pierrecardin.com/cdn/shop/files/LOGO_PIERRE_CARDIN.svg?v=1726734763",
+      "page": "https://pierrecardin.com/",
+      "verification": "Official structured-data logo, matches Pierre Cardin brand on HP6400.",
+      "bytes": 10902,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "shinpoong",
+      "name": "Shinpoong Daewoo",
+      "status": "verified",
+      "kind": "logo",
+      "inventoryNumber": 49,
+      "evidence": [
+        "HP6390"
+      ],
+      "file": "shinpoong.png",
+      "url": "https://theme.hstatic.net/200000371915/1000748920/14/logo.png?v=351",
+      "page": "https://www.shinpoong.com.vn/",
+      "verification": "Official domain printed on Varogel package HP6390. Current company header.",
+      "bytes": 29928,
+      "display": "Complete standalone artwork, contain sizing; never a package crop."
+    },
+    {
+      "id": "usapharm",
+      "name": "USA PHARM",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 50,
+      "evidence": [
+        "HP6388"
+      ],
+      "reason": "Chưa xác minh được tệp logo độc lập từ nguồn chính thức; không dùng ảnh cắt bao bì hoặc logo tự dựng."
+    },
+    {
+      "id": "webuild",
+      "name": "WEbuild",
+      "status": "pending",
+      "kind": "pending",
+      "inventoryNumber": 51,
+      "evidence": [
+        "HP6435"
+      ],
+      "reason": "Chưa xác định pháp nhân thiết kế kiến trúc; không dùng logo tập đoàn Webuild cùng tên."
+    }
+  ]
+}

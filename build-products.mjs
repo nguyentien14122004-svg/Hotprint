@@ -25,6 +25,7 @@ await import('./build-terms.mjs');
 await import('./build-request-status.mjs');
 await import('./build-chinese.mjs');
 await import('./build-legacy.mjs');
+await import('./build-home-partners.mjs');
 await import('./apply-theme.mjs');
 await import('./build-seo.mjs');
 await import('./build-apache.mjs');

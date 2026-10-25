@@ -47,7 +47,8 @@
     "test:factory-journal": "node qa-factory-journal.mjs",
     "test:migration": "node qa-migration.mjs",
     "test:migration-dns": "node check-migration-dns.mjs",
-    "test:partners": "node qa-home-partners.mjs"
+    "test:partners": "node qa-home-partners.mjs",
+    "test:factory-editorial": "node qa-factory-editorial.mjs"
   },
   "dependencies": {
     "entities": "8.1.0",

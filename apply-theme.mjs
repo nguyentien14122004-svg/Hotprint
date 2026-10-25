@@ -13,3 +13,11 @@ async function applySharedHeader(directory){for(const e of await readdir(directo
 await applySharedHeader('dist');
 async function applySharedFooter(directory){for(const e of await readdir(directory,{withFileTypes:true})){const file=directory+'/'+e.name;if(e.isDirectory())await applySharedFooter(file);else if(e.name.endsWith('.html')){let html=await readFile(file,'utf8');html=html.replace(/<link rel="stylesheet" href="\/shared-footer\.css">\s*/g,'').replace('</head>','<link rel="stylesheet" href="/shared-footer.css">\n</head>');await writeFile(file,html);}}}
 await applySharedFooter('dist');
+
+// Company-profile presentation only; all authored content and shared chrome stay intact.
+for(const route of ['nha-may','en/factory','zh/factory']){
+ const file=`dist/${route}/index.html`;
+ let html=await readFile(file,'utf8');
+ html=html.replace(/<link rel="stylesheet" href="\/factory-editorial\.css">\s*/g,'');
+ await writeFile(file,html.replace('</head>','<link rel="stylesheet" href="/factory-editorial.css">\n</head>'));
+}
